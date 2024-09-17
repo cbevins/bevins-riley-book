@@ -8,7 +8,7 @@
     <!-- Common font and text attributes -->
     <div class="text-center text-amber-600 font-bold">
 
-    <div class="w-[4in] pt-32 mx-auto text-8xl">
+    <div class="w-[6in] pt-32 mx-auto text-8xl">
         Our Ancestors
     </div>
     
@@ -31,7 +31,7 @@
     </div>
 
     <div class="w-[6in] pt-6 mx-auto text-4xl">
-        Ancestral Origins and Migrations
+        Origins and Migrations
     </div>
 
     <div class="w-[6in] pt-28 mx-auto text-4xl">
