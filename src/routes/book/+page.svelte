@@ -4,13 +4,12 @@
     import Book from '$lib/book/Book.svelte'
     import Chapter from '$lib/book/Chapter.svelte'
 
-    import FrontCover from './FrontCover.svelte'
-    import Intro from './bevins-lineage/Intro.svelte'
-    import BevinsBolt from './bevins-lineage/BevinsBolt.svelte'
-    import BevinsImmigrants from './bevins-lineage/ImmigrantsTable.svelte'
-    import NewboldVerdon from './bevins-lineage/NewboldVerdon.svelte'
-    import BevinsBoltUSFC from './bevins-lineage/BevinsBoltCensus.svelte'
-    import BattleBosworth from './bevins-lineage/BattleBosworth.svelte'
+    import FrontCover from '$lib/content/FrontCover.svelte'
+    import Intro from '$lib/content/bevins-lineage/Intro.svelte'
+    import BevinsBolt from '$lib/content/bevins-lineage/BevinsBolt.svelte'
+    import BevinsImmigrants from '$lib/content/bevins-lineage/ImmigrantsTable.svelte'
+    import NewboldVerdon from '$lib/content/bevins-lineage/NewboldVerdon.svelte'
+    import BevinsBoltUSFC from '$lib/content/bevins-lineage/BevinsBoltCensus.svelte'
 
     setPage(0)
     const id1 = 'oattap-bevins'
@@ -31,8 +30,6 @@
                 {comp: NewboldVerdon, props: {id: id1+'-newboldverdon',
                     captions: [ 'Newbold Verdon, Leicestershire',
                         'History and Geography']}},
-                {comp: BattleBosworth, props: {id: id1+'-battlebosworth',
-                    captions: [ 'The Battle of Bosworth']}},
                 {comp: BevinsBoltUSFC, props: {id: id1+'-bevinsbolt-usfc',
                     captions: [ 'United States Census Records']}},
             ]

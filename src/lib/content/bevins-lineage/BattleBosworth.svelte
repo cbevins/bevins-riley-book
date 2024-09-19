@@ -21,18 +21,3 @@
     events of English history.
     This moment was enshrined at the end of William Shakespeare’s play Richard III.
 </div>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
-  dolor, eu lacinia lorem placerat vulputate. Duis felis orci, pulvinar id metus
-  ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus
-  laoreet sit amet.
-</p>
-
-<p>
-  Sed auctor cursus massa at porta. Integer ligula ipsum, tristique sit amet
-  orci vel, viverra egestas ligula. Curabitur vehicula tellus neque, ac ornare
-  ex malesuada et. In vitae convallis lacus. Aliquam erat volutpat. Suspendisse
-  ac imperdiet turpis. Aenean finibus sollicitudin eros pharetra congue. Duis
-  ornare egestas augue ut luctus. Proin blandit quam nec lacus varius commodo et
-  a urna. Ut id ornare felis, eget fermentum sapien.
-</p>

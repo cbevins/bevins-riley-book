@@ -2,6 +2,8 @@
     import P from '$lib/book/P.svelte'
     import Section from '$lib/book/Section.svelte'
 
+    import BattleBosworth from './BattleBosworth.svelte'
+
     export let id = ''          // Chapter element id
     export let newpage = true   // If TRUE, starts with a <NewPage>
     export let part = ''        // Chapter ordinal, like 'Chapter 1', displayed on page top margin
@@ -24,7 +26,9 @@
     In the itinerary of 1280, Newbold, Brascote, Naneby and Barlestone answered collectively as one village, which contained 80 acres of woodland and a vineyard.
 </P><P>
     A part of Newbold was enclosed in 1509, although the main enclosure took place in 1810 when the church was awarded 1,316 acres of glebe land (used to support the parish priest and any other church endeavors).
-</P><P>
+</P>
+<BattleBosworth id={id+'-battlebosworth'} captions={['The Battle of Bosworth']}/>
+<P>
     Framework knitters were operating in the village in 1812, and by 1845 over 60 frames were in existence. By then, coal was being mined in the neighboring villages and many abandoned their frames and drifted into the mines.
 </P><P>
     Like many other villages Newbold was almost self supporting having its own tailors, blacksmith and wheelwright, butchers and shoemakers.
