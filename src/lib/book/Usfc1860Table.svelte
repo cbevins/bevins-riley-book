@@ -27,7 +27,7 @@
         <tbody>
             {#each census.lines as member }
                 <tr class="odd:bg-white even:bg-gray-50 bg-white border-b ">
-                    <td class="px-2 py-2" text-left>{member.name}</td>
+                    <td class="px-2 py-2 text-left">{member.name}</td>
                     <td class="px-2 py-2 text-center">{member.age}</td>
                     <td class="px-2 py-2 text-center">{member.sex}</td>
                     <td class="px-2 py-2 text-center">{member.occ}</td>
