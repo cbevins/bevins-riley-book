@@ -1,4 +1,7 @@
 <script>
+    import { usfc1850, usfc1860, usfc1870, usfc1880 } from '$lib/data/Bevins-Bolt.js'
+    import { usfc1880 as usfc1880bw } from '$lib/data/Bevins-White.js'
+
     import P from '$lib/book/P.svelte'
     import NewPage from '$lib/book/NewPage.svelte'
     import SectionBeg from '$lib/book/SectionBeg.svelte'
@@ -6,9 +9,6 @@
     import Usfc1860Table from '$lib/book/Usfc1860Table.svelte'
     import Usfc1870Table from '$lib/book/Usfc1870Table.svelte'
     import Usfc1880Table from '$lib/book/Usfc1880Table.svelte'
-
-    import { usfc1850, usfc1860, usfc1870, usfc1880 } from '$lib/data/Bevins-Bolt.js'
-    import { usfc1880 as usfc1880bw } from '$lib/data/Bevins-White.js'
 
     export let id = ''      // something like '<book>-<chapter>'
     export let pageno = ''  // something like '123'
@@ -27,6 +27,9 @@ The 1850 USFC, recorded 12 Aug, 1850, states ‘William Bevans’ (sic), aged 36
 </P>
 
 <P><Usfc1850Table census={usfc1850} /></P>
+
+<NewPage {part} {title} pageno={pn++}/>
+
 <P>
 By the time of the 1860 census, the family has moved to Annawan, Henry County, Illinois.
 William L and his wife Mary and now listed as 44 and 33 years of age, respectively.
@@ -50,13 +53,19 @@ William L and his wife Mary and now listed as 44 and 33 years of age, respective
         I do not know what relationship, if any, the two families had.
     </li>
 </ul>
-</P><P>
+</P>
+
+<NewPage {part} {title} pageno={pn++}/>
+<P>
     The 1870 USFC, recorded on 22 Jul 1870, has the family still in Annawan, the value of their reale estate estimated at $2000, and personal estate at $300. William and Mary are now 55 and 48 years of age, and the children are now listed as:
 </P><P>
     <Usfc1870Table census={usfc1870} />
 </P><P>
     No-one in the family can read or write, although Saml, Julia, Rosetta, and Phebe all attended school within the year. John and Sarah are no longer in the household.
-</P><P>
+</P>
+
+<NewPage {part} {title} pageno={pn++}/>
+<P>
     By the 1880 USFC (8 Jun, 1880), the household consist of:
 </P><P>
     <Usfc1880Table census={usfc1880} />

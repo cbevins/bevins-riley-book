@@ -9,7 +9,7 @@
 
     const parts = [ // [component, id, part, title, pageno]
         [Chapter1, 'oattap-bevins', 'Chapter 1', 'The Bevins Lineage', 11],
-        [Chapter1, 'oattap-collins', 'Chapter 2', 'The Collins Lineage',  22],
+        // [Chapter1, 'oattap-collins', 'Chapter 2', 'The Collins Lineage',  22],
     ]
     let pn = 0
     function addPages(pages)  {
