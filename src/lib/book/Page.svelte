@@ -2,14 +2,14 @@
     import PageContent from './PageContent.svelte'
     import PageFooter from './PageFooter.svelte'
     import PageHeader from './PageHeader.svelte'
-    import { book, pageno } from '$lib/book/singletons.js'
+    import { book, getPage } from '$lib/book/singletons.js'
 
     export let hl = ''  // header margin left text
     export let hc = ''  // header margin center text
     export let hr = ''  // header margin right text
     export let fl = book  // footer margin left text
     export let fc = ''  // footer margin center text
-    export let fr = 'Page ' + pageno()  // footer margin right text
+    export let fr = 'Page ' + getPage()  // footer margin right text
 </script>
 
 <div style="page-break-before: always"/>

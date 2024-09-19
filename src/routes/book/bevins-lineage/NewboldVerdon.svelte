@@ -1,24 +1,20 @@
 <script>
     import P from '$lib/book/P.svelte'
-    import NewPage from '$lib/book/NewPage.svelte'
-    import SectionBeg from '$lib/book/SectionBeg.svelte'
+    import Section from '$lib/book/Section.svelte'
 
-    export let id = ''      // something like '<book>-<chapter>'
-    export let pageno = ''  // something like '123'
-    export let part = ''    // part, something like 'Chapter 1'
-    export let title = ''   // part title
-
-    let pn = parseInt(pageno) + 1
-
-    const titles = [
+    export let id = ''          // Chapter element id
+    export let newpage = true   // If TRUE, starts with a <NewPage>
+    export let part = ''        // Chapter ordinal, like 'Chapter 1', displayed on page top margin
+    export let title = ''       // Chapter title, displayed on page top margin
+    export let captions = [
         'Newbold Verdon, Leicestershire',
         'History and Geography'
     ]
 </script>
 
-<NewPage {part} {title} pageno={pn++}/>
-<SectionBeg {id} {pageno} {titles}/>
+<Section {id} {part} {title} {captions} {newpage}/>
 
+<div class="text-left">
 <P>Leicestershire is a county in the English Midlands. The village of Newbold Verdon has a population of 3,012 in 2011.
 </P><P>
     According to Wikipedia:
@@ -63,3 +59,4 @@
     Niwebold, meaning ‘new built’.  It acquired the Verdon suffix from Nicholas de Verdon who owned the manor in 1226.
     Gresele			
 </P>
+</div>

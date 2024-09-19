@@ -1,22 +1,19 @@
 <script>
     import P from '$lib/book/P.svelte'
-    import NewPage from '$lib/book/NewPage.svelte'
-    import SectionBeg from '$lib/book/SectionBeg.svelte'
+    import Section from '$lib/book/Section.svelte'
 
-    export let id = ''      // something like '<book>-<chapter>'
-    export let pageno = ''  // something like '123'
-    export let part = ''    // part, something like 'Chapter 1'
-    export let title = ''   // part title
-
-    let pn = parseInt(pageno) + 1
-    const titles =[
+    export let id = ''          // Chapter element id
+    export let newpage = true   // If TRUE, starts with a <NewPage>
+    export let part = ''        // Chapter ordinal, like 'Chapter 1', displayed on page top margin
+    export let title = ''       // Chapter title, displayed on page top margin
+    export let captions = [
         'The Immigrants',
         'William Longford Bevins and Mary Bolt (2nd GGP)']
 </script>
 
-<NewPage {part} {title} pageno={pn++}/>
-<SectionBeg {id} {pageno} {titles}/>
+<Section {id} {part} {title} {captions} {newpage}/>
 
+<div class="text-left">
 <P>William Longford Bevins was born on 4 Mar 1815 in Newbold Verdon, Leicestershire, England.
 </P>
 
@@ -44,3 +41,4 @@ A good starting place is Ramonabevins72 ‘Bevins Family Tree’.
 She names Mary's mother as Mary Starbuck, born about 1783 in Thornton, Leicestershire,
 and father as Simon Bork, born 15 Sep 1779 in Bardon, Leicestershire.
 </P>
+</div>

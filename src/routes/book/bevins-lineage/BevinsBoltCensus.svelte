@@ -4,31 +4,30 @@
 
     import P from '$lib/book/P.svelte'
     import NewPage from '$lib/book/NewPage.svelte'
-    import SectionBeg from '$lib/book/SectionBeg.svelte'
+    import Section from '$lib/book/Section.svelte'
+
     import Usfc1850Table from '$lib/book/Usfc1850Table.svelte'
     import Usfc1860Table from '$lib/book/Usfc1860Table.svelte'
     import Usfc1870Table from '$lib/book/Usfc1870Table.svelte'
     import Usfc1880Table from '$lib/book/Usfc1880Table.svelte'
 
-    export let id = ''      // something like '<book>-<chapter>'
-    export let pageno = ''  // something like '123'
-    export let part = ''    // part, something like 'Chapter 1'
-    export let title = ''   // part title
-
-    let pn = parseInt(pageno) + 1
-    const titles =['Unites States Census Records']
+    export let id = ''          // Chapter element id
+    export let newpage = true   // If TRUE, starts with a <NewPage>
+    export let part = ''        // Chapter ordinal, like 'Chapter 1', displayed on page top margin
+    export let title = ''       // Chapter title, displayed on page top margin
+    export let captions = ['Unites States Census Records']
 </script>
 
-<NewPage {part} {title} pageno={pn++}/>
-<SectionBeg {id} {pageno} {titles}/>
-    
+<Section {id} {part} {title} {captions} {newpage}/>
+
+<div class="text-left">
 <P>
 The 1850 USFC, recorded 12 Aug, 1850, states ‘William Bevans’ (sic), aged 36, was residing in Townsend, Huron, OH, USA along with his inferred spouse, ‘Mary Bevans’, aged 30.  Both he and his wife were born in England and could not read or write. ( According to the 1900 USFC for his son William Alfred, William Longford and Mary Bolt would have immigrated to the US in 1845.) The family lived on a farm valued at $440 with the following children:
 </P>
 
 <P><Usfc1850Table census={usfc1850} /></P>
 
-<NewPage {part} {title} pageno={pn++}/>
+<NewPage {part} {title}/>
 
 <P>
 By the time of the 1860 census, the family has moved to Annawan, Henry County, Illinois.
@@ -55,7 +54,7 @@ William L and his wife Mary and now listed as 44 and 33 years of age, respective
 </ul>
 </P>
 
-<NewPage {part} {title} pageno={pn++}/>
+<NewPage {part} {title}/>
 <P>
     The 1870 USFC, recorded on 22 Jul 1870, has the family still in Annawan, the value of their reale estate estimated at $2000, and personal estate at $300. William and Mary are now 55 and 48 years of age, and the children are now listed as:
 </P><P>
@@ -64,7 +63,7 @@ William L and his wife Mary and now listed as 44 and 33 years of age, respective
     No-one in the family can read or write, although Saml, Julia, Rosetta, and Phebe all attended school within the year. John and Sarah are no longer in the household.
 </P>
 
-<NewPage {part} {title} pageno={pn++}/>
+<NewPage {part} {title}/>
 <P>
     By the 1880 USFC (8 Jun, 1880), the household consist of:
 </P><P>
@@ -72,7 +71,8 @@ William L and his wife Mary and now listed as 44 and 33 years of age, respective
 </P><P>
     An interesting question on the 1880 USFC was  ‘Is the person sick or temporarily disabled, so as to be unable to attend to ordinary business or duties? On 8 Jun, 1880, William Longford, Samuel, and William Alfred are listed as sick.  There are 50 individuals listed on this census sheet, 17 of which are listed as sick.
 </P><P>
-    In the neighboring residence lived son William Alfred and his wife Mary Ann White (our 1st GGP).  Household members were:
+    In the neighboring residence lived son William Alfred and his wife Mary Ann White (our 1st GGP):
 </P><P>
     <Usfc1880Table census={usfc1880bw} />
 </P>
+</div>

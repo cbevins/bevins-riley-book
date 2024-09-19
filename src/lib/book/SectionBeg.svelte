@@ -1,6 +1,5 @@
 <script>
     export let id = ''
-    export let pageno = ''  // current pageno
     export let titles = []  // Section title
 
     if (!Array.isArray(titles)) titles = [titles]
