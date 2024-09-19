@@ -5,6 +5,7 @@
     import Chapter from '$lib/book/Chapter.svelte'
 
     import FrontCover from '$lib/content/FrontCover.svelte'
+    import Websites from '$lib/content/Websites.svelte'
     import Intro from '$lib/content/bevins-lineage/Intro.svelte'
     import BevinsBolt from '$lib/content/bevins-lineage/BevinsBolt.svelte'
     import BevinsImmigrants from '$lib/content/bevins-lineage/ImmigrantsTable.svelte'
@@ -12,29 +13,63 @@
     import BevinsBoltUSFC from '$lib/content/bevins-lineage/BevinsBoltCensus.svelte'
 
     setPage(0)
-    const id1 = 'oattap-bevins'
+    let id = 'oattap-bevins'
     const parts = [
         // Chapter displays a title and some subtitles, and contains sections
-        {comp: Chapter, props: {id: id1,
+        {comp: Chapter, pages: 1, props: {id: id,
             part: 'Chapter 1',
             title: 'The Bevins Lineage',
             subs: ['Origins of the Bevins Surname', 'A Dose of English History', 'Tribal Relations'],
             sections: [
                 // type='intro' is just text markup startying after ChapterBeg
-                {comp: Intro, props: {id: id1+'-intro', type: 'intro'}},
-                {comp: BevinsImmigrants, props: {id: id1+'-immigrants',
+                {comp: Intro, pages: 1, props: {id: id+'-intro', type: 'intro'}},
+                {comp: BevinsImmigrants,  pages: 1, props: {id: id+'-immigrants',
                     captions: ['Direct Ancestor Immigrants', 'on the Samuel Bevins Line']}},
-                {comp: BevinsBolt, props: { id: id1+'-bevinsbolt',
+                {comp: BevinsBolt, pages: 1, props: { id: id+'-bevinsbolt',
                     captions: ['The Immigrants',
                         'William Longford Bevins and Mary Bolt (2nd GGP)']}},
-                {comp: NewboldVerdon, props: {id: id1+'-newboldverdon',
+                {comp: NewboldVerdon, pages: 1, props: {id: id+'-newboldverdon',
                     captions: [ 'Newbold Verdon, Leicestershire',
                         'History and Geography']}},
-                {comp: BevinsBoltUSFC, props: {id: id1+'-bevinsbolt-usfc',
+                {comp: BevinsBoltUSFC, pages: 1, props: {id: id+'-bevinsbolt-usfc',
                     captions: [ 'United States Census Records']}},
             ]
-        }}
+        }},
     ]
+    id = 'oattap-collins'
+    parts.push({comp: Chapter, props: {id: id,
+        part: 'Chapter 2',
+        title: 'The Collins Lineage',
+        subs: ['12 Generations of Americans From 1621',
+            'Quakers, Preachers, and Generals', 'Hillbillies, Too!'],
+        sections: []
+    }})
+    id = 'oattap-heddens'
+    parts.push({comp: Chapter, props: {id: id,
+        part: 'Chapter 3',
+        title: 'The Heddens Lineage',
+        subs: ['First Into Kansas Territory',
+            "Are We Custer's Cousin?"],
+        sections: []
+    }})
+    id = 'oattap-nattrass'
+    parts.push({comp: Chapter, props: {id: id,
+        part: 'Chapter 4',
+        title: 'The Nattrass Lineage',
+        subs: ['10 Generations of Americans From 1628',
+            "Murder and Hanging"],
+        sections: []
+    }})
+    id = 'oattap-websites'
+    parts.push({comp: Chapter, props: {id: id,
+        part: '',
+        title: 'Appendix',
+        subs: [],
+        sections: [
+            {comp: Websites,  pages: 1, props: {id: id+'-websites',
+                captions: ['Useful Websites']}},
+        ]
+    }})
 </script>
 
 <FrontCover/>

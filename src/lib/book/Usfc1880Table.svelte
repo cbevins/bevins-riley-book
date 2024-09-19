@@ -1,7 +1,7 @@
 <script>
     export let census
     const headers = ['Name', 'Age', 'Relationhip', 'Status', 'Occupation',
-        'Health', 'Attend<br>School?', 'Cannot Read?', 'Cannot Write?',
+        'Health', 'Att<br>Schl?', 'Not Rd?', 'Not Wr?',
         "Person's<br>Birth Place", "Father's<br>Birth Place", "Mother's<br>Birth Place"]
 
     function check(item) { return item ? '&#10004;' : ''}
