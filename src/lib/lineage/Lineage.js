@@ -36,7 +36,8 @@ export class Lineage {
     findPerson(person) { return this.personsMap().get(person) }
 
     findPersonByNameKey(nameKey) {
-        for(let i=0; i<this.nodes.length; i++) {
+        const nodes = this.nodes()
+        for(let i=0; i<nodes.length; i++) {
             if (nodes[i].person.nameKey() === nameKey) return nodes[i]
         }
         return null

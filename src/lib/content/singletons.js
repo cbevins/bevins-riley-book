@@ -15,7 +15,7 @@ export function getAllChannels() {
 }
     
 export function getChannels(key) {
-    if (! _lineageMap.size()) createLineageMap()
+    if (! _lineageMap.size) createLineageMap()
     return _lineageMap.get(key.toLowerCase())
 }
 

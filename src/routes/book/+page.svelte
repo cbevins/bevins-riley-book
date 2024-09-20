@@ -6,6 +6,7 @@
 
     import FrontCover from '$lib/content/FrontCover.svelte'
     import Websites from '$lib/content/Websites.svelte'
+    import FamilyUnit from '$lib/book/FamilyUnit.svelte'
     import Intro from '$lib/content/bevins-lineage/Intro.svelte'
     import BevinsBolt from '$lib/content/bevins-lineage/BevinsBolt.svelte'
     import BevinsImmigrants from '$lib/content/bevins-lineage/ImmigrantsTable.svelte'
@@ -33,6 +34,11 @@
                         'History and Geography']}},
                 {comp: BevinsBoltUSFC, pages: 1, props: {id: id+'-bevinsbolt-usfc',
                     captions: [ 'United States Census Records']}},
+                {comp: FamilyUnit, pages: 1, props: {id: id+'-bevinsbolt-damily',
+                    lineageKey: 'bevins',
+                    fatherKey: 'WilliamLongfordBevins1815',
+                    motherKey: 'MaryBolt1822',
+                    captions: [ 'Family Unit']}},
             ]
         }},
     ]
