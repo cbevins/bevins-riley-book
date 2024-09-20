@@ -26,6 +26,11 @@ export class Channels extends Lineage {
         // Assign channels to each node
         this._data.channels = this._traverse(this.rootNode(), 0)
         if (centerRoot) this.centerRootChannel()
+
+        // Set the branchNode
+        if ( ! branchKey ) {
+            this._data.branchNode = this._data.rootNode
+        }
         // this._flipFathersChannels()
         // this.summary()
     }
