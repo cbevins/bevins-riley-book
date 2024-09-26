@@ -3,6 +3,7 @@
 
     import Book from '$lib/book/Book.svelte'
     import Chapter from '$lib/book/Chapter.svelte'
+    import Cartouche from '../../lib/book/Cartouche.svelte'
 
     import FrontCover from '$lib/content/FrontCover.svelte'
     import Websites from '$lib/content/Websites.svelte'
@@ -83,4 +84,7 @@
     {#each parts as part}
         <svelte:component this={part.comp} {...part.props}/>
     {/each}
+    <Cartouche personKey='CollinDouglasBevins1952'/>
+    <Cartouche personKey='WilliamLongfordBevins1815'/>
+    <div class='mb-4'></div>
 </Book>

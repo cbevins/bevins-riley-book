@@ -19,7 +19,7 @@ export class Person {
     ageString() {
         const a = this.age()
         const y = a[0] ? a[0] : '?'
-        const m = a[1] ? a[1] : '?'
+        const m = a[1] // ? a[1] : '?'
         const d = a[2] ? a[2] : '?'
         return `${y}y, ${m}m, ${d}d`
     }
@@ -45,7 +45,7 @@ export class Person {
     deathDate() { return this._data.death.date }
     deathLine() {
         return this.isLiving() ? `currently ${this.ageString()}`
-            : `on ${this.deathDate().str()} at ${this.deathPlace().text()} (aged ${this.ageString()}d)`
+            : `on ${this.deathDate().str()} at ${this.deathPlace().text()} (aged ${this.ageString()})`
     }
     deathNotes() { return this._data.death.notes }
     deathPlace() { return this._data.death.place }

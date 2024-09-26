@@ -12,6 +12,30 @@
  * @param {number} height Not used
  * @returns A single Gxml JSON object with nested Gxml.
  */
+import { belgium, canada, england, france, germany, ireland, netherlands,
+    norway, scotland, sweden, unknown, wales, usa } from '$lib/gxml/flagsGxml.js'
+
+export const flag = new Map([
+    ['Belgium', belgium],
+    ['Canada', canada],
+    ['England', england],
+    ['France', france],
+    ['Germany', germany],
+    ['Ireland', ireland],
+    ['Netherlands', netherlands],
+    ['Norway', norway],
+    ['Scotland', scotland],
+    ['Sweden', sweden],
+    ['unknown', unknown],
+    ['USA', usa],
+    ['Wales', wales]
+])
+
+export function countryFlagPinGxml(country, x=0, y=0, scale=1, width=100, height=100) {
+    if (! flag.has(country))
+        throw new Error(`countryFlagPinGxml() has no country named '${country}`)
+    return flagPinSingleGxml(flag.get(country), x, y, scale, width, height)
+}
 
 // Lighting filter for flag 
 const filter = {el: 'filter', id: 'flag-lighting', els: [
