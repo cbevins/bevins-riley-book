@@ -2,7 +2,7 @@
     import { gxmlStr } from '$lib/gxml/gxmlStr.js'
     import { nest } from '$lib/gxml/gxmlSvg.js'
     import { getSylvan } from '$lib/sylvan/singletons.js'
-    import { countryFlagPinGxml } from '$lib/gxml/flagPinSingleGxml.js'
+    import { flagPinGxml } from '$lib/flags/flagPinsGxml.js'
 
     export let personKey
     export let wd = 600
@@ -30,12 +30,13 @@
     const deathYear = person.deathYear()
     const deathCountry = person.deathCountry()
     const ageStr = person.ageString()
+    const genderColor = isFemale ? 'magenta' : 'blue'
     
     let birthLine = person.birthLine() + ' [' + birthCountry + ']'
     let deathLine = person.deathLine()
     if (isDeceased) deathLine =  'd. ' + deathLine + ' [' + deathCountry + ']'
 
-    const flagPinGxml = countryFlagPinGxml(birthCountry)
+    const flagPin = flagPinGxml(birthCountry, 0, 0, 1, genderColor)
 
     const lines = [
         fullName,
@@ -46,8 +47,8 @@
 
     const els = []
     els.push({el: 'rect', x: 0, y: 0, width: wd, height: ht,
-        fill: 'none', stroke: 'magenta', 'stroke-width': 1, rx: 50})
-    els.push(flagPinGxml)
+        fill: 'none', stroke: genderColor, 'stroke-width': 1, rx: 50})
+    els.push(flagPin)
     for(let i=0; i<lines.length; i++) {
         els.push({el: 'text',
             x: wd/2 + ht/2,

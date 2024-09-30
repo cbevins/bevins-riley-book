@@ -7,7 +7,7 @@ let _toc = []
 export function addToc(item) {
     item.page = getPage()
     _toc.push(item)
-    console.log(`Added ToC`, item)
+    // console.log(`Added ToC`, item)
 }
 
 export function incPage(n=1) {

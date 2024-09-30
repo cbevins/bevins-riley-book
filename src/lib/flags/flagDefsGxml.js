@@ -1,25 +1,10 @@
-// $lib candidate
-// Functions that return a Gxml <svg> element containing a flag image.
-// These images may be used to create <defs>, rectangular flags,
-// or clipped and lighted to produce flag pins such as in flagPinDefsGxml.js
+// $lib/flags/flagDefsGxml.js
+// Flag Gxml definitions for various countries.
+// Each functions returns a Gxml <svg> element containing a rectangular flag image.
+// These images may be used to create an SVG <defs> block, rectangular flags,
+// or clipped and lighted to produce flag pins such as in createFlagPinDefsGxml.js
 
-import { nest, nestTl, textEl } from './gxmlSvg.js'
-
-export const flagMethods = [
-    {method: belgium, id: 'belgium', label: 'Belgium'},
-    {method: canada, id: 'canada', label: 'Canada'},
-    {method: england, id: 'england', label: 'England'},
-    {method: france, id: 'france', label: 'France'},
-    {method: germany, id: 'germany', label: 'Germany'},
-    {method: ireland, id: 'ireland', label: 'Ireland'},
-    {method: netherlands, id: 'netherlands', label: 'Netherlands'},
-    {method: norway, id:'norway', label: 'Norway'},
-    {method: scotland, id:'scotland', label: 'Scotland'},
-    {method: sweden, id:'sweden', label: 'Sweden'},
-    {method: unknown, id:'unknown', label: 'Unknown'},
-    {method: usa, id:'usa', label: 'United States'},
-    {method: wales, id:'wales', label: 'Wales'},
-]
+import { nest, nestTl, textEl } from '$lib/gxml/gxmlSvg.js'
 
 /**
  * @param {number} w
@@ -30,8 +15,8 @@ export function border(w, h, sw=1) {
         d: `m0,0 h${w} v${h} h-${w} v-${h}`}
 }
 
-export function belgium(w=100, h=100, sw=1) {
-    return {el: 'svg', id: 'flag-belgium', width: w, height: h, els: [
+export function belgium(w=100, h=100, sw=1, id='flag-Belgium') {
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: '#fdda24'},
         {el: 'rect', x: 0, y: 0, width: "33%", height: "100%", fill: "#000000"},
         {el: 'rect', x: "67%", y: 0, width: "33%", height: "100%", fill: "#ef3340"},
@@ -39,8 +24,8 @@ export function belgium(w=100, h=100, sw=1) {
     ]}
 }
 
-export function canada(w=100, h=100, sw=1) {
-    return {el: 'svg', id: 'flag-canada', width: w, height: h, els: [
+export function canada(w=100, h=100, sw=1, id='flag-Canada') {
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "white"},
         {el: 'rect', x: 0, y: 0, width: "25%", height: "100%", fill: "red"},
         {el: 'rect', x: "75%", y: 0, width: "25%", height: "100%", fill: "red"},
@@ -48,50 +33,50 @@ export function canada(w=100, h=100, sw=1) {
     ]}
 }
 
-export function england(w=100, h=100, sw=1) {
+export function england(w=100, h=100, sw=1, id='flag-England') {
     const wd = 0.2 * Math.min(h, w)
-    return {el: 'svg', id: 'flag-england', width: w, height: h, els: [
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "white"},
         {el: 'line', x1: "50%", y1: 0, x2: "50%", y2: "100%", stroke: "red", 'stroke-width': wd},
         {el: 'line', x1: 0, y1: "50%", x2: "100%", y2: "50%", stroke: "red", 'stroke-width': wd},
         border(w, h, sw)]}
 }
 
-export function france(w=100, h=100, sw=1) {
-    return {el: 'svg', id: 'flag-france', width: w, height: h, els: [
+export function france(w=100, h=100, sw=1, id='flag-France') {
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "white"},
         {el: 'rect', x: 0, y: 0, width: "33%", height: "100%", fill: "#0055a4"},
         {el: 'rect', x: "67%", y: 0, width: "33%", height: "100%", fill: "#ef4135"},
         border(w, h, sw)]}
 }
 
-export function germany(w=100, h=100, sw=1) {
-    return {el: 'svg', id: 'flag-germany', width: w, height: h, els: [
+export function germany(w=100, h=100, sw=1, id='flag-Germany') {
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "red"},
         {el: 'rect', x: 0, y: 0, width: "100%", height: "33%", fill: "black"},
         {el: 'rect', x: 0, y: "67%", width: "100%", height: "33%", fill: "#ffcc00"},
         border(w, h, sw)]}
 }
 
-export function ireland(w=100, h=100, sw=1) {
-    return {el: 'svg', id: 'flag-ireland', width: w, height: h, els: [
+export function ireland(w=100, h=100, sw=1, id='flag-Ireland') {
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "white"},
         {el: 'rect', x: 0, y: 0, width: "33%", height: "100%", fill: "#009a49"},
         {el: 'rect', x: "67%", y: 0, width: "33%", height: "100%", fill: "#ff7900"},
         border(w, h, sw)]}
 }
 
-export function netherlands(w=100, h=100, sw=1) {
-    return {el: 'svg', id: 'flag-netherlands', width: w, height: h, els: [
+export function netherlands(w=100, h=100, sw=1, id='flag-Netherlands') {
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "white"},
         {el: 'rect', x: 0, y: 0, width: "100%", height: "33%", fill: "#009a49"},
         {el: 'rect', x: 0, y: "67%", width: "100%", height: "33%", fill: "#ff7900"},
         border(w, h, sw)]}
 }
 
-export function norway(w=100, h=100, sw=1) {
+export function norway(w=100, h=100, sw=1, id='flag-Norway') {
     const lw = Math.min(w, h) * 2 / 22
-    return {el: 'svg', id: 'flag-norway', width: w, height: h, els: [
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "#ba0c2f"},
         {el: 'line', x1: "50%", y1: 0, x2: "50%", y2: "100%", stroke: "white", "stroke-width": 2*lw},
         {el: 'line', x1: 0, y1: "50%", x2: "100%", y2: "50%", stroke: "white", "stroke-width": 2*lw},
@@ -100,41 +85,41 @@ export function norway(w=100, h=100, sw=1) {
         border(w, h, sw)]}
 }
 
-export function scotland(w=100, h=100, sw=1) {
+export function scotland(w=100, h=100, sw=1, id='flag-Scotland') {
     const lw = Math.min(w, h) * 0.2
-    return {el: 'svg', id: 'flag-scotland', width: w, height: h, els: [
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "#005eb8"},
         {el: 'line', x1: 0, y1: 0, x2: "100%", y2: "100%", stroke: "white", "stroke-width": lw},
         {el: 'line', x1: 0, y1: "100%", x2: "100%", y2: "0%", stroke: "white", "stroke-width": lw},
         border(w, h, sw)]}
 }
 
-export function sweden(w=100, h=100, sw=1) {
+export function sweden(w=100, h=100, sw=1, id='flag-Sweden') {
     const lw = Math.min(w, h) * 0.2
-    return {el: 'svg', id: 'flag-sweden', width: w, height: h, els: [
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "#006aa7"},
         {el: 'line', x1: "50%", y1: 0, x2: "50%", y2: "100%", stroke: "#ffcd00", "stroke-width": lw},
         {el: 'line', x1: 0, y1: "50%", x2: "100%", y2: "50%", stroke: "#ffcd00", "stroke-width": lw},
         border(w, h, sw)]}
 }
 
-export function unknown(w=100, h=100, sw=1) {
-    return {el: 'svg', id: 'flag-unknown', width: w, height: h, els: [
+export function unknown(w=100, h=100, sw=1, id='flag-Unknown') {
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "gray"},
         textEl(w/2, h/2, "?"),
         border(w, h, sw)]}
 }
 
-export function wales(w=100, h=100, sw=1) {
-    return {el: 'svg', id: 'flag-wales', width: w, height: h, els: [
+export function wales(w=100, h=100, sw=1, id='flag-Wales') {
+    return {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "green"},
         {el: 'rect', x: 0, y: 0, width: "100%", height: "50%", fill: "white"},
         border(w, h, sw)]}
 }
 
 // Star for USA flag
-export function star(fill='white', stroke='black', sw=1) {
-    return {el: 'svg', id: 'star', width: 50, height: 50, els: [
+export function star(fill='white', stroke='black', sw=1, id='flag-usa-star') {
+    return {el: 'svg', id: id, width: 50, height: 50, els: [
         {el: 'path', fill: fill, stroke: stroke, 'stroke-width': sw,
             d: "m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"}
     ]}
@@ -181,9 +166,9 @@ export function usaCanton(w, h) {
     return canton
 }
 
-export function usa(w=100, h=100, sw=1) {
+export function usa(w=100, h=100, sw=1, id='flag-USA') {
     const dy = h / 13
-    const flag = {el: 'svg', id: 'flag-usa', width: w, height: h, els: [
+    const flag = {el: 'svg', id: id, width: w, height: h, els: [
         {el: 'rect', x: 0, y: 0, width: "100%", height: "100%", fill: "red"},
     ]}
 

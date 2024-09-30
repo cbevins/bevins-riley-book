@@ -1,6 +1,6 @@
 // Sandbox demo/example function
 // Simple table of flag pins, similar to a legend, 4 pins per row
-import { nestTl } from './gxmlSvg.js'
+import { nestTl } from '../gxml/gxmlSvg.js'
 import { flagMethods } from './flagsGxml.js'
 import { flagPinGxml } from './flagPinGxml.js'
 import { flagPinDefsGxml } from './flagPinDefsGxml.js'
