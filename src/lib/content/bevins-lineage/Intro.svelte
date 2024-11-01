@@ -1,6 +1,10 @@
 <script>
-    import P from '$lib/book/P.svelte'
+    import { register, P } from '$lib/book'
+    const name = '1.1, Bevins, Intro'
+    const pages = 2
 </script>
+
+<div use:register={{name, pages}}/>
 
 <div class="text-left">
 <P>The lineage of our grandfather Samuel Bevins is a good place to begin investigating our

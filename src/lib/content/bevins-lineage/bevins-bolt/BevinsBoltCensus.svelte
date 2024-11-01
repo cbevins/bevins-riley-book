@@ -1,6 +1,6 @@
 <script>
-    import { usfc1850, usfc1860, usfc1870, usfc1880 } from '$lib/data/Bevins-Bolt.js'
-    import { usfc1880 as usfc1880bw } from '$lib/data/Bevins-White.js'
+    import { usfc1850, usfc1860, usfc1870, usfc1880 } from '$bevins/bevins-bolt/usfc.js'
+    import { usfc1880 as usfc1880bw } from '$bevins/bevins-white/usfc.js'
 
     import P from '$lib/book/P.svelte'
     import NewPage from '$lib/book/NewPage.svelte'

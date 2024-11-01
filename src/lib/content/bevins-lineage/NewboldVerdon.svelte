@@ -1,6 +1,5 @@
 <script>
-    import P from '$lib/book/P.svelte'
-    import Section from '$lib/book/Section.svelte'
+    import { register, P, Section } from '$lib/book'
 
     import BattleBosworth from './BattleBosworth.svelte'
 
@@ -12,7 +11,11 @@
         'Newbold Verdon, Leicestershire',
         'History and Geography'
     ]
+const name = '1.3, Bevins, Newbold Verdon'
+const pages = 2
 </script>
+
+<div use:register={{name, pages}}/>
 
 <Section {id} {part} {title} {captions} {newpage}/>
 
