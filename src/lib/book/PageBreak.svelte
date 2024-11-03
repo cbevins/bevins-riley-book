@@ -1,5 +1,5 @@
 <script>
-    import {bookTitle, getPage} from './toc.js'
+    import {getPage} from '$lib/book'
     export let id
     export let showBreak = true
 

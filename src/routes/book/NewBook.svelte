@@ -1,16 +1,14 @@
 <script>
-    import { Book, P } from '$lib/book'
-    import {newBook, newChapter, newPage, newSection, getPage} from './toc.js'
-    import PageBreak from './PageBreak.svelte'
+    import { Book, P, PageBreak } from '$lib/book'
+    import {newBook, newChapter, newPage, newSection, getPage} from '$lib/book'
+    import BevinsLineage from './bevins/BevinsLineage.svelte'
 </script>
 
 <Book>
 
 {newBook('Our Ancestors through Time and Place')}
 
-{newChapter('bevins', 'Bevins Lineage')}
-<PageBreak id='bevins'/>
-<P>Bevins Lineage Introduction</P>
+<BevinsLineage/>
 
 {newSection('bevins-bolt-1', 'The Immigrants William Longford Bevins and Mary Bolt', true)}
 <PageBreak id='bevins-bolt-1'/>
