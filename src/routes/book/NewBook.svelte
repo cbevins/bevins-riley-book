@@ -1,35 +1,36 @@
 <script>
-    import { Book, P, PageBreak } from '$lib/book'
-    import {newBook, newChapter, newPage, newSection, getPage} from '$lib/book'
-    import BevinsLineage from './bevins/BevinsLineage.svelte'
+    import { Book, P } from '$lib/book'
+    import FrontCover from '$lib/content/FrontCover.svelte'
+
+    export let toc
+
+    function tocLine(part) {
+        if (part.type === 'chapter')
+            return `Chapter ${part.numb}: ${part.title} [#${part.href}]`
+        if (part.type === 'section')
+            return `${pad(part)} ${part.numb}: ${part.title} [#${part.href}]`
+        return `${pad(part)} ${part.type} ${part.numb}: ${part.title} [#${part.href} in section ${part.section}]`
+    }
+
+    function pad(item) {
+        let str = ''
+        for (let i=0; i<4*(item.depth-1); i++) str += '&nbsp;'
+        return str
+    }
 </script>
 
+<!-- <FrontCover/> -->
+<P>NEW Book</P>
 <Book>
-
-{newBook('Our Ancestors through Time and Place')}
-
-<BevinsLineage/>
-
-{newSection('bevins-bolt-1', 'The Immigrants William Longford Bevins and Mary Bolt', true)}
-<PageBreak id='bevins-bolt-1'/>
-<P>Bevins-Bolt Family Story</P>
-{newPage('bevins-bolt-2')}
-<PageBreak id='bevins-bolt-2'/>
-<P>CONTINUED Bevins-Bolt Family Story</P>
-
-{newSection('bevins-white', 'The William Alfred Bevins - Mary White Family', true)}
-<PageBreak id='bevins-white'/>
-<P>Bevins-White Family Story</P>
-
-{newChapter('collins', 'Collins Lineage')}
-<PageBreak id='collins'/>
-<P>Collins Lineage Introduction</P>
-
-{newChapter('heddens', 'Heddens Lineage')}
-<PageBreak id='heddens'/>
-<P>Heddens Lineage Introduction</P>
-
-{newChapter('nattrass', 'Nattrass Lineage')}
-<PageBreak id='nattrass'/>
-<P>Nattrass Lineage Introduction</P>
+    <!-- Table of Contents -->
+    {#each toc.parts as part}
+        <P>{@html tocLine(part)}</P>
+    {/each}
+<!-- 
+    {#each parts as part}
+        {#if part.comp}
+            <svelte:component this={part.comp}/>
+        {/if}
+    {/each}
+     -->
 </Book>
