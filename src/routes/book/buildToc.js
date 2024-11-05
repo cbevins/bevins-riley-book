@@ -5,6 +5,7 @@
     - item.type is one of 'chapter', 'section', 'callout', 'figure', or 'table'
     - item.title is the items ToC entry
     - item.comp is a reference to a Svelte component to be displayed for the item
+    - item.breaks is the number of page breaks embedded in the section
     - item.page
         If 0, the item begins on a new page
         If > 0, the page of the item *parent* on which it begins
@@ -14,7 +15,7 @@
     - item.href
         for type 'chapter' or 'section', a nested index such as 'toc-1', 'toc-1.2', 'toc-1.2.3', etc. 
         for type 'callout', 'figure', or 'table', its the sequences number such as
-        'toc-callout-1', 'toc-fure-2', 'toc-table2', etc.
+        'toc-callout-1', 'toc-figure-2', 'toc-table-3', etc.
     - item.numb
         for type 'chapter' or 'section', a nested index such as '1', '1.2', '1.2.3', etc. 
         for type 'callout', 'figure', or 'table', its the sequences number 1, 2, 3, etc.
@@ -38,23 +39,36 @@ export function buildToc(parent) {
     parent.numb = ''
     parent.section = ''
     parent.href = 'toc'
-    _process(parent, toc)
+    parent.begins = 0       // beginning page
+    parent.length = 0
+    _flatten(parent, toc)
+    // _paginate(parent, 0)
     return toc
 }
-function _process(parent, toc) {
+
+function _flatten(parent, toc) {
     let section = 0
+    let current = null
     for(let i=0; i<parent.items.length; i++) {
         const child = parent.items[i]
         child.parent = parent
         child.depth = parent.depth + 1
         if (child.type === 'chapter' || child.type === 'section') {
             section++
+            current = child
             child.numb = parent.parent ? parent.numb + '-' + section : section
             child.section = child.numb
             child.href = 'toc-section-' + child.numb
             if (child.type === 'chapter') toc.chapters.push(child)
             toc.parts.push(child)
-            _process(child, toc)
+            _flatten(child, toc)
+        } else if (child.type === 'newpage') {
+            child.numb = current.numb
+            child.section = current.section
+            child.href = current.href
+            child.title = current.title
+            toc.parts.push(child)
+            _flatten(child, toc)
         } else if (child.type === 'figure' ) {
             toc.figures.push(child)
             child.numb = toc.figures.length
@@ -75,4 +89,11 @@ function _process(parent, toc) {
             toc.parts.push(child)
         }
     }
+}
+
+function _paginate(part, page) {
+    part.begins = (part.page === 0) ? ++page : part.parent.begins + part.page - 1
+    for(let i=0; i<part.items.length; i++) {
+    }
+    return page
 }

@@ -9,21 +9,25 @@ export const toc = {
     title: 'The Bevins Lineage',
     items: [
     {
-        type: 'section', comp: ImmigrantsTable,  page: 0,   // start on a new page
+        type: 'section', comp: ImmigrantsTable, breaks: 0,  page: 0,   // start on a new page
         title: 'Bevins Immigrants to the Unites States',
         items: [{
-            type: 'table', comp: null, page: 0,   // start on a new page
+            type: 'table', comp: null, breaks: 0, page: 0,   // start on a new page
             title: 'Bevins Immigrants to the United States',
             items: []
         }],
     },{
-        type: 'section', comp: NewboldVerdon,  page: 0,   // start on a new page
+        type: 'section', comp: NewboldVerdon, breaks: 0,  page: 0,   // start on a new page
         title: 'Newbold Verdon, Leicestershire',
         items: [{
-            type: 'figure', comp: null,  page: 0,   // start on a new page
+            type: 'figure', comp: null, breaks: 0,  page: 0,   // start on a new page
             title: 'Newbold Verdon Environs',
             items: []
         }]
+    },{
+        type: 'newpage', comp: NewboldVerdon, breaks: 0,  page: 0,   // start on a new page
+        title: null,
+        items: []
     },
     bevinsboltToc
     ]

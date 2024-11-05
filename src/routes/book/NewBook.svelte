@@ -1,36 +1,46 @@
 <script>
-    import { Book, P } from '$lib/book'
+    import { Book, NewPage, P } from '$lib/newbook'
     import FrontCover from '$lib/content/FrontCover.svelte'
+    import Toc from './Toc.svelte'
 
     export let toc
 
-    function tocLine(part) {
-        if (part.type === 'chapter')
-            return `Chapter ${part.numb}: ${part.title} [#${part.href}]`
-        if (part.type === 'section')
-            return `${pad(part)} ${part.numb}: ${part.title} [#${part.href}]`
-        return `${pad(part)} ${part.type} ${part.numb}: ${part.title} [#${part.href} in section ${part.section}]`
-    }
-
-    function pad(item) {
-        let str = ''
-        for (let i=0; i<4*(item.depth-1); i++) str += '&nbsp;'
-        return str
-    }
+    let page = 0
 </script>
 
 <!-- <FrontCover/> -->
 <P>NEW Book</P>
 <Book>
     <!-- Table of Contents -->
-    {#each toc.parts as part}
-        <P>{@html tocLine(part)}</P>
-    {/each}
+    <Toc {toc}/>
+
+    {#each toc.parts as item}
+        {#if item.page === 0}
+            <NewPage page={item.begins}/>
+        {/if}
+
+        {#if item.type === 'chapter'}
+            <div class='text-lg text-center text-black font-serif font-bold'>
+                Chapter {item.numb}: {item.title}
+            </div>
+        {/if}
+
+        {#if item.type === 'section'}
+            <div class='text-md text-left text-black font-serif font-bold'>
+                Section {item.numb}: {item.title}
+            </div>
+        {/if}
+
+        {#if item.type === 'table'}
+            <div class='text-sm text-left text-black font-serif font-bold'>
+                Table {item.numb}: {item.title}
+            </div>
+        {/if}
+
 <!-- 
-    {#each parts as part}
         {#if part.comp}
             <svelte:component this={part.comp}/>
         {/if}
+-->
     {/each}
-     -->
 </Book>
