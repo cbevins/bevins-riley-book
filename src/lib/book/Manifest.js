@@ -51,7 +51,8 @@
  * {item}
  *  - type: 'chapter', 'content', 'figure', 'newpage', 'section', 'table'
  *  - comp: component Map() key for 'content', 'figure', and 'table' types
- *  - depth: item stack level (used, e.g.,  to control section title sizes)
+ *  - depth: item stack level (1 for chapters)
+ *      (used to control, e.g., section title sizes or indentation)
  *  - id: 'chapter', 'section', 'figure', 'table', or 'newpage' number
  *          or 'content' component key
  *  - page: page number on which this item first appears
@@ -80,7 +81,7 @@ export class Manifest {
         const item = {
             type: 'chapter',
             page: this.pages.length,
-            depth: 0,
+            depth: 1,
             id: id,
             title: title,
             comp: compKey}
