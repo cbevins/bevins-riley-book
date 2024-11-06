@@ -17,6 +17,7 @@
     import BevinsWhite from './bevins-lineage/bevins-white/WhatAboutMaryWhite.svelte'
     import NewboldVerdon1 from './bevins-lineage/NewboldVerdon1.svelte'
 
+    // Maps the Manifest item.comp key to its SVelte component
     const compMap = new Map([
         ['BevinsImmigrantsTable', BevinsImmigrantsTable],
         ['BevinsOverview', BevinsOverview],
@@ -34,18 +35,17 @@
     ])
 
     function comp(item) {
-        // These types use a standardized component throught the Book
-        if (item.type === 'chapter') return Chapter
-        if (item.type === 'newpage') return NewPage
-        if (item.type === 'section') return Section
-        // The 'content', 'figure', and 'table' types will use a filler component
-        // if the specified item.comp is not in the map
-        const key = (item.type === 'component') ? item.id : item.type
+        // Use the requested component, if it is in the Map
         if (compMap.has(item.comp)) return compMap.get(item.comp)
+        // Otherwise, these types use a standardized component
+        if (item.type === 'chapter') return Chapter
+        if (item.type === 'pageheader') return NewPage
+        if (item.type === 'section') return Section
+        // While these types use a placeholder component
         if (item.type === 'content') return ContentPlaceholder
         if (item.type === 'figure') return FigurePlaceholder
         if (item.type === 'table') return TablePlaceholder
-        throw new Error(`Item with unknown type: type='${item.type}' id='${item.id}' title='${item.title}''`)
+        throw new Error(`Manifest Item with unknown type: type='${item.type}' id='${item.id}' title='${item.title}''`)
     }
 
     const man = manifest()
@@ -54,7 +54,7 @@ There are {man.pages.length} pages
 <Book>
     <!-- <Toc {toc}/> -->
     {#each man.pages as page}
-        {#each  page.items as item}
+        {#each page.items as item}
             <svelte:component this={comp(item)} {item}/>
         {/each}
     {/each}
