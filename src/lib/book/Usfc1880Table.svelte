@@ -1,6 +1,6 @@
 <script>
     export let census
-    const headers = ['Name', 'Age', 'Relationhip', 'Status', 'Occupation',
+    const headers = ['Name', 'Age', 'Relation', 'Status', 'Occupation',
         'Health', 'Att<br>Schl?', 'Not Rd?', 'Not Wr?',
         "Person's<br>Birth Place", "Father's<br>Birth Place", "Mother's<br>Birth Place"]
 
@@ -33,9 +33,6 @@
     </div>
     <div class='text-md text-center mb-2'>
         Census Sheet {census.sheet.number} Recorded on {census.sheet.date}
-    </div>
-    <div class='text-md text-center mb-2'>
-        Real Eastate Value {census.family.realEstate}, Personal Value {census.family.personal}
     </div>
     <table class="w-full text-sm text-left text-gray-500 rounded-lg">
         <thead class="text-xs text-gray-700 bg-gray-500">

@@ -16,7 +16,7 @@
         Census Sheet {census.sheet.number} Recorded on {census.sheet.date}
     </div>
     <div class='text-md text-center mb-2'>
-        Real Eastate Value {census.family.realEstate}, Personal Value {census.family.personal}
+        Real Estate Value {census.family.realEstate}, Personal Value {census.family.personal}
     </div>
     <table class="w-full text-sm text-left text-gray-500 rounded-lg">
         <thead class="text-xs text-gray-700 bg-gray-500">

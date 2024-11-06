@@ -1,5 +1,5 @@
 <script>
-    import { P } from '$lib/newbook'
+    import { P } from '$lib/book'
     import BattleBosworth from './BattleBosworth.svelte'
     
     export let item

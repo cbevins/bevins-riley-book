@@ -1,6 +1,6 @@
 <script>
     // Intro is a Section of a Chapter
-    import ImmigrantsTable from '$lib/book/ImmigrantsTable.svelte'
+    import ImmigrantsTable from '$lib/book/deprecated/ImmigrantsTable.svelte'
  
     export let id = ''          // Table element id
     export let newpage = true   // If TRUE, starts with a <NewPage>

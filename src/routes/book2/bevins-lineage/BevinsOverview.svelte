@@ -1,5 +1,6 @@
 <script>
     import { P } from '$lib/book'
+    export let item
 </script>
 
 <P>The lineage of our grandfather Samuel Bevins is a good place to begin investigating our

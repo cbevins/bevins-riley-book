@@ -2,24 +2,17 @@
     import { flagPinGxml } from '$lib/flags/flagPinsGxml.js'
     import { gxmlStr } from '$lib/gxml/gxmlStr.js'
 
-    import NewPage from '$lib/book/NewPage.svelte'
-
-    export let id = ''          // Table element id
+    export let item
     export let immigrants       // Array of 
-    export let newpage = true   // If TRUE, starts with a <NewPage>
-    export let part = ''        // Chapter ordinal, like 'Chapter 1', displayed on page top margin
-    export let title = ''       // Chapter title, displayed on page top margin
     export let captions = []
-
-    captions = Array.isArray(captions) ? captions : [captions]
     const headers = ['', 'Name', 'Born', 'Arrived', 'Age']
 </script>
 
-{#if newpage}
-    <NewPage {part} {title}/>
-{/if}
+<div class='text-left text-black font-serif'>
+    <div class="text-lg mt-3 font-semibold">Table {item.id} {item.title}</div>
+</div>
 
-<div id={id} class="relative overflow-x-auto shadow-md border-4 border-slate-500 rounded-xl">
+<div class="relative overflow-x-auto shadow-md border-4 border-slate-500 rounded-xl">
     {#each captions as caption}
         <div class='text-lg text-center font-bold'>{caption}</div>
     {/each}

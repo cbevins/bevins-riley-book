@@ -1,5 +1,5 @@
 <script>
-    import ImmigrantsTable from '$lib/newbook/ImmigrantsTable.svelte'
+    import ImmigrantsTable from '$lib/book/ImmigrantsTable.svelte'
     export let item
 
     const captions = ['Immigrants of the', 'Samuel Bevins Line']
