@@ -1,10 +1,7 @@
 <script>
     import { getToc } from './getToc.js'
-    import { Book, Chapter, NewPage, Section } from '$lib/book'
-    import ContentPlaceholder from './ContentPlaceholder.svelte'
-    import FigurePlaceholder from './FigurePlaceholder.svelte'
-    import TablePlaceholder from './TablePlaceholder.svelte'
-    import Toc from './Toc.svelte'
+    import { Book, Chapter, NewPage, Section, Toc } from '$lib/book'
+    import { ContentPlaceholder, FigurePlaceholder, TablePlaceholder } from '$lib/book'
     
     import BevinsOverview from './bevins-lineage/BevinsOverview.svelte'
     import BevinsImmigrantsTable from './bevins-lineage/BevinsImmigrantsTable.svelte'
@@ -54,14 +51,11 @@
     const toc = getToc()
 </script>
 <Book>
-    <div class="text-left">
-
     <!-- <Toc {toc}/> -->
     
     {#each toc.pages as page}
-    {#each  page.items as item}
-    <svelte:component this={comp(item)} {item}/>
+        {#each  page.items as item}
+            <svelte:component this={comp(item)} {item}/>
+        {/each}
     {/each}
-    {/each}
-    </div>
 </Book>
