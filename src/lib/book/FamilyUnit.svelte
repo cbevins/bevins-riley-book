@@ -3,16 +3,9 @@
     import { getAllChannels, getChannels } from '$lib/content/singletons.js'
 
     import Card from '$lib/book/Card.svelte'
-    import P from '$lib/book/P.svelte'
-
-    export let id = ''          // Chapter element id
     export let lineageKey
     export let fatherKey = null
     export let motherKey = null
-    export let newpage = true   // If TRUE, starts with a <NewPage>
-    export let part = ''        // Chapter ordinal, like 'Chapter 1', displayed on page top margin
-    export let title = ''       // Chapter title, displayed on page top margin
-    export let captions = []
 
     const sylvan = getSylvan()
     const lines = getAllChannels()

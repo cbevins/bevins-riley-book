@@ -1,12 +1,9 @@
 <script>
     import { getToc } from './getToc.js'
-    import {Book} from '$lib/book'
-    import Chapter from './Chapter.svelte'
-    import Filler from './Filler.svelte'
-    import Figure from './Figure.svelte'
-    import NewPage from './NewPage.svelte'
-    import Section from './Section.svelte'
-    import Table from './Table.svelte'
+    import { Book, Chapter, NewPage, Section } from '$lib/book'
+    import ContentPlaceholder from './ContentPlaceholder.svelte'
+    import FigurePlaceholder from './FigurePlaceholder.svelte'
+    import TablePlaceholder from './TablePlaceholder.svelte'
     import Toc from './Toc.svelte'
     
     import BevinsOverview from './bevins-lineage/BevinsOverview.svelte'
@@ -48,9 +45,9 @@
         // if the specified item.comp is not in the map
         const key = (item.type === 'component') ? item.id : item.type
         if (compMap.has(item.comp)) return compMap.get(item.comp)
-        if (item.type === 'content') return Filler
-        if (item.type === 'figure') return Figure
-        if (item.type === 'table') return Table
+        if (item.type === 'content') return ContentPlaceholder
+        if (item.type === 'figure') return FigurePlaceholder
+        if (item.type === 'table') return TablePlaceholder
         throw new Error(`Item with unknown type: type='${item.type}' id='${item.id}' title='${item.title}''`)
     }
 
