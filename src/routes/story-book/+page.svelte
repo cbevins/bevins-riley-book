@@ -1,5 +1,5 @@
 <script>
-    import { getToc } from './getToc.js'
+    import { manifest } from './manifest.js'
     import { Book, Chapter, NewPage, Section, Toc } from '$lib/book'
     import { ContentPlaceholder, FigurePlaceholder, TablePlaceholder } from '$lib/book'
     
@@ -16,6 +16,7 @@
     import BevinsBoltUsfc1880Table from './bevins-lineage/bevins-bolt/Usfc1880Table.svelte'
     import BevinsWhite from './bevins-lineage/bevins-white/WhatAboutMaryWhite.svelte'
     import NewboldVerdon1 from './bevins-lineage/NewboldVerdon1.svelte'
+	import { MapPinAltOutline } from 'flowbite-svelte-icons';
 
     const compMap = new Map([
         ['BevinsImmigrantsTable', BevinsImmigrantsTable],
@@ -48,12 +49,13 @@
         throw new Error(`Item with unknown type: type='${item.type}' id='${item.id}' title='${item.title}''`)
     }
 
-    const toc = getToc()
+    const man = manifest()
 </script>
+There are {man.pages.length} pages
 <Book>
     <!-- <Toc {toc}/> -->
     
-    {#each toc.pages as page}
+    {#each MapPinAltOutline.pages as page}
         {#each  page.items as item}
             <svelte:component this={comp(item)} {item}/>
         {/each}

@@ -1,5 +1,5 @@
 <script>
-    import { getToc } from './getToc.js'
+    import { manifest } from './manifest.js'
     import { Book, Chapter, NewPage, Section, Toc } from '$lib/book'
     import { ContentPlaceholder, FigurePlaceholder, TablePlaceholder } from '$lib/book'
     
@@ -48,12 +48,12 @@
         throw new Error(`Item with unknown type: type='${item.type}' id='${item.id}' title='${item.title}''`)
     }
 
-    const toc = getToc()
+    const man = manifest()
 </script>
+There are {man.pages.length} pages
 <Book>
     <!-- <Toc {toc}/> -->
-    
-    {#each toc.pages as page}
+    {#each man.pages as page}
         {#each  page.items as item}
             <svelte:component this={comp(item)} {item}/>
         {/each}

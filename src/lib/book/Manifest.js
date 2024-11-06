@@ -16,7 +16,6 @@ export class Manifest {
         this.sections = []
         this.tables = []
         this.stack = []    // current section stack, not a collection!
-        this.pages.push({items: []})
     }
         
     // Adds an item to the current page
