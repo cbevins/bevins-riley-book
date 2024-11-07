@@ -5,6 +5,7 @@
     
     import Introduction from './introduction/Introduction.svelte'
     import BevinsIntroduction from './bevins-lineage/Introduction.svelte'
+    import BevinsOrigins from './bevins-lineage/Origins.svelte'
     import BevinsTimeLine from './bevins-lineage/TimeLine.svelte'
     import CollinsIntroduction from './collins-lineage/Introduction.svelte'
     import HeddensIntroduction from './heddens-lineage/Introduction.svelte'
@@ -18,6 +19,7 @@
     const compMap = new Map([
         ['Introduction', Introduction],
         ['BevinsIntroduction', BevinsIntroduction],
+        ['BevinsOrigins', BevinsOrigins],
         ['BevinsTimeLine', BevinsTimeLine],
         ['CollinsIntroduction', CollinsIntroduction],
         ['HeddensIntroduction', HeddensIntroduction],

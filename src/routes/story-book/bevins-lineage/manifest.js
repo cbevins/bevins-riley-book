@@ -3,9 +3,15 @@ export function manifest(man, chapter) {
     {
         man.beginSection(chapter+'.1', 'Overview')
         {
-            man.addPageHeader().addChapterTitle().addSectionTitle()
+            man.addPageHeader().addChapterTitle()// .addSectionTitle()
             .addContent('BevinsIntroduction', 'Introduction')
-            .addFigure('BevinsTimeLine', 'Bevins Timeline')
+            // .addFigure('BevinsTimeLine', 'Bevins Timeline')
+            .endSection(chapter+'.1')
+        }
+        man.beginSection(chapter+'.1', 'A Long History in Leicestershire, England')
+        {
+            man.addSectionTitle()
+            .addContent('BevinsOrigins', 'Bevins Origins')
             .endSection(chapter+'.1')
         }
         man.endSection(chapter)
