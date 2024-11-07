@@ -1,8 +1,15 @@
 <script>
+    import {P} from '$lib/book'
     export let item
     export let showBreak = true
 </script>
 
+<!-- If not first page, add a bottom margin to previous page -->
+{#if item.page.pageno !== 1}
+    <div class='mt-8'></div>
+{/if}
+
+<!-- Force the page break -->
 <div style="page-break-before: always"/>
 
 {#if showBreak}

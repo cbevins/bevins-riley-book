@@ -1,11 +1,14 @@
 <script>
+    import {P} from '$lib/book'
     export let item
 </script>
-<div class='text-left text-black font-serif'>
-    <div class="text-lg mt-3 font-semibold">Table {item.id} {item.title}</div>
-</div>
+<div class="border-2 border-black mt-4 mb-4 p-4 rounded overflow-hidden shadow-lg shadow-slate-500 bg-blue-100">
+    <div class="text-lg mt-3 font-semibold">
+        Table: {item.title}
+    </div>
+    <P>The table component [{item.comp}] is currently under construction.</P>
 
-<table class="w-full text-sm text-left text-gray-500 rounded-lg">
+<table class="mx-auto text-sm text-left text-gray-500 rounded-lg">
     <thead class="text-xs text-gray-700 bg-gray-500">
         <tr>
             <th scope="col" class="px-2 py-1">Row</th>
@@ -25,3 +28,4 @@
         {/each}
     </tbody>
 </table>
+</div>
