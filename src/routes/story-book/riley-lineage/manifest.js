@@ -1,12 +1,7 @@
-export function manifest(man, chapter) {
-    man.newPage().beginSection(chapter, 'Direct Ancestors of Sheldon Junior Riley')
-    {
-        man.beginSection(chapter+'.1', 'Overview')
-        {
-            man.addPageHeader().addChapterTitle().addSectionTitle()
-            .addContent('RileyIntroduction', 'Riley Lineage Introduction')
-            .endSection(chapter+'.1')
-        }
-        man.endSection(chapter)
+export const manifest =
+    {type: 'section', newpage: true, title: 'Chapter 6: Direct Ancestors of Sheldon Junior Riley', items: [
+        {type: 'content', newpage: false, comp: 'RileyIntroduction'},
+        {type: 'section', newpage: false, title: 'Riley Family Origins', items: [
+            {type: 'content', newpage: false, comp: 'RileyOrigins'}]},
+        ]
     }
-}

@@ -10,6 +10,7 @@
 {/if}
 
 <div id='pager' class='relative w-[7in] h-[0.75in] drop-shadow-md border-2 border-slate-200'>
-    <div class="float-left mt-2 italic">{item.title}</div>
-    <div class="float-right mt-2 italic">Page {item.page}</div>
+    <div class="float-left mt-2 italic">{item.page.header1}<br>{item.page.header2}</div>
+    <div class="float-right mt-2 italic">Page {item.page.pageno}</div>
+    
 </div>

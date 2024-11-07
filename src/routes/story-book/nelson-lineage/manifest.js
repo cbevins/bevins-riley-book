@@ -1,12 +1,7 @@
-export function manifest(man, chapter) {
-    man.newPage().beginSection(chapter, 'Direct Ancestors of Myrtle Estelle Nelson')
-    {
-        man.beginSection(chapter+'.1', 'Overview')
-        {
-            man.addPageHeader().addChapterTitle().addSectionTitle()
-            .addContent('NelsonIntroduction', 'Nelson Lineage Introduction')
-            .endSection(chapter+'.1')
-        }
-        man.endSection(chapter)
+export const manifest =
+    {type: 'section', newpage: true, title: 'Chapter 9: Direct Ancestors of Myrtle Estelle Nelson', items: [
+        {type: 'content', newpage: false, comp: 'NelsonIntroduction'},
+        {type: 'section', newpage: false, title: 'Nelson Family Origins', items: [
+            {type: 'content', newpage: false, comp: 'NelsonOrigins'}]},
+        ]
     }
-}

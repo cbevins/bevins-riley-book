@@ -1,173 +1,88 @@
 /**
- * Manifest contains a listing of book {item}s in their order of appearance,
- * as well as lists of callouts, figures, and tables.
- * Manifest is used to construct a book of Svelte components
- * with a table of contents.
+ * Manifest is used to construct a Book of Svelte components with a table of contents.
+ * It contains a listing of Book {page}s and {item}s in their order of appearance,
+ * as well as lists of all sections, figures, and tables.
  * 
- * The Manifest.pages array has an entry for each page.  The entry includes
- * an array of every {item} on that page.
+ * Manifest.pages is an array of objects with the following properties:
+ *  - pageno: the base 1 page number
+ *  - header1: title of the most recent 'section' at depth 0
+ *  - header2: title of the most recent 'section' at depth 1
+ *  - items: an array of every {item} on the page
  * 
- * There are 6 types of {item}s:
- *  - 'pageheader' appends a page margin and header using a standard SVelte component
- *  - 'chapter' appends a chapter title onto the book using a standard Svelte component
- *  - 'section' appends a section title onto the book using a standard Svelte component
- *  - 'content' appends the keyed Svelte component onto the book
- *  - 'figure' appends the keyed Svelte component onto the book and adds it to the figures list
- *  - 'table' appends the keyed Svelte component onto the book and adds it to the tables list
- * 
- * The Manifest is assembled using the following methods:
- *
- * - addChapterTitle(compKey='')
- *      Appends the first (bottom-level) section title to the book's current page
- *      and to the Manifest.sections array and ToC.  Uses a standard component or 'compKey'.
- * 
- * - addSectionTitle(title)
- *      Appends the most recent (top-level) section title to the book's current page
- *      and to the Manifest.sections array and ToC.  Uses a standard component or 'compKey'.
- * 
- * - addContent(comp, title)
- *      Appends the 'compKey' Svelte component to the current page.
- * 
- * - addFigure(comp, title)
- *      Appends the 'compKey' Svelte component to the current page
- *      and to the Manifest.figures array.
- * 
- * - addPageHeader(compKey='') {
- *      Appends a page margin header to the book's current page
- *      with the current chapter-section and page number.
- * 
- * - addTable(comp, title)
- *      Appends the 'compKey' Svelte component to the current page
- *      and to the Manifest.tables array.
- * 
- * - beginSection(num, title)
- *      Pushes a new section onto the stack.
- * 
- * - endSection(num)
- *      Pops a section from the stack. 'num' is informative only, and is unused.
- * 
- * - newPage() Increments the page counter
- *
- * {item}
- *  - type: 'chapter', 'content', 'figure', 'newpage', 'section', 'table'
- *  - comp: component Map() key for 'content', 'figure', and 'table' types
- *  - depth: item stack level (1 for chapters)
- *      (used to control, e.g., section title sizes or indentation)
- *  - id: 'chapter', 'section', 'figure', 'table', or 'newpage' number
- *          or 'content' component key
- *  - page: page number on which this item first appears
- *  - title: 'chapter', 'section', 'figure', 'newpage', or 'table' title,
- *          or 'content' placeholder text
+ * An {item} object has the following properties:
+ *  - type: one of the following 4 types:
+ *      - 'section' appends a section title onto the book using a standard Svelte component
+ *      - 'content' appends the keyed Svelte component onto the book
+ *      - 'figure' appends the keyed Svelte component onto the book and adds it to the figures list
+ *      - 'table' appends the keyed Svelte component onto the book and adds it to the tables list
+ *  - comp: component Map() key
+ *  - depth: item sectional depth (used to control, e.g., section title sizes or indentation)
+ *  - page: reference to the {page} containing this {item}
+ *  - title: 'section', 'figure', or 'table' title or 'content' placeholder text
 */
 export class Manifest {
-    constructor() {
-        this.pages = []     // array of {items: []}
-        this.figures = []
-        this.sections = []
-        this.tables = []
-        this.stack = []    // current section stack, not a collection!
+    constructor(itemsArray) {
+        this.contents = []  // array of all content {item}s in order of appearance
+        this.figures = []   // array of all figure {item}s in order of appearance
+        this.items = itemsArray
+        this.pages = []     // array of page {items: [<item>,<item>...]} on that page
+        this.sections = []  // array of all section {item}s in order of appearance
+        this.tables = []    // array of all table {item}s in order of appearance
+        this.header1 = ''   // current page header text
+        this.header2 = ''   // current page header text
+        for(let i=0; i<itemsArray.length; i++) {
+            this._process(itemsArray[i])
+        }
     }
         
-    // Appends an item onto the current page
-    _addPageItem(item) {
-        this.pages[this.pages.length-1].items.push(item)
-        return this
-    }
+    _process(item, depth=0) {
+        item.depth = depth
+        // if the item doesn't have an items array, add an empty one
+        if (! item.items) item.items = []
+        // if the item doesn't have a comp, add a standard one
+        if (! item.comp) item.comp = item.type
+        // if the item doesn't have a title, assign a blank title
+        if (! item.title) item.title = ''
+        // if the item doesn't have an id, assign a blank id
+        if (! item.id) item.id = ''
 
-    // Appends the first (bottom-level) section title to the book's current page
-    // and to the Manifest.sections array
-    addChapterTitle(compKey='') {
-        const {id, title} = this.stack[0]
-        const item = {
-            type: 'chapter',
-            page: this.pages.length,
-            depth: 1,
-            id: id,
-            title: title,
-            comp: compKey}
-        this.sections.push(item)
-        return this._addPageItem(item)
-    }
-
-    // Appends the 'compKey' Svelte component to the book's current page
-    addContent(compKey, title) {
-        const item = {
-            type: 'content',
-            page: this.pages.length,
-            depth: this.stack.length,
-            id: compKey,
-            comp: compKey,
-            title: title
+        // If this item is a section, possibly update the page headers
+        if (item.type === 'section') {
+            if (depth === 0) {
+                this.header1 = item.title
+                this.header2 = ''
+            } else if (depth === 1) {
+                this.header2 = item.title
+            }
         }
-        return this._addPageItem(item)
-    }
 
-    // Appends the 'compKey' Svelte component to the book's current page
-    // and appends it to the Manifest.figures array
-    addFigure(compKey, title) {
-        const item = {
-            type: 'figure',
-            page: this.pages.length,
-            depth: this.stack.length,
-            id: this.figures.length + 1,
-            title: title,
-            comp: compKey}
-        this.figures.push(item)
-        return this._addPageItem(item)
-    }
+        // If item starts a new page, append a new pages entry
+        if (item.newpage) {
+            this.pages.push({
+                pageno: this.pages.length + 1,
+                header1: this.header1,
+                header2: this.header2,
+                items: []})
+        }
 
-    // Appends a page header to the book's current page
-    // with the current chapter-section and page number
-    addPageHeader(compKey='') {
-        const title = this.stack[0].title + ': ' + this.stack[1].title
-        const item = {
-            type: 'pageheader',
-            page: this.pages.length,
-            depth: this.stack.length,
-            id: 'Page ' + this.pages.length,
-            title,
-            comp: compKey}
-        return this._addPageItem(item)
-    }
+        // Assign this {page} to the {item}
+        item.page = this.pages[this.pages.length-1]
 
-    // Appends the most recent (bottom-level) section title to the book's current page
-    // and to the Manifest.sections array
-    addSectionTitle(compKey='') {
-        const {id, title} = this.stack[this.stack.length-1]
-        const item = {
-            type: 'section',
-            page: this.pages.length,
-            depth: this.stack.length,
-            id,
-            title,
-            comp: compKey}
-        this.sections.push(item)
-        return this._addPageItem(item)
-    }
+        // Add item to its relevant arrays
+        if (item.type === 'figure') this.figures.push(item)
+        else if (item.type === 'table') this.tables.push(item)
+        else if (item.type === 'section') this.sections.push(item)
+        else if (item.type === 'content') this.contents.push(item)
+        else throw new Error(`Unknown Manifest item type '${item.type}' titled '${item.title}'`)
 
-    // Adds a table and enters it into the Toc and the current page's items list
-    addTable(comp, title) {
-        const page = this.pages.length
-        const item = {type: 'table', page, title, id: this.tables.length+1, comp}
-        this.tables.push(item)
-        return this._addPageItem(item)
-    }
+        // Add this item to the current page
+        this.pages[this.pages.length-1].items.push(item)
 
-    // Begins a new section
-    beginSection(id, title) {
-        this.stack.push({id, title})
-        return this
-    }
-
-    // Ends the current section
-    endSection() {
-        this.stack.pop()
-        return this
-    }
-
-    // Starts a new page with its own items list
-    newPage() {
-        this.pages.push({items: []})
-        return this
+        // ADd sub items
+        if (item.items) {
+            for(let i=0; i<item.items.length; i++) {
+                this._process(item.items[i], depth+1)
+            }
+        }
     }
 }

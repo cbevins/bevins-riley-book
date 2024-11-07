@@ -51,7 +51,10 @@ Bevins-Riley Storybook has {man.pages.length} pages
 <Book>
     <!-- <Toc {toc}/> -->
     {#each man.pages as page}
-        {#each page.items as item}
+        {#each page.items as item, n}
+        {#if n === 0}
+            <NewPage {item}/>
+        {/if}
             <svelte:component this={comp(item)} {item}/>
         {/each}
     {/each}

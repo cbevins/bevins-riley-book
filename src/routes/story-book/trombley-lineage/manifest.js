@@ -1,12 +1,7 @@
-export function manifest(man, chapter) {
-    man.newPage().beginSection(chapter, 'Direct Ancestors of Harold Richard Trombley')
-    {
-        man.beginSection(chapter+'.1', 'Overview')
-        {
-            man.addPageHeader().addChapterTitle().addSectionTitle()
-            .addContent('TrombleyIntroduction', 'Trombley Lineage Introduction')
-            .endSection(chapter+'.1')
-        }
-        man.endSection(chapter)
+export const manifest =
+    {type: 'section', newpage: true, title: 'Chapter 8: Direct Ancestors of Harold Richard Trombley', items: [
+        {type: 'content', newpage: false, comp: 'TrombleyIntroduction'},
+        {type: 'section', newpage: false, title: 'Trombley Family Origins', items: [
+            {type: 'content', newpage: false, comp: 'TrombleyNattrassOrigins'}]},
+        ]
     }
-}

@@ -1,12 +1,7 @@
-export function manifest(man, chapter) {
-    man.newPage().beginSection(chapter, 'Direct Ancestors of Gladys Mae De Reus')
-    {
-        man.beginSection(chapter+'.1', 'Overview')
-        {
-            man.addPageHeader().addChapterTitle().addSectionTitle()
-            .addContent('DeReusIntroduction', 'DeReus Lineage Introduction')
-            .endSection(chapter+'.1')
-        }
-        man.endSection(chapter)
+export const manifest =
+    {type: 'section', newpage: true, title: 'Chapter 7: Direct Ancestors of Gladys Mae DeReus', items: [
+        {type: 'content', newpage: false, comp: 'DeReusIntroduction'},
+        {type: 'section', newpage: false, title: 'DeReus Family Origins', items: [
+            {type: 'content', newpage: false, comp: 'DeReusOrigins'}]},
+        ]
     }
-}
