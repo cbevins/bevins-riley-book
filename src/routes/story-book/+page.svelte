@@ -4,6 +4,7 @@
     import { ContentPlaceholder, FigurePlaceholder, TablePlaceholder } from '$lib/book'
     
     import Introduction from './introduction/Introduction.svelte'
+    import BevinsImmigrantsTable from './bevins-lineage/BevinsImmigrantsTable.svelte'
     import BevinsIntroduction from './bevins-lineage/Introduction.svelte'
     import BevinsOrigins from './bevins-lineage/Origins.svelte'
     import BevinsTimeLine from './bevins-lineage/TimeLine.svelte'
@@ -19,6 +20,7 @@
     const compMap = new Map([
         ['Introduction', Introduction],
         ['BevinsIntroduction', BevinsIntroduction],
+        ['BevinsImmigrantsTable', BevinsImmigrantsTable],
         ['BevinsOrigins', BevinsOrigins],
         ['BevinsTimeLine', BevinsTimeLine],
         ['CollinsIntroduction', CollinsIntroduction],

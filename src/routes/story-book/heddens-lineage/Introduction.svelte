@@ -3,6 +3,6 @@
     export let item
 </script>
 <P>
-This chapter is devoted to the direct ancestors of our grandmother
+This chapter is devoted to the direct ancestors of our grandfather
 <Name>Ralph Vernon Heddens</Name>.
 </P>

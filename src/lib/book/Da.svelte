@@ -21,4 +21,4 @@
         ord = ''
     }
 </script>
-<Name>{name}</Name><sup>{g}<sup>{ord}</sup>{txt}</sup>
+<Name gpp={gen}>{name}</Name><sup>{g}<sup>{ord}</sup>{txt}</sup>

@@ -1,50 +1,57 @@
 <script>
-    import { Da, Date, Name, P, Place } from '$lib/book'
+    import { Name, P, Place } from '$lib/book'
     export let item
 </script>
 <P>
 The Bevins line is 100% English, with a long history in the area
 surrounding <Place>Newbold Verdon, Leicestershire, England</Place>.
+
 </P><P>
-Our grandfather Samuel's father <Da name='William Alfred Bevins' gen='1'/> was
+Our great grandfather <Name ggp='1'>William Alfred Bevins</Name> was
 born in <Place>Leicester, England</Place> in 1843,
 and arrived in America with his parents
-<Da name='William Longford Bevins' gen='2'/>
-and <Da name='Mary Bolt' gen='2'/> in 1841, prior to the American Civil War.
+<Name ggp='2'>William Longford Bevins</Name>
+and <Name ggp='2'>Mary Bolt</Name> in 1841, prior to the American Civil War.
 </P><P>
-Samuel's mother <Da name='Mary Ann White' gen='1'/> was also born in England
-(possibly Torquey in Devon) in 1848, and arrived in America in 1871,
-after the Civil War.
+Samuel's mother <Name ggp='1' life='1848-1922'>Mary Ann White</Name>
+was also born in England (possibly Torquey in Devon)
+and arrived in America in 1871, after the Civil War.
 </P><P>
 In fact, the Bevins history goes back at least 5 generations
 in <Place>Newbold Verdon</Place>.
-</P><P>
-<Da name='William Bevins' gen='6'/> was born there in 1705,
-and his wife <Da name='Sarah Wilkinson' gen='6'/>
-was born 3 miles NE in <Place>Thornton</Place> in 1696.
-</P><P>
-Their son <Da name='Thomas Bevins' gen='5'/>
-was also born in <Place>Newbold Verdon</Place> in 1731,
-and his wife <Da name='Sarah Wrathburn' gen='5'/>
-was born 4 miles southwest in <Place>Shenton</Place> in 1736.
-</P><P>
-Their son <Da name='Joseph Bevins' gen='4'/>
-was also born in <Place>Newbold Verdon</Place> in 1762,
-and his wife <Da name='Mary Ann Isom' gen='4'/>
-was born 4 miles south in <Place>Earl Shilton</Place> in 1766.
-</P><P>
-Their son <Da name='John Bevins' gen='3'/>
+</P>
+<div class="border-2 border-black mt-2 mb-2 p-2 rounded overflow-hidden shadow-lg shadow-slate-500 bg-blue-100">
+    <Name ggp='6' life='1705-1761'>William Bevins</Name> was born there
+    and his wife <Name ggp='6' life='1696-1769'>Sarah Wilkinson</Name>
+    was born 3 miles northeast in <Place>Thornton</Place>.
+</div>
+<div class="border-2 border-black mt-2 mb-2 p-2 rounded overflow-hidden shadow-lg shadow-slate-500 bg-blue-100">
+Their son <Name ggp='5' life='1731-1780'>Thomas Bevins</Name>
+was also born in <Place>Newbold Verdon</Place>
+and his wife <Name ggp='5' life='1736-1809'>Sarah Wrathburn</Name>
+was born 4 miles southwest in <Place>Shenton</Place>.
+</div>
+<div class="border-2 border-black mt-2 mb-2 p-2 rounded overflow-hidden shadow-lg shadow-slate-500 bg-blue-100">
+Their son <Name ggp='4' life='1762-1832'>Joseph Bevins</Name>
+was also born in <Place>Newbold Verdon</Place>
+and his wife <Name ggp='4' life='1766-1834'>Mary Ann Isom</Name>
+was born 4 miles south in <Place>Earl Shilton</Place>.
+</div>
+<div class="border-2 border-black mt-2 mb-2 p-2 rounded overflow-hidden shadow-lg shadow-slate-500 bg-blue-100">
+Their son <Name ggp='3' life='1783-1863'>John Bevins</Name>
 was born 10 miles north of <Place>Newbold Verdon</Place>
-in <Place>Sheepshed Township</Place> in 1783,
-while his wife <Da name='Sarah Ann Longford' gen='3'/>
+in <Place>Sheepshed Township</Place>
+while his wife <Name ggp='3' life='1788-1871'>Sarah Ann Longford</Name>
 was born further away (85 miles southwest)
-in <Place>Middlesex, London</Place> in 1788.
-</P><P>
-And finally, their son the immigrant <Da name='William Longford Bevins' gen='2'/>,
-was also born in <Place>Newbold Verdon</Place> in 1815,
-while his wife <Da name='Mary Bolt' gen='2'/>
-was born in 4 miles south in <Place>Barwell</Place> in 1822.
+in <Place>Middlesex, London</Place>.
+</div>
+<div class="border-2 border-black mt-2 mb-2 p-2 rounded overflow-hidden shadow-lg shadow-slate-500 bg-blue-100">
+And finally, their son the immigrant
+<Name ggp='2' life='1815-1889'>William Longford Bevins</Name>
+was also born in <Place>Newbold Verdon</Place>
+while his wife <Name ggp='2' life='1822-1878'>Mary Bolt</Name>
+was born in 4 miles south in <Place>Barwell</Place>.
 It was this couple who emmigrated to America in 1845 with their 3 children
 including our great grandfather (Samuel's father)
-<Da name='William Alfred Bevins' gen='1'/>.
-</P>
+<Name ggp='1'>William Alfred Bevins</Name>.
+</div>

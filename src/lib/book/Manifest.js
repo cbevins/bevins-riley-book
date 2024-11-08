@@ -70,7 +70,10 @@ export class Manifest {
 
         // Add item to its relevant arrays
         if (item.type === 'figure') this.figures.push(item)
-        else if (item.type === 'table') this.tables.push(item)
+        else if (item.type === 'table') {
+            this.tables.push(item)
+            item.id = this.tables.length
+        }
         else if (item.type === 'section') this.sections.push(item)
         else if (item.type === 'content') this.contents.push(item)
         else throw new Error(`Unknown Manifest item type '${item.type}' titled '${item.title}'`)

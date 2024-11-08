@@ -9,7 +9,7 @@
 </script>
 
 <div class='text-left text-black font-serif'>
-    <div class="text-lg mt-3 font-semibold">Table {item.id} {item.title}</div>
+    <div class="text-lg mt-3 font-semibold">Table {item.id}: {item.title}</div>
 </div>
 
 <div class="relative overflow-x-auto shadow-md border-4 border-slate-500 rounded-xl">

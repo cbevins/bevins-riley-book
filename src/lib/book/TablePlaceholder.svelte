@@ -6,7 +6,7 @@
     <div class="text-lg mt-3 font-semibold">
         Table: {item.title}
     </div>
-    <P>The table component [{item.comp}] is currently under construction.</P>
+    <P>The table Svelte component [{item.comp}] is currently under construction.</P>
 
 <table class="mx-auto text-sm text-left text-gray-500 rounded-lg">
     <thead class="text-xs text-gray-700 bg-gray-500">

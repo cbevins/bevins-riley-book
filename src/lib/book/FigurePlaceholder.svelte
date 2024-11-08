@@ -6,8 +6,8 @@
     <div class="text-center text-lg mt-3 font-semibold">
         Figure: {item.title}
     </div>
-    <P>The figure component [{item.comp}] is currently under construction.</P>
- 
+    <P>The figure Svelte component [{item.comp}] is currently under construction.</P>
+
     <div class=''>
     <svg width='300' height='200'>
         <rect x='100' y='0' width='200' height='200' fill='green'/>
