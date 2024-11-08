@@ -39,6 +39,8 @@ export class Manifest {
         item.depth = depth
         // if the item doesn't have an items array, add an empty one
         if (! item.items) item.items = []
+        // if the item doesn't have a newpage, assume false
+        if (! item.hasOwnProperty('newpage')) item.newpage = false
         // if the item doesn't have a comp, add a standard one
         if (! item.comp) item.comp = item.type
         // if the item doesn't have a title, assign a blank title

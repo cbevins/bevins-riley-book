@@ -1,14 +1,30 @@
 <script>
     export let item
+    const text = item.id + ' ' + item.title
 </script>
-<div class='text-left text-black font-serif font-semibold'>
+
+<div class='font-serif font-semibold'>
+{#if item.newpage}
+        {#if item.depth === 0}
+            <div class="text-2xl mt-3">{text}</div>
+        {:else if item.depth === 1}
+            <div class="text-xl mt-3">{text}</div>
+        {:else if item.depth === 2}
+            <div class="text-lg mt-3">{text}</div>
+        {:else}
+            <div class="text-lg mt-3 font-normal">{text}</div>
+        {/if}
+{/if}
+
+{#if ! item.newpage}
     {#if item.depth === 0}
-        <div class="text-2xl mt-3">{item.id} {item.title}</div>
-    {:else if item.depth === 1}
-        <div class="text-xl mt-3">{item.id} {item.title}</div>
-    {:else if item.depth === 2}
-        <div class="text-lg mt-3">{item.id} {item.title}</div>
-    {:else}
-        <div class="text-lg mt-3 font-normal">{item.id} {item.title}</div>
-    {/if}
+            <div class="text-2xl mt-8">{text}</div>
+        {:else if item.depth === 1}
+            <div class="text-xl mt-8">{text}</div>
+        {:else if item.depth === 2}
+            <div class="text-lg mt-8">{text}</div>
+        {:else}
+            <div class="text-lg mt-8 font-normal">{text}</div>
+        {/if}
+{/if}
 </div>

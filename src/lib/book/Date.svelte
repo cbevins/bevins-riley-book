@@ -2,6 +2,6 @@
     // 'date' should be text like '4 Sep 1952'
     export let date
 </script>
-<span class="text-base text-black font-normal font-serif">
+<span class="">
     {date}
 </span>

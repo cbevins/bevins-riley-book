@@ -1,3 +1,3 @@
-<p class="text-base mt-3 text-black font-normal indent-8 font-serif">
+<p class="text-base mt-3 indent-8">
     <slot></slot>
 </p>

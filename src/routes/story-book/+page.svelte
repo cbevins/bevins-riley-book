@@ -1,6 +1,6 @@
 <script>
-    import { manifest } from './manifest.js'
-    import { Book, Chapter, NewPage, Section, Toc } from '$lib/book'
+    import { manifest, manifest2 } from './manifest.js'
+    import { Book, Chapter, NewPage, Section, P, Toc } from '$lib/book'
     import { ContentPlaceholder, FigurePlaceholder, TablePlaceholder } from '$lib/book'
     
     import Introduction from './introduction/Introduction.svelte'
@@ -48,15 +48,16 @@
     }
 
     const man = manifest()
+    manifest2()
 </script>
 Bevins-Riley Storybook has {man.pages.length} pages
 <Book>
     <!-- <Toc {toc}/> -->
     {#each man.pages as page}
         {#each page.items as item, n}
-        {#if n === 0}
-            <NewPage {item}/>
-        {/if}
+            {#if n === 0}
+                <NewPage {item}/>
+            {/if}
             <svelte:component this={comp(item)} {item}/>
         {/each}
     {/each}

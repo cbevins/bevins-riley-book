@@ -1,5 +1,4 @@
 <script>
-    import {P} from '$lib/book'
     export let item
     export let showBreak = true
 </script>
