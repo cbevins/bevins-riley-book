@@ -22,7 +22,7 @@ export function manifest() {
         nelsonManifest(0, 'nelson'),
     )
     const man = createManifest(lines)
-    logPages(man)
+    // logPages(man)
     // logItems(man)
     return man
 }

@@ -1,37 +1,16 @@
 <script>
     import { manifest } from './manifest.js'
-    import { Book, NewPage, ItemTitle, Toc } from '$lib/book'
+    import { Book, Toc } from '$lib/book'
     import { ContentPlaceholder, FigurePlaceholder, TablePlaceholder } from '$lib/book'
     
-    import Introduction from './introduction/Introduction.svelte'
-    import BevinsImmigrantsTable from './bevins-lineage/BevinsImmigrantsTable.svelte'
-    import BevinsIntroduction from './bevins-lineage/Introduction.svelte'
-    import BevinsOrigins from './bevins-lineage/Origins.svelte'
-    import BevinsTimeLine from './bevins-lineage/TimeLine.svelte'
-    import CollinsIntroduction from './collins-lineage/Introduction.svelte'
-    import HeddensIntroduction from './heddens-lineage/Introduction.svelte'
-    import NattrassIntroduction from './nattrass-lineage/Introduction.svelte'
-    import RileyIntroduction from './riley-lineage/Introduction.svelte'
-    import DeReusIntroduction from './dereus-lineage/Introduction.svelte'
-    import TrombleyIntroduction from './trombley-lineage/Introduction.svelte'
-    import NelsonIntroduction from './nelson-lineage/Introduction.svelte'
-
-    // Maps the Manifest item.comp key to its SVelte component
-    const compMap = new Map([
-        ['Introduction', Introduction],
-        ['BevinsIntroduction', BevinsIntroduction],
-        ['BevinsImmigrantsTable', BevinsImmigrantsTable],
-        ['BevinsOrigins', BevinsOrigins],
-        ['BevinsTimeLine', BevinsTimeLine],
-        ['CollinsIntroduction', CollinsIntroduction],
-        ['HeddensIntroduction', HeddensIntroduction],
-        ['NattrassIntroduction', NattrassIntroduction],
-        ['RileyIntroduction', RileyIntroduction],
-        ['DeReusIntroduction', DeReusIntroduction],
-        ['TrombleyIntroduction', TrombleyIntroduction],
-        ['NelsonIntroduction', NelsonIntroduction],
-
-    ])
+    import BevinsLineage from './bevins-lineage/Lineage.svelte'
+    import CollinsLineage from './collins-lineage/Lineage.svelte'
+    import DeReusLineage from './dereus-lineage/Lineage.svelte'
+    import HeddensLineage from './heddens-lineage/Lineage.svelte'
+    import NattrassLineage from './nattrass-lineage/Lineage.svelte'
+    import NelsonLineage from './nelson-lineage/Lineage.svelte'
+    import RileyLineage from './riley-lineage/Lineage.svelte'
+    import TrombleyLineage from './trombley-lineage/Lineage.svelte'
 
     function comp(item) {
         // Use the requested component, if it is in the Map
@@ -48,12 +27,12 @@
 </script>
 Bevins-Riley Storybook has {man.pages.length} pages
 <Book>
-    <!-- <Toc {toc}/> -->
-    {#each man.pages as page}
-        <NewPage {page}/>
-        {#each page.items as item}
-            <ItemTitle {item}/>
-            <svelte:component this={comp(item)} {item}/>
-        {/each}
-    {/each}
+    <BevinsLineage {man} part='bevins'/>
+    <CollinsLineage {man} part='collins'/>
+    <HeddensLineage {man} part='heddens'/>
+    <NattrassLineage {man} part='nattrass'/>
+    <RileyLineage {man} part='riley'/>
+    <DeReusLineage {man} part='dereus'/>
+    <TrombleyLineage {man} part='trombley'/>
+    <NelsonLineage {man} part='nelson'/>
 </Book>
