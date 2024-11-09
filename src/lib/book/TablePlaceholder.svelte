@@ -2,11 +2,8 @@
     import {P} from '$lib/book'
     export let item
 </script>
-<div class="border-2 border-black mt-4 mb-4 p-4 rounded overflow-hidden shadow-lg shadow-slate-500 bg-blue-100">
-    <div class="text-lg mt-3 font-semibold">
-        Table: {item.title}
-    </div>
-    <P>The table Svelte component [{item.comp}] is currently under construction.</P>
+<div class="border-2 border-black mt-4 mb-4 p-4 rounded overflow-hidden shadow-lg shadow-slate-500 bg-amber-100">
+    <P>The Svelte component [{item.comp}] is currently under construction.</P>
 
 <table class="mx-auto text-sm text-left text-gray-500 rounded-lg">
     <thead class="text-xs text-gray-700 bg-gray-500">

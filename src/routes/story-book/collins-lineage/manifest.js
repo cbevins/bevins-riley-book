@@ -2,7 +2,7 @@
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
 export function collinsManifest(startDepth) {
     const items = [
-    [0, 'section', true, 'CollinsIntroduction', 'Direct Ancestors of Hattie Jane Collins'],
+    [0, 'section', true, 'CollinsIntroduction', 'The Collins Lineage'],
         [1, 'table', false, 'CollinsImmigrantsTable','Immigrants of the Collins Line'],
         [1, 'table', false, 'CollinsOriginsTable', 'Origins of the Collins Line'],
         [1, 'section', true, '', 'The Collins Surname'],

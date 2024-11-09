@@ -2,7 +2,7 @@
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
 export function nelsonManifest(startDepth) {
     const items = [
-    [0, 'section', true, 'NelsonIntroduction', 'Direct Ancestors of Myrtle Estelle Nelson'],
+    [0, 'section', true, 'NelsonIntroduction', 'The Nelson Lineage'],
         [1, 'table', false, 'NelsonImmigrantsTable','Immigrants of the Nelson Line'],
         [1, 'table', false, 'NelsonOriginsTable', 'Origins of the Nelson Line'],
         [1, 'section', true, '', 'The Nelson Surname'],

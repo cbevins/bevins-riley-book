@@ -1,7 +1,9 @@
 /**
- * A third alternate, less verbose Manifest data structure
+ * Returns a Book {manifest} object with the properties:
+ *  {pages, items, figures, tables, sections}
  * 
- * There are only 3 record types:
+ * The constructor is passed an array of 'lines' defining the Book structure.
+ * Each line defines a ;section', 'figure', or 'table', as follows:
  * 
  *  - <depth>, 'section', <newpage>, <component>, <title>
  *      Appends text content to the current page:

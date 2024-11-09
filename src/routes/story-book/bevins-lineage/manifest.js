@@ -56,7 +56,7 @@ export const manifest =
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
 export function bevinsManifest(startDepth=0) {
     const items = [
-    [0, 'section', true, 'BevinsIntroduction', 'Direct Ancestors of Samuel Bevins'],
+    [0, 'section', true, 'BevinsIntroduction', 'The Bevins Lineage'],
         [1, 'table', false, 'BevinsImmigrantsTable','Immigrants of the Bevins Line'],
         [1, 'table', false, 'BevinsOriginsTable', 'Origins of the Bevins Line'],
         [1, 'section', true, 'BevinsOrigins', 'Generations in Newbold Verdon, Leicestershire, England'],

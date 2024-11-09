@@ -2,7 +2,7 @@
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
 export function trombleyManifest(startDepth) {
     const items = [
-    [0, 'section', true, 'TrombleyIntroduction', 'Direct Ancestors of Harold Richard Trombley'],
+    [0, 'section', true, 'TrombleyIntroduction', 'The Trombley Lineage'],
         [1, 'table', false, 'TrombleyImmigrantsTable','Immigrants of the Trombley Line'],
         [1, 'table', false, 'TrombleyOriginsTable', 'Origins of the Trombley Line'],
         [1, 'section', true, '', 'The Trombley Surname'],

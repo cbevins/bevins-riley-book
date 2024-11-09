@@ -2,7 +2,7 @@
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
 export function rileyManifest(startDepth) {
     const items = [
-    [0, 'section', true, 'RileyIntroduction', 'Direct Ancestors of Sheldon James Riley'],
+    [0, 'section', true, 'RileyIntroduction', 'The Riley Lineage'],
         [1, 'table', false, 'RileyImmigrantsTable','Immigrants of the Riley Line'],
         [1, 'table', false, 'RileyOriginsTable', 'Origins of the Riley Line'],
         [1, 'section', true, '', 'The Riley Surname'],

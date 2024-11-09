@@ -2,7 +2,7 @@
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
 export function dereusManifest(startDepth) {
     const items = [
-    [0, 'section', true, 'DeReusIntroduction', 'Direct Ancestors of Gladys Mae DeReus'],
+    [0, 'section', true, 'DeReusIntroduction', 'The DeReus Lineage'],
         [1, 'table', false, 'DeReusImmigrantsTable','Immigrants of the DeReus Line'],
         [1, 'table', false, 'DeReusOriginsTable', 'Origins of the DeReus Line'],
         [1, 'section', true, '', 'The DeReus Surname'],

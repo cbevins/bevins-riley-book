@@ -2,7 +2,7 @@
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
 export function nattrassManifest(startDepth) {
     const items = [
-    [0, 'section', true, 'NattrassIntroduction', 'Direct Ancestors of Margaret Eva Nattrass'],
+    [0, 'section', true, 'NattrassIntroduction', 'The Nattrass Lineage'],
         [1, 'table', false, 'NattrassImmigrantsTable','Immigrants of the Nattrass Line'],
         [1, 'table', false, 'NattrassOriginsTable', 'Origins of the Nattrass Line'],
         [1, 'section', true, '', 'The Nattrass Surname'],
