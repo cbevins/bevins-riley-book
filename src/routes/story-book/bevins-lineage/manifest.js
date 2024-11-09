@@ -52,14 +52,13 @@ export const manifest =
         ]},
     ]}
 
-
 // Returns an array of objects with the following properties:
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
-export function manifest2(startDepth) {
+export function bevinsManifest(startDepth=0) {
     const items = [
     [0, 'section', true, 'BevinsIntroduction', 'Direct Ancestors of Samuel Bevins'],
-        [1, 'table', false, 'BevinsImmigrantsTable','Immigrants of the Samuel Bevins Line'],
-        [1, 'table', false, 'BevinsOriginsTable', 'Origins of the Samuel Bevins Line'],
+        [1, 'table', false, 'BevinsImmigrantsTable','Immigrants of the Bevins Line'],
+        [1, 'table', false, 'BevinsOriginsTable', 'Origins of the Bevins Line'],
         [1, 'section', true, 'BevinsOrigins', 'Generations in Newbold Verdon, Leicestershire, England'],
             [2, 'figure', false, 'NewboldVerdonMap', 'Newbold Verdon and Environs'],
         [1, 'section', true, '', 'The Bevins Surname'],

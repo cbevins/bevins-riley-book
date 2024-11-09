@@ -24,48 +24,47 @@
  */
 
 export function getManifest(lines) {
-    let header1 = ''
-    let header2 = ''
     const figures = []
+    const headers = ['', '', '', '', '', '', '', '', '', '']
     const items = []
+    const levels = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     const pages = []
     const sections = []
     const tables = []
     for(let i=0; i<lines.length; i++) {
         const [depth, type, newpage, comp, title] = lines[i]
 
-        // If this item is a section, possibly update the page headers
-        if (type === 'section') {
-            if (depth === 0) {
-                header1 = title
-                header2 = ''
-            } else if (depth === 1) {
-                header2 = title
-            }
+        // Update page headers and item levels stacks
+        headers[depth] = title
+        levels[depth]++
+        for (let d=depth+1; d<headers.length; d++) {
+            headers[d] = ''
+            levels[d] = 0
         }
+
         // If item starts a new page, append a new pages entry
         if (newpage) {
             const nextpage = {
                 pageno: pages.length + 1,
-                header1: header1,
-                header2: header2,
+                headers: [...headers],
                 items: []}
             pages.push(nextpage)
         }
 
         // Assign this {page} to the {item}
         const page = pages[pages.length-1]
-        const item = {type, depth, newpage, comp, title, page}
+        const lvl = [...levels]
+        const item = {type, depth, newpage, comp, title, page, levels: lvl}
 
         if (type === 'section') {
-            item.id = sections.length
             sections.push(item)
+            item.id = sections.length   // sections index plus 1
         } else if (type === 'table') {
-            item.id = tables.length
             tables.push(item)
+            item.id = tables.length     // tables index plus 1
         } else if (type === 'figure') {
-            item.id = figures.length
             figures.push(item)
+            item.id = figures.length    // figures index plus 1
         }
 
         // Add this item to the current page

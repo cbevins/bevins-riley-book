@@ -1,15 +1,15 @@
-export const manifest =
-{type: 'section', newpage: true, title: 'Introduction', items: [
-    {type: 'content', newpage: false, comp: 'Introduction'},
-    {type: 'section', newpage: true, title: 'Motivation', items: [
-        {type: 'content', newpage: false, comp: 'Motivation'}]},
-    {type: 'section', newpage: true, title: 'Key Take-Aways', items: [
-        {type: 'content', newpage: false, comp: 'KeyTakeAways'}
-    ]},
-    {type: 'section', newpage: true, title: 'Generations and Notation', items: [
-        {type: 'content', newpage: false, comp: 'GenerationsNotation'}
-    ]},
-    {type: 'section', newpage: true, title: 'Sources and Methods', items: [
-        {type: 'content', newpage: false, comp: 'Sources'},
-    ]}
-]}
+// Returns an array of objects with the following properties:
+// <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
+export function introductionManifest(startDepth=0) {
+    const items = [
+    [0, 'section', true, 'Introduction', 'Introduction'],
+        [1, 'section', true, 'IntroductionMotivation', 'Motivation'],
+        [1, 'section', true, 'IntroductionKeyTakeAways', 'Key Take-Aways'],
+        [1, 'section', true, 'GenerationsNotation', 'Generations and Motivation'],
+        [1, 'section', true, 'IntroductionSources', 'Sources and Methods'],
+    ]
+    for(let i=0; i<items.length; i++) {
+        items[i][0] = items[i][0] + startDepth
+    }
+    return items
+}

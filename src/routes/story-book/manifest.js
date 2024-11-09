@@ -1,37 +1,42 @@
-import { Manifest, getManifest } from '$lib/book'
+import { getManifest } from '$lib/book'
 
-import { manifest as introduction} from './introduction/manifest.js'
-import { manifest as bevins } from './bevins-lineage/manifest.js'
-import { manifest as collins } from './collins-lineage/manifest.js'
-import { manifest as heddens } from './heddens-lineage/manifest.js'
-import { manifest as nattrass } from './nattrass-lineage/manifest.js'
-import { manifest as riley } from './riley-lineage/manifest.js'
-import { manifest as dereus } from './dereus-lineage/manifest.js'
-import { manifest as trombley } from './trombley-lineage/manifest.js'
-import { manifest as nelson } from './nelson-lineage/manifest.js'
-
-import { manifest2 as bevins2 } from './bevins-lineage/manifest.js'
+import { introductionManifest } from './introduction/manifest.js'
+import { bevinsManifest } from './bevins-lineage/manifest.js'
+import { collinsManifest } from './collins-lineage/manifest.js'
+import { heddensManifest } from './heddens-lineage/manifest.js'
+import { nattrassManifest } from './nattrass-lineage/manifest.js'
+import { rileyManifest } from './riley-lineage/manifest.js'
+import { dereusManifest } from './dereus-lineage/manifest.js'
+import { trombleyManifest } from './trombley-lineage/manifest.js'
+import { nelsonManifest } from './nelson-lineage/manifest.js'
 
 export function manifest() {
-    const items = [
-        introduction,
-        bevins,
-        collins,
-        heddens,
-        nattrass,
-        riley,
-        dereus,
-        trombley,
-        nelson]
-    return new Manifest(items)
+    const lines = introductionManifest(0).concat(
+        bevinsManifest(0),
+        collinsManifest(0),
+        heddensManifest(0),
+        nattrassManifest(0),
+        rileyManifest(0),
+        dereusManifest(0),
+        trombleyManifest(0),
+        nelsonManifest(0),
+    )
+    const man = getManifest(lines)
+    return man
 }
 
-export function manifest2() {
-    const lines = bevins2(0)
-    const man = getManifest(lines)
+export function logItems(man) {
     for (let i=0; i<man.items.length; i++) {
         const item = man.items[i]
         console.log(`${item.page.pageno} (${item.newpage}) [${item.depth}]: `
             + `<${item.type}> [${item.comp}] "${item.title}"`)
+    }
+}
+
+export function logPages(man) {
+    for (let i=0; i<man.pages.length; i++) {
+        const page = man.pages[i]
+        console.log(`${page.pageno} (${page.items.length} items) `
+            + `"${page.headers[0]}" "${page.headers[1]}"`)
     }
 }

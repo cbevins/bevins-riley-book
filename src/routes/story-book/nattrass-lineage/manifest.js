@@ -1,7 +1,14 @@
-export const manifest =
-    {type: 'section', newpage: true, title: 'Chapter 5: Direct Ancestors of Margaret Eva Heddens', items: [
-        {type: 'content', newpage: false, comp: 'NattrassIntroduction'},
-        {type: 'section', newpage: false, title: 'Nattrass Family Origins', items: [
-            {type: 'content', newpage: false, comp: 'NattrassOrigins'}]},
-        ]
+// Returns an array of objects with the following properties:
+// <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
+export function nattrassManifest(startDepth) {
+    const items = [
+    [0, 'section', true, 'NattrassIntroduction', 'Direct Ancestors of Margaret Eva Nattrass'],
+        [1, 'table', false, 'NattrassImmigrantsTable','Immigrants of the Nattrass Line'],
+        [1, 'table', false, 'NattrassOriginsTable', 'Origins of the Nattrass Line'],
+        [1, 'section', true, '', 'The Nattrass Surname'],
+    ]
+    for(let i=0; i<items.length; i++) {
+        items[i][0] = items[i][0] + startDepth
     }
+    return items
+}

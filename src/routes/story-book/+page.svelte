@@ -1,6 +1,6 @@
 <script>
-    import { manifest, manifest2 } from './manifest.js'
-    import { Book, Chapter, NewPage, Section, P, Toc } from '$lib/book'
+    import { manifest } from './manifest.js'
+    import { Book, NewPage, ItemTitle, Toc } from '$lib/book'
     import { ContentPlaceholder, FigurePlaceholder, TablePlaceholder } from '$lib/book'
     
     import Introduction from './introduction/Introduction.svelte'
@@ -36,28 +36,23 @@
     function comp(item) {
         // Use the requested component, if it is in the Map
         if (compMap.has(item.comp)) return compMap.get(item.comp)
-        // Otherwise, these types use a standardized component
-        if (item.type === 'chapter') return Chapter
-        if (item.type === 'pageheader') return NewPage
-        if (item.type === 'section') return Section
-        // While these types use a placeholder component
-        if (item.type === 'content') return ContentPlaceholder
+        // Otherwise, use a standardized component
+        if (item.type === 'section') return ContentPlaceholder
         if (item.type === 'figure') return FigurePlaceholder
         if (item.type === 'table') return TablePlaceholder
         throw new Error(`Manifest Item with unknown type: type='${item.type}' id='${item.id}' title='${item.title}''`)
     }
 
+    // const man = manifest()
     const man = manifest()
-    manifest2()
 </script>
 Bevins-Riley Storybook has {man.pages.length} pages
 <Book>
     <!-- <Toc {toc}/> -->
     {#each man.pages as page}
-        {#each page.items as item, n}
-            {#if n === 0}
-                <NewPage {item}/>
-            {/if}
+        <NewPage {page}/>
+        {#each page.items as item}
+            <ItemTitle {item}/>
             <svelte:component this={comp(item)} {item}/>
         {/each}
     {/each}
