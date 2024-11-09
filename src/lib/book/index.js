@@ -1,4 +1,4 @@
-export { createManifest, updateItems } from './createManifest.js'
+export { createManifest, itemSequence, updateItems } from './createManifest.js'
 export { default as Book } from './Book.svelte'
 export { default as BookPart } from './BookPart.svelte'
 export { default as Card } from './Card.svelte'

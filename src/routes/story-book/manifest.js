@@ -32,8 +32,8 @@ export function logItems(man) {
     for (let i=0; i<man.items.length; i++) {
         const item = man.items[i]
         console.log(`${item.part} ${item.levels.join('-')} `
-            + `${item.page.pageno} (${item.newpage}) [${item.depth}]: `
-            + `<${item.type}> [${item.comp}] "${item.title}"`)
+            + `p${item.page.pageno} (${item.newpage}) [${item.depth}]: `
+            + `<${item.type}> [${item.comp}] "${item.title}" id="${item.id}"`)
     }
 }
 

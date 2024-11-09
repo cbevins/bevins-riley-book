@@ -1,7 +1,7 @@
 <script>
     import { manifest } from './manifest.js'
     import { Book } from '$lib/book'
-    
+    import MyToC from './MyToC.svelte'
     import Introduction from './introduction/IntroPart.svelte'
     import BevinsLineage from './bevins-lineage/Lineage.svelte'
     import CollinsLineage from './collins-lineage/Lineage.svelte'
@@ -20,6 +20,7 @@
 </div>
 
 <Book>
+    <MyToC {man}/>
     <Introduction {man} part='intro'/>
     <BevinsLineage {man} part='bevins'/>
     <CollinsLineage {man} part='collins'/>

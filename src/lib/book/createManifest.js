@@ -77,6 +77,22 @@ export function createManifest(lines) {
     return {pages, items, figures, tables, sections}
 }
 
+/**
+ * Joins the item.levels into a string using the 'sep'
+ * @param {object} item Object with an levels[] array
+ * @param {string} sep Separator between each level
+ * @param {integer} startLevel Starting level for the sequence
+ * @param {string} prefix optional string prefix
+ * @returns 
+ */
+export function itemSequence(item, sep, startLevel=0, prefix='') {
+    let str = prefix + item.levels[startLevel]
+    for (let i=startLevel+1; i<item.levels.length; i++) {
+        if (item.levels[i]) str += sep + item.levels[i]
+    }
+    return str
+}
+
 export function updateItems(startDepth, partId, items) {
     for(let i=0; i<items.length; i++) {
         items[i][0] = items[i][0] + startDepth
