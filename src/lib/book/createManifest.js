@@ -25,7 +25,7 @@
  *      - appends the <component> to the current page
  */
 
-export function getManifest(lines) {
+export function createManifest(lines) {
     const figures = []
     const headers = ['', '', '', '', '', '', '', '', '', '']
     const items = []
@@ -34,7 +34,7 @@ export function getManifest(lines) {
     const sections = []
     const tables = []
     for(let i=0; i<lines.length; i++) {
-        const [depth, type, newpage, comp, title] = lines[i]
+        const [depth, type, newpage, comp, title, part] = lines[i]
 
         // Update page headers and item levels stacks
         headers[depth] = title
@@ -48,6 +48,7 @@ export function getManifest(lines) {
         if (newpage) {
             const nextpage = {
                 pageno: pages.length + 1,
+                part,
                 headers: [...headers],
                 items: []}
             pages.push(nextpage)
@@ -56,7 +57,7 @@ export function getManifest(lines) {
         // Assign this {page} to the {item}
         const page = pages[pages.length-1]
         const lvl = [...levels]
-        const item = {type, depth, newpage, comp, title, page, levels: lvl}
+        const item = {type, depth, newpage, comp, title, page, part, levels: lvl}
 
         if (type === 'section') {
             sections.push(item)
@@ -74,4 +75,12 @@ export function getManifest(lines) {
         items.push(item)
     }
     return {pages, items, figures, tables, sections}
+}
+
+export function updateItems(startDepth, partId, items) {
+    for(let i=0; i<items.length; i++) {
+        items[i][0] = items[i][0] + startDepth
+        items[i].push(partId)
+    }
+    return items
 }

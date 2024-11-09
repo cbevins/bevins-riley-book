@@ -1,14 +1,11 @@
-// Returns an array of objects with the following properties:
+    // Returns an array of objects with the following properties:
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
-export function rileyManifest(startDepth) {
-    const items = [
+import { updateItems } from '$lib/book'
+export function rileyManifest(startDepth, partId) {
+    return updateItems(startDepth, partId, [
     [0, 'section', true, 'RileyIntroduction', 'The Riley Lineage'],
         [1, 'table', false, 'RileyImmigrantsTable','Immigrants of the Riley Line'],
         [1, 'table', false, 'RileyOriginsTable', 'Origins of the Riley Line'],
         [1, 'section', true, '', 'The Riley Surname'],
-    ]
-    for(let i=0; i<items.length; i++) {
-        items[i][0] = items[i][0] + startDepth
-    }
-    return items
+    ])
 }

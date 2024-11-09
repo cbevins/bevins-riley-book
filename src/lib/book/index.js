@@ -1,4 +1,4 @@
-export { getManifest } from './getManifest.js'
+export { createManifest, updateItems } from './createManifest.js'
 export { default as Book } from './Book.svelte'
 export { default as Card } from './Card.svelte'
 export { default as Chapter } from './Chapter.svelte'
