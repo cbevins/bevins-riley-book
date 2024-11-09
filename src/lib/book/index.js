@@ -1,5 +1,6 @@
 export { createManifest, updateItems } from './createManifest.js'
 export { default as Book } from './Book.svelte'
+export { default as BookPart } from './BookPart.svelte'
 export { default as Card } from './Card.svelte'
 export { default as Chapter } from './Chapter.svelte'
 export { default as Chartouche } from './Cartouche.svelte'

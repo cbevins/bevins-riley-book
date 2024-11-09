@@ -11,7 +11,7 @@ import { trombleyManifest } from './trombley-lineage/manifest.js'
 import { nelsonManifest } from './nelson-lineage/manifest.js'
 
 export function manifest() {
-    const lines = introductionManifest(0).concat(
+    const lines = introductionManifest(0, 'intro').concat(
         bevinsManifest(0, 'bevins'),
         collinsManifest(0, 'collins'),
         heddensManifest(0, 'heddens'),

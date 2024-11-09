@@ -7,7 +7,7 @@
 
     // Maps the Manifest item.comp key to its Svelte component
     const comps = new Map([
-        ['NelsonIntroduction', Introduction],
+        ['Introduction', Introduction],
     ])
 </script>
 
