@@ -1,6 +1,7 @@
 <script>
     import { NewPage, ItemTitle } from '$lib/book'
     import { ContentPlaceholder, FigurePlaceholder, TablePlaceholder } from '$lib/book'
+    import { FigureContainer, TableContainer } from '$lib/book'
 
     export let man  // reference to a {manifest} object
     export let part // display only pages with the part id
@@ -22,7 +23,13 @@
         <NewPage {page}/>
         {#each page.items as item}
             <ItemTitle {item}/>
-            <svelte:component this={comp(item)} {item}/>
+            {#if item.type === 'table'}
+                <TableContainer comp={comp(item)} {item}/>
+            {:else if item.type === 'figure'}
+                <FigureContainer comp={comp(item)} {item}/>
+            {:else}
+                <svelte:component this={comp(item)} {item}/>
+            {/if}
         {/each}
     {/if}
 {/each}

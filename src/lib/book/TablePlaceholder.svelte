@@ -1,28 +1,17 @@
 <script>
-    import {P} from '$lib/book'
+    import {P, SimpleTable} from '$lib/book'
     export let item
-</script>
-<div class="border-2 border-black mt-4 mb-4 p-4 rounded overflow-hidden shadow-lg shadow-slate-500 bg-amber-100">
-    <P>The Svelte component [{item.comp}] is currently under construction.</P>
 
-<table class="mx-auto text-sm text-left text-gray-500 rounded-lg">
-    <thead class="text-xs text-gray-700 bg-gray-500">
-        <tr>
-            <th scope="col" class="px-2 py-1">Row</th>
-            <th scope="col" class="px-2 py-1">Col 1</th>
-            <th scope="col" class="px-2 py-1">Col 2</th>
-            <th scope="col" class="px-2 py-1">Col 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        {#each [1, 2, 3, 4] as row}
-            <tr class="odd:bg-white even:bg-gray-50 bg-white border-b ">
-                <td class="px-2 py-2 text-left">Row {row}</td>
-                <td class="px-2 py-2 text-center">Col 1</td>
-                <td class="px-2 py-2 text-center">Col 2</td>
-                <td class="px-2 py-2 text-center">Col 3</td>
-            </tr>
-        {/each}
-    </tbody>
-</table>
-</div>
+    const tdata = {
+        cols: ['Row', 'A', 'B', 'C', 'D'],
+        rows: [
+            ['1', 'A1', 'B1', 'C1', 'D1'],
+            ['2', 'A2', 'B2', 'C2', 'D2'],
+            ['3', 'A3', 'B3', 'C3', 'D3'],
+            ['4', '4A', 'B4', 'C4', 'D4'],
+        ]
+    }
+</script>
+
+<P>The Svelte component [{item.comp}] is currently under construction.</P>
+<SimpleTable {tdata}/>
