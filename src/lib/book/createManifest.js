@@ -37,11 +37,13 @@ export function createManifest(lines) {
         const [depth, type, newpage, comp, title, part] = lines[i]
 
         // Update page headers and item levels stacks
-        headers[depth] = title
-        levels[depth]++
-        for (let d=depth+1; d<headers.length; d++) {
-            headers[d] = ''
-            levels[d] = 0
+        if (type === 'section') {
+            headers[depth] = title
+            levels[depth]++
+            for (let d=depth+1; d<headers.length; d++) {
+                headers[d] = ''
+                levels[d] = 0
+            }
         }
 
         // If item starts a new page, append a new pages entry

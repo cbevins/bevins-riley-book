@@ -1,8 +1,14 @@
 // Returns an array of objects with the following properties:
 // <depth>, <'section'|'figure'|'table'>, <newpage>, <component>, <title>
 import { updateItems } from '$lib/book'
-export function bevinsManifest(startDepth, partId) {
-    return updateItems(startDepth, partId, [
+import { introManifest } from './intro/manifest.js'
+import { originsManifest } from './origins/manifest.js'
+import { surnameManifest } from './surname/manifest.js'
+import { bevinsBoltManifest } from './bevins-bolt/manifest.js'
+import { bevinsWhiteManifest } from './bevins-white/manifest.js'
+import { nativeAmericansManifest } from './native-americans/manifest.js'
+
+const manifestFull = [
     [0, 'section', true, 'BevinsIntroduction', 'The Bevins Lineage'],
         [1, 'table', false, 'BevinsImmigrantsTable','Immigrants of the Bevins Line'],
         [1, 'table', false, 'BevinsOriginsTable', 'Origins of the Bevins Line'],
@@ -18,5 +24,16 @@ export function bevinsManifest(startDepth, partId) {
         [1, 'section', true, '', 'The Immigrants Mary Ann (and Allace) White'],
             [2, 'section', false, 'MaryWhiteInEngland', 'Life in England'],
         [1, 'section', true, 'BevinsNativeAmericanBranch', 'Native American Family Connections'],
-    ])
+]
+
+const manifest = introManifest.concat(
+    originsManifest,
+    surnameManifest,
+    bevinsBoltManifest,
+    bevinsWhiteManifest,
+    nativeAmericansManifest
+)
+
+export function bevinsManifest(startDepth, partId) {
+    return updateItems(startDepth, partId, manifest)
 }
