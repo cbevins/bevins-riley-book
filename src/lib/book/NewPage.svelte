@@ -1,10 +1,11 @@
 <script>
     export let page
     export let showBreak = true
+    export let firstPage = false
 </script>
 
 <!-- If not first page, add a bottom margin to previous page -->
-{#if page.pageno !== 1}
+{#if ! firstPage}
     <div class='mt-8'></div>
 {/if}
 

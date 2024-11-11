@@ -1,7 +1,7 @@
 <script>
     import { itemSequence } from '$lib/book'
-    export let man      // book body manifest
-    export let part     // 'toc'
+    export let body      // book body manifest
+    export let back     // back matter manifest
     
     function href(item) {
         if (item.type === 'section')
@@ -37,11 +37,10 @@
         html += `- ${item.title}</a>`
         return html
     }
-
 </script>
 
 <table><tbody>
-    {#each man.pages as page }
+    {#each body.pages as page }
         {#each page.items as item }
             <tr class="odd:bg-white even:bg-gray-50 bg-white border-b ">
                 {#if item.depth === 0}
