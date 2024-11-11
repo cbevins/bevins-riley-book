@@ -102,3 +102,22 @@ export function updateItems(startDepth, partId, items) {
     }
     return items
 }
+
+// item = {type, depth, newpage, comp, title, page, part, levels: lvl}
+export function logItems(man) {
+    for (let i=0; i<man.items.length; i++) {
+        const item = man.items[i]
+        console.log(`${item.part} ${item.levels.join('-')} `
+            + `p${item.page.pageno} (${item.newpage}) [${item.depth}]: `
+            + `<${item.type}> [${item.comp}] "${item.title}" id="${item.id}"`)
+    }
+}
+
+// page = {pageno, part, headers, items[]}
+export function logPages(man) {
+    for (let i=0; i<man.pages.length; i++) {
+        const page = man.pages[i]
+        console.log(`${page.part} ${page.pageno} (${page.items.length} items) `
+            + `"${page.headers[0]}" "${page.headers[1]}"`)
+    }
+}

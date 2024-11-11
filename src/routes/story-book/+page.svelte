@@ -1,9 +1,14 @@
 <script>
+    import { manifest as backManifest } from './back-matter/manifest.js'
     import { manifest as bodyManifest } from './body/manifest.js'
+    import { manifest as frontManifest } from './front-matter/manifest.js'
     import { Book } from '$lib/book'
+    import BackMatter from './back-matter/BackMatter.svelte'
     import BookBody from './body/BookBody.svelte'
-    import MyToC from './MyToC.svelte'
+    import FrontMatter from './front-matter/FrontMatter.svelte'
 
+    const frontMan = frontManifest(0, 'front')
+    const backMan = backManifest(0, 'back')
     const bodyMan = bodyManifest()
 </script>
 
@@ -12,6 +17,6 @@
 </div>
 
 <Book>
-    <MyToC man={bodyMan}/>
+    <FrontMatter front={frontMan} body={bodyMan} back={backMan}/>
     <BookBody man={bodyMan}/>
 </Book>

@@ -3,6 +3,7 @@
  * generates a {manifest} object from the array, and returns a reference to it.
  */
 import { createManifest } from '$lib/book'
+import { logItems, logPages } from '$lib/book'
 
 // Section manifest definition access functions.
 import { introductionManifest } from './introduction/manifest.js'
@@ -16,7 +17,7 @@ import { trombleyManifest } from './trombley/manifest.js'
 import { nelsonManifest } from './nelson/manifest.js'
 
 export function manifest() {
-    const lines = introductionManifest(0, 'intro').concat(
+    const items = introductionManifest(0, 'intro').concat(
         bevinsManifest(0, 'bevins'),
         collinsManifest(0, 'collins'),
         heddensManifest(0, 'heddens'),
@@ -26,27 +27,8 @@ export function manifest() {
         trombleyManifest(0, 'trombley'),
         nelsonManifest(0, 'nelson'),
     )
-    const man = createManifest(lines)
-    // logPages(man)
-    // logItems(man)
+    const man = createManifest(items)
+    if (false) logPages(man)
+    if (false) logItems(man)
     return man
-}
-
-// item = {type, depth, newpage, comp, title, page, part, levels: lvl}
-export function logItems(man) {
-    for (let i=0; i<man.items.length; i++) {
-        const item = man.items[i]
-        console.log(`${item.part} ${item.levels.join('-')} `
-            + `p${item.page.pageno} (${item.newpage}) [${item.depth}]: `
-            + `<${item.type}> [${item.comp}] "${item.title}" id="${item.id}"`)
-    }
-}
-
-// page = {pageno, part, headers, items[]}
-export function logPages(man) {
-    for (let i=0; i<man.pages.length; i++) {
-        const page = man.pages[i]
-        console.log(`${page.part} ${page.pageno} (${page.items.length} items) `
-            + `"${page.headers[0]}" "${page.headers[1]}"`)
-    }
 }
