@@ -3,21 +3,16 @@
     export let item
 </script>
 <P>
-The Bevins line is 100% English, with a long history in the area
-surrounding <Place>Newbold Verdon, Leicestershire, England</Place>.
-
+Grandfather <Name>Samuel Bevins</Name>'s father <Name ggp='1'>William Alfred Bevins</Name> was born in
+<Place>Leicester, England</Place> in 1843.
+He arrived in America at age 2 prior to the American Civil War in 1845 along with his parents
+<Name ggp='2' life='1843-1935'>William Longford Bevins</Name> (age 30) and
+<Name ggp='2' life='1848-1922'>Mary Bolt</Name> age 23.
+Also accompanying them were his older step brother
+<Name life='1838-1923'>John Henry Bevins</Name> age 7 and an older brother
+<Name life='1841-1926'>Joseph Bevins</Name> age 4.
 </P><P>
-Our great grandfather <Name ggp='1'>William Alfred Bevins</Name> was
-born in <Place>Leicester, England</Place> in 1843,
-and arrived in America with his parents
-<Name ggp='2'>William Longford Bevins</Name>
-and <Name ggp='2'>Mary Bolt</Name> in 1841, prior to the American Civil War.
-</P><P>
-Samuel's mother <Name ggp='1' life='1848-1922'>Mary Ann White</Name>
-was also born in England (possibly Torquey in Devon)
-and arrived in America in 1871, after the Civil War.
-</P><P>
-In fact, the Bevins history goes back at least 5 generations
+I have been able to document the Bevins lineage going back at least 5 generations
 in <Place>Newbold Verdon</Place>.
 </P>
 <TextBox>
