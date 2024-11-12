@@ -6,6 +6,7 @@
 The origins of grandfather <Name>Samuel Bevins</Name>'s mother's
 <Name ggp='1' life='1848-1922'>Mary Ann White</Name> is more of a puzzle.
 We know the following about her from source documents:
+
 <ul class="mt-2 list-inside list-disc">
 <li class='py-1'>
 1843: <Name ggp='2' life='1843-1935'>William Alfred Bevins</Name> is born in

@@ -6,6 +6,7 @@
     import BevinsOrigins from './origins/A.svelte'
     import BevinsTimeLine from './migration/TimeLine.svelte'
     import MaryAnnWhite from './origins/MaryAnnWhite.svelte'
+    import BattleBosworth from './origins/BattleBosworth.svelte'
     import WilliamAlfredBevins from './origins/WilliamAlfredBevins.svelte'
 
     export let man  // reference to a {manifest} object
@@ -16,6 +17,7 @@
         ['BevinsIntroduction', BevinsIntroduction],
         ['BevinsOrigins', BevinsOrigins],
         ['WilliamAlfredBevins', WilliamAlfredBevins],
+        ['BattleBosworth', BattleBosworth],
         ['MaryAnnWhite', MaryAnnWhite],
         ['BevinsMigrations', BevinsMigrations],
         ['BevinsImmigrantsTable', BevinsImmigrantsTable],

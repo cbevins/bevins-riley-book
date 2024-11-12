@@ -23,6 +23,6 @@ export function manifest() {
     const man = createManifest(items)
 
     if (false) logPages(man)
-    if (true) logItems(man)
+    if (false) logItems(man)
     return man
 }
