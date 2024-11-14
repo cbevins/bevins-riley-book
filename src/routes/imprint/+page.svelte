@@ -1,11 +1,17 @@
 <script>
-    import { getManifest } from './manifest.js'
-    import ManifestTable from './ManfiestTable.svelte'
+    import { createManifest, Book } from '$lib/imprint'
+    import { frontMatter } from './frontMatter.js'
+    import { bodyMatter } from './bodyMatter.js'
 
-    // man{front, body}
-    const man = getManifest()
-    console.log('Refresh with pages', man.body.pages.length)
-    // console.log(man.body)
+    import Body from './body/A.svelte'
+    import Front from './front/A.svelte'
+
+    const frontMan = createManifest(frontMatter, 'book')
+    const bodyMan = createManifest(bodyMatter, 'book')
+    console.log(bodyMan.pages[0])
 </script>
 Imprint
-<ManifestTable man={man.body}/>
+<Book>
+    <Front man={frontMan}/>
+    <Body man={bodyMan}/>
+</Book>

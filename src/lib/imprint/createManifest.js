@@ -2,27 +2,32 @@
  * Returns a Book {manifest} object with the properties:
  *  {pages, embeds: {callouts, figures, other, tables}}
  * 
- * The constructor is passed an array of 'lines' defining the Book structure.
+ * There are 3 Book parts:
+ *  - 1 Front matter has its own manifest with page numbers and headers
+ *  - 2 Book body starts page number and headers
+ *  - 3 Back matter constinues with the page numbering and headers
+ * Book front and back covers must be added independently.
+ * 
+ * The constructor is passed an array of 'lines' defining the Book sections.
+ * Each section is defined by an array of:
+ *  [<folder> <depth>, <pager>, <compKey>, <title>, <embeds>], where
+ *  - depth is the section nesting level
+ *      - 0 is the *part* level with the book title and is never displayed
+ *      - >=1 is a *section* level
+ *  - pager is 'same', 'newpage', 'rector', or 'verso'
+ *  - compKey is a string key to a Svelte component 'import'
+ *      - if falsey or empty, no component will be displayed
+ *      - if compKey *cannot be matched* to a Svelte component 'import',
+ *          a placeholder component will be displayed
+ *      - if compKey *is matched* to a Svelte compnent 'import',
+ *          the Svelte component will be displayed
+ *  - title is a string that, if not falsey or empty, is
+ *      - appended to the table of contents, and
+ *      - appended to the current {page}
+ *  - embeds is an optional array of items embedded in the section
+ *      to be added to a 'List of <embedType>s'. Each embed is an array of 
+ *      [<'callout'|'figure'|'map'|'table'>, <title>]
  * Each line defines a 'section', 'figure', or 'table', as follows:
- * 
- *  - <folder>, <depth>, 'section', <newpage>, <component>, <title>
- *      Appends text content to the current page:
- *      - enters the <title> into the ToC,
- *      - appends the <title> onto the current page.
- *      - appends the <component> onto the current page.
- * 
- *      If <title> is missing or an empty string:
- *      - appends just the <component> onto the current page.
- * 
- *      If <component> is '':
- *      - enters the <title> into the ToC,
- *      - appends just the <title> onto the current page.
- * 
- *  - <depth>, <'figure'|'table', <newpage>, <component>, <title>
- *      Appends figure or table content onto the current page:
- *      - enters the <title> into the list of figures or tables
- *      - appends the <title> to the current page
- *      - appends the <component> to the current page
  */
 
 export const ignore = 'ignore'  //
@@ -41,19 +46,21 @@ export function createManifest(lines, prefix) {
     const tables = []
 
     // temporary
+    let bookTitle = 'Unknown Book Title'
     const titles = ['', '', '', '', '', '']
     const counts = [0, 0, 0, 0, 0, 0]
     let pageno = 0
     let page = null     // reference to the current page
     let id = ''         // generic, shared id or href variable
 
-    function addPage() {
+    function addPage(folder) {
         pageno++
         page = {
-            num: pageno,
             id: prefix + '-page-' + pageno,
+            folder,
+            num: pageno,
+            sections: [],
             titles: [... titles],
-            sections: []
         }
         pages.push(page)
     }
@@ -65,14 +72,23 @@ export function createManifest(lines, prefix) {
         // add any missing {embed}s array then unpack elements
         if (line.length < 6) line.push([])
         const [folder, depth, pager, compkey, title, embeds] = line
-        if (pager === ignore) continue
+
+        // If first line, set the book title
+        if (ln === 0 && depth === 0) {
+            titles[depth] = line[4]
+            counts[depth]++
+            continue
+        }
+        // if (pager === ignore) continue
 
         // if recto or verso, insert any necessary {page}s before this new section
-        if ((pager===recto && pageno%2=== 1) || (pager===verso && pageno%2=== 0))
-            addPage()
+        if ( (pager===recto && pageno%2=== 1)
+            || (pager===verso && pageno%2=== 0))
+            addPage(folder)
 
         // Update the title and counts stacks
         titles[depth] = title
+        if (depth === 0) console.log('First line', line)
         counts[depth]++
         for (let d=depth+1; d< titles.length; d++) {
             titles[d] = ''
@@ -81,12 +97,12 @@ export function createManifest(lines, prefix) {
 
         // If section starts a new page, append a new {page} entry
         if (pager === newpg || pager === recto || pager === verso)
-            addPage()
+            addPage(folder)
 
         // Build the  nested {section} id
         id = prefix + '-section'
         for(let j=0; j<counts.length; j++)
-            if (counts[j]) id += `-${j}`
+            if (counts[j]) id += `-${counts[j]}`
 
         // Add the new {section} to the current {page}
         const section = {folder, depth, pager, compkey, title, embeds: [],

@@ -1,6 +1,5 @@
 <script>
     export let man  // an array
-    console.log('Refresh 2 with pages', man.pages.length)
     const title = man.pages[0].titles[0]
 </script>
 
