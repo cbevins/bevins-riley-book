@@ -15,3 +15,6 @@ export { default as SectionContent } from './SectionContent.svelte'
 export { default as SectionPlaceholder } from './SectionPlaceholder.svelte'
 export { default as SectionTitle } from './SectionTitle.svelte'
 export { default as Source } from './Source.svelte'
+
+export { default as Pager } from './Pager.svelte'
+export { setup } from './setup.js'

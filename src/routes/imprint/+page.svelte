@@ -8,7 +8,7 @@
 
     const frontMan = createManifest(frontMatter, 'book')
     const bodyMan = createManifest(bodyMatter, 'book')
-    console.log(bodyMan.pages[0])
+    // console.log(bodyMan.pages[0])
 </script>
 Imprint
 <Book>
