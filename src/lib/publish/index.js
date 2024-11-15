@@ -1,3 +1,7 @@
 export { setup } from './setup.js'
+export { publish, publishFirst } from './publish.js'
 export { default as Book } from './Book.svelte'
+export { default as P } from './P.svelte'
 export { default as Pager } from './Pager.svelte'
+export { default as Publish } from './Publish.svelte'
+export { default as SectionPlaceholder } from './SectionPlaceholder.svelte'

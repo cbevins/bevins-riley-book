@@ -6,6 +6,7 @@
 
     let num = pages.length + 1
     section.page = num
+    console.log(`Pager page ${num} for ${section.name} ${section.depth} '${section.header0}' '${section.header1}'`)
     pages.push(section)
 </script>
 
