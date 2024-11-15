@@ -23,6 +23,6 @@
 
 <div id={'page-'+num}
         class='relative w-[7in] h-[0.75in] drop-shadow-md border-2 border-slate-200'>
-    <div class="float-left mt-2 italic">{section.title}</div>
+    <div class="float-left mt-2 italic">{section.header0}<br>{section.header1}</div>
     <div class="float-right mt-2 italic">Page {num}</div>
 </div>
