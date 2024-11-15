@@ -5,6 +5,6 @@
     import LEI from './LEI/publish.svelte'
     export let man, section
 </script>
-<SectionPlaceholder {section}/>
+<!-- <SectionPlaceholder {section}/> -->
 <Publish {man} parent={section} comp={DEV} tag='DEV' title='Devonshire'/>
 <Publish {man} parent={section} comp={LEI} tag='LEI' title='Leicestershire'/>

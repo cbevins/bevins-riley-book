@@ -5,6 +5,6 @@
     import BC from './BC/publish.svelte'
     export let man, section
 </script>
-<SectionPlaceholder {section}/>
+<!-- <SectionPlaceholder {section}/> -->
 <Publish {man} parent={section} comp={AB} tag='AB' title='Alberta'/>
 <Publish {man} parent={section} comp={BC} tag='BC' title='British Columbia'/>

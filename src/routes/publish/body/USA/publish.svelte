@@ -6,7 +6,7 @@
     import OR from './OR/publish.svelte'
     export let man, section
 </script>
-<SectionPlaceholder {section}/>
+<!-- <SectionPlaceholder {section}/> -->
 <Publish {man} parent={section} comp={MN} tag='MN' title='Minnesota'/>
 <Publish {man} parent={section} comp={MT} tag='MT' title='Montana'/>
 <Publish {man} parent={section} comp={OR} tag='OR' title='Oregon'/>

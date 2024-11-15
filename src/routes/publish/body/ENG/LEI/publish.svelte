@@ -3,4 +3,4 @@
     import { P, SectionPlaceholder } from '$lib/publish'
     export let man, section
 </script>
-<SectionPlaceholder {section}/>
+<!-- <SectionPlaceholder {section}/> -->

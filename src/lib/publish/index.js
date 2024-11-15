@@ -1,5 +1,5 @@
 export { setup } from './setup.js'
-export { publish, publishFirst } from './publish.js'
+export { publish, publishInit } from './publish.js'
 export { default as Book } from './Book.svelte'
 export { default as P } from './P.svelte'
 export { default as Pager } from './Pager.svelte'

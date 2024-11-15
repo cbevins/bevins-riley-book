@@ -1,51 +1,50 @@
-export function publishFirst(tag, title, items=[]) {
-    const section = {
-        comp: null,
-        depth: 0,
-        header0: title,
-        header1: '',
-        items,
-        name: tag,
-        page: 1,
-        parent: null,
-        pager: 'first',
-        order: 0,
-        sections: [],
-        seq: '00',
-        tag,
-        title
-    }
+/**
+ * Returns an initialized empty {man} and parent {section}
+ */
+export function publishInit() {
     const man = {
         pages: [],          // [{num: 1, sections: [section]}],
-        depth0: section,    // root {section} reference
+        depth0: null,    // root {section} reference
         depth1: null,       // reference to running current depth 1 {section}
         sections: new Map()
     }
-    man.sections.set(section.seq, section)
-    return {man, section}
+    return man
 }
 
 export function publish(man, parent, comp, tag, title, items=[], pager='newpg') {
+    let depth = parent ? parent.depth + 1: 0
+    console.log(`publish(${tag} ${title})`)
     const section = {
         comp,
-        depth: parent.depth + 1,
-        header0: man.depth0.title,
-        header1: man.depth1 ? man.depth1.title : '',
-        items, order: man.sections.size,
-        name: parent.name + '-' + tag,
+        depth,
+        header0: '',
+        header1: '',
+        items,
+        order: man.sections.size,
+        name: parent ? (parent.name + '-' + tag) : tag,
         page: man.pages.length + 1,
-        parent: null,
+        parent,
         pager,
         sections: [],
-        seq: parent.seq + '-' + `${parent.sections.length+1}`.padStart(2,'0'),
+        seq: parent ?
+            (parent.seq + '-' + `${parent.sections.length+1}`.padStart(2,'0'))
+            : '00',
         tag,
         title
     }
-    if (section.depth === 1) {
+    if (depth === 0) {
+        man.depth0 = section
+        section.header0 = title
+        section.header1 = ''
+    } else if (depth === 1) {
         man.depth1 = section
+        section.header0 = man.depth0.title
         section.header1 = title
+    } else {
+        section.header0 = man.depth0.title
+        section.header1 = man.depth1.title
     }
-    parent.sections.push(section)
+    if (parent) parent.sections.push(section)
     man.sections.set(section.seq, section)
     return section
 }
