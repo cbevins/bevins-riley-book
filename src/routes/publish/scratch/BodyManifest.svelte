@@ -1,15 +1,11 @@
 <script>
-    import Content from './Content.svelte'
-    import Page from './Page.svelte'
-    import Placeholder from './Placeholder.svelte'
-    import Section from './Section.svelte'
-
+    import { Content, Page, Placeholder, Section } from '$lib/publish'
     import CanManifest from './CAN/Manifest.svelte'
     import EngManifest from './ENG/Manifest.svelte'
     import UsaManifest from './USA/Manifest.svelte'
 
     export let man
-    export let depth
+    export let depth = 1
     const d1 = depth + 1
 </script>
 <Page {man}/>
