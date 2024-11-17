@@ -22,4 +22,4 @@
 
     <Page {man}/>
     <Section {man} depth={d1} folder='OR' title='Oregon'/>
-    <Content {man} depth={d1} comp={Placeholder} file='ORp1'/>
+    <Content {man} depth={d1} comp={null} file='ORp1'/>

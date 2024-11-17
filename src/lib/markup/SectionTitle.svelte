@@ -1,39 +1,26 @@
 <script>
-    // <SectionTitle> is used by <BookPart>
-    import { same, ignore } from './createManifest.js'
+    export let id
+    export let depth
+    export let newpage = false  // true if section at top of a new page
+    export let prefix = ''      // optional prefix (section number) before title
+    export let title = ''
 
-    export let section 
-    const id = section.id
-    const parts = id.split('-')
-    let part = parts[3]
-    for (let i=4; i<parts.length; i++) part += '.' + parts[i]
-    const text = part + ' ' + section.title
-    const newpage = section.pager !== same && section.pager !== ignore
+    const text = prefix + ' ' + title
 </script>
 
+<!-- Add more space before this title -->
+{#if ! newpage}
+<div class="mt-4"></div>
+{/if}
+
 <div class='font-serif font-semibold'>
-    {#if newpage}
-            {#if section.depth <= 1}
-                <div id={id} class="text-2xl mt-3">{text}</div>
-            {:else if section.depth === 2}
-                <div id={id} class="text-xl mt-3">{text}</div>
-            {:else if section.depth === 3}
-                <div id={id} class="text-lg mt-3">{text}</div>
-            {:else}
-                <div id={id} class="text-lg mt-3 font-normal">{text}</div>
-            {/if}
+    {#if depth <= 1}
+        <div id={id} class="text-2xl mt-3">{text}</div>
+    {:else if depth === 2}
+        <div id={id} class="text-xl mt-3">{text}</div>
+    {:else if depth === 3}
+        <div id={id} class="text-lg mt-3">{text}</div>
+    {:else}
+        <div id={id} class="text-lg mt-3 font-normal">{text}</div>
     {/if}
-    
-    <!-- Add more space before this title -->
-    {#if ! newpage}
-        {#if section.depth <= 1}
-                <div id={id} class="text-2xl mt-8">{text}</div>
-            {:else if section.depth === 2}
-                <div id={id} class="text-xl mt-8">{text}</div>
-            {:else if section.depth === 3}
-                <div id={id} class="text-lg mt-8">{text}</div>
-            {:else}
-                <div id={id} class="text-lg mt-8 font-normal">{text}</div>
-            {/if}
-    {/if}
-    </div>
+</div>

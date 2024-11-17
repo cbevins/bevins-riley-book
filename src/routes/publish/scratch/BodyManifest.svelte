@@ -1,5 +1,5 @@
 <script>
-    import { Content, Page, Placeholder, Section } from '$lib/publish'
+    import { Content, Page, Section } from '$lib/publish'
     import CanManifest from './CAN/Manifest.svelte'
     import EngManifest from './ENG/Manifest.svelte'
     import UsaManifest from './USA/Manifest.svelte'
@@ -8,6 +8,7 @@
     export let depth = 1
     const d1 = depth + 1
 </script>
+
 <Page {man}/>
 <Section {man} {depth} folder='UN' title='United Nations'/>
     <CanManifest {man} depth={d1} />

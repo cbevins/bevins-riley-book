@@ -28,6 +28,7 @@ class ManifestContent extends ManifestItem {
 class ManifestPage extends ManifestItem {
     constructor(idx, href, page, recto, verso) {
         super('page', idx, href, page)
+        this.depth = page
         this.recto = recto
         this.verso = verso
     }
@@ -61,7 +62,7 @@ export class Manifest {
         this.table = 0      // running table number
         const root = new ManifestSection(
             0,      // idx = item's index into the this.items[] array
-            href,   // href
+            href+this.hrefSep+'section',   // href
             0,      // page
             -1,     // pidx = parent's idx into this.items[]
             0,      // depth
@@ -82,7 +83,7 @@ export class Manifest {
     // Called by <Content> Svelte component script
     addContent(depth, folder, comp) {
         const idx = this.items.length
-        const pidx = this.sectionParentIdx(depth)
+        const pidx = this.contentSection(depth)
         const parent = this.items[pidx]
         // href looks like 'body-01-02-03-content-<folder>'
         const href = parent.href + this.hrefSep + 'content' + this.hrefSep + folder
@@ -110,7 +111,7 @@ export class Manifest {
         const pidx = this.sectionParentIdx(depth)
         const parent = this.items[pidx]
         const seq = this.sectionSeq(depth)
-        // href looks like 'body-01-02-03'
+        // href looks like 'body-section-01-02-03'
         const href = parent.href + this.hrefSep + seq
         // path looks like 'body-bevins-origins'
         const path = parent.path + this.pathSep + folder
@@ -126,6 +127,17 @@ export class Manifest {
             title       // title
         )
         return this._addItem(item)
+    }
+
+    contentSection(depth) {
+        for(let pidx=this.items.length-1; pidx>=0; pidx--) {
+            const item = this.items[pidx]
+            if(item.isSection()) {
+                if (item.depth === depth)
+                    return pidx
+            }
+        }
+        throw new Error(`contentSection(${depth}) not found.`)
     }
 
     sectionParentIdx(depth) {
