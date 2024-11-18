@@ -5,6 +5,7 @@
     export let chapter = ''
     export let showBreak = true
     export let firstPage = false
+    console.log('page', num, 'id', id)
 </script>
 
 <!-- If not first page, add a bottom margin to previous page -->

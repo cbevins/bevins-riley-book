@@ -13,6 +13,7 @@
                 <th scope="col" class="px-2 py-1">Index</th>
                 <th scope="col" class="px-2 py-1">Type</th>
                 <th scope="col" class="px-2 py-1">Page</th>
+                <th scope="col" class="px-2 py-1">Depth</th>
                 <th scope="col" class="px-2 py-1">Href</th>
                 <th scope="col" class="px-2 py-1">Path</th>
                 <th scope="col" class="px-2 py-1">Folder</th>
@@ -25,6 +26,7 @@
             <td class="px-2 py-2 text-left">{item.idx}</td>
             <td class="px-2 py-2 text-left">{item.type}</td>
             <td class="px-2 py-2 text-left">{item.page}</td>
+            <td class="px-2 py-2 text-left">{item.depth}</td>
             <td class="px-2 py-2 text-left">{item.href}</td>
             <td class="px-2 py-2 text-left">{item.path}</td>
             <td class="px-2 py-2 text-left">{item.folder}</td>

@@ -1,6 +1,5 @@
 <script>
     import { Date, Name, P, Place } from '$lib/book'
-    export let item
 </script>
 <P>
 Our father <Name sup='p' life='1931-1997'>William Collins Bevins</Name>

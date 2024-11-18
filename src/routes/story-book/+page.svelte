@@ -1,22 +1,44 @@
 <script>
-    import { manifest as backManifest } from './back-matter/manifest.js'
-    import { manifest as bodyManifest } from './body/manifest.js'
-    import { Book } from '$lib/book'
-    import BackMatter from './back-matter/BackMatter.svelte'
-    import BookBody from './body/BookBody.svelte'
-    import FrontMatter from './front-matter/FrontMatter.svelte'
+    import { Book } from '$lib/markup'
+    import { Manifest, ManifestTable, Publish, TableContents } from '$lib/publish'
 
-    // const frontMan = frontManifest()
-    const backMan = backManifest()
-    const bodyMan = bodyManifest()
+    import BodyManifest from './body/Manifest.svelte'
+    import FaceManifest from './face/Manifest.svelte'
+    import FrontManifest from './front/Manifest.svelte'
+
+    // Define the Book
+    const author = 'Collin Douglas Bevins'
+    const copyright = '2025'
+    const title = 'Our Ancestors through Time and Place'
+    const subtitle = 'History and Geography of the Bevins and Riley Families'
+    const showBreak = true
+
+    // Create an un-numbered Manifest for the cover, title, frontispiece, etc
+    const faceMan = new Manifest('face')
+    
+    // Create a roman-numeral front matter Manifest
+    const frontMan = new Manifest('front')
+
+    // Create an arabic-numeral Manifest for the book body and back matter
+    const bodyMan = new Manifest('body')
 </script>
 
 <div class=" mt-4 mb-2 p-2 bg-blue-100 border-2 border-black rounded shadow-lg shadow-slate-500 overflow-hidden">
-    The Bevins-Riley Storybook currently, has {bodyMan.pages.length} pages.
+    The Bevins-Riley Storybook currently, has {bodyMan.page} pages.
 </div>
 
 <Book>
-    <FrontMatter body={bodyMan} back={backMan}/>
-    <BookBody man={bodyMan}/>
-    <BackMatter body={bodyMan} back={backMan}/>
+    <!-- Compile the face Manifest -->
+    <FaceManifest man={faceMan}/>
+
+    <!-- Compile the front Manifest -->
+    <FrontManifest man={frontMan}/>
+
+    <!-- Compile the body Manifest -->
+    <BodyManifest man={bodyMan}/>
+
+    <!-- Temporarily display the Body manifest -->
+    <!-- <ManifestTable man={bodyMan}/> -->
+    <TableContents man={bodyMan}/>
+    <Publish man={bodyMan} {title} {showBreak}/>
 </Book>

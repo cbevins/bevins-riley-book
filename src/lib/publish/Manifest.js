@@ -1,4 +1,4 @@
-// Doen't calculate anything; simply creates the object with full properties
+// Doesn't calculate anything; simply creates the object with full properties
 class ManifestItem {
     constructor(type, idx, href, page) {
         this.type = type    // 'page', 'contebnt', 'section', 'figure', 'table'
@@ -12,7 +12,7 @@ class ManifestItem {
     isSection() {return false}
     isTable() {return false}
 }
-// Doen't calculate anything; simply creates the object with full properties
+// Doesn't calculate anything; simply creates the object with full properties
 class ManifestContent extends ManifestItem {
     constructor(idx, href, page, pidx, depth, folder, path, comp) {
         super('content', idx, href, page)
@@ -24,7 +24,7 @@ class ManifestContent extends ManifestItem {
     }
     isContent() {return true}
 }
-// Doen't calculate anything; simply creates the object with full properties
+// Doesn't calculate anything; simply creates the object with full properties
 class ManifestPage extends ManifestItem {
     constructor(idx, href, page, recto, verso) {
         super('page', idx, href, page)
@@ -34,7 +34,7 @@ class ManifestPage extends ManifestItem {
     }
     isPage() {return true}
 }
-// Doen't calculate anything; simply creates the object with full properties
+// Doesn't calculate anything; simply creates the object with full properties
 class ManifestSection extends ManifestItem {
     constructor(idx, href, page, pidx, depth, folder, path, seq, title) {
         super('section', idx, href, page)
@@ -45,8 +45,18 @@ class ManifestSection extends ManifestItem {
         this.seq = seq          // item's sequence number under its parent section (base 1)
         this.title = title      // title to appear before section and in ToC
     }
+
     isSection() {return true}
+
+    // returns a section number like 1.2.3.4
+    number(hrefSep='-', numbSep='.') {
+        const parts = this.href.split(hrefSep)
+        let num = parts[2]
+        for(let i=3; i<parts.length; i++) num += (numbSep+parts[i])
+        return num
+    }
 }
+
 /**
  * Creates an Manifest initialized with just a root section
  */
@@ -81,6 +91,7 @@ export class Manifest {
     }
 
     // Called by <Content> Svelte component script
+    // content depth is the same as its section depth
     addContent(depth, folder, comp) {
         const idx = this.items.length
         const pidx = this.contentSection(depth)
@@ -129,6 +140,7 @@ export class Manifest {
         return this._addItem(item)
     }
 
+    // content depth is the same as its section depth
     contentSection(depth) {
         for(let pidx=this.items.length-1; pidx>=0; pidx--) {
             const item = this.items[pidx]

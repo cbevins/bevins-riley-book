@@ -34,6 +34,6 @@
     <BodyManifest man={bodyMan}/>
 
     <!-- Temporaroly display the Body manifest -->
-    <!-- <ManifestTable man={bodyMan}/> -->
-    <Publish man={bodyMan} {title} {showBreak}/>
+    <ManifestTable man={bodyMan}/>
+    <!-- <Publish man={bodyMan} {title} {showBreak}/> -->
 </Book>
