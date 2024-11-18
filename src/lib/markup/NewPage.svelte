@@ -1,11 +1,13 @@
 <script>
     export let id
-    export let num = ''
+    export let num = ''     // must be convertable into integer
     export let book = ''
     export let chapter = ''
     export let showBreak = true
     export let firstPage = false
-    console.log('page', num, 'id', id)
+
+    const pageno = parseInt(num)
+    const recto = pageno%2
 </script>
 
 <!-- If not first page, add a bottom margin to previous page -->
@@ -21,7 +23,12 @@
 {/if}
 
 <div id={id}
-        class='relative w-[7in] h-[0.75in] drop-shadow-md border-2 border-slate-200'>
+    class='relative w-[7in] h-[0.75in] drop-shadow-md border-2 border-slate-200'>
+{#if recto}
     <div class="float-left mt-2 italic">{book}<br>{chapter}</div>
     <div class="float-right mt-2 italic">Page {num}</div>
+{:else}
+    <div class="float-right mt-2 italic">{book}<br>{chapter}</div>
+    <div class="float-left mt-2 italic">Page {num}</div>
+{/if}
 </div>

@@ -62,7 +62,6 @@ export class Manifest {
     addPage(recto=false, verso=false) {
         this.page++
         const parent = this.items[this.chapter]
-        console.log('Chapter idx:', this.chapter, 'parent:', parent)
         const item = {
             depth: 0,
             path: [this.folder, 'page', this.page].join(this.pathSep),
@@ -74,19 +73,16 @@ export class Manifest {
             verso
         }
         this._addItem(item)
+        
+        // add page if neccesary to start on requested recto or verso
         const side = this.page%2 ? 'recto' : 'verso'
-        console.log(`Added ${side} page ${item.page}: ${parent}`)
-
-        // if the just-added page was even numbered
-        if (recto && side === 'verso') {
+        if ((recto && side === 'verso') || verso && side === 'recto') {
             this.page++
             const next = {...item}
             next.path = [this.folder, 'page', this.page].join(this.pathSep)
             this._addItem(next)
-            console.log(`ADDED recto PAGE ${next.page} to start ${next.title}`)
             return next
         }
-        // if (verso && this.page%2) this._addItem(item)
         return item
     }
 
@@ -148,10 +144,8 @@ export class Manifest {
 
     // Returns a unique 'href' 'id' like 'body-section1-2-3-4'
     sectionId(item) {
-        let id = [this.folder, 'section'].join(this.sectSep)
         const parts = item.section.split(this.sectSep)
-        id += parts.join(this.sectSep)
-        return id
+        return [this.folder, 'section'].concat(parts).join(this.sectSep)
     }
 
     // Returns idx of the most recent 'section' at depth-1

@@ -9,7 +9,7 @@
     }
 
     function pageHtml(item) {
-        return `<a class="underline" href='${man.pageId(item)}'>${item.page}</a>`
+        return `<a class="underline" href='#${man.pageId(item)}'>${item.page}</a>`
     }
 
     function seq(item) {

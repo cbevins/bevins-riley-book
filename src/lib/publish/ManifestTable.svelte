@@ -3,14 +3,6 @@
     // section = {type, idx, href, page, depth, pidx, folder, path, seq, title}
     // content = {type, idx, href, page, depth, pidx, folder, path, comp}
     export let man
-
-    function parent(item) {
-        if (item.pidx===0) return 0
-        const parent = man.parent(item)
-        return parent ? parent.section : 'None'
-    }
-
-    function pageTitle(item) { return man.parent(item).title }
 </script>
 
 <div class=" mt-4 mb-2 p-2 bg-blue-100 border-2 border-black rounded shadow-lg shadow-slate-500 overflow-hidden">
