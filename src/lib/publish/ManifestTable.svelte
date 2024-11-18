@@ -3,6 +3,14 @@
     // section = {type, idx, href, page, depth, pidx, folder, path, seq, title}
     // content = {type, idx, href, page, depth, pidx, folder, path, comp}
     export let man
+
+    function parent(item) {
+        if (item.pidx===0) return 0
+        const parent = man.parent(item)
+        return parent ? parent.section : 'None'
+    }
+
+    function pageTitle(item) { return man.parent(item).title }
 </script>
 
 <div class=" mt-4 mb-2 p-2 bg-blue-100 border-2 border-black rounded shadow-lg shadow-slate-500 overflow-hidden">
@@ -14,9 +22,9 @@
                 <th scope="col" class="px-2 py-1">Type</th>
                 <th scope="col" class="px-2 py-1">Page</th>
                 <th scope="col" class="px-2 py-1">Depth</th>
-                <th scope="col" class="px-2 py-1">Href</th>
+                <th scope="col" class="px-2 py-1">Section</th>
+                <th scope="col" class="px-2 py-1">Pidx</th>
                 <th scope="col" class="px-2 py-1">Path</th>
-                <th scope="col" class="px-2 py-1">Folder</th>
                 <th scope="col" class="px-2 py-1">Title</th>
             </tr>
         </thead>
@@ -27,9 +35,9 @@
             <td class="px-2 py-2 text-left">{item.type}</td>
             <td class="px-2 py-2 text-left">{item.page}</td>
             <td class="px-2 py-2 text-left">{item.depth}</td>
-            <td class="px-2 py-2 text-left">{item.href}</td>
+            <td class="px-2 py-2 text-left">{item.section}</td>
+            <td class="px-2 py-2 text-left">{item.pidx}</td>
             <td class="px-2 py-2 text-left">{item.path}</td>
-            <td class="px-2 py-2 text-left">{item.folder}</td>
             <td class="px-2 py-2 text-left">{item.title}</td>
         </tr>
     {/each}

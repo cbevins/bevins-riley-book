@@ -1,150 +1,131 @@
-// Doesn't calculate anything; simply creates the object with full properties
-class ManifestItem {
-    constructor(type, idx, href, page) {
-        this.type = type    // 'page', 'contebnt', 'section', 'figure', 'table'
-        this.idx = idx      // this item's index to into the Manifest.items[] array
-        this.href = href    // unique element 'id' and 'href' string
-        this.page = page    // page number
-    }
-    isContent() {return false}
-    isFigure() {return false}
-    isPage() {return false}
-    isSection() {return false}
-    isTable() {return false}
-}
-// Doesn't calculate anything; simply creates the object with full properties
-class ManifestContent extends ManifestItem {
-    constructor(idx, href, page, pidx, depth, folder, path, comp) {
-        super('content', idx, href, page)
-        this.comp = comp        // Svelte component reference
-        this.depth = depth      // section descent depth (base 0)
-        this.path = path        // full lineage of parental folders including folder
-        this.pidx = pidx        // parent section index into Manifest.items[] array
-        this.folder = folder    // string tag for debug purposes (e.g., 'origins')
-    }
-    isContent() {return true}
-}
-// Doesn't calculate anything; simply creates the object with full properties
-class ManifestPage extends ManifestItem {
-    constructor(idx, href, page, recto, verso) {
-        super('page', idx, href, page)
-        this.depth = page
-        this.recto = recto
-        this.verso = verso
-    }
-    isPage() {return true}
-}
-// Doesn't calculate anything; simply creates the object with full properties
-class ManifestSection extends ManifestItem {
-    constructor(idx, href, page, pidx, depth, folder, path, seq, title) {
-        super('section', idx, href, page)
-        this.depth = depth      // section descent depth (base 0)
-        this.pidx = pidx        // parent section index into Manifest.items[] array
-        this.folder = folder    // last segment of item's full path
-        this.path = path        // full lineage of parental folders including folder
-        this.seq = seq          // item's sequence number under its parent section (base 1)
-        this.title = title      // title to appear before section and in ToC
-    }
-
-    isSection() {return true}
-
-    // returns a section number like 1.2.3.4
-    number(hrefSep='-', numbSep='.') {
-        const parts = this.href.split(hrefSep)
-        let num = parts[2]
-        for(let i=3; i<parts.length; i++) num += (numbSep+parts[i])
-        return num
-    }
-}
-
 /**
- * Creates an Manifest initialized with just a root section
+ * Manifest of items to be rendered by Publish
+ * 
+ * These are the Manifest item types and their properties
+ *  page    type idx pidx page depth section path title recto verso
+ *  content type idx pidx page depth section path title comp props
+ *  section type idx pidx page depth section path title
  */
 export class Manifest {
-    constructor(href, doubleSided=true) {
-        this.href = href
-        this.doubleSided = doubleSided  // affects Page recto/verso
-        this.hrefSep = '-'  // separator between href segments
-        this.pathSep = '-'  // separator between path segments
+    // Creates an Manifest initialized with just a root section
+    constructor(folder, doubleSided=true) {
+        this.folder = folder// root folder for this Manifest
+        this.doubleSided = doubleSided  // enables Page recto/verso
+        this.sectSep = '-'  // separator between section segments
+        this.pathSep = '/'  // separator between path segments
+        
+        // Running state variables
         this.page = 0       // running page number
-        this.callout = 0     // running callout number
+        this.callout = 0    // running callout number
         this.figure = 0     // running figure number
+        this.chapter = 0    // running chapter (depth=1) section idx
         this.table = 0      // running table number
-        const root = new ManifestSection(
-            0,      // idx = item's index into the this.items[] array
-            href+this.hrefSep+'section',   // href
-            0,      // page
-            -1,     // pidx = parent's idx into this.items[]
-            0,      // depth
-            href,   // folder = last segment of item's full path
-            href,   // path = full lineage of item's parent's, including self
-            0,      // seq = item's sequence number under its parent section (base 1)
-            href    // title
-        )
-        this.items = [root]
+
+        // add a root section
+        this.items = []
+        this._addItem({
+            depth: 0,  // section depth (base 0)
+            path: folder,
+            pidx: -1,   // parent section's idx into this.items[]
+            section: '0',
+            title: '',
+            type: 'section',
+        })
     }
 
     _addItem(item) {
+        item.idx = this.items.length
+        item.page = this.page
         this.items.push(item)
-        // console.log(`Added <${item.type}> '${item.href}' to page ${item.page}`)
+        // console.log(`Added <${item.type}> '${item.section}' to page ${item.page}`)
         return item
     }
 
     // Called by <Content> Svelte component script
-    // content depth is the same as its section depth
-    addContent(depth, folder, comp) {
-        const idx = this.items.length
+    // Note that content depth must be the same as its section depth
+    addContent(depth, folder, comp, props={}) {
         const pidx = this.contentSection(depth)
         const parent = this.items[pidx]
-        // href looks like 'body-01-02-03-content-<folder>'
-        const href = parent.href + this.hrefSep + 'content' + this.hrefSep + folder
-        // path looks like 'body-bevins-origins-<folder>'
-        const path = parent.path + this.pathSep + folder
-        const item = new ManifestContent(idx, href, this.page,
-            pidx, depth, folder, path, comp)
-        return this._addItem(item)
+        return this._addItem({
+            comp,
+            depth,
+            path: parent.path + this.pathSep + folder,
+            pidx,       // parent index into this.items[] array
+            props,
+            section: parent ? parent.section : '0',
+            title: parent ? parent.title : '',
+            type: 'content',
+        })
     }
 
     // Called by <Page> Svelte component script
     addPage(recto=false, verso=false) {
         this.page++
-        const idx = this.items.length
-        // href looks like 'body-page-123'
-        const href = `${this.href}${this.hrefSep}page${this.hrefSep}${this.page}`
-        const item = new ManifestPage(idx, href, this.page, recto, verso)
-        return this._addItem(item)
+        const parent = this.items[this.chapter]
+        console.log('Chapter idx:', this.chapter, 'parent:', parent)
+        const item = {
+            depth: 0,
+            path: [this.folder, 'page', this.page].join(this.pathSep),
+            pidx: this.chapter, // MAY BE UPDATED if next item is 'section'
+            recto,
+            section: parent ? parent.section : '0', // MAY BE UPDATED
+            title: parent ? parent.title : '',      // MAY BE UPDATED
+            type: 'page',
+            verso
+        }
+        this._addItem(item)
+        const side = this.page%2 ? 'recto' : 'verso'
+        console.log(`Added ${side} page ${item.page}: ${parent}`)
+
+        // if the just-added page was even numbered
+        if (recto && side === 'verso') {
+            this.page++
+            const next = {...item}
+            next.path = [this.folder, 'page', this.page].join(this.pathSep)
+            this._addItem(next)
+            console.log(`ADDED recto PAGE ${next.page} to start ${next.title}`)
+            return next
+        }
+        // if (verso && this.page%2) this._addItem(item)
+        return item
     }
 
     // Called by <Section> Svelte component script
     addSection(depth, folder, title) {
-        const idx = this.items.length
-        // console.log(`addSection(${depth}, ${folder}, ${title})`)
         const pidx = this.sectionParentIdx(depth)
         const parent = this.items[pidx]
-        const seq = this.sectionSeq(depth)
-        // href looks like 'body-section-01-02-03'
-        const href = parent.href + this.hrefSep + seq
-        // path looks like 'body-bevins-origins'
-        const path = parent.path + this.pathSep + folder
-        const item = new ManifestSection(
-            idx,        // idx = item's index into the this.items[] array
-            href,       // href =
-            this.page,  // page = page number
-            pidx,       // pidx = parent's idx into this.items[]
-            depth,      // depth
-            folder,     // folder = last segment of item's full path
-            path,       // path = full lineage of item's parent's, including self
-            seq,        // seq = item's sequence number under its parent section (base 1)
-            title       // title
-        )
-        return this._addItem(item)
+        const seq = this.sectionSeq(depth)  // sibling number (base 1)
+        const section = (pidx===0) ? `${seq}`
+            : `${parent.section}${this.sectSep}${seq}`
+        
+        // If depth is 1, update the running chapter index
+        if (depth === 1) this.chapter = this.items.length
+
+        // If the previous item is a Page, make this section the Page parent
+        const prev = this.items[this.items.length-1]
+        if (prev.type === 'page' && depth === 1) {
+            prev.pidx = this.items.length
+            prev.section = section
+            prev.title = title
+        }
+
+        return this._addItem({
+            depth,  // section depth (base 0)
+            path: parent.path + this.pathSep + folder,
+            pidx,   // parent section's idx into this.items[]
+            section,
+            title,
+            type: 'section',
+        })
     }
 
-    // content depth is the same as its section depth
+    // Returns idx of the most recent 'section' at same depth
+    // Used to find Content item parent, so depth of content
+    // must be the same as its parent 'section' depth
     contentSection(depth) {
         for(let pidx=this.items.length-1; pidx>=0; pidx--) {
             const item = this.items[pidx]
-            if(item.isSection()) {
+            if(item.type === 'section') {
                 if (item.depth === depth)
                     return pidx
             }
@@ -152,25 +133,47 @@ export class Manifest {
         throw new Error(`contentSection(${depth}) not found.`)
     }
 
+    pageId(item) { return [this.folder, 'page', item.page].join(this.sectSep) }
+
+    parent(item) { 
+        if (item.pidx < 0) return null
+        return this.items[item.pidx]
+    }
+
+    // Returns a section number like '1.2.3.4'
+    sectionNumber(item, sep='.') {
+        const parts = item.section.split(this.sectSep)
+        return parts.join(sep)
+    }
+
+    // Returns a unique 'href' 'id' like 'body-section1-2-3-4'
+    sectionId(item) {
+        let id = [this.folder, 'section'].join(this.sectSep)
+        const parts = item.section.split(this.sectSep)
+        id += parts.join(this.sectSep)
+        return id
+    }
+
+    // Returns idx of the most recent 'section' at depth-1
     sectionParentIdx(depth) {
         for(let pidx=this.items.length-1; pidx>=0; pidx--) {
             const item = this.items[pidx]
             // console.log(pidx, item, item.isSection())
-            if(item.isSection() && item.depth === depth-1)  {
+            if(item.type === 'section' && item.depth === depth-1)  {
                 return pidx
             }
         }
         return -1
     }
 
+    // Returns 1 plus the number of previous 'section's at this depth
     sectionSeq(depth) {
+        let seq = 1
         for(let pidx=this.items.length-1; pidx>=0; pidx--) {
             const item = this.items[pidx]
-            if(item.isSection()) {
-                if (item.depth === depth)
-                    return item.seq + 1
-                else if (item.depth === depth-1)
-                    return 1
+            if(item.type === 'section') {
+                if (item.depth === depth) seq++
+                else if (item.depth === depth-1) return seq
             }
         }
         throw new Error(`sectionSeq(${depth}) not found.`)

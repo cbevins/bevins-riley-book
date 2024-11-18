@@ -1,9 +1,6 @@
 <script>
     export let man
-    const pre = '#' + man.href + man.hrefSep + 'page' + man.hrefSep 
     
-    function href(item) { return '#' + item.href }
-
     function indentHtml(item) {
         const spaces = '&nbsp;&nbsp;&nbsp;&nbsp;'
         let indent = ''
@@ -12,17 +9,18 @@
     }
 
     function pageHtml(item) {
-        return `<a class="underline" href='${pre}${item.page}'>${item.page}</a>`
+        return `<a class="underline" href='${man.pageId(item)}'>${item.page}</a>`
     }
 
     function seq(item) {
-        if (item.type === 'section') return item.number()
+        if (item.type === 'section') return man.sectionNumber(item)
         if (item.type === 'figure') return `Figure ${item.id}`
         if (item.type === 'table') return `Table ${item.id}`
+        return ''
     }
 
     function titleHtml(item) {
-        let html = `<a href='${href(item)}'>`
+        let html = `<a href='#${man.sectionId(item)}'>`
         html += `<span class="underline">${seq(item)}</span>`
         html += `- ${item.title}</a>`
         return html

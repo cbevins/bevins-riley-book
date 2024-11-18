@@ -11,17 +11,17 @@
     const d1 = depth + 1    // down 1
 </script>
 
-<Page {man}/>
+<Page {man} recto={true} verso={true}/>
 <Section {man} {depth} folder='bevins' title='Samuel Bevins Family Line'/>
 <Content {man} {depth} file='A' comp={Intro} />
 
-<Page {man}/>
+<Page {man} recto={true}/>
 <Section {man} depth={d1} folder='origins' title='Bevins Origins'/>
 <Content {man} depth={d1} file='A' comp={Origins} />
 
-<Page {man}/>
+<Page {man} recto={true}/>
 <Section {man} depth={d1} folder='migration' title='Bevins Migrations'/>
 <Content {man} depth={d1} file='A' comp={Migrations} />
 
-<Page {man}/>
+<Page {man} recto={true}/>
 <Section {man} depth={d1} folder='surname' title='Bevins Surname'/>
