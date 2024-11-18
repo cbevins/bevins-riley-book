@@ -104,10 +104,12 @@ export class Manifest {
             prev.section = section
             prev.title = title
         }
+        const path = parent.path + this.pathSep + folder
 
+        // console.log(`Adding section depth=${depth} path='${path}' title='${title}'`)
         return this._addItem({
             depth,  // section depth (base 0)
-            path: parent.path + this.pathSep + folder,
+            path,
             pidx,   // parent section's idx into this.items[]
             section,
             title,

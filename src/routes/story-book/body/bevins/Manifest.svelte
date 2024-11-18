@@ -1,27 +1,23 @@
 <script>
     // ./body/bevins/Manifest.svelte
     import { Content, Page, Placeholder, Section } from '$lib/publish'
-    import Intro from './intro/A.svelte'
-    import Origins from './origins/A.svelte'
-    import Migrations from './migration/A.svelte'
-    // import Surname from './surname/A.svelte'
+
+    import IntroManifest from './intro/Manifest.svelte'
+    import OriginsManifest from './origins/Manifest.svelte'
+    import MigrationsManifest from './migrations/Manifest.svelte'
+    import StoriesManifest from './stories/Manifest.svelte'
+    import SurnameManifest from './surname/Manifest.svelte'
 
     export let man
     export let depth
     const d1 = depth + 1    // down 1
 </script>
 
-<Page {man} recto={true} verso={true}/>
-<Section {man} {depth} folder='bevins' title='Samuel Bevins Family Line'/>
-<Content {man} {depth} file='A' comp={Intro} />
-
 <Page {man} recto={true}/>
-<Section {man} depth={d1} folder='origins' title='Bevins Origins'/>
-<Content {man} depth={d1} file='A' comp={Origins} />
+<Section {man} {depth} folder='bevins' title='Bevins Family Line'/>
 
-<Page {man} recto={true}/>
-<Section {man} depth={d1} folder='migration' title='Bevins Migrations'/>
-<Content {man} depth={d1} file='A' comp={Migrations} />
-
-<Page {man} recto={true}/>
-<Section {man} depth={d1} folder='surname' title='Bevins Surname'/>
+<IntroManifest {man} depth={d1} />
+<OriginsManifest {man} depth={d1} />
+<MigrationsManifest {man} depth={d1} />
+<SurnameManifest {man} depth={d1} />
+<StoriesManifest {man} depth={d1} />

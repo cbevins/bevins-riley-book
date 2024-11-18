@@ -1,6 +1,5 @@
 <script>
     // ./body/Manifest.svelte
-    import { Content, Page, Section } from '$lib/publish'
     import BevinsManifest from './bevins/Manifest.svelte'
     import CollinsManifest from './collins/Manifest.svelte'
     import DereusManifest from './dereus/Manifest.svelte'
