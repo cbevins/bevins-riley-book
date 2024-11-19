@@ -9,4 +9,4 @@
 
 <Page {man} recto={true}/>
 <Section {man} {depth} folder='stories' title='Collins Family Stories'/>
-<Content {man} {depth} file='etymology' comp={Placeholder} />
+<Content {man} {depth} file='placeholder' comp={Placeholder} />

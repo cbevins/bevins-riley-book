@@ -1,5 +1,5 @@
 <script>
-    // ./body/collins/origins/Manifest.svelte
+    // ./body/nattrass/migrations/Manifest.svelte
     import { Content, Page, Placeholder, Section } from '$lib/publish'
     // import A from './A.svelte'
 
@@ -9,5 +9,5 @@
 </script>
 
 <Page {man}/>
-<Section {man} {depth} folder='origins' title='Collins Family Origins'/>
+<Section {man} {depth} folder='migrations' title='Nattrass Migrations'/>
 <Content {man} {depth} file='placeholder' comp={Placeholder} />

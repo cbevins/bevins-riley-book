@@ -1,10 +1,12 @@
 <script>
     // ./body/heddens/Manifest.svelte
     import { Content, Page, Placeholder, Section } from '$lib/publish'
-    // import Intro from './intro/A.svelte'
-    // import Origins from './origins/A.svelte'
-    // import Migrations from './migrations/A.svelte'
-    // import Surname from './surname/A.svelte'
+
+    import IntroManifest from './intro/Manifest.svelte'
+    import OriginsManifest from './origins/Manifest.svelte'
+    import MigrationsManifest from './migrations/Manifest.svelte'
+    import StoriesManifest from './stories/Manifest.svelte'
+    import SurnameManifest from './surname/Manifest.svelte'
 
     export let man
     export let depth
@@ -12,4 +14,10 @@
 </script>
 
 <Page {man} recto={true}/>
-<Section {man} {depth} folder='heddens' title='Ralph Vernon Heddens Family Line'/>
+<Section {man} {depth} folder='heddens' title='Heddens Family Line'/>
+
+<IntroManifest {man} depth={d1} />
+<OriginsManifest {man} depth={d1} />
+<MigrationsManifest {man} depth={d1} />
+<SurnameManifest {man} depth={d1} />
+<StoriesManifest {man} depth={d1} />
