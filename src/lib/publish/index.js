@@ -1,9 +1,15 @@
-export { default as Content } from './Content.svelte'
-export { Manifest } from './Manifest.js'
-export { default as ManifestTable } from './ManifestTable.svelte'
-export { default as Page } from './Page.svelte'
-export { default as Placeholder } from './Placeholder.svelte'
-export { default as Publish } from './Publish.svelte'
-export { default as Section } from './Section.svelte'
-export { default as TableContents } from './TableContents.svelte'
+export { Manifest } from './manifest/Manifest.js'
+export { default as Content } from './manifest/Content.svelte'
+export { default as Figure } from './manifest/Figure.svelte'
+export { default as Map } from './manifest/Map.svelte'
+export { default as Page } from './manifest/Page.svelte'
+export { default as Placeholder } from './manifest/Placeholder.svelte'
+export { default as Section } from './manifest/Section.svelte'
+export { default as Table } from './manifest/Table.svelte'
+
+export { default as Publish } from './publish/Publish.svelte'
+
+export { default as ManifestTable } from './content/ManifestTable.svelte'
+export { default as TableContents } from './content/TableContents.svelte'
+export { default as ListOfFeatures } from './content/ListOfFeatures.svelte'
 

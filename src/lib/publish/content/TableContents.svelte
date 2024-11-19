@@ -1,5 +1,9 @@
 <script>
+    import { NewPage } from '$lib/markup'
+
     export let man
+    export let book = ''
+    export let chapter = ''
     
     function indentHtml(item) {
         const spaces = '&nbsp;&nbsp;&nbsp;&nbsp;'
@@ -9,7 +13,7 @@
     }
 
     function pageHtml(item) {
-        return `<a class="underline" href='#${man.pageId(item)}'>${item.page}</a>`
+        return `<a class="underline" href='#${man.id(item)}'>${item.page}</a>`
     }
 
     function seq(item) {
@@ -20,17 +24,23 @@
     }
 
     function titleHtml(item) {
-        let html = `<a href='#${man.sectionId(item)}'>`
+        let html = `<a href='#${man.id(item)}'>`
         html += `<span class="underline">${seq(item)}</span>`
-        html += `- ${item.title}</a>`
+        html += ` - ${item.title}</a>`
         return html
     }
 </script>
 
+<NewPage {book} {chapter} id={man.folder+'-toc'} />
+
+<div class="mb-4 text-4xl font-bold text-left">
+    Table of Contents
+</div>
+
 <table><tbody>
     {#each man.items as item }
         {#if item.type === 'section' && item.depth}
-            <tr class="odd:bg-white even:bg-gray-50 bg-white border-b ">
+            <tr class="even:bg-white odd:bg-gray-50 bg-white border-b ">
                 {#if item.depth === 1}
                     <td class="text-lg font-bold px-2 py-1">{@html indentHtml(item)}{@html titleHtml(item)}</td>
                     <td class="text-lg font-bold px-2 py-1">{@html pageHtml(item)}</td>

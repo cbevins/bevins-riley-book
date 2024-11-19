@@ -1,6 +1,6 @@
 <script>
     // ./body/bevins/migrations/Manifest.svelte
-    import { Content, Page, Placeholder, Section } from '$lib/publish'
+    import { Content, Figure, Map, Page, Placeholder, Section, Table } from '$lib/publish'
     import A from './A.svelte'
 
     export let man
@@ -14,11 +14,14 @@
     features={[['Table', 'Bevins Family Immigrants to America']]} />
 
 <Section {man} depth={d1} folder='bevins-bolt' title='The Bevins-Bolt Family'/>
-<Content {man} depth={d1} file='placeholder' comp={Placeholder} features={[
-    ['Map', 'Bevins-Bolt Migration Path']
-]} />
+<Content {man} depth={d1} file='placeholder' comp={Placeholder} />
+
+<Map {man} depth={d1} file='migration-path' comp={Placeholder}
+    title='Bevins-Bolt Migration Path'/>
 
 <Section {man} depth={d1} folder='bevins-white' title='Mary Ann White'/>
-<Content {man} depth={d1} file='placeholder' comp={Placeholder} features={[
-    ['Figure', 'Mary Ann White Obituary']
-]} />
+<Content {man} depth={d1} file='placeholder' comp={Placeholder} />
+
+<Figure {man} depth={d1} file='white-obit' comp={Placeholder}
+    title='Mary Ann White Obituary' />
+

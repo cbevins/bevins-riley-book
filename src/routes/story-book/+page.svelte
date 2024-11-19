@@ -1,6 +1,6 @@
 <script>
     import { Book } from '$lib/markup'
-    import { Manifest, ManifestTable, Publish, TableContents } from '$lib/publish'
+    import { Manifest, ListOfFeatures, ManifestTable, Publish, TableContents } from '$lib/publish'
 
     import BodyManifest from './body/Manifest.svelte'
     import FaceManifest from './face/Manifest.svelte'
@@ -9,7 +9,7 @@
     // Define the Book
     const author = 'Collin Douglas Bevins'
     const copyright = '2025'
-    const title = 'Our Ancestors through Time and Place'
+    const book = 'Our Ancestors through Time and Place'
     const subtitle = 'History and Geography of the Bevins and Riley Families'
     const showBreak = true
 
@@ -38,7 +38,14 @@
     <BodyManifest man={bodyMan}/>
 
     <!-- Temporarily display the Body manifest -->
-    <ManifestTable man={bodyMan}/>
-    <TableContents man={bodyMan}/>
-    <Publish man={bodyMan} {title} {showBreak}/>
+    <!-- <ManifestTable man={bodyMan}/> -->
+    <TableContents man={bodyMan} {book} chapter='Table of Contents'/>
+    <ListOfFeatures man={bodyMan} name='Figure' items={bodyMan.figures}
+        {book} chapter='List of Figures'/>
+    <ListOfFeatures man={bodyMan} name='Map' items={bodyMan.maps}
+        {book} chapter='List of Maps'/>
+    <ListOfFeatures man={bodyMan} name='Table' items={bodyMan.tables}
+        {book} chapter='List of Tables'/>
+        
+    <Publish man={bodyMan} {book} {showBreak}/>
 </Book>

@@ -6,8 +6,14 @@
     export let showBreak = true
     export let firstPage = false
 
-    const pageno = parseInt(num)
-    const recto = pageno%2
+    let page = ''
+    let pageno = 1
+    let recto = true
+    if (num !== '') {
+        page = `Page ${num}`
+        pageno = parseInt(num)
+        recto = pageno%2
+    }
 </script>
 
 <!-- If not first page, add a bottom margin to previous page -->
@@ -29,6 +35,6 @@
     <div class="float-right mt-2 italic">Page {num}</div>
 {:else}
     <div class="float-right mt-2 italic">{book}<br>{chapter}</div>
-    <div class="float-left mt-2 italic">Page {num}</div>
+    <div class="float-left mt-2 italic">{page}</div>
 {/if}
 </div>
