@@ -5,7 +5,7 @@
     export let man
 </script>
 
-<div class=" mt-4 mb-2 p-2 bg-blue-100 border-2 border-black rounded shadow-lg shadow-slate-500 overflow-hidden">
+<div class=" mt-4 mb-2 p-2 bg-blue-100 border-2 border-black rounded shadow-lg shadow-slate-500 overflow-auto">
     <div class='text-xl'>Publish Manifest has {man.items.length} Items</div>
     <table class="text-sm text-left text-gray-500 rounded-lg">
         <thead class="text-xs text-gray-700 bg-gray-500">

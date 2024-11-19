@@ -1,4 +1,5 @@
 <script>
     export let man, depth, file, comp
-    man.addContent(depth, file, comp, $$restProps)
+    export let features = []    // array of [key, title]
+    man.addContent(depth, file, comp, features, $$restProps)
 </script>

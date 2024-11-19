@@ -10,4 +10,11 @@
 
 <Page {man}/>
 <Section {man} {depth} folder='origins' title='Bevins Origins'/>
-<Content {man} {depth} file='A' comp={A} />
+<Content {man} {depth} file='A' comp={A} features={[
+    ['Table', 'Bevins Family Countries of Origin']
+]} />
+
+<Section {man} depth={d1} folder='newbold-verdon' title='Newbold Verdon, Leicestershire, England'/>
+<Content {man} depth={d1} file='A' comp={A} features={[
+    ['Map', 'Newbold Verdon, Leicestershire, England']
+]} />

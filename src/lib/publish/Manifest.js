@@ -3,7 +3,7 @@
  * 
  * These are the Manifest item types and their properties
  *  page    type idx pidx page depth section path title recto verso
- *  content type idx pidx page depth section path title comp props
+ *  content type idx pidx page depth section path title comp props features
  *  section type idx pidx page depth section path title
  */
 export class Manifest {
@@ -16,13 +16,13 @@ export class Manifest {
         
         // Running state variables
         this.page = 0       // running page number
-        this.callout = 0    // running callout number
-        this.figure = 0     // running figure number
         this.chapter = 0    // running chapter (depth=1) section idx
-        this.table = 0      // running table number
+
+        // items and features
+        this.items = []     // array of 'page', 'section', and 'content' items
+        this.features = []  // array of content feature {idx, pidx, type, title}
 
         // add a root section
-        this.items = []
         this._addItem({
             depth: 0,  // section depth (base 0)
             path: folder,
@@ -41,14 +41,31 @@ export class Manifest {
         return item
     }
 
+    // feature is an array of [key, title]
+    _addFeature(pidx, feature) {
+        const feat = {
+            pidx,   // feature's parent content's index into this.items[] array
+            idx: this.features.length-1,    // index into this.features[] array
+            key: feature[0], // 'figure', 'map', 'table', 'callout', etc
+            title: feature[1]
+        }
+        this.features.push(feat)
+    }
+
     // Called by <Content> Svelte component script
     // Note that content depth must be the same as its section depth
-    addContent(depth, folder, comp, props={}) {
+    addContent(depth, folder, comp, features=[], props={}) {
         const pidx = this.contentSection(depth)
         const parent = this.items[pidx]
+        // add any content features to appear in the ToC
+        const idx = this.items.length
+        for(let i=0; i<features.length; i++) {
+            this._addFeature(idx, features[i])
+        }
         return this._addItem({
             comp,
             depth,
+            features,
             path: parent.path + this.pathSep + folder,
             pidx,       // parent index into this.items[] array
             props,
@@ -138,16 +155,16 @@ export class Manifest {
         return this.items[item.pidx]
     }
 
-    // Returns a section number like '1.2.3.4'
-    sectionNumber(item, sep='.') {
-        const parts = item.section.split(this.sectSep)
-        return parts.join(sep)
-    }
-
     // Returns a unique 'href' 'id' like 'body-section1-2-3-4'
     sectionId(item) {
         const parts = item.section.split(this.sectSep)
         return [this.folder, 'section'].concat(parts).join(this.sectSep)
+    }
+
+    // Returns a section number like '1.2.3.4'
+    sectionNumber(item, sep='.') {
+        const parts = item.section.split(this.sectSep)
+        return parts.join(sep)
     }
 
     // Returns idx of the most recent 'section' at depth-1
