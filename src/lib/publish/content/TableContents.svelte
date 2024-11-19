@@ -12,8 +12,8 @@
         return indent
     }
 
-    function pageHtml(item) {
-        return `<a class="underline" href='#${man.id(item)}'>${item.page}</a>`
+    function pageHtml(pageno) {
+        return `<a class="underline" href='#${man.pageId(pageno)}'>${pageno}</a>`
     }
 
     function seq(item) {
@@ -42,11 +42,15 @@
         {#if item.type === 'section' && item.depth}
             <tr class="even:bg-white odd:bg-gray-50 bg-white border-b ">
                 {#if item.depth === 1}
-                    <td class="text-lg font-bold px-2 py-1">{@html indentHtml(item)}{@html titleHtml(item)}</td>
-                    <td class="text-lg font-bold px-2 py-1">{@html pageHtml(item)}</td>
+                    <td class="text-lg font-bold px-2 py-1">
+                        {@html indentHtml(item)}{@html titleHtml(item)}</td>
+                    <td class="text-lg font-bold px-2 py-1">
+                        {@html pageHtml(item.page)}</td>
                 {:else}
-                    <td class="text-base px-2 py-1">{@html indentHtml(item)}{@html titleHtml(item)}</td>
-                    <td class="text-base px-2 py-1">{@html pageHtml(item)}</td>
+                    <td class="text-base px-2 py-1">
+                        {@html indentHtml(item)}{@html titleHtml(item)}</td>
+                    <td class="text-base px-2 py-1">
+                        {@html pageHtml(item.page)}</td>
                 {/if}
             </tr>
         {/if}

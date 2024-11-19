@@ -89,8 +89,6 @@ export class Manifest {
         throw new Error(`_contentSection(${depth}) not found.`)
     }
 
-    _pageId(item) { return [this.folder, 'page', item.page].join(this.sectSep) }
-
     // Returns idx of the most recent 'section' at depth-1
     _sectionParentId(depth) {
         for(let pidx=this.items.length-1; pidx>=0; pidx--) {
@@ -235,9 +233,11 @@ export class Manifest {
     // Returns a unique 'href' 'id' like 'body-section-1-2-3-4-Map-1'
     id(item) {
         if (item.type === 'section') return this.sectionId(item)
-        if (item.type === 'page') return this._pageId(item)
+        if (item.type === 'page') return this.pageId(item.page)
         return this._contentId(item)
     }
+
+    pageId(pageno) { return [this.folder, 'page', pageno].join(this.sectSep) }
 
     // Returns a unique 'href' 'id' like 'body-section-1-2-3-4'
     sectionId(item) {
