@@ -12,21 +12,21 @@
 {#each man.items as item}
     
     {#if item.type === 'page'}
-        <NewPage id={man.id(item)} {book} num={item.page} {showBreak}
+        <NewPage id={item.id} {book} num={item.page} {showBreak}
             firstPage={item.page===1} chapter={item.title} />
     
     {:else if item.type === 'section'}
         {#if item.title !== ''}
-            <SectionTitle depth={item.depth} id={man.id(item)}
-                title={item.toc}
+            <SectionTitle depth={item.depth} id={item.id} title={item.toc}
                 newpage={newpage(item)} />
         {/if}
     
-    {:else if item.type === 'content'}
+    <!-- All other types are some form of content -->
+    {:else}
         {#if ! item.comp}
             <Placeholder {man} {item} />
         {:else}
-            <svelte:component this={item.comp} {man} {item} id={man.id(item)} />
+            <svelte:component this={item.comp} {man} {item} id={item.id} />
         {/if}
     {/if}
 {/each}

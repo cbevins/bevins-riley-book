@@ -8,11 +8,12 @@
     export let chapter = ''
 
     function pageHtml(item) {
-        return `<a class="underline" href='#${man.id(item)}'>${item.page}</a>`
+        const id = man.pageId(item.page)
+        return `<a class="underline" href='#${id}'>${item.page}</a>`
     }
 
     function titleHtml(item) {
-        let html = `<a href='#${man.id(item)}'>`
+        let html = `<a href='#${item.id}'>`
         html += `<span class="underline">${name} ${item.seq}</span>`
         html += ` - ${item.title}</a>`
         return html

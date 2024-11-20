@@ -1,8 +1,8 @@
 <script>
-    import { ImmigrantsTable } from '$lib/book'
+    import { ImmigrantsTable } from '$lib/publish'
     export let item
 
-    const captions = ['Immigrants of the', 'Samuel Bevins Line']
+    const title = `Table ${item.seq}: ${item.toc}`
     const immigrants = [
         {name: 'William Longford Bevins', gen: '2nd GGF', born: 'England', year: 1845, age: 30},
         {name: 'Mary Bolt', born: 'England', gen: '2nd GGM', year: 1845, age: 23},
@@ -11,4 +11,4 @@
     ]
 </script>
 
-<ImmigrantsTable {captions} {immigrants} {item}/>
+<ImmigrantsTable {title} {immigrants}/>

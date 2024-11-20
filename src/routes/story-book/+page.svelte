@@ -1,6 +1,8 @@
 <script>
+    import { onMount } from 'svelte'
     import { Book } from '$lib/markup'
     import { Manifest, ListOfFeatures, ManifestTable, Publish, TableContents } from '$lib/publish'
+    import { TableOfPageHeights, TimeLine } from '$lib/publish'
 
     import BodyManifest from './body/Manifest.svelte'
     import FaceManifest from './face/Manifest.svelte'
@@ -21,6 +23,13 @@
 
     // Create an arabic-numeral Manifest for the book body and back matter
     const bodyMan = new Manifest('body')
+
+    // Developmental timeline
+    const tl = [
+        ['1845', 'William Alfred Bevins departs for America'],
+        ['1871', 'Mary Ann White and daughter depart for America'],
+        ['1880-1890', 'All are in the same household'],
+    ]
 </script>
 
 <div class=" mt-4 mb-2 p-2 bg-blue-100 border-2 border-black rounded shadow-lg shadow-slate-500 overflow-hidden">
@@ -28,6 +37,9 @@
 </div>
 
 <Book>
+    <!-- Developmental -->
+    <TimeLine items={tl}/>
+
     <!-- Compile the face Manifest -->
     <FaceManifest man={faceMan}/>
 
@@ -49,3 +61,4 @@
         
     <Publish man={bodyMan} {book} {showBreak}/>
 </Book>
+<!-- <TableOfPageHeights man={bodyMan} {book} /> -->

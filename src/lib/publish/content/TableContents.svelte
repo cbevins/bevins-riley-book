@@ -12,19 +12,22 @@
         return indent
     }
 
-    function pageHtml(pageno) {
-        return `<a class="underline" href='#${man.pageId(pageno)}'>${pageno}</a>`
+    function pageHtml(item) {
+        const id = man.pageId(item.page)
+        return `<a class="underline" href='#${id}'>${item.page}</a>`
     }
 
     function seq(item) {
         if (item.type === 'section') return man.sectionNumber(item)
-        if (item.type === 'figure') return `Figure ${item.id}`
-        if (item.type === 'table') return `Table ${item.id}`
+        if (item.type === 'Figure') return `Figure ${item.seq}`
+        if (item.type === 'Map') return `Map ${item.seq}`
+        if (item.type === 'Sidebar') return `Sidebar ${item.seq}`
+        if (item.type === 'Table') return `Table ${item.seq}`
         return ''
     }
 
     function titleHtml(item) {
-        let html = `<a href='#${man.id(item)}'>`
+        let html = `<a href='#${item.id}'>`
         html += `<span class="underline">${seq(item)}</span>`
         html += ` - ${item.title}</a>`
         return html
@@ -45,12 +48,12 @@
                     <td class="text-lg font-bold px-2 py-1">
                         {@html indentHtml(item)}{@html titleHtml(item)}</td>
                     <td class="text-lg font-bold px-2 py-1">
-                        {@html pageHtml(item.page)}</td>
+                        {@html pageHtml(item)}</td>
                 {:else}
                     <td class="text-base px-2 py-1">
                         {@html indentHtml(item)}{@html titleHtml(item)}</td>
                     <td class="text-base px-2 py-1">
-                        {@html pageHtml(item.page)}</td>
+                        {@html pageHtml(item)}</td>
                 {/if}
             </tr>
         {/if}

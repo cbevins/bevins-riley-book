@@ -5,11 +5,15 @@ export { default as Map } from './manifest/Map.svelte'
 export { default as Page } from './manifest/Page.svelte'
 export { default as Placeholder } from './manifest/Placeholder.svelte'
 export { default as Section } from './manifest/Section.svelte'
+export { default as Sidebar } from './manifest/Sidebar.svelte'
 export { default as Table } from './manifest/Table.svelte'
 
 export { default as Publish } from './publish/Publish.svelte'
 
+export { default as ImmigrantsTable } from './content/ImmigrantsTable.svelte'
+export { default as ListOfFeatures } from './content/ListOfFeatures.svelte'
+export { default as Lorem } from './content/Lorem.svelte'
 export { default as ManifestTable } from './content/ManifestTable.svelte'
 export { default as TableContents } from './content/TableContents.svelte'
-export { default as ListOfFeatures } from './content/ListOfFeatures.svelte'
-
+export { default as TableOfPageHeights } from './content/TableofPageHeights.svelte'
+export { default as TimeLine } from './content/TimeLine.svelte'

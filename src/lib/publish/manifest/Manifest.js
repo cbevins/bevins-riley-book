@@ -23,6 +23,7 @@ export class Manifest {
         this.contents = []  // array of references to all 'content' items
         this.figures = []   // array of references to all 'Figure' items
         this.maps = []      // array of references to all 'Map' items
+        this.sidebars = []  // array of references to all 'Sidebar' items
         this.tables = []    // array of references to all 'Table' items
 
         // add a root section
@@ -47,6 +48,7 @@ export class Manifest {
         return this._addItem({
             comp,       // reference to Svelte component to display this content
             depth,      // depth must be same as the parent section
+            id: '',     // HTML element id assigned by calling function
             path,       // full path of this item (including 'folder')
             pidx,       // parent section's index into this.items[] array
             props,      // optional Svelte component props
@@ -68,11 +70,11 @@ export class Manifest {
         return item
     }
 
-    // Returns a unique 'href' 'id' like 'body-section-1-2-3-4-Map-1'
+    // Fashions an HTML element id for content
     _contentId(item) {
-        let id = this.sectionId(item)
-        id += `${this.sectSep}${item.type}${this.sectSep}${item.seq}`
-        return id
+        const parts = item.section.split(this.sectSep)
+        return [this.folder, 'section']
+            .concat(parts, [item.type, item.seq]).join(this.sectSep)
     }
 
     // Returns idx of the most recent 'section' at same depth
@@ -120,6 +122,7 @@ export class Manifest {
     addContent(depth, folder, comp, props={}) {
         const item = this._addComponent('content', depth, folder, null, comp, props)
         item.seq = this.contents.length + 1
+        item.id = this._contentId(item)
         this.contents.push(item)
         return item
     }
@@ -130,8 +133,8 @@ export class Manifest {
     addFigure(depth, folder, toc, comp, props={}) {
         const item = this._addComponent('Figure', depth, folder, toc, comp, props)
         item.seq = this.figures.length + 1
+        item.id = this._contentId(item)
         this.figures.push(item)
-        console.log('Added Figure', folder, toc)
         return item
     }
 
@@ -141,6 +144,7 @@ export class Manifest {
     addMap(depth, folder, toc, comp, props={}) {
         const item = this._addComponent('Map', depth, folder, toc, comp, props)
         item.seq = this.maps.length + 1
+        item.id = this._contentId(item)
         this.maps.push(item)
         return item
     }
@@ -150,6 +154,7 @@ export class Manifest {
         this.page++
         const parent = this.items[this.chapter]
         const path = [this.folder, 'page', this.page].join(this.pathSep)
+        const id = [this.folder, 'page', this.page].join(this.sectSep)
         // the page 'pidx', 'section', and 'title' props will be updated
         // if the very next Manifest item is a 'section'
         const pidx = this.chapter
@@ -158,6 +163,7 @@ export class Manifest {
         const item = {
             comp: null, // Publish will assign the requested Svelte component
             depth: 0,   // all pages have depth of zero
+            id,         // HTML element id
             path,       // full path of this item (e.g., 'body/page/1')
             pidx,       // parent section's index into this.items[] array
             props: {},  // unused
@@ -189,7 +195,11 @@ export class Manifest {
         const seq = this._sectionSeq(depth)  // sibling number (base 1)
         const section = (pidx===0) ? `${seq}`
             : `${parent.section}${this.sectSep}${seq}`
-        const toc = section + ' ' + title
+
+        // fashion an HTML element id
+        const parts = section.split(this.sectSep)
+        const id = [this.folder, 'section'].concat(parts).join(this.sectSep)
+        const toc = parts.join('.') + ' ' + title
 
         // If depth is 1, update the running chapter index
         if (depth === 1) this.chapter = this.items.length
@@ -205,6 +215,7 @@ export class Manifest {
         return this._addItem({
             comp: null, // Publish will assign the requested Svelte component
             depth,      // this section depth (base 0)
+            id,         // HTML element id
             path,       // full path of this item (including 'folder')
             pidx,       // parent section's index into this.items[] array
             props: {},  // optional Svelte component props
@@ -215,12 +226,24 @@ export class Manifest {
         })
     }
 
+    // Called by Manifest <Sidebar> Svelte component script
+    // Same as <Content> but with a ToC entry
+    // Note that content depth must be the same as its section depth
+    addSidebar(depth, folder, toc, comp, props={}) {
+        const item = this._addComponent('Sidebar', depth, folder, toc, comp, props)
+        item.seq = this.sidebars.length + 1
+        item.id = this._contentId(item)
+        this.sidebars.push(item)
+        return item
+    }
+
     // Called by Manifest <Table> Svelte component script
     // Same as <Content> but with a ToC entry
     // Note that content depth must be the same as its section depth
     addTable(depth, folder, toc, comp, props={}) {
         const item = this._addComponent('Table', depth, folder, toc, comp, props)
         item.seq = this.tables.length + 1
+        item.id = this._contentId(item)
         this.tables.push(item)
         return item
     }
@@ -230,13 +253,7 @@ export class Manifest {
         return this.items[item.pidx]
     }
 
-    // Returns a unique 'href' 'id' like 'body-section-1-2-3-4-Map-1'
-    id(item) {
-        if (item.type === 'section') return this.sectionId(item)
-        if (item.type === 'page') return this.pageId(item.page)
-        return this._contentId(item)
-    }
-
+    // Returns an HTML id given the pageno
     pageId(pageno) { return [this.folder, 'page', pageno].join(this.sectSep) }
 
     // Returns a unique 'href' 'id' like 'body-section-1-2-3-4'
