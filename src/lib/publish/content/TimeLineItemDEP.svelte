@@ -5,7 +5,7 @@
 </script>
 
 
-<div class="grid grid-cols-9 mb-2 divide-x-4 divide-blue-300 border-4 rounded  border-blue-500">
+<div class=" border-blue-500 bg-blue-100  divide-blue-300 grid grid-cols-9 mx-2 mb-2 divide-x-4 border-4 rounded-2xl">
     <div class='col-span-1 text-center py-1 text-lg font-bold'>{item[0]}</div>
     <div class='col-span-8 text-left px-4 py-1'>{lorem}</div>
 </div>

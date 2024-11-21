@@ -2,6 +2,8 @@
     // ./body/bevins/origins/Manifest.svelte
     import { Content, Map, Page, Placeholder, Table, Section } from '$lib/publish'
     import A from './A.svelte'
+    import MAW from './MaryAnnWhite.svelte'
+    import WAB from './WilliamAlfredBevins.svelte'
 
     export let man
     export let depth
@@ -11,8 +13,12 @@
 <Page {man}/>
 <Section {man} {depth} folder='origins' title='Bevins Origins'/>
 <Content {man} {depth} file='A' comp={A} />
-<Table {man} {depth} file='immigrants' comp={Placeholder}
-    title='Bevins Family Countries of Origin' />
+
+<Section {man} depth={d1} folder='origins' title='Bevins-Bolt'/>
+<Content {man} {depth} file='WilliamAlfredBevins' comp={WAB} />
+
+<Section {man} depth={d1} folder='origins' title='Bevins-White'/>
+<Content {man} {depth} file='MaryAnnWhite' comp={MAW} />
 
 <Section {man} depth={d1} folder='newbold-verdon' title='Newbold Verdon, Leicestershire, England'/>
 <Content {man} depth={d1} file='A' comp={A} />

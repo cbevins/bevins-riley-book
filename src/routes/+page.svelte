@@ -8,6 +8,9 @@
     const sylvan = getSylvan()
     const lines = getAllChannels()
     const headers = ['Lineage', 'Root Person', 'Root Ancestors', 'Founder Person', 'Founder Ancestors']
+
+    let families = sylvan.families().famKeyMap().size
+    let people = sylvan.people().nameKeyMap().size
 </script>
 
 <Card>
@@ -24,7 +27,7 @@
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
         Publish</a>
     
-    <P>Sylvan has {sylvan.families().famKeyMap().size} families</P>
+    <P>Sylvan has {families} families and {people} people</P>
 
     <table class="w-full text-sm text-left text-gray-500 rounded-lg">
         <thead class="text-xs text-gray-700 bg-gray-500">

@@ -3,7 +3,7 @@
     import { gxmlStr } from '$lib/gxml/gxmlStr.js'
 
     export let title
-    export let immigrants       // Array of 
+    export let immigrants       // Array of {name, gen, born, year}
     const headers = ['', 'Name', 'Born', 'Arrived', 'Age']
 </script>
 

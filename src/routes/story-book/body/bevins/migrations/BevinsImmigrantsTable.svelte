@@ -1,6 +1,6 @@
 <script>
     import { ImmigrantsTable } from '$lib/publish'
-    export let item
+    export let man, item, id
 
     const title = `Table ${item.seq}: ${item.toc}`
     const immigrants = [

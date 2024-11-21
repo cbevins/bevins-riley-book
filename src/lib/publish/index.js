@@ -12,8 +12,6 @@ export { default as Publish } from './publish/Publish.svelte'
 
 export { default as ImmigrantsTable } from './content/ImmigrantsTable.svelte'
 export { default as ListOfFeatures } from './content/ListOfFeatures.svelte'
-export { default as Lorem } from './content/Lorem.svelte'
 export { default as ManifestTable } from './content/ManifestTable.svelte'
 export { default as TableContents } from './content/TableContents.svelte'
 export { default as TableOfPageHeights } from './content/TableofPageHeights.svelte'
-export { default as TimeLine } from './content/TimeLine.svelte'

@@ -32,6 +32,8 @@ export class Lineage {
     // Public property access methods
     //--------------------------------------------------------------------------
 
+    find(nameKey) { return this.findPersonByNameKey(nameKey) }
+    
     // Returns reference to the {node} instance given a Person instance
     findPerson(person) { return this.personsMap().get(person) }
 

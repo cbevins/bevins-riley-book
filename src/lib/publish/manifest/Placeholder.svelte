@@ -1,6 +1,6 @@
 <script>
     import {P} from '$lib/markup'
-    export let man, item
+    export let man, item, id
     const section = man.items[item.pidx]
 </script>
 

@@ -33,7 +33,7 @@ function createLineageMap() {
     
     _lineageMap.set('bevins', new Channels(collin, true, 'SamuelBevins1878'))
     _lineageMap.set('collins', new Channels(collin, true, 'HattieJaneCollins1889'))
-    _lineageMap.set('de reus', new Channels(barbara, true, 'GladysMaeDeReus1907'))
+    _lineageMap.set('dereus', new Channels(barbara, true, 'GladysMaeDeReus1907'))
     _lineageMap.set('heddens', new Channels(collin, true, 'RalphVernonHeddens1909'))
     _lineageMap.set('nattrass', new Channels(collin, true, 'MargaretEvaNattrass1914'))
     _lineageMap.set('nelson', new Channels(barbara, true, 'MyrtleEstelleNelson1899'))
