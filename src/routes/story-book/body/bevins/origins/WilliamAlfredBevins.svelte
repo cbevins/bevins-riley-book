@@ -1,7 +1,7 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
     import { Da, Name, P, Place, ListItem18} from '$lib/markup'
-    export let man, item, id
+    // export let man, item, id
 
     const lineage = getChannels('bevins')
 

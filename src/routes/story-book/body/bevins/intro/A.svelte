@@ -28,10 +28,7 @@
 Our father <Da node={wcBevins}/>
 was born near <Place>Deer River, Minnesota</Place>, the last of 9 children of
 <Da node={hattieCollins}/> and <Da node={samBevins}/>.
-
-<Footnote num='1'>
-Samuel does not appear in the 1880 USFC, but shows up in the 1900 USFC
-with a Dec 1881, not a 1879, birth date.</Footnote>
+<Footnote chapter='bevins', num='1'/>
 </P>
 <P>
 Grandfather Samuel was born on <Date date='22 Dec 1879'/> in

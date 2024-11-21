@@ -4,7 +4,7 @@
     const section = man.items[item.pidx]
 </script>
 
-<div class="bg-amber-100 border-2 border-black mt-4 mb-4 p-4 rounded overflow-hidden shadow-lg shadow-slate-500">
+<div id={id} class="bg-amber-100 border-2 border-black mt-4 mb-4 p-4 rounded overflow-hidden shadow-lg shadow-slate-500">
     
     <P><span class="font-bold">{item.type.toUpperCase()} PLACEHOLDER</span></P>
     <P><span class="font-bold">[{item.path}]</span></P>

@@ -7,6 +7,7 @@
     import MigrationsManifest from './migrations/Manifest.svelte'
     import StoriesManifest from './stories/Manifest.svelte'
     import SurnameManifest from './surname/Manifest.svelte'
+    import NotesManifest from './notes/Manifest.svelte'
 
     export let man
     export let depth
@@ -21,3 +22,4 @@
 <MigrationsManifest {man} depth={d1} />
 <SurnameManifest {man} depth={d1} />
 <StoriesManifest {man} depth={d1} />
+<NotesManifest {man} depth={d1} />
