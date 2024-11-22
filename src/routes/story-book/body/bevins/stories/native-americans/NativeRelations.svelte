@@ -47,5 +47,5 @@ The family appears to still be centered primarily in the White Earth area.
 </P><P>
 So <Name>Aaron Thomas Bevins</Name> fatherd 17 children of which we know.
 His children, which are of our parents' generation, are our 2nd cousins 1x removed.
-His grandchildren, which are of our generation, and are our 3rd cousins.
+His grandchildren, which are of our generation, are our 3rd cousins.
 </P>

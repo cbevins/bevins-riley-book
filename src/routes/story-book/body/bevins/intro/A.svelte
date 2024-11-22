@@ -25,12 +25,11 @@
     const firstYear = firstBorn.person.birthYear()
 </script>
 <P>
-Our father <Da node={wcBevins}/>
+Our father <span><Da node={wcBevins}/></span>
 was born near <Place>Deer River, Minnesota</Place>, the last of 9 children of
 <Da node={hattieCollins}/> and <Da node={samBevins}/>.
-<Footnote chapter='bevins', num='1'/>
-</P>
-<P>
+<Footnote chapter='bevins' num='1'/>
+</P><P>
 Grandfather Samuel was born on <Date date='22 Dec 1879'/> in
 <Place>Annawan, Henry County, Illinois</Place>,
 the last of 6 children raised by <Da node={maryAnnWhite}/> and
