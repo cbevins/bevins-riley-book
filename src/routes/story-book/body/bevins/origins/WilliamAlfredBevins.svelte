@@ -32,11 +32,11 @@
 <P>
 Grandfather <Name>Samuel Bevins</Name>'s father <Da node={waBevins}/>
 was born in <Place>Leicester, England</Place> in 1843.
-He arrived in America at age 2 prior to the American Civil War in 1845
-along with his parents <Da node={wlBevins}/> (age 30) and <Da node={maryBolt}/> age 23.
-Also accompanying William were his older step brother
-<Name life='1838-1923'>John Henry Bevins</Name> age 7 and an older full brother
-<Name life='1841-1926'>Joseph Bevins</Name> age 4.
+He arrived in America at age 2 in 1845 along with his 30 year old
+father <Da node={wlBevins}/> and 23 year old mother <Da node={maryBolt}/>.
+Also accompanying them wa the 7 year old step-brother
+<Name life='1838-1923'>John Henry Bevins</Name>
+and 4 year old brother <Name life='1841-1926'>Joseph Bevins</Name>.
 </P><P>
 Documentation of the Bevins family line goes back at least 5 generations
 in <Place>Newbold Verdon</Place>:
