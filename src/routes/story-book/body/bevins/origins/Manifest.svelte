@@ -17,9 +17,11 @@
 <Section {man} depth={d1} folder='origins' title='Bevins-Bolt'/>
 <Content {man} {depth} file='WilliamAlfredBevins' comp={WAB} />
 
+<Page {man}/>
 <Section {man} depth={d1} folder='origins' title='Bevins-White'/>
 <Content {man} {depth} file='MaryAnnWhite' comp={MAW} />
 
+<Page {man}/>
 <Section {man} depth={d1} folder='newbold-verdon' title='Newbold Verdon, Leicestershire, England'/>
 <Content {man} depth={d1} file='A' comp={A} />
 <Map {man} depth={d1} file='migration-path' comp={Placeholder}

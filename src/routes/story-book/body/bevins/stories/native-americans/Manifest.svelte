@@ -8,6 +8,5 @@
     const d1 = depth + 1    // down 1
 </script>
 
-<Page {man}/>
 <Section {man} {depth} folder='native-americans' title='Native American Relations'/>
 <Content {man} {depth} file='nativeRelations' comp={NativeRelations}/>

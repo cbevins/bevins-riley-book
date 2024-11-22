@@ -180,6 +180,7 @@ export class Manifest {
         if ((recto && side === 'verso') || verso && side === 'recto') {
             this.page++
             const next = {...item}
+            next.id = [this.folder, 'page', this.page].join(this.sectSep)
             next.path = [this.folder, 'page', this.page].join(this.pathSep)
             this._addItem(next)
             return next

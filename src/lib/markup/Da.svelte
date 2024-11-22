@@ -51,7 +51,6 @@
 
 <span class='ordinal font-bold'>{fullName}
     {#if rel}{@html superHtml()}{/if}
-    {#if life}{lifeSpan}{/if}
 </span>
 <Popover title={title} trigger='click'
     class="w-72 text-sm font-light text-gray-500 bg-white dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
@@ -68,3 +67,4 @@
     </table>
 </div>
 </Popover>
+{#if life}{lifeSpan}{/if}

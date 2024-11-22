@@ -5,7 +5,6 @@
     export let man
     export let book = 'Book Title'
     export let showBreak = true
-
     function newpage(item) { return man.items[item.idx-1].type === 'page' }
 </script>
 

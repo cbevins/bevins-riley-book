@@ -23,6 +23,27 @@
 
     // Create an arabic-numeral Manifest for the book body and back matter
     const bodyMan = new Manifest('body')
+
+	onMount(() => {
+        const limit = 1190
+        console.log('Pages', bodyMan.page)
+        let id = `body-page-1`
+        let el = document.getElementById(id)
+        let prev = el.getBoundingClientRect().y
+        for (let i=2; i<bodyMan.page; i++) {
+            id = `body-page-${i}`
+            el = document.getElementById(id)
+            if(!el) {
+                console.log(`Page ${id} has null Element`)
+            } else {
+                const y = el.getBoundingClientRect().y
+                const ht = y - prev
+                if (ht > limit)
+                console.log(`Page ${i-1} ht=${y-prev} EXCEEDS ${limit} LIMIT!`)
+                prev = y
+            }
+        }
+	})
 </script>
 
 <Book>

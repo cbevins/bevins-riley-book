@@ -20,6 +20,7 @@
 <Map {man} depth={d1} file='migration-path' comp={Placeholder}
     title='Bevins-Bolt Migration Path'/>
 
+<Page {man}/>
 <Section {man} depth={d1} folder='bevins-white' title='Mary Ann White'/>
 <Content {man} depth={d1} file='placeholder' comp={Placeholder} />
 
