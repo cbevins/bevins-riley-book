@@ -74,7 +74,9 @@ const config = {
 			}
 		}
 	},
-	plugins: [require('@tailwindcss/typography'), flowbitePlugin]
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('flowbite/plugin')]
 	// plugins: [flowbitePlugin]
 };
 

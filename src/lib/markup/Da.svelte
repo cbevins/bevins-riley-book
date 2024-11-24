@@ -4,12 +4,22 @@
     export let node
     export let rel = true       // add relationship superscript
     export let life = true      // add life span
-    
+
+    function daFull() {
+        if (!gen) return 'Sibling'
+        if (gen===1) return `Parent`
+        if (gen===2) return `Grand Parent`
+        if (gen===3) return `1<sup>st</sup> Great Grand Parent`
+        if (gen===4) return `2<sup>nd</sup> Great Grand Parent`
+        if (gen===5) return `3<sup>rd</sup> Great Grand Parent`
+        return `${gen-2}<sup>th</sup> Great Grand Parent`
+    }
+
     function superHtml() {
-        return `<sup>` + da + '</sup>'
+        return `<sup>` + daAbbr() + '</sup>'
     }
     
-    function ancestor() {
+    function daAbbr() {
         if (!gen) return 'Offspring'
         if (gen===1) return `Par`
         if (gen===2) return `GP`
@@ -20,7 +30,6 @@
     }
     
     const {person, father, mother, child, gen, seq} = node
-    const da = ancestor()
     const prefix = person.namePrefix()
     const given = person.nameGiven()
     const surnames = person.nameSurnames()
@@ -39,7 +48,7 @@
     const deathCountry = person.deathCountry()
     const ageStr = person.ageString()
 
-    const title = fullName
+    const title = daFull() + fullName
     const rows = [
         ['Born', person.birthDate().str()+'<br/>'
             + person.birthPlace().text()],
@@ -49,9 +58,7 @@
     ]
 </script>
 
-<span class='ordinal font-bold'>{fullName}
-    {#if rel}{@html superHtml()}{/if}
-</span>
+<span class='ordinal font-bold'>{fullName}</span>
 <Popover title={title} trigger='click'
     class="w-72 text-sm font-light text-gray-500 bg-white dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
     <div class="space-y-2 py-2">
@@ -67,4 +74,5 @@
     </table>
 </div>
 </Popover>
+{#if rel}{@html superHtml()}{/if}
 {#if life}{lifeSpan}{/if}

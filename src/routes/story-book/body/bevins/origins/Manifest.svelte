@@ -4,6 +4,7 @@
     import A from './A.svelte'
     import MAW from './MaryAnnWhite.svelte'
     import WAB from './WilliamAlfredBevins.svelte'
+    import NewboldVerdonEngland from './NewboldVerdonEngland.svelte'
 
     export let man
     export let depth
@@ -18,11 +19,14 @@
 <Content {man} {depth} file='WilliamAlfredBevins' comp={WAB} />
 
 <Page {man}/>
+<Map {man} depth={d1} file='NewboldVerdonEngland' comp={NewboldVerdonEngland}
+    title='Newbold Verdon, Leicestershire, England' />
+
+<Page {man}/>
 <Section {man} depth={d1} folder='origins' title='Bevins-White'/>
 <Content {man} {depth} file='MaryAnnWhite' comp={MAW} />
 
 <Page {man}/>
 <Section {man} depth={d1} folder='newbold-verdon' title='Newbold Verdon, Leicestershire, England'/>
 <Content {man} depth={d1} file='A' comp={A} />
-<Map {man} depth={d1} file='migration-path' comp={Placeholder}
-    title='Newbold Verdon, Leicestershire, England' />
+    

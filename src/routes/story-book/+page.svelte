@@ -22,7 +22,7 @@
     const frontMan = new Manifest('front')
 
     // Create an arabic-numeral Manifest for the book body and back matter
-    const bodyMan = new Manifest('body')
+    $: bodyMan = new Manifest('body')
 
     function pageHts() {
         const limit = 1190

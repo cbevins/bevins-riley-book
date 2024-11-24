@@ -1,10 +1,15 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
     import { Da, Name, P, Place, ListItem18} from '$lib/markup'
+    import { Lineage } from '$lib/publish'
     // export let man, item, id
 
-    const lineage = getChannels('bevins')
-
+    const names = [
+        ['William C Bevins', 'Meartia M Heddens'],
+        ['Samuel Bevins', 'Hattie J Collins'],
+        ['William A Bevins', 'Mary A White'],
+        ['William L Bevins', 'Mary Bolt'],
+    ]
 /**
  * Lineage {node} properties:
  * - person: reference to the {node} subject's Person instance
@@ -15,6 +20,7 @@
  * - seq: lineage father-descent-first sequence number, where root Persin seq===1
 */
     // These are all Lineage {node} references
+    const lineage = getChannels('bevins')
     const maryBolt = lineage.find('MaryBolt1822')
     const waBevins = lineage.find('WilliamAlfredBevins1843')
     const wlBevins = lineage.find('WilliamLongfordBevins1815')
@@ -28,7 +34,7 @@
     const williamBevins = lineage.find('WilliamBevins1705')
     const sarahWilkinson = lineage.find('SarahWilkinson1696')
 </script>
-
+<Lineage {names}/>
 <P>
 Grandfather <Name>Samuel Bevins</Name>'s father <Da node={waBevins}/>
 was born in <Place>Leicester, England</Place> in 1843.

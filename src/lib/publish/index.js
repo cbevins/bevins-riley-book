@@ -11,6 +11,7 @@ export { default as Table } from './manifest/Table.svelte'
 export { default as Publish } from './publish/Publish.svelte'
 
 export { default as ImmigrantsTable } from './content/ImmigrantsTable.svelte'
+export { default as Lineage } from './content/Lineage.svelte'
 export { default as ListOfFeatures } from './content/ListOfFeatures.svelte'
 export { default as ManifestTable } from './content/ManifestTable.svelte'
 export { default as TableContents } from './content/TableContents.svelte'
