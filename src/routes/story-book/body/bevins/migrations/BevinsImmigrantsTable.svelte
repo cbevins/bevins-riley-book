@@ -11,4 +11,6 @@
     ]
 </script>
 
-<ImmigrantsTable {title} {immigrants}/>
+<div id={id}>
+    <ImmigrantsTable {title} {immigrants}/>
+</div>

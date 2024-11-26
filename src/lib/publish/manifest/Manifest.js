@@ -135,6 +135,7 @@ export class Manifest {
         item.seq = this.figures.length + 1
         item.id = this._contentId(item)
         this.figures.push(item)
+        console.log('addFigure', item)
         return item
     }
 
@@ -146,6 +147,7 @@ export class Manifest {
         item.seq = this.maps.length + 1
         item.id = this._contentId(item)
         this.maps.push(item)
+        console.log('addMap', item)
         return item
     }
 

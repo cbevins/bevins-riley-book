@@ -26,23 +26,27 @@
         let xl = pad + i*(boxWd+gap)
         let xr = xl + boxWd
         let xm = (xl + xr)/2
-        els.push({el: 'line', x1: xm, y1: y1, x2: xm, y2: y2,
-            stroke: 'black','stroke-width': 1})
-        for(let j=0; j<2; j++) {
-            let y = pad + j * (boxHt+pad)
-            let ybase = y + boxHt/2 + fontSize/3
-            els.push({el: 'rect', x: xl, y: y, width: boxWd, height: boxHt,
-                fill: 'none', stroke: 'black', 'stroke-width': 1})
-            els.push({el: 'text',
-                x: xm,
-                y: ybase,
-                'text-anchor': "middle",
-                'font-family': fontFamily,
-                'font-weight': "lighter",
-                'font-size': fontSize, 
-                els: [{el: 'inner', content: names[i][j]}]
-            })
+        // vertical connector between spouses IFF there is a spouse
+        if (names[i][1]) {
+            els.push({el: 'line', x1: xm, y1: y1, x2: xm, y2: y2,
+                stroke: 'black','stroke-width': 1})
         }
+        for(let j=0; j<2; j++) {
+            if (names[i][j]) {
+                let y = pad + j * (boxHt+pad)
+                let ybase = y + boxHt/2 + fontSize/3
+                els.push({el: 'rect', x: xl, y: y, width: boxWd, height: boxHt,
+                    fill: 'none', stroke: 'black', 'stroke-width': 1, rx: 4})
+                els.push({el: 'text', x: xm, y: ybase,
+                    'text-anchor': "middle",
+                    'font-family': fontFamily,
+                    'font-weight': "lighter",
+                    'font-size': fontSize, 
+                    els: [{el: 'inner', content: names[i][j]}]
+                })
+            }
+        }
+        // horizontal connector between generations
         if (i<gens-1) {
             els.push({el: 'line', x1: xr, y1: ym, x2: xr+gap, y2: ym,
                 stroke: 'black','stroke-width': 1})

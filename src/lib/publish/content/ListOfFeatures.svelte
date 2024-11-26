@@ -15,7 +15,7 @@
     function titleHtml(item) {
         let html = `<a href='#${item.id}'>`
         html += `<span class="underline">${name} ${item.seq}</span>`
-        html += ` - ${item.title}</a>`
+        html += ` - ${item.toc}</a>`
         return html
     }
 </script>
