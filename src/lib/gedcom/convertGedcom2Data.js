@@ -1,11 +1,12 @@
 import fs from 'fs'
-import { file2JsonArray } from '../index.js'
+import { file2JsonArray } from '../file-reader/file2JsonArray.js'
 import { intFmt } from '../helpers/formatters.js'
 import { parseLine } from './constructGedcom.js'
 
 const progName = (process.argv[1]).split('\\').pop()
 
-const inputs = ['../tmp/Ancestry.ged', '../tmp/RootsMagic.ged']
+const inputs = ['../data/gedcoms/Ancestry20241206.ged',
+    '../data/gedcoms/RootsMagic20241206.ged']
 const outputs = ['_gedcomDataAncestry.js', '_gedcomDataRootsMagic.js']
 
 const keepersSet = new Set()
