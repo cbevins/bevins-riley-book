@@ -2,6 +2,7 @@
     // ./body/bevins/Manifest.svelte
     import { Content, Page, Placeholder, Section } from '$lib/publish'
 
+    import HistoryManifest from './history/Manifest.svelte'
     import IntroManifest from './intro/Manifest.svelte'
     import OriginsManifest from './origins/Manifest.svelte'
     import MigrationsManifest from './migrations/Manifest.svelte'
@@ -19,6 +20,7 @@
 
 <IntroManifest {man} depth={d1} />
 <OriginsManifest {man} depth={d1} />
+<HistoryManifest {man} depth={d1} />
 <MigrationsManifest {man} depth={d1} />
 <SurnameManifest {man} depth={d1} />
 <StoriesManifest {man} depth={d1} />

@@ -8,4 +8,5 @@
 </script>
 
 <Page {man} recto={true}/>
+<Section {man} {depth} folder='stories' title='Bevins Family Stories'/>
 <NativeManifest {man} depth={d1} />

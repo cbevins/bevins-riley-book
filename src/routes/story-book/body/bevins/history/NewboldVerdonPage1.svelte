@@ -1,6 +1,6 @@
 <script>
     import { Bold, Em, P } from '$lib/markup'
-    import Eng from './England.jpg'
+    import Eng from '../images/England.jpg'
     export let id
     const p = $$props // Ignore passed props: man, item, id
 </script>
