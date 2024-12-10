@@ -23,6 +23,7 @@
         if (item.type === 'Map') return `Map ${item.seq}`
         if (item.type === 'Sidebar') return `Sidebar ${item.seq}`
         if (item.type === 'Table') return `Table ${item.seq}`
+        throw new Error(`TableContents seq() has unknwon type '${type}'`)
         return ''
     }
 

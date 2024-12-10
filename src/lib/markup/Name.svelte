@@ -1,25 +1,25 @@
 <script>
-    export let ggp = ''   // '1', '2', ...
-    export let sup = ''
-    export let life = ''
+    export let ggp = null   // '1', '2', ...
+    export let sup = null
+    export let life = null
 
-    function superHtml() {
-        let ord = 'th'
-        if (ggp !== '') {
-            if (ggp === '1') ord = 'st'
-            else if (ggp === '2') ord = 'nd'
-            else if (ggp === '3') ord = 'rd'
-            return `<sup>${ggp}<sup>${ord}</sup>ggp</sup>`
-        }
-        if (sup !== '') {
-            return `<sup>${sup}</sup>`
-        }
-        return ''
-    }
-    function lifeHtml() {
-        return (life === '') ? '' : ` (${life})`
+    function ord(n) {
+        if (n === '1') return 'st'
+        if (n === '2') return 'nd'
+        if (n === '3') return 'rd'
+        return 'th'
     }
 </script>
-<span class='font-bold'><slot></slot></span>
-{@html superHtml()}
-{@html lifeHtml()}
+
+<span class='font-bold'>
+    <slot></slot>
+    {#if ggp}
+        <sup>{ggp}<sup>{ord(ggp)}</sup></sup>
+    {/if}
+    {#if sup}
+        <sup>{sup}</sup>
+    {/if}
+    {#if life}
+        ({life})
+    {/if}
+</span>

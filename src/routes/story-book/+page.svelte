@@ -63,6 +63,8 @@
         {book} chapter='List of Figures'/>
     <ListOfFeatures man={bodyMan} name='Map' items={bodyMan.maps}
         {book} chapter='List of Maps'/>
+    <ListOfFeatures man={bodyMan} name='Sidebar' items={bodyMan.sidebars}
+        {book} chapter='List of Sidebars'/>
     <ListOfFeatures man={bodyMan} name='Table' items={bodyMan.tables}
         {book} chapter='List of Tables'/>
         

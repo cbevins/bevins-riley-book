@@ -2,6 +2,7 @@
     import { getChannels } from '$lib/content/singletons.js'
 	import SamuelBevinsBirthYear from './SamuelBevinsBirthYear.svelte'
     import EarliestBevinsInAmerica from './EarliestBevinsInAmerica.svelte'
+    const p = $$props // Ignore passed props: man, item, id
 
     // These are all Lineage {node} references
     const lineage = getChannels('bevins')

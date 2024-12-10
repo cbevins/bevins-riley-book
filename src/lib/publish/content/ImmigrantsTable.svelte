@@ -26,10 +26,10 @@
                     <td class="px-2 py-2 text-center">
                         {@html gxmlStr(flagPinGxml(person.born, 0, 0, 0.25))}
                     </td>
-                    <td class="px-2 py-2" text-left>{person.name}</td>
-                    <td class="px-2 py-2" text-left>{person.born}</td>
-                    <td class="px-2 py-2" text-left>{person.year}</td>
-                    <td class="px-2 py-2" text-left>{person.age}</td>
+                    <td class="px-2 py-2 text-left">{person.name}</td>
+                    <td class="px-2 py-2 text-left">{person.born}</td>
+                    <td class="px-2 py-2 text-left">{person.year}</td>
+                    <td class="px-2 py-2 text-left">{person.age}</td>
                 </tr>
             {/each}
         </tbody>

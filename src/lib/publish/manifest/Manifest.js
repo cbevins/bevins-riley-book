@@ -41,6 +41,9 @@ export class Manifest {
     // Note that content depth must be the same as its section depth
     _addComponent(type, depth, folder, toc, comp, props={}) {
         const pidx = this._contentSection(depth)
+        if (!pidx) throw new Error(
+            `_addComponent() for type '${type}' folder '${folder}' title '${toc}' `
+            + `was unable to find a parent Section at depth ${depth}`)
         const parent = this.items[pidx]
         const path = parent.path + this.pathSep + folder
         const section = parent ? parent.section : '0'
@@ -88,7 +91,8 @@ export class Manifest {
                     return pidx
             }
         }
-        throw new Error(`_contentSection(${depth}) not found.`)
+        return null
+        // throw new Error(`_contentSection(${depth}) Unable to find section at depth ${depth}`)
     }
 
     // Returns idx of the most recent 'section' at depth-1
@@ -135,7 +139,7 @@ export class Manifest {
         item.seq = this.figures.length + 1
         item.id = this._contentId(item)
         this.figures.push(item)
-        console.log('addFigure', item)
+        // console.log('addFigure', item)
         return item
     }
 
@@ -147,7 +151,7 @@ export class Manifest {
         item.seq = this.maps.length + 1
         item.id = this._contentId(item)
         this.maps.push(item)
-        console.log('addMap', item)
+        // console.log('addMap', item)
         return item
     }
 
@@ -236,6 +240,7 @@ export class Manifest {
         const item = this._addComponent('Sidebar', depth, folder, toc, comp, props)
         item.seq = this.sidebars.length + 1
         item.id = this._contentId(item)
+        // console.log(`Assigned Sidebar ${toc} id ${item.id}`)
         this.sidebars.push(item)
         return item
     }

@@ -1,17 +1,17 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
-    import { Da, Date, Footnote, Name, P, Place } from '$lib/markup'
+    import { Da, Name, P } from '$lib/markup'
 
     export let man, item, id
 
     const lineage = getChannels('bevins')
-    const wcBevins = lineage.find('WilliamCollinsBevins1931')
-    const samBevins = lineage.find('SamuelBevins1878')
-    const hattieCollins =  lineage.find('HattieJaneCollins1889')
-    const waBevins = lineage.find('WilliamAlfredBevins1843')
-    const wlBevins = lineage.find('WilliamLongfordBevins1815')
-    const maryAnnWhite= lineage.find('MaryAnnWhite1848')
-    const sarahWilkinson = lineage.find('SarahWilkinson1696')
+    // const wcBevins = lineage.find('WilliamCollinsBevins1931')
+    const samBevins = lineage.find('SamuelBevins1881')
+    // const hattieCollins =  lineage.find('HattieJaneCollins1889')
+    // const waBevins = lineage.find('WilliamAlfredBevins1843')
+    // const wlBevins = lineage.find('WilliamLongfordBevins1815')
+    // const maryAnnWhite= lineage.find('MaryAnnWhite1848')
+    // const sarahWilkinson = lineage.find('SarahWilkinson1696')
 
     const ancestors = samBevins.ancestors
     let nodes = lineage.nodes()
@@ -25,21 +25,27 @@
     const firstYear = firstBorn.person.birthYear()
 </script>
 <P>
-Our father <span><Da node={wcBevins}/></span>
-was born near <Place>Deer River, Minnesota</Place>, the last of 9 children of
-<Da node={hattieCollins}/> and <Da node={samBevins}/>.
-<Footnote chapter='bevins' num='1'/>
+I begin with the first chapter devoted to the direct ancestors of our grandfather
+<Name>Samuel Bevins</Name>.  My choice is influenced, of course, by the fact that
+<Name>Bevins</Name> is our patronymic surname, but there are other factors I
+considered as well.
 </P><P>
-Grandfather Samuel was born on <Date date='22 Dec 1879'/> in
-<Place>Annawan, Henry County, Illinois</Place>,
-the last of 6 children raised by <Da node={maryAnnWhite}/> and
-<Da node={waBevins}/>.
+Most importantly, the <Name>Bevins</Name> line is the most recent of
+our 8 lineages to immigrate to America (in 1845 and 1871), and since there were only
+4 of them I have fewer ancestors to discover before tracking them down to
+their geography of origin, and fewer ancestors to document and write about.
+The other 7 lineages, on the other hand, have deep colonial American roots.
+Also, primary source documentation is generally more available and reliable
+with the more recent generations.  This allows me to start out in the shallow
+end, get my legs under myself, and wade into deeper waters in later chapters.
 </P><P>
-In this chapter I share some of my discoveries about the direct ancestors
-of our grandfather <Name>Samuel Bevins</Name>,
-and how he arrived in northern Minnesota by the 1930's.
+That said, I have so far located {ancestors} direct ancestors of
+<Name>Samuel Bevins</Name> going back 9 generations with the earliest recorded
+birth in {firstYear} for <Da node={firstBorn}/>.
+In the following sections we'll discover the geographic origins of our <Name>Bevins</Name>
+family branch; the historical context in which our ancestors lived; why, where,
+and how they migrated to Minnesota; and the (most likely) real meaning of the
+<Name>Bevins</Name> surname.
 </P><P>
-To date I have located {ancestors} direct ancestors of <Name>Samuel Bevins</Name>
-going back 8 generations, with the earliest recorded birth in {firstYear}
-for <Da node={firstBorn}/>.
+    So ... here we go!
 </P>

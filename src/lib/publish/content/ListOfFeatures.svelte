@@ -2,7 +2,7 @@
     import { NewPage } from '$lib/markup'
 
     export let man
-    export let name     // 'Figure', 'Map', or 'Table'
+    export let name     // 'Figure', 'Map', 'Sidebar', or 'Table'
     export let items    // reference to man.figures, man.maps, man.tables
     export let book = ''
     export let chapter = ''
