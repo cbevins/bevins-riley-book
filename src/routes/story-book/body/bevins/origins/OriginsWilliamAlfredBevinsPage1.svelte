@@ -1,6 +1,8 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
-    import { Da, Lf, ListItem18, Place } from '$lib/markup'
+    import Photo from '../images/WilliamAlfredBevins.jpg'
+    import { Da, Bold, ListItem18, Lf, Name, P, Place } from '$lib/markup'
+    export let id
     const p = $$props // Ignore passed props: man, item, id
 
     const names = [
@@ -31,8 +33,24 @@
     const williamBevins = lineage.find('WilliamBevins1705')
 
 </script>
+<div id={id} class="float-left w-[2in] h-[2.7in] p-4 mr-4 mt-4 rounded-xl bg-green-200">
+    <img src={Photo} alt='Willaim Alfred Bevins' width="300"/>
+    <div class='text-center text-sm text-black font-serif'>
+        William Alfred Bevins
+    </div>  
+</div>
+<P>
+Grandfather <Name>Samuel Bevins</Name>'s father <Da node={waBevins}/> was born in <Bold>Newbold Verdon, Leicestershire, England</Bold> in 1843.
+In 1845 at age 2 he immigrated to America with his 30 year old father <Da node={wlBevins}/>
+and 23 year old mother <Da node={maryBolt}/>. Also accompanying them
+was his 7 year old step-brother <Name life='1838-1923'>John Henry Bevins</Name>
+and 4 year old brother <Name life='1841-1926'>Joseph Bevins</Name>.
+</P><P>
+Documentation of our <Name>Bevins</Name> family line goes back many generations
+in the immediate area of <Place>Newbold Verdon, Leicestershire, England</Place>,
+a small farming village in the middle of the English Midlands:
+</P>
 <Lf/>
-
 <ListItem18 item='7th Gen'>
 <Da node={wBevinsSr}/> was born in Newbold Verdon.
 His wife <Da node={judithBaker}/> was also born in Newbold Verdon.
@@ -65,19 +83,5 @@ was born 85 miles southwest <Place>Middlesex, London</Place>.
 Her family origins appear to be near Bridgewater in Somerset county in the southwest.
 They are known to have at least 9 children.
 </ListItem18>
-
-<ListItem18 item='2nd Gen'>
-Their son <Da node={wlBevins}/> was also born in <Place>Newbold Verdon</Place>,
-while his wife <Da node={maryBolt}/> was born 4 miles south in <Place>Barwell</Place>.
-It was this couple who emmigrated to America in 1845 with their then 3 children.
-They would eventually raise 11 children.
-</ListItem18>
-
-<ListItem18 item='1st Gen'>
-Their son, the immigrant <Da node={waBevins}/>
-was also born in <Place>Newbold Verdon</Place>,
-while his wife the immigrant <Da node={maryAnnWhite}/> had resided in
-<Place>Leicester</Place> before emmigrating to Illinois with her daughter
-Allace in 1871.  Her family origins appear to be in Devonshire and Cornwall
-in the southwest. They would have 5 more children between them.
-</ListItem18>
+    
+    

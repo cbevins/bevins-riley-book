@@ -1,7 +1,9 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
     import { Lineage } from '$lib/publish'
-    import { Da, Date, Footnote, Name, P, Place } from '$lib/markup'
+    import { Bold, Da, Date, Footnote, Name, P, Place } from '$lib/markup'
+    import Eng from '../images/England.jpg'
+    export let id
     const p = $$props // Ignore passed props: man, item, id
 
     const names = [
@@ -10,6 +12,8 @@
         ['William A Bevins', 'Mary A White'],
         ['William L Bevins', 'Mary Bolt'],
     ]
+    const titles = ['Parents', 'Grand Parents',
+        '1st Great Grand Parents', '2nd Great Grand Parents']
 
     const lineage = getChannels('bevins')
     const maryBolt = lineage.find('MaryBolt1822')
@@ -32,7 +36,9 @@
     const williamBevins = lineage.find('WilliamBevins1705')
 
 </script>
-<Lineage {names}/>
+<div class='mt-2'/>
+
+<Lineage {names} {titles}/>
 
 <P>
 Our father <span><Da node={wcBevins}/></span>
@@ -42,27 +48,26 @@ was born near <Place>Deer River, Minnesota</Place>, the last of 9 children of
 Grandfather Samuel was born on <Date date='22 Dec 1881'/> <Footnote chapter='bevins' num='1'/>
 in <Place>Annawan, Henry County, Illinois</Place>,
 the last of 6 children raised by the immigrants <Da node={maryAnnWhite}/> and
-<Da node={waBevins}/>.
-</P><P>
-<Da node={waBevins}/> was born in Newbold Verdon, Leicestershire, England in 1843.
-In 1845 at age 2 he immigrated to America with his 30 year old father <Da node={wlBevins}/>
-and 23 year old mother <Da node={maryBolt}/>. Also accompanying them
-was his 7 year old step-brother <Name life='1838-1923'>John Henry Bevins</Name>
-and 4 year old brother <Name life='1841-1926'>Joseph Bevins</Name>.
-</P><P>
-Twenty-four of the 27 known ancestors of <Da node={waBevins}/> are from
-Newbold Verdon.  The exceptions are his grandmother <Da node={sarahAnnLongford}/>
-and her parents who were originally from Somerset.
-</P><P>
-The remaining 23 known ancestors are on his wife's side; <Da node={maryAnnWhite}/>
-immigrated to the US 26 years after her future husband.
-All 19 of her father's known ancesters were from Brixham, Devon,
-while all 4 of her mother's known ancestors were from Mevagissey, Cornwall.
-Both are seaside fishing villages on England's southwest coast.
-</P><P>
-Documentation of our <Name>Bevins</Name> family line goes back many generations
-in the immediate area of <Place>Newbold Verdon, Leicestershire, England</Place>,
-a small farming village in the middle of the English Midlands:
+<Da node={waBevins}/>.  His parents emigrated separately from England,
+<Name>William Alfred</Name> as a child of 2 in 1843, and <Name>Mary Ann White</Name>
+as a 26 year old mother in 1871.  So its not surprising their lines originate
+from two separate locations in England.
 </P>
-    
-    
+<div id={id} class="float-left w-[3.25in] h-[4.7in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
+    <div class='text-center text-md text-black font-serif font-semibold'>
+        <div class="mt-3">Bevins Origins in England</div>
+    </div>  
+    <img src={Eng} alt='England' width="300"/>
+</div>
+<P>
+Twenty-four of the 27 known ancestors of <Da node={waBevins}/> are from
+the small farming village of <Bold>Newbold Verdon, Leicestershire</Bold>.
+The 3 exceptions are his grandmother <Da node={sarahAnnLongford}/>
+and her parents who were originally from Somerset.
+</P>
+<P>
+His wife <Da node={maryAnnWhite}/> claims the 23 remaining known ancestors.
+All 19 of her father's known ancesters were from <Bold>Brixham, Devon</Bold>,
+while all 4 of her mother's known ancestors were from <Bold>Mevagissey, Cornwall</Bold>.
+Both are seaside fishing villages on England's southwest coast.
+</P> 
