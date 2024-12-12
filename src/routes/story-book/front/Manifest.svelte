@@ -1,5 +1,5 @@
 <script>
     import { Content, Page, Section } from '$lib/publish'
-    export let man
-    export let depth = 1
+    const p = $$props // Ignore passed props: man, depth
+    // export let depth = 1
 </script>

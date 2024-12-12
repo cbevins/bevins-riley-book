@@ -3,7 +3,6 @@
     import Photo from '../images/WilliamAlfredBevins.jpg'
     import { Da, Bold, ListItem18, Lf, Name, P, Place } from '$lib/markup'
 	import { AppleSolid } from 'flowbite-svelte-icons';
-    export let id
     const p = $$props // Ignore passed props: man, item, id
 
     const names = [

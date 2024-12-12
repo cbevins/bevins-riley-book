@@ -1,8 +1,7 @@
 <script>
     import { onMount } from 'svelte'
     import { NewPage } from '$lib/markup'
-    export let man
-    export let book = ''
+    const p = $$props // Ignore passed props: man, book
     let chapter = 'Table of Page Heights'
     
     onMount(() => {

@@ -1,7 +1,6 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
     import { Da, Name, P } from '$lib/markup'
-    export let man, item, id
     const p = $$props // Ignore passed props: man, item, id
 
     const lineage = getChannels('bevins')
@@ -40,8 +39,8 @@ with the more recent generations.  This allows me to start out in the shallow
 end, get my legs under myself, and wade into deeper waters in later chapters.
 </P><P>
 That said, I have so far located {ancestors} direct ancestors of
-<Name>Samuel Bevins</Name> going back 9 generations with the earliest recorded
-birth in {firstYear} for <Da node={firstBorn}/>.
+<Name>Samuel Bevins</Name> going back 9 generations to our 7<sup>th</sup> great grand parents,
+with the earliest recorded birth in {firstYear} for <Da node={firstBorn}/>.
 In the following sections we'll discover the geographic origins of our <Name>Bevins</Name>
 family branch; the historical context in which our ancestors were born and lived;
 why, where, and how they migrated to Minnesota;

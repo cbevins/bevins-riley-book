@@ -1,6 +1,7 @@
 <script>
     import { ImmigrantsTable } from '$lib/publish'
-    export let man, item, id
+    export let item, id
+    const p = $$props // Ignore passed props: man, item, id
 
     const title = `Table ${item.seq}: ${item.toc}`
     const immigrants = [

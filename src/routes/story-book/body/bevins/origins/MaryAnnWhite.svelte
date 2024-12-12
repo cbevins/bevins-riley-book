@@ -1,6 +1,6 @@
 <script>
     import { Enquote, Italic, Name, P, Place, Source } from '$lib/book'
-    export let man, item, id
+    const p = $$props // Ignore passed props: man, item, id
 </script>
 <P>
 The origins of grandfather <Name>Samuel Bevins</Name>'s mother's

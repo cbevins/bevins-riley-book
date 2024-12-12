@@ -53,11 +53,15 @@ the last of 6 children raised by the immigrants <Da node={maryAnnWhite}/> and
 as a 26 year old mother in 1871.  So its not surprising their lines originate
 from two separate locations in England.
 </P>
-<div id={id} class="float-left w-[3.25in] h-[4.7in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
+<div id={id} class="float-left w-[4.25in] h-[3.75in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
     <div class='text-center text-md text-black font-serif font-semibold'>
-        <div class="mt-3">Bevins Origins in England</div>
+        <div class="mt-2">Bevins Origins in England</div>
     </div>  
-    <img src={Eng} alt='England' width="300"/>
+    <img src={Eng} alt='England' width="400"/>
+    <div class='text-left text-sm text-black font-serif'>
+        The Bevins line originates from Newbold Verdon, Leicestershire,
+        and Brixham, Devon, about 180 miles apart.
+    </div>  
 </div>
 <P>
 Twenty-four of the 27 known ancestors of <Da node={waBevins}/> are from
@@ -66,8 +70,8 @@ The 3 exceptions are his grandmother <Da node={sarahAnnLongford}/>
 and her parents who were originally from Somerset.
 </P>
 <P>
-His wife <Da node={maryAnnWhite}/> claims the 23 remaining known ancestors.
-All 19 of her father's known ancesters were from <Bold>Brixham, Devon</Bold>,
+His wife <Da node={maryAnnWhite}/> claims the 25 remaining known ancestors.
+All 21 of her father's known ancesters were from <Bold>Brixham, Devon</Bold>,
 while all 4 of her mother's known ancestors were from <Bold>Mevagissey, Cornwall</Bold>.
 Both are seaside fishing villages on England's southwest coast.
 </P> 

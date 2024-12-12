@@ -7,7 +7,7 @@
 
     const sylvan = getSylvan()
     const lines = getAllChannels()
-    const headers = ['Lineage', 'Root Person', 'Root Ancestors', 'Founder Person', 'Founder Ancestors']
+    const headers = ['Lineage', 'Lineage Founder', 'Founder Ancestors', 'Lineage Root', 'Root Ancestors']
 
     let families = sylvan.families().famKeyMap().size
     let people = sylvan.people().nameKeyMap().size
@@ -23,15 +23,8 @@
     <a href="/research-journal"
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
         Research Journal Edition</a>
-<!--         
-    <a href="/imprint"
-        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
-        Imprint</a>
-    <a href="/publish"
-        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
-        Publish</a>
--->
-    <P>Sylvan has {families} families and {people} people</P>
+
+    <P>Bevins-Riley Tree currently has {families} families and {people} people</P>
 
     <table class="w-full text-sm text-left text-gray-500 rounded-lg">
         <thead class="text-xs text-gray-700 bg-gray-500">
@@ -47,13 +40,13 @@
                 <td class="px-2 py-2 text-left">
                     {key}</td>
                 <td class="px-2 py-2 text-left">
-                    {channel.rootNode().person.fullName()}</td>
-                <td class="px-2 py-2 text-left">
-                    {channel.rootNode().ancestors}</td>
-                <td class="px-2 py-2 text-left">
                     {channel.branchNode().person.fullName()}</td>
                 <td class="px-2 py-2 text-center">
                     {channel.branchNode().ancestors}</td>
+                <td class="px-2 py-2 text-left">
+                    {channel.rootNode().person.fullName()}</td>
+                <td class="px-2 py-2 text-left">
+                    {channel.rootNode().ancestors}</td>
             </tr>
             {/each}
         </tbody>
