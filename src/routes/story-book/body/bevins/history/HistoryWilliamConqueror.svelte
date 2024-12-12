@@ -1,7 +1,6 @@
 <script>
     import { Bold, Em, Enquote, P, Rarrow } from '$lib/markup'
     import Tapestry from '../images/BayeuxTapestryScene37.jpg'
-    export let id
     const p = $$props // Ignore passed props: man, item, id
 </script> 
 <P>
@@ -30,7 +29,8 @@ under his single rule and moved the capital from Winchester to London.
 <Rarrow/> Old French (Norman French) became the language of the palaces, courts, churches,
 schools, administrative offices, manor houses, and upper society.
 </P>
-<div id={id} class="float-left w-[4in] h-[2in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
+<div id="figure-wine-for-william-s-invasion"
+    class="float-left w-[4in] h-[2in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
     <div class="mt-2"></div>
     <img src={Tapestry} alt='Bayeau Tapestry Scene 37' width="400"/>
     <div class='text-xs text-left text-black font-serif'>

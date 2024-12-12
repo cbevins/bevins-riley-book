@@ -59,14 +59,10 @@
     <!-- Temporarily display the Body manifest -->
     <!-- <ManifestTable man={bodyMan}/> -->
     <TableContents man={bodyMan} {book} chapter='Table of Contents'/>
-    <ListOfFeatures man={bodyMan} name='Figure' items={bodyMan.figures}
-        {book} chapter='List of Figures'/>
-    <ListOfFeatures man={bodyMan} name='Map' items={bodyMan.maps}
-        {book} chapter='List of Maps'/>
-    <ListOfFeatures man={bodyMan} name='Sidebar' items={bodyMan.sidebars}
-        {book} chapter='List of Sidebars'/>
-    <ListOfFeatures man={bodyMan} name='Table' items={bodyMan.tables}
-        {book} chapter='List of Tables'/>
+    <ListOfFeatures man={bodyMan} {book} type='figure' />
+    <ListOfFeatures man={bodyMan} {book} type='map' />
+    <ListOfFeatures man={bodyMan} {book} type='table' />
+    <ListOfFeatures man={bodyMan} {book} type='sidebar' />
         
     <Publish man={bodyMan} {book} {showBreak}/>
 </Book>

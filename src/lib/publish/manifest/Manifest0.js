@@ -21,7 +21,10 @@ export class Manifest {
         // items and features
         this.items = []     // array of 'page', 'section', and 'content' items
         this.contents = []  // array of references to all 'content' items
-        this.features = []  // array of references to all 'Figure', 'Map', 'Sidebar' and 'Table' items
+        this.figures = []   // array of references to all 'Figure' items
+        this.maps = []      // array of references to all 'Map' items
+        this.sidebars = []  // array of references to all 'Sidebar' items
+        this.tables = []    // array of references to all 'Table' items
 
         // add a root section
         this._addItem({
@@ -36,7 +39,7 @@ export class Manifest {
 
     // Called by addContent(), addFigure(), addMap(), or addTable()
     // Note that content depth must be the same as its section depth
-    _addComponent(type, depth, folder, toc, comp, features, props={}) {
+    _addComponent(type, depth, folder, toc, comp, props={}) {
         const pidx = this._contentSection(depth)
         if (!pidx) throw new Error(
             `_addComponent() for type '${type}' folder '${folder}' title '${toc}' `
@@ -45,7 +48,7 @@ export class Manifest {
         const path = parent.path + this.pathSep + folder
         const section = parent ? parent.section : '0'
         const title = parent ? parent.title : ''
-        const item = this._addItem({
+        return this._addItem({
             comp,       // reference to Svelte component to display this content
             depth,      // depth must be same as the parent section
             id: '',     // HTML element id assigned by calling function
@@ -58,31 +61,6 @@ export class Manifest {
             toc,        // table of contents entry text
             type        // 'content', 'Figure', 'Map', or 'Table'
         })
-        item.features = this._addFeatures(item, features)
-        return item
-    }
-
-    _addFeatures(item, features) {
-        const ar = []
-        for(let i=0; i<features.length; i++) {
-            let [type, title] = features[i]
-            type = type.toLowerCase()
-            const parts = title.toLowerCase().split(' ')
-            let id = type + '-' + parts.join('-')
-            id = id.replaceAll("'", '-')
-            id = id.replaceAll('"', '-')
-            const feature = {
-                id,
-                item,
-                page: item.page,
-                title,
-                type
-            }
-            // console.log(feature)
-            ar.push(feature)
-            this.features.push(feature)
-        }
-        return ar
     }
 
     // Called by addContent(), addPage(), and addSection()
@@ -145,12 +123,35 @@ export class Manifest {
     // Called by Manifest <Content> Svelte component script
     // Has no ToC entry
     // Note that content depth must be the same as its section depth
-    addContent(depth, folder, comp, features, props={}) {
-        const item = this._addComponent('content',
-            depth, folder, null, comp, features, props)
+    addContent(depth, folder, comp, props={}) {
+        const item = this._addComponent('content', depth, folder, null, comp, props)
         item.seq = this.contents.length + 1
         item.id = this._contentId(item)
         this.contents.push(item)
+        return item
+    }
+
+    // Called by Manifest <Figure> Svelte component script
+    // Same as <Content> but with a ToC entry
+    // Note that content depth must be the same as its section depth
+    addFigure(depth, folder, toc, comp, props={}) {
+        const item = this._addComponent('Figure', depth, folder, toc, comp, props)
+        item.seq = this.figures.length + 1
+        item.id = this._contentId(item)
+        this.figures.push(item)
+        // console.log('addFigure', item)
+        return item
+    }
+
+    // Called by Manifest <Map> Svelte component script
+    // Same as <Content> but with a ToC entry
+    // Note that content depth must be the same as its section depth
+    addMap(depth, folder, toc, comp, props={}) {
+        const item = this._addComponent('Map', depth, folder, toc, comp, props)
+        item.seq = this.maps.length + 1
+        item.id = this._contentId(item)
+        this.maps.push(item)
+        // console.log('addMap', item)
         return item
     }
 
@@ -230,6 +231,29 @@ export class Manifest {
             toc,        // ToC entry text (default suggestion)
             type: 'section',
         })
+    }
+
+    // Called by Manifest <Sidebar> Svelte component script
+    // Same as <Content> but with a ToC entry
+    // Note that content depth must be the same as its section depth
+    addSidebar(depth, folder, toc, comp, props={}) {
+        const item = this._addComponent('Sidebar', depth, folder, toc, comp, props)
+        item.seq = this.sidebars.length + 1
+        item.id = this._contentId(item)
+        // console.log(`Assigned Sidebar ${toc} id ${item.id}`)
+        this.sidebars.push(item)
+        return item
+    }
+
+    // Called by Manifest <Table> Svelte component script
+    // Same as <Content> but with a ToC entry
+    // Note that content depth must be the same as its section depth
+    addTable(depth, folder, toc, comp, props={}) {
+        const item = this._addComponent('Table', depth, folder, toc, comp, props)
+        item.seq = this.tables.length + 1
+        item.id = this._contentId(item)
+        this.tables.push(item)
+        return item
     }
 
     parent(item) { 

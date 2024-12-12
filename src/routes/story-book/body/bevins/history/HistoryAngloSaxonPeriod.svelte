@@ -2,7 +2,6 @@
     import { Bold, Em, Enquote, P } from '$lib/markup'
     import AngloSaxonMigration from '../images/AngloSaxonMigration.jpg'
     import Heptarchy from '../images/Heptarchy_802.jpg'
-    export let id
     const p = $$props // Ignore passed props: man, item, id
 </script> 
 <P>
@@ -16,7 +15,8 @@ They swept over all of England, establishing their Seven Kingdoms,
 or <Enquote>Heptarchy</Enquote> by about 450 AD.
 This is the time when King Arthur, if he existed, would have lived and fought.
 </P>
-<div id={id} class="float-left w-[3in] h-[3.6in] px-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
+<div id='map-anglo-saxon-migration'
+    class="float-left w-[3in] h-[3.6in] px-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
     <div class='text-center text-lg text-black font-serif font-semibold'>
         <div class="mt-1">Anglo-Saxon Migration</div>
     </div>
@@ -39,7 +39,8 @@ Old English is largely incomprehensible for modern English speakers without stud
 In 2022 a genetic study using modern and ancient DNA samples from England was
 conducted to examine the biological effects of Anglo-Saxon migration.  They concluded these
 immigrants came from an area stretching from the northern Netherlands through
-<div id={id} class="float-right w-[3in] h-[4.25in] px-4 mt-2 text-left rounded-xl bg-green-200">
+<div id='map-anglo-saxon-heptarchy'
+    class="float-right w-[3in] h-[4.25in] px-4 mt-2 text-left rounded-xl bg-green-200">
     <div class='text-center text-lg text-black font-serif font-semibold'>
         <div class="mt-1">Anglo-Saxon Heptarchy</div>
     </div>

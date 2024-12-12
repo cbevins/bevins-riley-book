@@ -16,16 +16,19 @@
 
 <Page {man}/>
 <Section {man} {depth} folder='origins' title='Bevins Origins'/>
-<Content {man} {depth} file='OriginsIntro.svelte' comp={OriginsIntro} />
+<Content {man} {depth} file='OriginsIntro.svelte' comp={OriginsIntro}
+    features={[['map', 'Bevins Origins in England']]} />
 
 <Page {man}/>
 <Section {man} depth={d1} folder='origins' title='William Alfred Bevins'/>
 <Content {man} depth={d1} file='OriginsWilliamAlfredBevinsPage1.svelte'
-    comp={OriginsWilliamAlfredBevinsPage1} />
+    comp={OriginsWilliamAlfredBevinsPage1}
+    features={[['figure', 'William Alfred Bevins']]} />
 
 <Page {man}/>
 <Content {man} depth={d1} file='OriginsWilliamAlfredBevinsPage2.svelte'
-    comp={OriginsWilliamAlfredBevinsPage2} />
+    comp={OriginsWilliamAlfredBevinsPage2}
+    features={[['figure', 'Ancestor Chart for William Alfred Bevins']]} />
 
 <Page {man}/>
 <Content {man} depth={d1} file='OriginsChartWilliamAlfredBevins.svelte'
@@ -35,6 +38,8 @@
 <Section {man} depth={d1} folder='origins' title='Mary Ann White'/>
 <Content {man} depth={d1} file='OriginsMaryAnnWhitePage1.svelte'
     comp={OriginsMaryAnnWhitePage1} />
+
+<Page {man}/>
 <Content {man} depth={d1} file='OriginsChartMaryAnnWhite.svelte'
-    comp={OriginsChartMaryAnnWhite} />
-    
+    comp={OriginsChartMaryAnnWhite}
+    features={[['figure', 'Ancestor Chart for Mary Ann White']]} />

@@ -2,7 +2,6 @@
     import { getChannels } from '$lib/content/singletons.js'
     import Photo from '../images/WilliamAlfredBevins.jpg'
     import { Da, Bold, ListItem18, Lf, Name, P, Place } from '$lib/markup'
-    export let id
     const p = $$props // Ignore passed props: man, item, id
 
     const names = [
@@ -14,10 +13,7 @@
 
     const lineage = getChannels('bevins')
     const maryBolt = lineage.find('MaryBolt1822')
-    const wcBevins = lineage.find('WilliamCollinsBevins1931')
     const wBevinsSr = lineage.find('WilliamBevins1665')
-    const samBevins = lineage.find('SamuelBevins1881')
-    const hattieCollins =  lineage.find('HattieJaneCollins1889')
     const waBevins = lineage.find('WilliamAlfredBevins1843')
     const wlBevins = lineage.find('WilliamLongfordBevins1815')
     const maryAnnWhite= lineage.find('MaryAnnWhite1848')
@@ -33,7 +29,8 @@
     const williamBevins = lineage.find('WilliamBevins1705')
 
 </script>
-<div id={id} class="float-left w-[2in] h-[2.7in] p-4 mr-4 mt-4 rounded-xl bg-green-200">
+<div id='figure-william-alfred-bevins'
+    class="float-left w-[2in] h-[2.7in] p-4 mr-4 mt-4 rounded-xl bg-green-200">
     <img src={Photo} alt='Willaim Alfred Bevins' width="300"/>
     <div class='text-center text-sm text-black font-serif'>
         William Alfred Bevins
@@ -50,7 +47,9 @@ Documentation of our <Name>Bevins</Name> family line goes back many generations
 in the immediate area of <Place>Newbold Verdon, Leicestershire, England</Place>,
 a small farming village in the middle of the English Midlands:
 </P>
+
 <Lf/>
+
 <ListItem18 item='7th Gen'>
 <Da node={wBevinsSr}/> was born in Newbold Verdon.
 His wife <Da node={judithBaker}/> was also born in Newbold Verdon.
@@ -83,5 +82,3 @@ was born 85 miles southwest <Place>Middlesex, London</Place>.
 Her family origins appear to be near Bridgewater in Somerset county in the southwest.
 They are known to have at least 9 children.
 </ListItem18>
-    
-    

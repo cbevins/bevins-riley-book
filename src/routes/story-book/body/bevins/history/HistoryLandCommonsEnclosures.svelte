@@ -1,7 +1,6 @@
 <script>
     import { Bold, Em, Enquote, P } from '$lib/markup'
     import Manor from '../images/FeudalManorPlan.jpg'
-    export let id
     const p = $$props // Ignore passed props: man, item, id
 </script> 
 <P>
@@ -14,12 +13,10 @@ He awarded another 25% to the bishops, abbots, and abbesses of the Norman Church
 The rest of the land was distributed to 180 <Em>barons</Em> and further subdivided
 into <Em>manors</Em>, each occupied and overseen by a tenant landlord selected
 from William’s family, invasion cohorts, vassals, and other members of the French aristocracy.
-<div id={id} class="float-left w-[4in] h-[6in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
+<div id='figure-plan-of-a-mediaeval-manor'
+    class="float-left w-[4in] h-[5.7in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
     <div class="mt-2"></div>
     <img src={Manor} alt='Fuedal manor plan' width="400"/>
-    <div class='text-xs text-left text-black font-serif'>
-        Feudal manor plan
-    </div>
 </div>
 </P><P>The manor lords, in turn, held some of their lands (<Em>demesnes</Em>),
 for their own use, awarded some to their tenant knights, and the remainder was

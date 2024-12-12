@@ -3,7 +3,6 @@
     import { Lineage } from '$lib/publish'
     import { Bold, Da, Date, Footnote, Name, P, Place } from '$lib/markup'
     import Eng from '../images/England.jpg'
-    export let id
     const p = $$props // Ignore passed props: man, item, id
 
     const names = [
@@ -16,25 +15,12 @@
         '1st Great Grand Parents', '2nd Great Grand Parents']
 
     const lineage = getChannels('bevins')
-    const maryBolt = lineage.find('MaryBolt1822')
     const wcBevins = lineage.find('WilliamCollinsBevins1931')
-    const wBevinsSr = lineage.find('WilliamBevins1665')
     const samBevins = lineage.find('SamuelBevins1881')
     const hattieCollins =  lineage.find('HattieJaneCollins1889')
     const waBevins = lineage.find('WilliamAlfredBevins1843')
-    const wlBevins = lineage.find('WilliamLongfordBevins1815')
     const maryAnnWhite= lineage.find('MaryAnnWhite1848')
-    const sarahWilkinson = lineage.find('SarahWilkinson1696')
-
-    const judithBaker = lineage.find('JudithBaker1665')
-    const johnBevins = lineage.find('JohnBevins1783')
-    const maryAnnIsom = lineage.find('MaryAnnIsom1766')
     const sarahAnnLongford = lineage.find('SarahAnnLongford1788')
-    const josephBevins = lineage.find('JosephBevins1762')
-    const thomasBevins = lineage.find('ThomasBevins1731')
-    const sarahWrathburn = lineage.find('SarahWrathburn1736')
-    const williamBevins = lineage.find('WilliamBevins1705')
-
 </script>
 <div class='mt-2'/>
 
@@ -53,7 +39,8 @@ the last of 6 children raised by the immigrants <Da node={maryAnnWhite}/> and
 as a 26 year old mother in 1871.  So its not surprising their lines originate
 from two separate locations in England.
 </P>
-<div id={id} class="float-left w-[4.25in] h-[3.75in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
+<div id="map-bevins-origins-in-england"
+    class="float-left w-[4.25in] h-[3.75in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
     <div class='text-center text-md text-black font-serif font-semibold'>
         <div class="mt-2">Bevins Origins in England</div>
     </div>  

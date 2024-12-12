@@ -23,9 +23,11 @@
     <!-- All other types are some form of content -->
     {:else}
         {#if ! item.comp}
-            <Placeholder {man} {item} />
+            <Placeholder {man} {item} id={item.id} />
         {:else}
-            <svelte:component this={item.comp} {man} {item} id={item.id} />
+            <div id={item.id}>
+                <svelte:component this={item.comp} {man} {item} />
+            </div>
         {/if}
     {/if}
 {/each}

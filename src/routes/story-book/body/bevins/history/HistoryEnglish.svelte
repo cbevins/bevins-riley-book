@@ -1,7 +1,6 @@
 <script>
     import { Bold, Em, Enquote, P } from '$lib/markup'
     import Beowulf from '../images/Beowulf.jpg'
-    export let id
     const p = $$props // Ignore passed props: man, item, id
 
     const beowulf = [
@@ -37,14 +36,16 @@ Beowulf's Old English is so difficult to make approachable to modern readers
 that there are over 680 known translations.
 Below are lines 210-216, accompanied by a well-known 1957 interpretation:
 </P>
-<div id={id} class="float-left w-[2.5in] h-[3.9in] px-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
+<div id='figure-beowulf-manuscript'
+    class="float-left w-[2.5in] h-[3.9in] px-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
     <div class="mt-2"></div>
     <img src={Beowulf} alt='Beowulf Manuscript' width="200"/>
     <div class='text-xs text-black font-serif'>
         First page of Beowulf manuscript from circa 1000 AD.
     </div>
 </div>
-<div id={id} class="float-right w-[4.1in] h-[2.7in] px-4 mr-4 my-2 text-left rounded-xl bg-green-200">
+<div id='table-example-beowulf-translation'
+    class="float-right w-[4.1in] h-[2.7in] px-4 mr-4 my-2 text-left rounded-xl bg-green-200">
 <table class="w-auto mx-auto my-2 text-sm text-left text-gray-500 rounded-lg">
     <thead class="text-xs text-gray-700 bg-gray-500">
         <tr>
@@ -91,7 +92,7 @@ This is a bit easier for modern English readers to comprehend.  The first 4 line
 of the <Em>General Prologue</Em> are:
 </P><P>
     
-<div id={id} class="mx-auto w-[6in] h-[1in] py-2 text-left rounded-xl bg-green-200">
+<div id='table-canterbury-tales-translation' class="mx-auto w-[6in] h-[1in] py-2 text-left rounded-xl bg-green-200">
     <table class="w-auto mx-auto text-sm text-left text-gray-500 rounded-lg">
     <thead class="text-xs text-gray-700 bg-gray-500">
         <tr>

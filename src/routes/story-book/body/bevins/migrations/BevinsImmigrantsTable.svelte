@@ -1,6 +1,6 @@
 <script>
     import { ImmigrantsTable } from '$lib/publish'
-    export let item, id
+    export let item
     const p = $$props // Ignore passed props: man, item, id
 
     const title = `Table ${item.seq}: ${item.toc}`
@@ -12,6 +12,6 @@
     ]
 </script>
 
-<div id={id}>
+<div id='table-bevins-immigrants'>
     <ImmigrantsTable {title} {immigrants}/>
 </div>
