@@ -20,6 +20,10 @@ export class Channels extends Lineage {
 
         // If just a specific branch is requested...
         if (branchKey) {
+            const node = this.findNodeByNameKey(this._data.branchKey)
+            if (! node) throw new Error(
+                `new Channel() cannot find branch for '${branchKey}'`
+            )
             this._data.branchNode = this.findNodeByNameKey(this._data.branchKey)
             this.trimNodes()
         }

@@ -14,19 +14,23 @@
 </script>
 
 <Card>
-    <a href="/research-journal"
-        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
-        Read the Research Journal Edition</a>
     <a href="/story-book"
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
-        Read the Story Book Edition</a>
+        Story Book Edition</a>
+    <a href="/diagnostics"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
+        Gedcom Diagnostics</a>
+    <a href="/research-journal"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
+        Research Journal Edition</a>
+<!--         
     <a href="/imprint"
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
         Imprint</a>
     <a href="/publish"
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
         Publish</a>
-    
+-->
     <P>Sylvan has {families} families and {people} people</P>
 
     <table class="w-full text-sm text-left text-gray-500 rounded-lg">

@@ -5,6 +5,9 @@
     export let rel = true       // add relationship superscript
     export let life = true      // add life span
 
+    if (! node) {
+        throw new Error(`Svelte component 'Da' was passed a null node`)
+    }
     function daFull() {
         if (!gen) return 'Sibling'
         if (gen===1) return `Parent`

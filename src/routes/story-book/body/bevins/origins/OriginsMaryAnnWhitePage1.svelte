@@ -14,18 +14,23 @@
     ]
 
     const lineage = getChannels('bevins')
-    const johnWheaton1725 = lineage.find('JohnWheaton1725')
-    const johnWheaton1750 = lineage.find('JohnWheaton1750')
-    const susannaAulgar = lineage.find('SusannaAulgar1721')
-    const agnesCollier1749 = lineage.find('AgnesCollier1749')
-    const agnesWheaton = lineage.find('AgnesWheaton1778')
-    const nicholasCollier = lineage.find('NicholasCollier1701')
-    const janePutt = lineage.find('JanePutt1710')
-    const johnDecent1776 = lineage.find('JohnDecent1776')
-    const agnesDecent = lineage.find('AgnesDecent1806')
-    const thomasWhite1797 = lineage.find('ThomasWhite1797')
-    const thomasWhite1827 = lineage.find('ThomasWhite1827')
-    const janeOliver = lineage.find('JaneOliver1829')
+    function find(key) {
+        const node = lineage.find(key)
+        if (!node) throw new Error(`Unable to find Lineage node with name key '${key}'`)
+        return node
+    }
+    const johnWheaton1725 = find('JohnWheaton1725')
+    const johnWheaton1750 = find('JohnWheaton1750')
+    const susannaAulgar = find('SusannaAulgar1721')
+    const agnesCollier1749 = find('AgnesCollier1749')
+    const agnesWheaton = find('AgnesWheaton1778')
+    const nicholasCollier = find('NicholasCollier1701')
+    const janePutt = find('JanePutt1710')
+    const johnDecent1776 = find('JohnCaldwellDecent1776')
+    const agnesDecent = find('AgnesDecent1806')
+    const thomasWhite1797 = find('ThomasWhite1797')
+    const thomasWhite1827 = find('ThomasWhite1827')
+    const janeOliver = find('JaneOliver1829')
 </script>
 <Lf/>
 <ListItem18 item='6th Gen'>

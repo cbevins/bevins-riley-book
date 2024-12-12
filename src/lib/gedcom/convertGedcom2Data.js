@@ -5,9 +5,14 @@ import { parseLine } from './constructGedcom.js'
 
 const progName = (process.argv[1]).split('\\').pop()
 
-const inputs = ['../data/gedcoms/Ancestry20241206.ged',
-    '../data/gedcoms/RootsMagic20241206.ged']
-const outputs = ['_gedcomDataAncestry.js', '_gedcomDataRootsMagic.js']
+const inputs = [
+    '../data/gedcoms/AncestryLatest.ged',
+    '../data/gedcoms/RootsMagicLatest.ged'
+]
+const outputs = [
+    '_gedcomDataAncestry.js',
+    '_gedcomDataRootsMagic.js'
+]
 
 const keepersSet = new Set()
 const keepers= [
