@@ -44,6 +44,6 @@ Their son, the immigrant <Da node={waBevins}/>
 was also born in <Place>Newbold Verdon</Place>,
 while his wife the immigrant <Da node={maryAnnWhite}/> had resided in
 <Place>Leicester</Place> before emmigrating to Illinois with her daughter
-Allace in 1871.  Her family origins appear to be in Devonshire and Cornwall
+Allace in 1871.  Her family origins are in Devon and Cornwall
 in the southwest. They would have 5 more children between them.
 </ListItem18>

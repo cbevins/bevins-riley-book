@@ -16,7 +16,6 @@
     const wBevinsSr = lineage.find('WilliamBevins1665')
     const waBevins = lineage.find('WilliamAlfredBevins1843')
     const wlBevins = lineage.find('WilliamLongfordBevins1815')
-    const maryAnnWhite= lineage.find('MaryAnnWhite1848')
     const sarahWilkinson = lineage.find('SarahWilkinson1696')
 
     const judithBaker = lineage.find('JudithBaker1665')
@@ -43,8 +42,8 @@ and 23 year old mother <Da node={maryBolt}/>. Also accompanying them
 was his 7 year old step-brother <Name life='1838-1923'>John Henry Bevins</Name>
 and 4 year old brother <Name life='1841-1926'>Joseph Bevins</Name>.
 </P><P>
-Documentation of our <Name>Bevins</Name> family line goes back many generations
-in the immediate area of <Place>Newbold Verdon, Leicestershire, England</Place>,
+Documentation of our <Name>Bevins</Name> family line goes back at least 7 generations
+in the immediate area of <Place>Newbold Verdon</Place>,
 a small farming village in the middle of the English Midlands:
 </P>
 

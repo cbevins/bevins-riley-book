@@ -34,10 +34,12 @@ was born near <Place>Deer River, Minnesota</Place>, the last of 9 children of
 Grandfather Samuel was born on <Date date='22 Dec 1881'/> <Footnote chapter='bevins' num='1'/>
 in <Place>Annawan, Henry County, Illinois</Place>,
 the last of 6 children raised by the immigrants <Da node={maryAnnWhite}/> and
-<Da node={waBevins}/>.  His parents emigrated separately from England,
-<Name>William Alfred</Name> as a child of 2 in 1843, and <Name>Mary Ann White</Name>
-as a 26 year old mother in 1871.  So its not surprising their lines originate
-from two separate locations in England.
+<Da node={waBevins}/>.  Samuel's parents emigrated separately from England; first his
+father <Name>William Alfred</Name> as a child of 2 with his family in 1843,
+and later his mother <Name>Mary Ann White</Name> as a 26 year old mother in 1871.
+So its not surprising their lines originate from two separate locations in England.
+What is interestting is that each of these families go back at least 7 generations
+in their home villages.
 </P>
 <div id="map-bevins-origins-in-england"
     class="float-left w-[4.25in] h-[3.75in] px-4 mr-4 mt-2 rounded-xl bg-green-200">

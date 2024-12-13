@@ -24,15 +24,15 @@
     const firstYear = firstBorn.person.birthYear()
 </script>
 <P>
-The first family line I present is devoted to the direct ancestors of our grandfather
-<Name>Samuel Bevins</Name>.  My choice is influenced, of course, by the fact that
+We begin by exporing the family line of our grandfather <Name>Samuel Bevins</Name>.
+My choice is influenced, of course, by the fact that
 <Name>Bevins</Name> is our patronymic surname, but there are other factors I
 considered as well.
 </P><P>
 Most importantly, the <Name>Bevins</Name> line is the most recent of
-our 8 lineages to immigrate to America (in 1845 and 1871), and since there were only
-4 of them I have fewer ancestors to discover before tracking them down to
-their geography of origin, and fewer ancestors to document and write about.
+our 8 lineages to immigrate to America (in 1845 and 1871).  And since there were only
+4 immigrants, there are fewer ancestors to discover before tracking them down to
+their place of origin, and fewer ancestors to document and write about.
 The other 7 lineages, on the other hand, have deep colonial American roots.
 Also, primary source documentation is generally more available and reliable
 with the more recent generations.  This allows me to start out in the shallow
