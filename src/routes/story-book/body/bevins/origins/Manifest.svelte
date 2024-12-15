@@ -7,6 +7,7 @@
     import OriginsChartWilliamAlfredBevins from './OriginsChartWilliamAlfredBevins.svelte'
     import OriginsChartMaryAnnWhite from './OriginsChartMaryAnnWhite.svelte'
     import OriginsMaryAnnWhitePage1 from './OriginsMaryAnnWhitePage1.svelte'
+    import OriginsMaryAnnWhitePage2 from './OriginsMaryAnnWhitePage2.svelte'
     import MAW from './MaryAnnWhite.svelte'
 
     export let man
@@ -30,14 +31,18 @@
     comp={OriginsWilliamAlfredBevinsPage2}
     features={[['figure', 'Ancestor Chart for William Alfred Bevins']]} />
 
-<Page {man}/>
-<Content {man} depth={d1} file='OriginsChartWilliamAlfredBevins.svelte'
-    comp={OriginsChartWilliamAlfredBevins} />
-
-<Page {man}/>
+<!-- <Page {man}/> -->
 <Section {man} depth={d1} folder='origins' title='Mary Ann White'/>
 <Content {man} depth={d1} file='OriginsMaryAnnWhitePage1.svelte'
     comp={OriginsMaryAnnWhitePage1} />
+
+<Page {man}/>
+<Content {man} depth={d1} file='OriginsMaryAnnWhitePage2.svelte'
+    comp={OriginsMaryAnnWhitePage2} />
+    
+<Page {man}/>
+<Content {man} depth={d1} file='OriginsChartWilliamAlfredBevins.svelte'
+    comp={OriginsChartWilliamAlfredBevins} />
 
 <Page {man}/>
 <Content {man} depth={d1} file='OriginsChartMaryAnnWhite.svelte'

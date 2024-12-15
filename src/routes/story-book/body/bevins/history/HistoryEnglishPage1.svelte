@@ -37,16 +37,19 @@ that there are over 680 known translations.
 Below are lines 210-216, accompanied by a well-known 1957 interpretation:
 </P>
 <div id='figure-beowulf-manuscript'
-    class="float-left w-[2.5in] h-[3.9in] px-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
-    <div class="mt-2"></div>
-    <img src={Beowulf} alt='Beowulf Manuscript' width="200"/>
+    class="float-left w-[2.2in] h-[3.6in] px-4 py-2 mr-4 mt-2 text-left rounded-xl bg-green-200">
+    <!-- title -->
+    <!-- slot -->
+    <img src={Beowulf} alt='Beowulf Manuscript'/>
+    <!-- caption -->
     <div class='text-xs text-black font-serif'>
         First page of Beowulf manuscript from circa 1000 AD.
     </div>
 </div>
+
 <div id='table-example-beowulf-translation'
     class="float-right w-[4.1in] h-[2.7in] px-4 mr-4 my-2 text-left rounded-xl bg-green-200">
-<table class="w-auto mx-auto my-2 text-sm text-left text-gray-500 rounded-lg">
+    <table class="w-auto mx-auto my-2 text-sm text-left text-gray-500 rounded-lg">
     <thead class="text-xs text-gray-700 bg-gray-500">
         <tr>
             <th class="px-2 py-0">Original Old English</th>
@@ -85,29 +88,4 @@ From 1150 through 1500 the predominant spoken dialect was Middle English.
 <P>
 Middle English also saw the considerable adoption of Old French vocabulary,
 especially in the areas of politics, law, the arts, religion, and poetic diction.
-</P><P>
-The <Em>The Canterbury Tales</Em> written by Geoffrey Chaucer between 1387 and 1400 AD,
-is a collection of 24 stories that runs over 17,000 written in Middle English.
-This is a bit easier for modern English readers to comprehend.  The first 4 lines
-of the <Em>General Prologue</Em> are:
-</P><P>
-    
-<div id='table-canterbury-tales-translation' class="mx-auto w-[6in] h-[1in] py-2 text-left rounded-xl bg-green-200">
-    <table class="w-auto mx-auto text-sm text-left text-gray-500 rounded-lg">
-    <thead class="text-xs text-gray-700 bg-gray-500">
-        <tr>
-            <th class="px-2 py-0">Original in Middle English</th>
-            <th class="px-2 py-0">Modern English Translation</th>
-        </tr>
-    </thead>
-    <tbody>
-        {#each canterbury as line}
-            <tr class="odd:bg-white even:bg-gray-50 bg-white text-xs">
-                <td class="px-2 py-0 text-left">{@html line[0]}</td>
-                <td class="px-4 py-0 text-left">{line[1]}</td>
-            </tr>
-        {/each}
-    </tbody>
-</table>
-</div>
-</P>    
+</P>

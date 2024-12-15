@@ -1,16 +1,7 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
-    import Photo from '../images/WilliamAlfredBevins.jpg'
-    import { Da, Bold, ListItem18, Lf, Name, P, Place } from '$lib/markup'
-	import { AppleSolid } from 'flowbite-svelte-icons';
+    import { Da, Bold, Em, ListItem18, Lf, Name, P, Place } from '$lib/markup'
     const p = $$props // Ignore passed props: man, item, id
-
-    const names = [
-        ['William C Bevins', 'Meartia M Heddens'],
-        ['Samuel Bevins', 'Hattie J Collins'],
-        ['William A Bevins', 'Mary A White'],
-        ['William L Bevins', 'Mary Bolt'],
-    ]
 
     const lineage = getChannels('bevins')
     function find(key) {
@@ -34,14 +25,13 @@
     // const nicholasCollier = find('NicholasCollier1701')
     // const janePutt = find('JanePutt1710')
     // const johnDecent1776 = find('JohnCaldwellDecent1776')
-    const agnesDecent = find('AgnesDecent1806')
-    const thomasWhite1797 = find('ThomasWhite1797')
     const thomasWhite1827 = find('ThomasWhite1827')
     const janeOliver = find('JaneOliver1829')
 </script>
+
 <P>
 Grandfather <Name>Samuel Bevins</Name>'s mother <Da node={maryAnnWhite}/>
-was born in 1848 in <Bold>Torquay, Devon, England</Bold> across the bay from Brixham.
+was born in 1848 in <Bold>Torquay, Devon, England</Bold> across Tor Bay from Brixham.
 Documentation of her family also goes back at least 7 generations in the seaport
 village of <Bold>Brixham</Bold>.
 </P>
@@ -70,30 +60,3 @@ including son <Name>John Caldwell Decent</Name>.
 also all born in Brixham. They had at least 11 children together
 including daughter <Name>Agnes</Name>.
 </ListItem18>
-
-<ListItem18 item='3rd Gen'>
-<Da node={agnesDecent}/> and her husband <Da node={thomasWhite1797}/>
-were also both born in Brixham, Devon. John's parents <Name>George</Name>
-and <Name>Jenny</Name> were both likewise born in Brixham. They had at
-least 7 children together a son named <Name>Thomas</Name>.
-</ListItem18>
-
-<ListItem18 item='2nd Gen'>
-<Da node={thomasWhite1827}/> was also born in Brixham, Devon, while his wife
-<Da node={janeOliver}/> was born in Torr, Devon. Her parents and grandparents
-were from <Bold>Mevagissey, Cornwall</Bold> some 60 miles to the southwest.
-</ListItem18>
-
-<ListItem18 item='1st Gen'>
-Their daughter, the immigrant <Da node={maryAnnWhite}/>
-was born in <Place>Torquey, Devon</Place> some 5 miles north of Brixham.
-</ListItem18>
-    
-<P>
-When <Name>Mary Ann White</Name> emigrated to America in 1871, her name was already
-<Name>Mary Ann Bevins</Name> and she had a daughter <Name>Mary Allace Bevins</Name>.
-She had been married in <Bold>Plymouth, Devon</Bold> in April 1869.  It appears
-she somehow met and wedded a member of the <Name>Bevins</Name> clan in Devon.
-Her daughter <Name>Mary Allace Bevins</Name> was born a 18 months later in Leicester,
-so they must have moved back to the <Name>Bevins</Name> familial grounds.
-</P>

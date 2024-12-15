@@ -1,6 +1,12 @@
 <script>
     import { Da, Enquote, Name, NoteItem, P, Source } from '$lib/markup'
     export let id, num
+    const data = [
+        ['Fulton','William Bevins','Eng',34,5],
+        ['Knox','Bazel Bevins','PN',2091,'1 of 7'],
+        ['Sangamon','Margaret Bevins','MD',7,'1 of 6'],
+        ['Madison','Egbert Bevins','IL',43,4],
+    ]
 </script>
 
 <div id={id}>
@@ -8,13 +14,22 @@
     Bevins households enumerated by the 1850 Census in Illinois
     <table class="text-sm text-left text-gray-500 border-2 rounded-lg">
         <thead class="text-xs text-gray-700 bg-gray-500">
-            <tr><th>County</th><th>Name</th><th>Born</th><th>No</th><th>Bevins</th></tr>
+            <tr><th class='px-2 text-left'>County</th>
+                <th class='px-2 text-left'>Name</th>
+                <th class='px-2 text-left'>Born</th>
+                <th class='px-2 text-left'>Dwelling #</th>
+                <th class='px-2 text-left'>No of Bevins</th></tr>
         </thead>
         <tbody class='text-left'>
-        <tr><td>Fulton</td><td>William Bevins</td><td>Eng</td><td>34</td><td>5</td></tr>
-        <tr><td>Knox</td><td>Bazel Bevins</td><td>PN</td><td>2091</td><td>1 of 7</td></tr>
-        <tr><td>Sangamon</td><td>Margaret Bevins</td><td>MD</td><td>7</td><td>1 of 6</td></tr>
-        <tr><td>Madison</td><td>Egbert Bevins</td><td>IL</td><td>43</td><td>4</td></tr>
-    </tbody></table>
+            {#each data as [county, name, born, dwell, no]}
+            <tr>
+                <td class='px-2 text-left'>{county}</td>
+                <td class='px-2 text-left'>{name}</td>
+                <td class='px-2 text-left'>{born}</td>
+                <td class='px-2 text-center'>{dwell}5</td>
+                <td class='px-2 text-center'>{no}</td></tr>
+        {/each}
+    </tbody>
+</table>
 </NoteItem>
 </div>

@@ -16,7 +16,7 @@ or <Enquote>Heptarchy</Enquote> by about 450 AD.
 This is the time when King Arthur, if he existed, would have lived and fought.
 </P>
 <div id='map-anglo-saxon-migration'
-    class="float-left w-[3in] h-[3.6in] px-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
+    class="float-left w-[3in] h-[3.4in] px-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
     <div class='text-center text-lg text-black font-serif font-semibold'>
         <div class="mt-1">Anglo-Saxon Migration</div>
     </div>
@@ -35,17 +35,17 @@ The culture of Britain became distinctly ‘Anglo-Saxon’, the people became kn
 as ‘Anglich’ or ‘Englisc’, and the West Germanic dialect called <Bold>Old English</Bold>
 (aka ‘Anglo-Saxon’) became the dominant language, replacing the Celtic Common Brittonic.
 Old English is largely incomprehensible for modern English speakers without study.
-</P><P>
-In 2022 a genetic study using modern and ancient DNA samples from England was
-conducted to examine the biological effects of Anglo-Saxon migration.  They concluded these
-immigrants came from an area stretching from the northern Netherlands through
+</P>
 <div id='map-anglo-saxon-heptarchy'
-    class="float-right w-[3in] h-[4.25in] px-4 mt-2 text-left rounded-xl bg-green-200">
+    class="float-right w-[3in] h-[4.15in] px-4 mt-2 text-left rounded-xl bg-green-200">
     <div class='text-center text-lg text-black font-serif font-semibold'>
         <div class="mt-1">Anglo-Saxon Heptarchy</div>
     </div>
     <img src={Heptarchy} alt='Anglo-Saxon Heptarchy' width="250"/>
 </div>
+<P>
+    In 2022 a genetic study using modern and ancient DNA samples from England wasconducted to examine the biological effects of Anglo-Saxon migration.  They concluded these
+immigrants came from an area stretching from the northern Netherlands through
 northern Denmark and Germany beginning during the Roman era and increasing rapidly
 in the 5th century.  The authors broadly estimate the modern English ancestry to be
 about 25-47% 'north continental', 11-57% British Iron Age peoples, and 14-43%

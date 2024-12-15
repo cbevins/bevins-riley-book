@@ -1,6 +1,17 @@
 <script>
-    import { Da, Enquote, Name, NoteItem, P, Source } from '$lib/markup'
+    import { Name, NoteItem } from '$lib/markup'
     export let id, num
+    const data = [
+        ['Carroll','Chas F Bevins','VT',5,2],
+        ['Carroll','Thomas Bevins','VT',104,5],
+        ['Cook','Martha Bevins','OH',653,4],
+        ['Fulton','Haney Mary Bevins','NY',97,5],
+        ['Henry','William Bevins','Eng',29,10],
+        ['Iroquois','James Bevins (Wid)','Eng',238,4],
+        ['Menard','Hannah Bevins','VI',210,5],
+        ['Pike','Charles Bevins','NC',125,2],
+        ['Union','James Bevins','OH',27,2],
+    ]
 </script>
 
 <div id={id}>
@@ -12,18 +23,21 @@
     Bevins households enumerated by the 1870 Census in Illinois:
     <table class="text-sm text-left text-gray-500 border-2 rounded-lg">
         <thead class="text-xs text-gray-700 bg-gray-500">
-            <tr><th>County</th><th>Name</th><th>S, M, F</th><th>Dwell #</th><th>Bevins</th></tr>
+            <tr><th class='px-2 text-left'>County</th>
+                <th class='px-2 text-left'>Name</th>
+                <th class='px-2 text-left'>S, M, F</th>
+                <th class='px-2 text-left'>Dwelling #</th>
+                <th class='px-2 text-left'>No of Bevins</th></tr>
         </thead>
         <tbody class='text-left'>
-        <tr><td>Carroll</td><td>Chas F Bevins</td><td>VT</td><td>5</td><td>2</td></tr>
-        <tr><td>Carroll</td><td>Thomas Bevins</td><td>VT</td><td>104</td><td>5</td></tr>
-        <tr><td>Cook</td><td>Martha Bevins</td><td>OH</td><td>653</td><td>4</td></tr>
-        <tr><td>Fulton</td><td>Haney Mary Bevins</td><td>NY</td><td>97</td><td>5</td></tr>
-        <tr><td>Henry</td><td>William Bevins</td><td>Eng</td><td>29</td><td>10</td></tr>
-        <tr><td>Iroquois</td><td>James Bevins (Wid)</td><td>Eng</td><td>238</td><td>4</td></tr>
-        <tr><td>Menard</td><td>Hannah Bevins</td><td>VI </td><td>210</td><td>5</td></tr>
-        <tr><td>Pike</td><td>Charles Bevins</td><td>NC</td><td>125</td><td>2</td></tr>
-        <tr><td>Union</td><td>James Bevins</td><td>OH</td><td>27</td><td>2</td></tr>
+        {#each data as [county, name, born, dwell, no]}
+            <tr>
+                <td class='px-2 text-left'>{county}</td>
+                <td class='px-2 text-left'>{name}</td>
+                <td class='px-2 text-left'>{born}</td>
+                <td class='px-2 text-center'>{dwell}5</td>
+                <td class='px-2 text-center'>{no}</td></tr>
+        {/each}
     </tbody></table>
 </NoteItem>
 </div>

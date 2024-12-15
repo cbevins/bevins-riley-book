@@ -1,4 +1,4 @@
 <script>
     // Line feed
 </script>
-<div class='mt-2'/>
+<div class='my-1'>&nbsp;</div>

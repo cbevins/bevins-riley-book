@@ -47,3 +47,4 @@ while his wife the immigrant <Da node={maryAnnWhite}/> had resided in
 Allace in 1871.  Her family origins are in Devon and Cornwall
 in the southwest. They would have 5 more children between them.
 </ListItem18>
+<Lf/>

@@ -1,10 +1,22 @@
 <script>
     import { Em, Name, P } from '$lib/markup'
     import FrameworkKnitters from '../images/FrameworkKnitters.jpg'
-    import NVGoogleEarth from '../images/NewboldVerdonGoogleEarth.jpg'
     const p = $$props // Ignore passed props: man, item, id
 </script>
-<P>By the start of the <Em>British Industrial Revolution</Em> (1760-1840),
+<P>
+The itinerary of 1280 lists Newbold and nearby Brascote, Naneby, and Barlestone
+as one village, with 80 acres of woodland <Em>and a vineyard</Em>.
+The manor was held in 1401 by Walter Devereux, and later Henry de Ferrars.
+</P><P>
+A part of Newbold Verdon was enclosed in 1509, although the main enclosure took
+place in 1810 when the church was awarded 1316 acres of glebe land.
+Enclosures were made by manor lords (and increasing numbers of private landowners)
+to convert open-field shared commons tenant farms to the more lucrative sheep
+and wool industry. This displaced many tenant serfs from land worked by their
+families for centuries, and created vagrancy and economic problems throughout
+England.
+</P><P>
+By the start of the <Em>British Industrial Revolution</Em> (1760-1840),
 agriculture became much more efficient, peasant farmland was being removed by enclosures,
 <div id='figure-framework-knitters'
     class="float-left w-[3in] h-[2.6in] px-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
@@ -26,14 +38,3 @@ where land was still plentiful and cheap.
 This is the situation <Name>William Alfred Bevins</Name> and his new wife
 <Name>Mary Bolt</Name> found themselves in 1845, when they chose to emigrate to America, 			.
 </P>
-<div id='map-modern-day-newbold-verdon'
-    class="float-left w-[7in] h-[5in] px-4 mr-4 my-4 rounded-xl bg-green-200">
-    <div class='text-center'>Modern Day Newbold Verdon</div>
-    <img src={NVGoogleEarth} alt='Modern Day Newbold Verdon' width="640"/>
-        <div class='text-xs text-left text-black font-serif'>
-            Google Earth image of modern-day Newbold Verdon.
-            Notice the visual simularity between this photo and the notional plan
-            of a mediaeval manor house shown previously.
-            The displayed area is approximately 6 x 4 miles.
-        </div>
-    </div>

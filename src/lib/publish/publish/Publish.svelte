@@ -26,7 +26,7 @@
             <Placeholder {man} {item} id={item.id} />
         {:else}
             <div id={item.id}>
-                <svelte:component this={item.comp} {man} {item} />
+                <svelte:component this={item.comp} {man} {item} id={item.id} />
             </div>
         {/if}
     {/if}

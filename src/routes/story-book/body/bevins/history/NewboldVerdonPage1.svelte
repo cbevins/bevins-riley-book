@@ -1,13 +1,23 @@
 <script>
     import { Bold, Em, P } from '$lib/markup'
-    import Eng from '../images/England.jpg'
+    import NBV from '../images/NewboldVerdonMainStreet.jpg'
     const p = $$props // Ignore passed props: man, item, id
 </script>
 <P>
-Much of the Bevins family line originates within a 10 mile radius of the village
+About half of the Bevins family line originates within a 10 mile radius of the village
 of <Bold>Newbold Verdon</Bold> which lies in an area known as the
-<Bold>English Midlands</Bold>.
-</P><P>
+<Bold>English Midlands</Bold>.  Today Newbold Verdon is primarily a commuter
+village serving the city of Leicester.
+</P>
+<div id='figure-newbold-verdon-main-street'
+    class="float-left w-[3.25in] h-[2.6in] px-4 py-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
+    <img src={NBV} alt='Newbold Verdon Main Street' width="300"/>
+    <div class='text-xs text-left pt-1 text-black font-serif'>
+        Newbold Verdon main street.
+    </div>
+</div>
+
+<P>
 In 2011 Newbold Verdon had a population of 3000 and neighboring <Bold>Market Bosworth</Bold>,
 a village 2.5 miles to the west, had a population of 2100.  Both are within
 Leicestershire county, just 10 miles from its boundary with Derbyshire.
@@ -45,17 +55,5 @@ It acquired the suffix <Em>Verdon</Em> from Nicholas de Verdon (anglicized)
 who owned the manor in 1226. The parish retains the original form
 <Em>Newbold de Verdun</Em>. Nicholas’s descendant William de Ferrers was born
 in Newbold in 1332.
-</P><P>
-The itinerary of 1280 lists Newbold and nearby Brascote, Naneby, and Barlestone
-as one village, with 80 acres of woodland <Em>and a vineyard</Em>.
-The manor was held in 1401 by Walter Devereux, and later Henry de Ferrars.
-</P><P>
-A part of Newbold Verdon was enclosed in 1509, although the main enclosure took
-place in 1810 when the church was awarded 1316 acres of glebe land.
-Enclosures were made by manor lords (and increasing numbers of private landowners)
-to convert open-field shared commons tenant farms to the more lucrative sheep
-and wool industry. This displaced many tenant serfs from land worked by their
-families for centuries, and created vagrancy and economic problems throughout
-England.
 </P>
     

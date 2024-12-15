@@ -52,12 +52,4 @@ his kingdom organized by shire (county).  The resulting <Bold>Domesday Book</Bol
 is an invaluable primary source for modern historians and economists, listing
 13,418 place names, 5,624 flour mills, and <Em>42 vineyards</Em>.
 Nothing of similar scope was attempted again in Britain for 790 years.
-</P><P>
-<Rarrow/>Newly constructed castles, churches, and houses were made of stone instead
-of wooden timbers as preferred by Anglo-Saxon lords and kings.
-</P><P>
-<Rarrow/> Not since 1066 has a foreign force successfully invaded Britain.
-</P><P>
-<Rarrow/> William introduced the English feudal system of land ownership, tenure,
-and management.
 </P>
