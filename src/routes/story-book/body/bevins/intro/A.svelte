@@ -11,17 +11,9 @@
     // const wlBevins = lineage.find('WilliamLongfordBevins1815')
     // const maryAnnWhite= lineage.find('MaryAnnWhite1848')
     // const sarahWilkinson = lineage.find('SarahWilkinson1696')
-
+    const wmBevins1665 = lineage.find('WilliamBevins1665')
+    const judithBaker1665 = lineage.find('JudithBaker1665')
     const ancestors = samBevins.ancestors
-    let nodes = lineage.nodes()
-    let firstBorn = nodes[0]
-    for(let i=1; i<nodes.length; i++) {
-        const node = nodes[1]
-        if (node.person.birthYear() < firstBorn.person.birthYear()) {
-            firstBorn = node
-        }
-    }
-    const firstYear = firstBorn.person.birthYear()
 </script>
 <P>
 We begin by exporing the family line of our grandfather <Name>Samuel Bevins</Name>.
@@ -40,7 +32,8 @@ end, get my legs under myself, and wade into deeper waters in later chapters.
 </P><P>
 That said, I have so far located {ancestors} direct ancestors of
 <Name>Samuel Bevins</Name> going back 9 generations to our 7<sup>th</sup> great grand parents,
-with the earliest recorded birth in {firstYear} for <Da node={firstBorn}/>.
+with the earliest recorded birth in 1665 for <Da node={wmBevins1665}/> and his wife
+<Da node={judithBaker1665}/>.
 In the following sections we'll discover the geographic origins of our <Name>Bevins</Name>
 family branch; the historical context in which our ancestors were born and lived;
 why, where, and how they migrated to Minnesota;
