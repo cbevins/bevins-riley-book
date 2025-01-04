@@ -1,6 +1,6 @@
 <script>
     import { gxmlStr } from '$lib/gxml/gxmlStr'
-    import { gxmlPath, gxmlRect, gxmlSvg, gxmlText } from './gxmlTemplates.js'
+    import { gxmlPath, gxmlRect, gxmlSvg, gxmlText } from '$lib/gxml/gxmlTemplates.js'
 
     // Adapt the standard Gxml templates
     const tPath = {...gxmlPath}
@@ -45,7 +45,6 @@
     function hline(col, row) {
         const [x1, y1] = xy(col, row, 1, 0.5)
         const [x2, y2] = xy(col+1, row, 0, 0.5)
-        // console.log(x1,y1,x2,y2)
         const d =`M ${x1}, ${y1} L ${x2} ${y2}`
         return d
     }
@@ -54,7 +53,6 @@
     function vline(col, row) {
         const [x1, y1] = xy(col, row, 0.5, 1)
         const [x2, y2] = xy(col, row+1, 0.5, 0)
-        console.log(x1,y1,x2,y2)
         const d =`M ${x1}, ${y1} L ${x2} ${y2}`
         return d
     }

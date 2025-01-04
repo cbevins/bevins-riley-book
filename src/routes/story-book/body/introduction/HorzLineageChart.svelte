@@ -1,6 +1,6 @@
 <script>
     import { gxmlStr } from '$lib/gxml/gxmlStr'
-    import { gxmlPath, gxmlRect, gxmlSvg, gxmlText } from './gxmlTemplates.js'
+    import { gxmlPath, gxmlRect, gxmlSvg, gxmlText } from '$lib/gxml/gxmlTemplates.js'
 
     // This will become a passed prop
     // Array of [<ancestor>,  <m|f>, <spouse>, <m|f>, <title>]

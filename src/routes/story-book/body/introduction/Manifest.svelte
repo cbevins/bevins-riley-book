@@ -4,7 +4,6 @@
     import Introduction from './Introduction.svelte'
     import HorzLineageChart from './HorzLineageChart.svelte'
     import VertLineageChart from './VertLineageChart.svelte'
-    import WhiteEarthBevinsChart from './WhiteEarthBevinsChart.svelte'
     export let man
     export let depth
 </script>
@@ -18,6 +17,3 @@
 
 <Page {man}/>
 <Content {man} {depth} file='VertLineageChart.svelte' comp={VertLineageChart} />
-
-<Page {man}/>
-<Content {man} {depth} file='WhiteEarthBevinsChart.svelte' comp={WhiteEarthBevinsChart} />

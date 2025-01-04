@@ -40,9 +40,9 @@ Immigrant is 3rd GGF Thomas Nattrass, born 1799 in Stanhope, Durham, and died
 and died in 1849 in Ontario.
 </P>
 <P>
-    From <Bold>Hopkins Family Tree</Bold> by Kimberly Bowler
-    Edward Allerton (1553-1590) m. 1579 Rose Davis (1559-1596)
-    Earnest John Vincent (1608-1663) m Mary H Smith (1610-1675)
-    Mary E Vincent (1628-1712) m. Thomas Dexter Jr (1614-1686)
+From <Bold>Hopkins Family Tree</Bold> by Kimberly Bowler
+Edward Allerton (1553-1590) m. 1579 Rose Davis (1559-1596)
+Earnest John Vincent (1608-1663) m Mary H Smith (1610-1675)
+Mary E Vincent (1628-1712) m. Thomas Dexter Jr (1614-1686)
 
 </P>
