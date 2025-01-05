@@ -1,8 +1,9 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
-    import { Lineage } from '$lib/publish'
+    import { Lineage, LineageChart } from '$lib/publish'
     import { Bold, Da, Date, Footnote, Name, P, Place } from '$lib/markup'
     import Eng from '../images/England.jpg'
+
     const p = $$props // Ignore passed props: man, item, id
 
     const names = [
@@ -11,6 +12,14 @@
         ['William A Bevins', 'Mary A White'],
         ['William L Bevins', 'Mary Bolt'],
     ]
+    
+    const gens = [  // [person, pgender, spouse, sgender, gen]
+        ['Wm C Bevins', 'm', 'Meartia M Heddens', 'f', 'Parents'],
+        ['Samuel Bevins', 'm', 'Hattie J Collins', 'f', 'Grand Par'],
+        ['Wm A Bevins', 'm', 'Mary Ann White', 'f', '1st GGP'],
+        ['Wm L Bevins', 'm', 'Mary Bolt', 'f', '2nd GGP'],
+    ]
+
     const titles = ['Parents', 'Grand Parents',
         '1st Great Grand Parents', '2nd Great Grand Parents']
 
@@ -25,7 +34,8 @@
 <div class='mt-2'/>
 
 <Lineage {names} {titles}/>
-
+<LineageChart {gens} vertical={false}/>
+<LineageChart {gens} vertical={true}/>
 <P>
 Our father <span><Da node={wcBevins}/></span>
 was born near <Place>Deer River, Minnesota</Place>, the last of 9 children of

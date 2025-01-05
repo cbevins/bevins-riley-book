@@ -1,5 +1,8 @@
 <script>
     import { Name, P } from '$lib/book'
+
+    // Ignore passed props: man, item, id
+    const p = $$props
     export let item
 </script>
 

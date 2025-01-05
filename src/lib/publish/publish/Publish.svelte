@@ -20,13 +20,14 @@
                 newpage={newpage(item)} />
         {/if}
     
-    <!-- All other types are some form of content -->
+    <!-- All other types are some form of 'content' -->
     {:else}
         {#if ! item.comp}
             <Placeholder {man} {item} id={item.id} />
         {:else}
             <div id={item.id}>
-                <svelte:component this={item.comp} {man} {item} id={item.id} />
+                <svelte:component this={item.comp} {man} {item} id={item.id}
+                {...item.props} />
             </div>
         {/if}
     {/if}

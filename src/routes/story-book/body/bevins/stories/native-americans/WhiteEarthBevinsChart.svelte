@@ -3,6 +3,9 @@
     import { gxmlPath, gxmlRect, gxmlSvg, gxmlText } from '$lib/gxml/gxmlTemplates.js'
     import Mayflower from '$lib/images/Mayflower.jpg'
 
+    // Ignore passed props: man, item, id
+    const p = $$props
+
     const items = [
         // [col, row, name, gender]
         [6, 3, 'Wm L Bevins', 'm'],
@@ -54,7 +57,7 @@
         function textBox(col, row, content='', gender='m') {
             let fill = 'gray'
             if (gender === 'f') fill = 'magenta'
-            if (gender === 'm') fill = 'dodgerblue'
+            else if (gender === 'm') fill = 'dodgerblue'
             const [x, y] = xy(col, row)
             els.push({...tRect, x, y, height: boxHt, width: boxWd, fill})
             textStr(col, row, content, 'middle')
@@ -67,9 +70,8 @@
             for(let i=0; i<lines.length; i++) {
                 const content = lines[i]
                 const [tx, ty] = xy(col, row, 0.5, (i+1)*dy)
-                const text = {...tText, x: tx, y: ty, 'dominant-baseline': baseline,
-                    els: [{el: 'inner', content}]}
-                els.push(text)  //Push each el onto the array
+                els.push({...tText, x: tx, y: ty, 'dominant-baseline': baseline,
+                    els: [{el: 'inner', content}]})
             }
         }
 
