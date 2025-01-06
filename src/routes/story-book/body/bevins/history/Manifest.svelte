@@ -1,7 +1,6 @@
 <script>
     // ./body/bevins/origins/Manifest.svelte
     import { Content, Page, Section } from '$lib/publish'
-    import BrixhamPage1 from './BrixhamPage1.svelte'
     import HistoryIntro from './HistoryIntro.svelte'
     import HistoryEarlyCultues from './HistoryEarlyCultures.svelte'
     import HistoryEnglishPage1 from './HistoryEnglishPage1.svelte'
@@ -12,9 +11,6 @@
     import HistoryVikings from './HistoryVikings.svelte'
     import HistoryWilliamConquerorPage1 from './HistoryWilliamConquerorPage1.svelte'
     import HistoryWilliamConquerorPage2 from './HistoryWilliamConquerorPage2.svelte'
-    import NewboldVerdonPage1 from './NewboldVerdonPage1.svelte'
-	import NewboldVerdonPage2 from './NewboldVerdonPage2.svelte'
-	import NewboldVerdonPage3 from './NewboldVerdonPage3.svelte'
 
     export let man
     export let depth
@@ -42,7 +38,7 @@
     features={[['map', 'Anglo-Saxon Migration'],['map', 'Anglo-Saxon-Heptarchy']]} />
 
 <Page {man}/>
-<Section {man} depth={d1} folder='history' title='The Vikings Age (793-878)'/>
+<Section {man} depth={d1} folder='history' title='The Viking Age (793-878)'/>
 <Content {man} depth={d1} file='HistoryVikings.svelte'
     comp={HistoryVikings}/>
 
@@ -72,22 +68,3 @@
 <Content {man} depth={d1} file='HistoryLandCommonsEnclosures.svelte'
     comp={HistoryLandCommonsEnclosures}
     features={[['figure', "Plan of a Mediaeval Manor"]]} />
-
-<Page {man}/>
-<Section {man} depth={d1} folder='history' title='Newbold Verdon; Home of the Bevins'/>
-<Content {man} depth={d1} file='NewboldVerdonPage1.svelte' comp={NewboldVerdonPage1}
-    features={[['figure', "Newbold Verdon Main Street"]]} />
-
-<Page {man}/>
-<Content {man} depth={d1} file='NewboldVerdonPage2.svelte' comp={NewboldVerdonPage2}
-    features={[['figure', "Framework Knitters"]]} />
-
-<Page {man}/>
-<Content {man} depth={d1} file='NewboldVerdonPage3.svelte' comp={NewboldVerdonPage3}
-    features={[['map', 'Modern Day Newbold Verdon']]} />
-
-<Page {man}/>
-<Section {man} depth={d1} folder='history' title='Brixham, Devon; Home of the Bevins'/>
-<Content {man} depth={d1} file='BrixhamPage1.svelte' comp={BrixhamPage1}
-    features={[['figure', "Brixham Harbor"],['map', "Brixham Devon"]]} />
-

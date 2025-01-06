@@ -4,10 +4,12 @@
     import GEarth from '../images/BrixhamGoogleEarth.jpg'
     const p = $$props // Ignore passed props: man, item, id
 </script>
+
 <P>
-The other half of the Bevins family line originates from <Bold>Brixham, Devon</Bold>
-a seaside village on the English Channel.
-</P>
+    Brixham was recorded in the <Em>Domesday Book</Em> of 1086 as <Em>Briseham</Em>
+    with a population of 39.
+    </P>
+    
 <div id='figure-brixham-harbor'
     class="float-left w-[3in] h-[2.4in] px-4 py-4 mr-4 mt-2 text-left rounded-xl bg-green-200">
     <img src={Harbor} alt='Brixham Horbor' width="250"/>
@@ -16,19 +18,19 @@ a seaside village on the English Channel.
     </div>
 </div>
 <P>
-Brixham was recorded in the <Em>Domesday Book</Em> of 1086 as <Em>Briseham</Em>
-with a population of 39.
-</P><P>
-In the Iron Age, Roman and the Sub-Roman periods, Devon was the home of the
+Brixham is a fishing town on the southwest shores of Devon, about 166 air
+miles from London. Its population in 2021 was 16,825.
+</P>
+<P>
+During the Iron Age, Roman, and Sub-Roman periods, Devon was the home of the
 <Bold>Dumnonii Celtic Britons</Bold>.
-The first evidence of settlement dates back to the Saxon period.
 The Anglo-Saxon settlement of Britain resulted in the partial assimilation of
-Dumnonia into the kingdom of <Bold>Wessex</Bold> in the eighth and ninth centuries.
-</P><P>
-Much of Brixham was built in Victorian times. It was known as the “great fishery
+Dumnonia into the Saxon kingdom of <Bold>Wessex</Bold> in the eighth and ninth centuries.
+</P>
+<P>
+Much of Brixham was built in Victorian times (1837-1901). It was known as the “great fishery
 of the west,” because Brixham fishermen developed the technique of trawling in the 1760's.
-Nearby is Windmill Hill Cave, occupied from prehistoric until Roman times.
-Population in 2021 was 16,825.
+Nearby is Windmill Hill Cave, which was occupied from prehistoric until Roman times.
 </P>
 <div id='map-brixham-devon'
     class="float-left w-[3.5in] h-[2.9in] px-4 py-4 mr-4 mt-2 mb-2 text-left rounded-xl bg-green-200">

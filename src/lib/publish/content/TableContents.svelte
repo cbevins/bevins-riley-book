@@ -37,7 +37,8 @@
 
 <NewPage {book} {chapter} id={man.folder+'-toc'} />
 
-<div class="mb-4 text-4xl font-bold text-left">
+<div id='book-table-contents'
+    class="mb-4 text-4xl font-bold text-left">
     Table of Contents
 </div>
 

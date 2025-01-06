@@ -12,19 +12,24 @@
 
     // Adapt the standard Gxml templates as needed
     const tPath = {...gxmlPath}
-    const tRect = {...gxmlRect, rx: 6, ry: 6}
+    const tRect = {...gxmlRect, rx: 10, ry: 10}
     const tSvg = {...gxmlSvg}
-    const tText = {...gxmlText,
-        'text-anchor': 'middle', 
-        'dominant-baseline': 'middle'
-    }
+    const fontSizes= [12, 12, 12, 12, 12, 12, 10, 9, 9, 9, 9, 9]
     const female = 'magenta'
     const male = 'dodgerblue'
 
-    const colWd = 168
-    const rowHt = 50
     const cols = vertical ? 2 : gens.length
     const rows = vertical ? gens.length : 2
+    const maxWd = vertical ? 320 : 670
+    const colWd = maxWd / cols
+    const fontSize = fontSizes[cols]
+    const tText = {...gxmlText,
+        'font-size': fontSize,
+        'text-anchor': 'middle', 
+        'dominant-baseline': 'middle'
+    }
+    
+    const rowHt = 50
     const ml = 10
     const mr = 10
     const mt = 10
@@ -49,9 +54,12 @@
         if (! Array.isArray(lines)) lines = [lines]
         let dy = 1 / (lines.length + 1)
         for(let i=0; i<lines.length; i++) {
+            const fsize = i ? fontSize-1 : fontSize
             const content = lines[i]
             const [tx, ty] = xy(col, row, 0.5, (i+1)*dy)
-            els.push({...tText, x: tx, y: ty, 'dominant-baseline': baseline,
+            els.push({...tText, x: tx, y: ty,
+                'font-size': fsize,
+                'dominant-baseline': baseline,
                 els: [{el: 'inner', content}]})
         }
     }
@@ -90,10 +98,10 @@
         const [person, pgender, spouse, sgender, gen] = pairs[i]
         let col = vertical ? 0 : i
         let row = vertical ? i : 0
-        textBox(col, row, person, pgender)
+        textBox(col, row, [person, gen], pgender)
         col = vertical ? 1 : i
         row = vertical ? i : 1
-        textBox(col, row, spouse, sgender)
+        textBox(col, row, [spouse, gen], sgender)
     }
     const svg = {...tSvg, height: svgHt, width: svgWd, els: [els]}
 </script>

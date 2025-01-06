@@ -8,16 +8,19 @@
     if (! node) {
         throw new Error(`Svelte component 'Da' was passed a null node`)
     }
+
+    // Used only in the Popover title
     function daFull() {
         if (!gen) return 'Sibling'
         if (gen===1) return `Parent`
         if (gen===2) return `Grand Parent`
-        if (gen===3) return `1<sup>st</sup> Great Grand Parent`
-        if (gen===4) return `2<sup>nd</sup> Great Grand Parent`
-        if (gen===5) return `3<sup>rd</sup> Great Grand Parent`
-        return `${gen-2}<sup>th</sup> Great Grand Parent`
+        if (gen===3) return `1st GGP`
+        if (gen===4) return `2nd GGP`
+        if (gen===5) return `3rd GGP`
+        return `${gen-2}th GGP`
     }
 
+    // Relationship superscript appended to name
     function superHtml() {
         return `<sup>` + daAbbr() + '</sup>'
     }

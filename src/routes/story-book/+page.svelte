@@ -47,7 +47,12 @@
 	onMount(() => { pageHts()
 	})
 </script>
-
+<div class="fixed top-0 left-0 right-0">
+    <a href="#book-table-contents"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-2 py-2 focus:outline-none">
+        Contents
+    </a>
+</div>
 <Book>
     <!-- Compile the face Manifest -->
     <FaceManifest man={faceMan}/>

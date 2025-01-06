@@ -114,10 +114,10 @@
 
         // Family locations background and legend
         const locations = [ // [col, row, rows, cols, legx, str, fill]
-            [0.5, 6.7, 5.5,  6.2,  0.5, 'Deer River, MN', 'palegreen'],
-            [0.5, 4.7, 1.5, 17.2,  4.5, 'Annawan, IL', 'peru'],
-            [5.8, 2.7, 1.5,  6.2,  8.5, 'Newbold Verdon, Eng,', 'plum'],
-            [8.8, 6.7, 5.5,  9.0, 13.5, 'White Earth, MN', 'peachpuff']
+            [0.5, 6.7, 5.5,  6.2,  0.5, 'Deer River, MN', 'sandybrown'],
+            [0.5, 4.7, 1.5, 17.2,  4.5, 'Annawan, IL', 'sienna'],
+            [5.8, 2.7, 1.5,  6.2,  8.5, 'Newbold Verdon, Eng,', 'tomato'],
+            [8.8, 6.7, 5.5,  9.0, 13.5, 'White Earth, MN', 'tan']
         ]
         for(let i=0; i<locations.length; i++) {
             const [col, row, rows, cols, legx, str, fill] = locations[i]

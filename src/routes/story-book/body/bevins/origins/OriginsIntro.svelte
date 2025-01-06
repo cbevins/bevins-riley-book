@@ -1,27 +1,8 @@
 <script>
     import { getChannels } from '$lib/content/singletons.js'
-    import { Lineage, LineageChart } from '$lib/publish'
     import { Bold, Da, Date, Footnote, Name, P, Place } from '$lib/markup'
     import Eng from '../images/England.jpg'
-
     const p = $$props // Ignore passed props: man, item, id
-
-    const names = [
-        ['William C Bevins', 'Meartia M Heddens'],
-        ['Samuel Bevins', 'Hattie J Collins'],
-        ['William A Bevins', 'Mary A White'],
-        ['William L Bevins', 'Mary Bolt'],
-    ]
-    
-    const gens = [  // [person, pgender, spouse, sgender, gen]
-        ['Wm C Bevins', 'm', 'Meartia M Heddens', 'f', 'Parents'],
-        ['Samuel Bevins', 'm', 'Hattie J Collins', 'f', 'Grand Par'],
-        ['Wm A Bevins', 'm', 'Mary Ann White', 'f', '1st GGP'],
-        ['Wm L Bevins', 'm', 'Mary Bolt', 'f', '2nd GGP'],
-    ]
-
-    const titles = ['Parents', 'Grand Parents',
-        '1st Great Grand Parents', '2nd Great Grand Parents']
 
     const lineage = getChannels('bevins')
     const wcBevins = lineage.find('WilliamCollinsBevins1931')
@@ -33,23 +14,28 @@
 </script>
 <div class='mt-2'/>
 
-<Lineage {names} {titles}/>
-<LineageChart {gens} vertical={false}/>
-<LineageChart {gens} vertical={true}/>
 <P>
 Our father <span><Da node={wcBevins}/></span>
 was born near <Place>Deer River, Minnesota</Place>, the last of 9 children of
 <Da node={hattieCollins}/> and <Da node={samBevins}/>.
-</P><P>
+</P>
+<P>
 Grandfather Samuel was born on <Date date='22 Dec 1881'/> <Footnote chapter='bevins' num='1'/>
 in <Place>Annawan, Henry County, Illinois</Place>,
 the last of 6 children raised by the immigrants <Da node={maryAnnWhite}/> and
-<Da node={waBevins}/>.  Samuel's parents emigrated separately from England; first his
-father <Name>William Alfred</Name> as a child of 2 with his family in 1843,
-and later his mother <Name>Mary Ann White</Name> as a 26 year old mother in 1871.
-So its not surprising their lines originate from two separate locations in England.
-What is interestting is that each of these families go back at least 7 generations
-in their home villages.
+<Da node={waBevins}/>.
+</P>
+<P>
+While Samuel's father <Name>William Alfred</Name> immigrated
+into America in 1843 as a two-year old with his family, Samuel's mother
+<Name>Mary Ann White</Name> didn't arrive until 1871 as a 26 year old mother
+with her then-husband and daughter Allace.
+</P>
+<P>
+So its not surprising that the <Name>Bevins</Name> and <Name>White</Name>
+families originate from two separate locations in England.
+Church of England records of parishioner births, marriages, and deaths trace
+both family's history back at least 7 generations in their home villages.
 </P>
 <div id="map-bevins-origins-in-england"
     class="float-left w-[4.25in] h-[3.75in] px-4 mr-4 mt-2 rounded-xl bg-green-200">
