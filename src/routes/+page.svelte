@@ -23,9 +23,9 @@
     <a href="/research-journal"
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
         Research Journal Edition</a>
-    <a href="/irs"
+    <a href="/forms"
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xlg text-sm px-5 py-2.5 focus:outline-none">
-        IRS</a>
+        Forms</a>
 
     <P>Bevins-Riley Tree currently has {families} families and {people} people</P>
 

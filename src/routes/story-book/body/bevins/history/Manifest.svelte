@@ -7,7 +7,7 @@
     import HistoryEnglishPage2 from './HistoryEnglishPage2.svelte'
     import HistoryLandCommonsEnclosures from './HistoryLandCommonsEnclosures.svelte'
     import HistoryRomanConquest from './HistoryRomanConquest.svelte'
-    import HistoryAngloSaxonPeriod from '../history/HistoryAngloSaxonPeriod.svelte'
+    import HistoryAngloSaxonPeriod from './HistoryAngloSaxonPeriod.svelte'
     import HistoryVikings from './HistoryVikings.svelte'
     import HistoryWilliamConquerorPage1 from './HistoryWilliamConquerorPage1.svelte'
     import HistoryWilliamConquerorPage2 from './HistoryWilliamConquerorPage2.svelte'

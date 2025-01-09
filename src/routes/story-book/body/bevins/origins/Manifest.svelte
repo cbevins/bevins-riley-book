@@ -7,6 +7,7 @@
     import NewboldVerdonEnglandPage2b from './NewboldVerdonEnglandPage2b.svelte'
     import NewboldVerdonEnglandPage3 from './NewboldVerdonEnglandPage3.svelte'
     import NewboldVerdonEnglandPage4 from './NewboldVerdonEnglandPage4.svelte'
+    import OriginsBlockSvg from './OriginsBlockSvg.svelte'
     import OriginsChartWilliamAlfredBevins from './OriginsChartWilliamAlfredBevins.svelte'
     import OriginsChartMaryAnnWhite from './OriginsChartMaryAnnWhite.svelte'
     import BrixhamEnglandPage1 from './BrixhamEnglandPage1.svelte'
@@ -62,7 +63,7 @@
     title='Brixham, Devon, England (1705-1870)'/>
 
 <Section {man} depth={d2} folder='origins' title='The White Family in Brixham, Devon'/>
-<Content {man} depth={d1} file='BrixhamEnglandPage1.svelte'
+<Content {man} depth={d2} file='BrixhamEnglandPage1.svelte'
     comp={BrixhamEnglandPage1}
     features={[['figure', 'Brixham Harbor'],
         ['map', 'Google Earth Image of Brixham, Devon']]} />
@@ -73,10 +74,16 @@
 
 <Page {man}/>
 <Section {man} depth={d2} folder='origins' title='About Brixham, Devon'/>
-<Content {man} depth={d1} file='BrixhamEnglandPage3.svelte'
+<Content {man} depth={d2} file='BrixhamEnglandPage3.svelte'
     comp={BrixhamEnglandPage3} />
 
 <Page {man}/>
 <Content {man} depth={d1} file='OriginsChartMaryAnnWhite.svelte'
     comp={OriginsChartMaryAnnWhite}
     features={[['figure', 'Ancestor Chart for Mary Ann White']]} />
+
+<Page {man}/>
+<Section {man} depth={d1} folder='origins' title='Bevins Origins Chart'/>
+<Content {man} depth={d1} file='OriginsBlockSvg.svelte'
+    comp={OriginsBlockSvg}
+    features={[['figure', 'Bevins Origins Chart']]} />
