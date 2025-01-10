@@ -67,7 +67,7 @@ export function gxmlLineageBlocks(cols=4, text=[], xpad=0.25, ypad=0.125,
     for(let i=0; i<text.length; i++) {
         // Each text element is an array of [col, row, [stringArray]]
         let [col, row, lines, fill] = text[i]
-        console.log(col, row, lines, fill)
+        // console.log(col, row, lines, fill)
         if (!fill) fill = 'lightgrey'
         const blocks = Math.pow(2, col+1)
         if (col) els.push({...tLine, ...link(col, row, blocks)})

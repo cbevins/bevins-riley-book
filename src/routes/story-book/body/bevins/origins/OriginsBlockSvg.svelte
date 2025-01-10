@@ -12,6 +12,8 @@
     export let xpad = 0.25
     export let ypad = 0.125
 
+    const p = $$props // Ignore passed props: man, item, id
+
     const newbold = 'sienna'
     const brixham = 'chocolate'
     const mevagissey = 'tan'

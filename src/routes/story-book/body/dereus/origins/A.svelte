@@ -25,7 +25,7 @@
     console.log(`${rootKey} Lineage has ${ar.length} members:`)
     for(let i=0; i<ar.length; i++) {
         const p = ar[i]
-        console.log(p.birthYear(), p.label(), p.birthPlace().text())
+        // console.log(p.birthYear(), p.label(), p.birthPlace().text())
     }
     //---------------------------------------------------------
 
