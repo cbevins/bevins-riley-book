@@ -1,7 +1,6 @@
 <script>
     // ./body/dereus/origins/Manifest.svelte
     import { Content, Page, Placeholder, Section } from '$lib/publish'
-    import OriginsBlockSvg from './OriginsBlockSvg.svelte'
     import OriginsBlockSvg2 from './OriginsBlockSvg2.svelte'
     import A from './A.svelte'
 
@@ -15,14 +14,8 @@
 <Content {man} {depth} file='A.svelte' comp={A} />
 
 <Page {man}/>
-<Section {man} depth={d1} folder='origins' title='DeReus Origins Chart 2'/>
+<Section {man} depth={d1} folder='origins' title='DeReus Origins Chart'/>
 <Content {man} depth={d1} file='OriginsBlockSvg2.svelte'
     comp={OriginsBlockSvg2}
-    features={[['figure', 'DeReus Origins Chart 2']]} />
-
-<Page {man}/>
-<Section {man} depth={d1} folder='origins' title='DeReus Origins Chart'/>
-<Content {man} depth={d1} file='OriginsBlockSvg.svelte'
-    comp={OriginsBlockSvg}
     features={[['figure', 'DeReus Origins Chart']]} />
     
