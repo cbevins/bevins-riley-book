@@ -19,7 +19,7 @@
 <CollinsManifest {man} {depth} />
 <HeddensManifest {man} {depth} />
 <NattrassManifest {man} {depth} />
-<!-- <RileyManifest {man} {depth} /> -->
+<RileyManifest {man} {depth} />
 <DereusManifest {man} {depth} />
-<!-- <TrombleyManifest {man} {depth} /> -->
-<!-- <NelsonManifest {man} {depth} /> -->
+<TrombleyManifest {man} {depth} />
+<NelsonManifest {man} {depth} />

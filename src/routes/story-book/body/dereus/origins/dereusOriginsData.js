@@ -114,9 +114,9 @@ export const data = {
             ]},
             // [2, 2, ['IMMIGRANT 1886', '', 'Joseph John Robson', '', 'Monk Wearmouth, Durham'], durham],
             {...tRow2, shape: {...tRect, fill: ENdu}, lines: [
-                {text: {...tText}, content: 'Joseph John Robson'},
-                {text: {...tText}, content: 'Monk Wearmouth,'},
-                {text: {...tText}, content: 'Durham'}
+                {text: {...tName}, content: 'Joseph John Robson'},
+                {text: {...tBorn}, content: 'Monk Wearmouth,'},
+                {text: {...tBorn}, content: 'Durham'}
             ], links: [
                 {col: 1, row: 1, line: {...tPath}},
             ]},
