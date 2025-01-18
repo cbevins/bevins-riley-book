@@ -57,7 +57,7 @@ export const data = {
                 {col: 0, row: 2, line: {...tPath}},
             ]},
             // col 0, row 2
-            {...tRow0, h: 0.4*chart.h, shape: {...tRect, fill: ENdu}, lines: [
+            {...tRow0, h: 0.4*chart.h, shape: {...tRect, fill: USia}, lines: [
                 {text: {...tName}, content: 'Gladys Mae De Reus'},
                 {text: {...tBorn}, content: 'Valeria, Jasper, IA'},
             ], links: [

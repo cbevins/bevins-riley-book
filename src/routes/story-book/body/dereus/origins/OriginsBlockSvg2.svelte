@@ -5,14 +5,14 @@
     import { data } from './dereusOriginsData.js'
     const p = $$props // Ignore passed props: man, item, id
 
-    // States
+    // Legend
     const x1 = 0.2
     const x2 = 1.8
     const x3 = 3.5
     const x4 = 5.20
-    const y1 = 9.5
-    const y2 = 9.75
-    const y3 = 10
+    const y1 = 9.25
+    const y2 = 9.45
+    const y3 = 9.65
     const legends = [
         {content: 'Indiana, USA',      x: x1, y: y1, color: 'lightskyblue'},
         {content: 'Iowa, USA',         x: x2, y: y1, color: 'deepskyblue'},
@@ -45,8 +45,8 @@
         const els = []
         for (let i=0; i<legends.length; i++) {
             const {content, x, y, color: fill} = legends[i]
-            els.push({...gxmlRect, x: x+'in', y: y+'in', width: '1.5in', height: '0.25in', fill})
-            els.push(textStr((x+0.75)+'in', (y+0.15)+'in', content, 16, 'middle'))
+            els.push({...gxmlRect, x: x+'in', y: y+'in', width: '1.5in', height: '0.2in', fill})
+            els.push(textStr((x+0.75)+'in', (y+0.1)+'in', content, 12, 'middle'))
         }
         return els
     }

@@ -1,7 +1,8 @@
 <script>
-    import { gxmlGrid, gxmlLineageBlocks } from '$lib/gxml-graphpaper'
+    import { gxmlGrid, gxmlLineageBlocks, gxmlLineageBlocks2 } from '$lib/gxml-graphpaper'
     import { gxmlStr } from '$lib/gxml/gxmlStr'
     import { gxmlSvg } from '$lib/gxml/gxmlTemplates.js'
+    import { data } from './blankOriginsLineageBlock2Data.js'
     import { Pf } from '$lib/markup'
 
     // grid properties
@@ -48,11 +49,22 @@
             left, right, top, bottom, pageWd, pageHt)
     }
 
+    function lineageBlocks2() {
+        const blockEls = [
+            {el: 'g', transform: 'scale(0.975) translate(0, -5)', els: [
+                gxmlLineageBlocks2(data)]}]
+        const svg = {...gxmlSvg, height: '11in', width: '8.5in', els: [
+            blockEls, grid()]}
+        return svg
+    }
+
     function svg(els) {
         return {...gxmlSvg, height: '11in', width: '8.5in', els: [els]}
     }
 </script>
 {@html gxmlStr(svg(grid()))}
+<Pf/>
+{@html gxmlStr(lineageBlocks2())}
 <Pf/>
 {@html gxmlStr(svg(blocks()))}
 <Pf/>
