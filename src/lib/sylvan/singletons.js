@@ -1,5 +1,6 @@
 import { Sylvan } from '$lib/sylvan/Sylvan.js'
-import { _gedcomData } from '$lib/gedcom/_gedcomDataRootsMagic.js'
+// import { _gedcomData } from '$lib/gedcom/_gedcomDataRootsMagic.js'
+import { _gedcomData } from '$lib/gedcom/_gedcomDataAncestry.js'
 
 // BE SURE TO DEREFERENCE VALUE USING '$subjectNameKey'
 import { subjectPerson } from '$lib/sylvan/store.js'

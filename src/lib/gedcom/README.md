@@ -9,7 +9,10 @@ The **gedcom** subpackage provides a tool for converting a GEDCOM text file(s) (
 
 ## 1 Create Javascript Data File from GEDCOM
 
-The example script file **convertGedcom2Data.js** reads the **../tmp/Ancestry.ged** and **../RootsMagic.ged** GEDCOM text files and generates corresponding **_gedcomDataAncestry.js** and **_gedcomDataRootsMagic.js** Javascript data files:
+The example script file **convertGedcom2Data.js** reads the **../data/gedcoms/AncestryLatest.ged**
+and **../data/gedcoms/RootsMagicLatest.ged** GEDCOM text files
+and generates corresponding **_gedcomDataAncestry.js** and **_gedcomDataRootsMagic.js**
+Javascript data files:
 
 ```bash
 node convertGedcom2Data.js
@@ -38,7 +41,8 @@ export const _gedcomData = [
 ]
 ```
 
-**NOTE** that only those GEDCOM records whose context is present in the **keepers** array are written to the output file.  See the **convertGedcom2Data.js** file for details.
+**NOTE** that only those GEDCOM records whose context is present in the **keepers** array
+are written to the output file.  See the **convertGedcom2Data.js** file for details.
 
 
 ## 2 Import _gedcomData and Create a **Gedcom** Instance
@@ -56,7 +60,9 @@ export const _gedcomData = [
     console.log(`GEDCOM File was created by ${source} on ${created}`)
 ```
 
-For a more complex example, see the **Sylvan** subpackage.
+On my SVelteKit web sites, the _gedcomData is loaded by the the **Sylvan** subpackage,
+within the **sylvan/singletons.js** file.  This is wehere I choose whether to use
+Ancestry or RootsMagic GEDCOM data.
 
 
 ## Files
