@@ -21,7 +21,8 @@ export const Level0Renames = new Map([
     ['northern ireland', 'NIR'],
     ['norvège', 'NOR'],
     ['norway', 'NOR'],
-    ['pays-bas', 'NET'],
+    ['pays-bas', 'NDL'],
+    ['pays bas', 'NDL'],
     ['scotland', 'SCO'],
     ['suede', 'SWE'],
     ['suède', 'SWE'],
@@ -299,7 +300,7 @@ export const Level1Renames = new Map([
     ['virgin islands', 'VI'],
     ['washington', 'WA'],
     ['west virginia',  'WV'],
-    ['wisconsin', 'wi'],
+    ['wisconsin', 'WI'],
     ['wyoming', 'WY'],
     // Netherlands provinces
     ['drenthe', 'DRE'],
