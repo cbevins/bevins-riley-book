@@ -16,7 +16,9 @@ function notesStr(notes, pad) {
 export function personProfile(subject, recurse=false) {
     const dashes = '---------------------------------------------'
     const msg = [
+        dashes,
         `Name: ${subject.label()}`,
+        dashes,
         `Born: ${subject.birthLine()}`,
         `      Notes: ${subject.birthNotes()}`,
         `      Source Keys: ${subject.birthSourceKeys()}`,

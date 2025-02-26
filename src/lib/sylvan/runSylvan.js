@@ -8,6 +8,7 @@ import { _gedcomData } from '../gedcom/_gedcomDataAncestry.js'
 const wlbKey = 'WilliamLongfordBevins1815'
 
 const Args = [
+    ['locations', `displays GEDCOM PLAC locations for '${wlbKey}'`],
     ['personlist', `displays list of all peron labels for use in a PersonSelector Combobox`],
     ['profile', `displays Person profile for '${wlbKey}'`],
     ['summary', `displays Sylvan records summary`],
@@ -33,6 +34,7 @@ function getArgs() {
 
 function main() {
     const sylvan = new Sylvan(_gedcomData)
+    if (parms.locations) locations(sylvan, wlbKey)
     if (parms.personlist) console.log(JSON.stringify(personlist(sylvan), null, 2))
     if (parms.profile) display(profile(sylvan, wlbKey))
     if (parms.summary) display(summary(sylvan))
@@ -50,6 +52,20 @@ function personlist(sylvan) {
 
 function display(lines) { console.log(lines.join('\n')) }
 
+function locations(sylvan, nameKey) {
+    const person = sylvan.people().find(nameKey)
+    const place = person.birthPlace()
+    console.log(`${nameKey} birth:`)
+    console.log(`  country: '${place.country()}'`)
+    console.log(`  state  : '${place.state()}'`)
+    console.log(`  lat    : ${place.lat()}`)
+    console.log(`  lng    : ${place.lng()}`)
+    console.log(`  coords : [${place.coords()}]`)
+    console.log(`  place  : '${place.fullName(true)}'`)
+    console.log(`  place  : '${place.fullName(false)}'`)
+    console.log(`  keys   : '${place.keys()}'`)
+}
+
 // Illustrates how to hydrate the entire GEDCOM Tree
 function profile(sylvan, nameKey) {
     const person = sylvan.people().find(nameKey)
@@ -64,7 +80,7 @@ function summary(sylvan) {
         `People        : ${intFmt(sylvan.people().size(), 6)}`,
         `Places        : ${intFmt(sylvan.places().size(), 6)}`,
         `Families      : ${intFmt(sylvan.families().size(), 6)}`,
-        `GedcomPlaces  : ${intFmt(sylvan.gedcomPlaces().size, 6)}`,
+        `GedcomPlaces  : ${intFmt(sylvan.locations().size, 6)}`,
         `Reviews       : ${intFmt(reviews.length, 6)}`,
         `Top Levels    : ${intFmt(sylvan.topLevels().length, 6)}`,
         `Contexts      : ${intFmt(sylvan.contexts().length, 6)}`]

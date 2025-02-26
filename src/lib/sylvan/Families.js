@@ -5,12 +5,13 @@ import { EvDate } from './EvDate.js'
 import { Family } from './Family.js'
 
 export class Families {
-    constructor(gedcom, people, places) {
+    constructor(gedcom, people, locations, places) {
         this._data = {
             famKeyMap: null,    // Map of famKey => Family
-            gedcom: gedcom,
-            people: people,
-            places: places,
+            gedcom,
+            locations,  // GedcomPlaceLocationsJson Map() reference
+            people,
+            places,
             type: 'FAM'
         }
         this._init()
@@ -22,6 +23,8 @@ export class Families {
     find(famKey) { return this._data.famKeyMap.get(famKey) }
 
     gedcom() { return this._data.gedcom }
+
+    locations() { return this._data.locations }
 
     people() { return this._data.people }
 
@@ -39,7 +42,9 @@ export class Families {
     // ----------------------------------------------------------------------
     
     _addPlace(text, person=null, event='unknown') {
-        let place = this.places().parsePlace(text)
+        const location = this.locations().get(text)
+        if (! location) console.log(`Unable to find Gedcom FAM PLAC ${text} in Locations`)
+        let place = this.places().parsePlace(text, location)
         if (person && place.messages().length) {
             for (let i=0; i<place.messages().length; i++) {
                 person.addMessage(`Event '${event}' PLAC '${text}': ${place.messages()[i]}`)

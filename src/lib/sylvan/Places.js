@@ -31,10 +31,10 @@ export class Places {
     // ----------------------------------------------------------------------
 
     // text is, hopefully, a comma-delimited place name
-    parsePlace(text) {
+    parsePlace(text, location=null) {
         const [parts, messages] = this._recodePlace(text)
         if (! this.has(text)) {
-            this.map().set(text, new Place(text, parts, messages))
+            this.map().set(text, new Place(text, location, parts, messages))
         }
         const place = this.get(text)
         place.increment()

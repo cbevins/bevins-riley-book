@@ -6,11 +6,12 @@ import { Person } from './Person.js'
 
 export class People {
     // Creates hydrated Person instances for each GEDCOM INDI reord
-    constructor(gedcom, places) {
+    constructor(gedcom, locations, places) {
         this._data = {
             gedcom: gedcom,     // Gedcom instance
             gedKeyMap:  null,   // Map of gedKey => Person
             msg: [],            // Processing messages
+            locations,          // GedcomPlaceLocationsJson Map() reference
             nameKeyMap: null,   // Map of nameKey => person
             nameLabelMap: null, // Map of nameLabel => person
             places: places,
@@ -39,6 +40,8 @@ export class People {
     gedcom() { return this._data.gedcom }
 
     gedKeyMap() { return this._data.gedKeyMap }
+
+    locations() { return this._data.locations }
 
     messages() { return this._data.msg }
 
@@ -88,7 +91,10 @@ export class People {
     // Returns the resolved Place instance
     // person and event are optional for writing PLAC warning messages to the person
     _addPlace(text, person=null, event='unknown') {
-        let place = this.places().parsePlace(text)
+        const location = this.locations().get(text)
+        // if (! location) console.log(`Unable to find Gedcom INDI PLAC ${text} in Locations`)
+
+        let place = this.places().parsePlace(text, location)
         if (person && place.messages().length) {
             for (let i=0; i<place.messages().length; i++) {
                 person.addMessage(`Event '${event}' PLAC '${text}': ${place.messages()[i]}`)

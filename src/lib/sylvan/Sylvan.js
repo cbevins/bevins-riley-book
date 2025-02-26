@@ -16,14 +16,14 @@ export class Sylvan {
     constructor(_gedcomData, _gedcomPlaces=GedcomPlaceLocationsJson) {
         this._data = {
             families: null,     // Families reference
-            gedcomPlaces: _gedcomPlaces,    // GedcomPlaceLocationsJson Map() reference
+            locations: _gedcomPlaces,    // GedcomPlaceLocationsJson Map() reference
             info: {             // additional items so we can release _gedcomData
                 contexts: [],
                 created: '',
                 source: '',
                 topLevels: [],
             },
-            // locations: null,    // Locations reference (RootsMagic only)
+            // rmlocations: null,    // RmLocations reference (RootsMagic only)
             people: null,       // People reference
             places: null,       // Places reference
         }
@@ -46,7 +46,7 @@ export class Sylvan {
     // Returns reference to a Families instance
     families() { return this._data.families }
 
-    // Returns reference to a Locations instance
+    // Returns reference to a GedcomPlaceLocations Map() instance
     locations() { return this._data.locations }
 
     // Returns an array of Persons with more than 1 father
@@ -75,10 +75,10 @@ export class Sylvan {
         this._data.places = new Places()
         
         // Step 3 - Create the People instance
-        this._data.people = new People(gedcom, this.places())
+        this._data.people = new People(gedcom, this.locations(), this.places())
         
         // Step 4 - Create the Families instance
-        this._data.families = new Families(gedcom, this.people(), this.places())
+        this._data.families = new Families(gedcom, this.people(), this.locations(), this.places())
 
         // Step 5 - Create the Locations instance
         // this._data.locations = new Locations(gedcom)
