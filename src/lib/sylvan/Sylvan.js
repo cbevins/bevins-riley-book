@@ -3,29 +3,34 @@
  * complete with hydrated with objects references.
  * No reference is stored to the Gedcom so that it may be garbage collected.
  */
-import { constructGedcom } from '../gedcom/constructGedcom.js'    // or from '$lib/index.js' if using SvelteKit
-
-import { Locations } from './Locations.js'
+import { constructGedcom } from '../gedcom/constructGedcom.js'  // or from '$lib/index.js' if using SvelteKit
+import { GedcomPlaceLocationsJson } from '../places/GedcomPlaceLocationsJson.js' // or from '$lib/index.js' if using SvelteKit
+// import { Locations } from './RootsMagicLocations.js'
 import { Families } from './Families.js'
 import { People } from './People.js'
 import { Places } from './Places.js'
 
 export class Sylvan {
-    constructor(_gedcomData) {
+    // _gedcomData is usually imported from $lib/gedcom/_gedcomDataAncestry.js
+    // or  $lib/gedcom/_gedcomDataRootsMagic.js
+    constructor(_gedcomData, _gedcomPlaces=GedcomPlaceLocationsJson) {
         this._data = {
             families: null,     // Families reference
+            gedcomPlaces: _gedcomPlaces,    // GedcomPlaceLocationsJson Map() reference
             info: {             // additional items so we can release _gedcomData
                 contexts: [],
                 created: '',
                 source: '',
                 topLevels: [],
             },
-            locations: null,    // Locations reference
+            // locations: null,    // Locations reference (RootsMagic only)
             people: null,       // People reference
             places: null,       // Places reference
         }
         this._init(_gedcomData)
     }
+
+    gedcomPlaces() { return this._data.gedcomPlaces }
 
     // Returns an array of [context, count] arrays sorted by context
     contexts() { return this.info().contexts }
@@ -76,9 +81,9 @@ export class Sylvan {
         this._data.families = new Families(gedcom, this.people(), this.places())
 
         // Step 5 - Create the Locations instance
-        this._data.locations = new Locations(gedcom)
+        // this._data.locations = new Locations(gedcom)
 
-        // Step 6 - STore any additional info from _gedcomData, so we can garbage collect it
+        // Step 6 - Store any additional info from _gedcomData, so we can garbage collect it
         this._data.info.contexts = gedcom.contexts()
         this._data.info.created = gedcom.findFirstContent('', ['HEAD','DATE'])
         this._data.info.source = gedcom.findFirstContent('', ['HEAD','SOUR','NAME'])

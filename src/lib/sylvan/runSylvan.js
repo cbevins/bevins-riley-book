@@ -2,7 +2,8 @@ import { Sylvan } from './Sylvan.js'
 import { intFmt } from '../helpers/formatters.js'
 import { personProfile } from './personProfile.js'
 import { reviewAll } from './sylvanReviews.js'
-import { _gedcomData } from '../gedcom/_gedcomDataRootsMagic.js'
+import { _gedcomData } from '../gedcom/_gedcomDataAncestry.js'
+// import { _gedcomData } from '../gedcom/_gedcomDataRootsMagic.js'
 
 const wlbKey = 'WilliamLongfordBevins1815'
 
@@ -58,13 +59,13 @@ function profile(sylvan, nameKey) {
 function summary(sylvan) {
     const reviews =  reviewAll(sylvan)
     return [`Sylvan Summary`,
-        `GEDCOM    : ${sylvan.source()}`,
-        `Created   : ${sylvan.created()}`,
-        `People    : ${intFmt(sylvan.people().size(), 6)}`,
-        `Places    : ${intFmt(sylvan.places().size(), 6)}`,
-        `Families  : ${intFmt(sylvan.families().size(), 6)}`,
-        `Locations : ${intFmt(sylvan.locations().size(), 6)}`,
-        `Reviews   : ${intFmt(reviews.length, 6)}`,
-        `Top Levels: ${intFmt(sylvan.topLevels().length, 6)}`,
-        `Contexts  : ${intFmt(sylvan.contexts().length, 6)}`]
+        `GEDCOM        : ${sylvan.source()}`,
+        `Created       : ${sylvan.created()}`,
+        `People        : ${intFmt(sylvan.people().size(), 6)}`,
+        `Places        : ${intFmt(sylvan.places().size(), 6)}`,
+        `Families      : ${intFmt(sylvan.families().size(), 6)}`,
+        `GedcomPlaces  : ${intFmt(sylvan.gedcomPlaces().size, 6)}`,
+        `Reviews       : ${intFmt(reviews.length, 6)}`,
+        `Top Levels    : ${intFmt(sylvan.topLevels().length, 6)}`,
+        `Contexts      : ${intFmt(sylvan.contexts().length, 6)}`]
 }

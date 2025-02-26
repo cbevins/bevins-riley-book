@@ -103,10 +103,10 @@ function worldCityAdmins(iso3Key) {
 
 export async function buildGeoLocations(verbose=false) {
     const map = new Map()
-    // Start withe the seed locations
+    // Start with the seed locations
     for(const [key,entry] of StarterGeoLocationsJson)
         map.set(key,entry)
-    if (verbose) console.log(`Start with ${map.size} country and region locations'`)
+    if (verbose) console.log(`Start with ${map.size} country and region seed locations'`)
 
     // Add the US county records, validating their state
     const usCountyRecords = await file2JsonArray(usCountyCsv)
@@ -119,9 +119,9 @@ export async function buildGeoLocations(verbose=false) {
     if (verbose) console.log(`Added ${n} US Cities from file '${usCityCsv}'`)
 
     // Then build World cities db, validating US state
-    const worldCityRecords = await file2JsonArray(worldCityCsv)
-    n = addWorldCities(map, worldCityRecords)
-    if (verbose) console.log(`Added ${n} World Cities from file '${worldCityCsv}'`)
+    // const worldCityRecords = await file2JsonArray(worldCityCsv)
+    // n = addWorldCities(map, worldCityRecords)
+    // if (verbose) console.log(`Added ${n} World Cities from file '${worldCityCsv}'`)
     return map
 }
 

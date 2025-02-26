@@ -138,7 +138,7 @@ export const Regions = new Map([
     ['akershus', ['Akershus', 'Norway']],
     ['alberta', ['Alberta', 'Canada']],
     ['alsace', ['Alsace', 'France']],
-    ['armagh', ['Armagh, Northern Ireland']]
+    ['armagh', ['Armagh, Northern Ireland']],
     ['ayrshire', ['Ayrshire', 'Scotland']],
     ['baden wurttemberg', ['Baden Wuerttemberg', 'Germany']],
     ['baden-wuerttemberg',['Baden Wuerttemberg', 'Germany']],

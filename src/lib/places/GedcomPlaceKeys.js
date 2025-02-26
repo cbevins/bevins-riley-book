@@ -1,5 +1,5 @@
 /**
- * GedcomPlaces maps arbitrary GEDCOM 'PLAC' record text to the GeoLocationsDB
+ * GedcomPlaceKeys maps arbitrary GEDCOM 'PLAC' record text to the GeoLocationsDb
  * database of known geo-locations.
  * 
  * GedcomPlaces is an array of all extant 'PLAC' records from my GEDCOM files.
@@ -11,7 +11,7 @@
  * as may be inferred from the PLAC text, and the keys to those geolocations are
  * specified here.
  */
-export const GedcomPlaces = new Map([
+export const GedcomPlaceKeys = new Map([
     ["", ""],
     ["?", ""],
     ["  Brethren, Manistee, Michigan, USA", "USA,MI,Manistee,Brethen"],
@@ -22,8 +22,8 @@ export const GedcomPlaces = new Map([
     [", Jefferson, Iowa, USA", "USA,IA,Jefferson,"], // 1
     [", Minneapolis, Hennepin, Minnesota, USA", "USA,MN,Hennepin,Minneapolis,"], // 14
     [", Thurston, Washington, USA", "USA,WA,Thurston,"], // 1
-    [", , , Germany", "GER"],
-    [", , , Ireland", "IRE"],
+    [", , , Germany", "DEU"],
+    [", , , Ireland", "IRL"],
     [", , Ontario, Canada", "CAN,ON"],
     [", Devon, , England", "ENG,DEV"],
     [", Floyd, Kentucky, USA", "USA,KY,Floyd"],
@@ -208,7 +208,7 @@ export const GedcomPlaces = new Map([
     ["Brethren, Manistee, Michigan, USA", "USA,MI,Manistee,Brethern"],  // 1
     ["Brethren, Michigan", "USA,MI,Manistee,Brethren"], // 2
     ["Bridgewater, Somerset, England", "ENG,SOM,Bridgewater"], // 1
-    ["Bridgwater, Somerset, England", "ENG,SOM,Bridgwater"], // 1
+    ["Bridgwater, Somerset, England", "ENG,SOM,Bridgewater"], // 1
     ["Brielle, Zuid-Holland, Pays-Bas", "NLD,ZUI,Brielle"], // 1
     ["Bristol, Bristol, RI, USA", "USA,RI,Bristol,Bristol"],
     ["Bristol, Bristol, Rhode Island, USA", "USA,RI,Bristol,Bristol"],
@@ -491,7 +491,7 @@ export const GedcomPlaces = new Map([
     ["Eau Claire, Wisconsin, USA", "USA,WI,Eau Claire"],  // 3
     ["Eden Valley, Meeker, Minnesota, USA", "USA,MN,Meeker,Eden Valley"], // 1
     ["Ekoupag Meductic, Saint John River, New Brunswick, Canada", "CAN,NB,Acadia,Saint John River,Meductic"],
-    ["Elkhart co., IN.", "USA,INElkhart"], // 1
+    ["Elkhart co., IN.", "USA,IN,Elkhart"], // 1
     ["Elkhart, Elkhart, Indiana, USA", "USA,IN,Elkhart,Elkhart"], // 2
     ["Elkhart, Elkhart, Indiana, United States", "USA,IN,Elkhart,Elkhart"], // 1
     ["Elkhart, Indiana", "USA,IN,Elkhart,Elkhart"], // 1
@@ -575,8 +575,8 @@ export const GedcomPlaces = new Map([
     ["Gameren, Gelderland, Pays-Bas", "NLD,GEL,Gameren"],
     ["Gateshead, Durham,England", "ENG,DUR,Gateshead"],
     ["Genesee, New York, USA", "USA,NY,Genesee"],  // 1
-    ["Germany", "GER"],
-    ["Germany, Allemagne", "GER"],
+    ["Germany", "DEU"],
+    ["Germany, Allemagne", "DEU"],
     ["Germany, Baden-Wuerttemberg, Germany", "DEU,BW"],
     ["Glasgow, Lanarkshire, Scotland", "SCO,LKS,Glasgow"],
     ["Glenwood, Walsh, North Dakota, USA", "USA,ND,Walsh,Glenwood"], // 2
@@ -777,7 +777,7 @@ export const GedcomPlaces = new Map([
     ["linvill creel, Rockingham County, Virginia, USA", "USA,VA,Rockingham,Linville Creek"],  // 1
     ["Linton Hundred, Washington, Maryland, United States", "USA,MD,Washington,Linton Hundred"],
     ["Liverpool, England", "ENG,MSY,Liverpool"],  // 3
-    ["Liverpool, England and Queenstown, Ireland", "ENG,MSY,Liverppol"], // 1
+    ["Liverpool, England and Queenstown, Ireland", "ENG,MSY,Liverpool"], // 1
     ["Locke, Elkhart, Indiana, USA", "USA,IN,Elkhart,Locke"], // 7
     ["Logan, Calhoun, Iowa", "USA,IA,Calhoun,Logan"],  // 1
     ["Logan, Virginia, USA", "USA,WV,Calhoun"],  // 1, was in VA. now in WV
@@ -968,7 +968,7 @@ export const GedcomPlaces = new Map([
     ["Newton, Newton, Jasper, Iowa, USA", "USA,IA,Jasper,Newton"], // 3
     ["Newton, Otter Tail, Minnesota, USA", "USA,MN,Otter Tail,Newton"], // 1
     ["New York", "USA,NY"],
-    ["Nieuw-Beijerland", "NLD,ZUI,Nieuw-Beijerland"],
+    ["Nieuw-Beijerland", "NLD,ZUI,Nieuw Beijerland"],
     ["No Two Listed, Fauquier, Virginia", "USA,VA,Fauquier,No Two Listed"], // 1
     ["Nobles County, Minnesota, USA", "USA,MN,Nobles"], // 1
     ["North Dakota, USA", "USA,ND"], // 2
@@ -1005,19 +1005,19 @@ export const GedcomPlaces = new Map([
     ["Old Goshenhoppen Church, Pennsylvania, USA", "USA,PA,Montgomery,Harleysville,Old Goshenhoppen Church"],  // 1
     ["Ontario, Canada", "CAN,ON"],
     ["Ontario North", "CAN,ON,Durham,Ontario North"], // 1
-    ["Oost Ijsselmonde, Zind Holland, Zeeland, Pays-Bas", "NLD,ZUI,Oost-IJsselmonde"],
-    ["Oost-IJselmonde, Netherlands", "NLD,ZUI,Oost-IJsselmonde"],
+    ["Oost Ijsselmonde, Zind Holland, Zeeland, Pays-Bas", "NLD,ZUI,Oost IJsselmonde"],
+    ["Oost-IJselmonde, Netherlands", "NLD,ZUI,Oost IJsselmonde"],
     ["Oskaloosa, Mahaska, Iowa, USA", "USA,IA,Mahaska,Oskaloosa"],  // 1
     ["Oslo to America", "NOR,OSL"], // 1
     ["Osseo, Minnesota, USA", "USA,MN,Hennepin,Osseo"], // 1
     ["Otsego, Wright, Minnesota, USA", "USA,MN,Wright,Otsego"], // 1
     ["Oud Beierland, Zuid-Holland, Netherlands", "NLD,ZUI,Oud Beijerland"],
-    ["Oud Beijerland", "NLD,ZUI,Oud-Beijerland"],
+    ["Oud Beijerland", "NLD,ZUI,Oud Beijerland"],
     ["Oud-Beijerland, 6192, Zuid-Holland, Pays-Bas", "NLD,ZUI,Oud Beijerland"],
     ["Oud-Beijerland, Beijerland, Zuid Holland, Netherlands", "NLD,ZUI,Oud Beijerland"],
     ["Oud-Beijerland, Zuid-Holland, Netherlands", "NLD,ZUI,Oud Beijerland"],
     ["Oud-Beijerland, Zuid-Holland, Pays-Bas", "NLD,ZUI,Oud Beijerland"],
-    ["Oud-Beijerland", "NLD,ZUI,Oud-Beijerland"],
+    ["Oud-Beijerland", "NLD,ZUI,Oud Beijerland"],
     ["Oud Reijenerwaard, Zind Holland, Netherlands", "NLD,ZUI,Oud Reijenerwaard"],  // 1
     ["Ouddorp", "NLD,ZUI,Goedereede,Ouddorp"],
     ["Ouddorp, Goedereede, Zuid-Holland, Netherlands", "NLD,ZUI,Goedereede,Ouddorp"],
