@@ -139,6 +139,7 @@ export async function writeGeoLocationsJson(fileName='GeoLocationsJson.js') {
     fs.writeFile(fileName, js, function (err) {
         if (err) throw err
     })
+    console.log(`Wrote ${map.size} GeoLocations to '${fileName}'`)
 }
 
 function reformatStarter(fileName='StarterGeoLocationsJson.js') {

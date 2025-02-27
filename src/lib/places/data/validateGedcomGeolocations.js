@@ -1,3 +1,4 @@
+import fs from 'fs'
 import { GedcomPlaceKeys } from '../GedcomPlaceKeys.js'
 import { GeoLocationDb } from '../GeoLocationDb.js'
 
@@ -15,12 +16,13 @@ function validateGedcomPlaceKeys(geo) {
         const loc = geo.search(geoKey)
         const country = loc.key(0)
         let log = false
-        if (country === 'USA') {
-            // USA GEDCOM PLAC keys must be in GeoLocationsJson to the county level (3)
-            if (loc.foundDepth() < 3 && loc.keyDepth() >=3) log = true
+        // The following country GEDCOM PLAC keys must be in GeoLocationsJson to the county level (3)
+        if (['USA'].includes(country)) {
+            if (loc.keyDepth() >=3 && loc.foundDepth() < 3) log = true
+        } else if(['AUS', 'BAR', 'IDN'].includes(country)) {
+        // The following country GEDCOM PLAC keys must be in GeoLocationsJson to the region/province level (2)
         } else {
-            // Non-USA GEDCOM PLAC keys must be in GeoLocationsJson to the region/province level (2)
-            if (loc.foundDepth() < 2 && loc.keyDepth() >=2) log = true
+            if (loc.keyDepth() >=2 && loc.foundDepth() < 2) log = true
         }
         if (log) {
             console.log(
@@ -75,8 +77,29 @@ function validateKeysAndCoordinates(geo, missingOnly=false) {
     console.log(`There were ${logged} errors found.\n`)
 }
 
+function writeKeyIndexFile(fileName='GedcomPlaceKeysList.txt') {
+    const freq = new Map()
+    for( const [plac, geoKey] of GedcomPlaceKeys.entries()) {
+        if (! freq.has(geoKey)) freq.set(geoKey,0)
+        const n = freq.get(geoKey)
+        freq.set(geoKey, n+1)
+    }
+    const ar = []
+    for( const [geoKey, count] of freq.entries()) {
+        // ar.push((count+'').padStart(4) + '  ' + geoKey)
+        ar.push(geoKey.padEnd(60) + count)
+    }
+    ar.sort()
+    const str = ar.join('\n')
+    fs.writeFile(fileName, str, function (err) {
+        if (err) throw err
+    })
+    console.log(`Wrote ${ar.length} GeoLocations to '${fileName}'`)
+}
+
 const geo = new GeoLocationDb()
 console.log('---------------------------------')
 console.log(`\nValidating ${GedcomPlaceKeys.size} GedcomPlaceKeys.js record GeoLocationDb keys...`)
 validateGedcomPlaceKeys(geo)
 validateKeysAndCoordinates(geo,true)
+writeKeyIndexFile()

@@ -1,7 +1,7 @@
 /**
  * Class that support geo-location services (lat,lng) based on location keys.
  */
-import { GeoLocationsJson } from './data/GeoLocationsJson.js'
+import { GeoLocationsJson } from './GeoLocationsJson.js'
 
 export class GeoSearch {
     constructor(keys, entries) {

@@ -12,6 +12,174 @@
  * specified here.
  */
 export const GedcomPlaceKeys = new Map([
+    ["Grantsburg", "USA,WI,Burnett,Grantsburg"], // 1
+    ["Supe, Wisconsin", "USA,WI,Douglas,Superior"], // 1
+    ["Center, White, Ch", "USA,NY"], // 1
+    ["Sea, Sulawesi Tengah, Indonesia", "IDN,SUL,Sea"], // 2
+    ["Y, Somme, Picardie, France", "FRA,PIC,Somme,Y"], // 1
+    ["presumed, Barbadoes", "BAR,presumed"], // 1
+    ["Stettler, Wainwright Census Division, Alberta, Canada", "CAN,AB,Wainwright, Census Division,Stettler"], // 1
+    ["Norwalk, Los Angeles, California, USA", "USA,CA,Los Angeles,Norwalk"], // 1
+    ["Kings Chapel, Burying Grd, Boston, Massachusetts, USA", "USA,MA,Suffolk,Boston,Kings Chapel"], // 1
+    ["Weardale England", "ENG,DUR,Weardale"], // 1
+    ["Nystorp, Lommaryd, Jönköpings län, Sverige", "SWE,JON,Jonkoping,Lommaryd,Nystorp"], // 1
+    ["Jamestown, James City, British Colonial America, Virginia, USA", "USA,VA,James City,Jamestown"], // James City is the county name
+    ["Kansas City, Clay, Missouri, USA", "USA,MO,Clay,Kansas City"], // 1
+    ["Kansas City, Wyandotte, Kansas, United States", "USA,KS,Wyandotte,Kansas City"], // 1
+    ["IN, Marshall, Alabama, United States", "USA,AL,Marshall"], // 1
+    ["York, Ontario, Canada", "CAN,ON,York"], // 1
+    ["St-Théodore-de-Chertsey ; 2462047 ; Québec ; Canada", "CAN,QC,Matawinie,Chertsey,St Theodore de Chertsey,2462047"], // 1
+    ["Sculcoates, Yorkshire East Riding, Yorkshire, England", "ENG,ERY,Sculcoates"], // 1
+    ["Sculcoates, Yorkshire, , England", "ENG,ERY,Sculcoates"], // 1
+    ["Wythe Co, Virginia, USA", "USA,VA,Wythe"], // 1
+    ["York, Accomack, Virginia, USA", "USA,VA,Accomack,York"], // 1
+    ["York, Athens, Ohio, United States ", "USA,OH,Athens,York"], // 1
+    ["Yuma, Yuma County, Arizona, USA", "USA,AZ,Yuma,Yuma"], // 1
+    ["Yuma, Yuma, Arizona, USA", "USA,AZ,Yuma,Yuma"], // 1
+    ["Zanesville, Muskingum, Ohio, United States", "USA,OH,Muskingum,Zanesville"], // 1
+    ["Zuid-Holland, Netherlands", "NLD,ZUI"], // 2
+    ["buried, st james', westminster, London, England", "ENG,LND,Westminster,St James,buried"], // 1
+    ["rowan, Yadkin County, North Carolina, USA", "USA,NC,Yadkin,rowan"], // 1
+    ["vermont twp, Dane County, Wisconsin, USA", "USA,WI,Dane,Vermont Township"], // 1
+    ["Älmeboda fg, Bänkebo, Kronoberg, Suède", "SWE,KRO,Bänkebo,Älmeboda fg"], // 2
+    ["Westminster, Carroll, Maryland, USA", "USA,MD,Carroll,Westminster"], // 1
+    ["Whigville, Noble, Ohio, USA", "USA,OH,Noble,Whigville"], // 1
+    ["White Creek, Washington, New York, USA", "USA,NY,Washington,White Creek"], // 1
+    ["Williamston, Anderson County, South Carolina, USA", "USA,SC,Anderson,Williamston"], // 1
+    ["Williston, Williams, North Dakota, USA", "USA,ND,Williams,Williston"], // 1
+    ["Wilmington, Los Angeles County, California, United States of America", "USA,CA,Los Angeles,Wilmington"], // 1
+    ["Wilson County, Kansas, United States of America", "USA,KS,Wilson"], // 1
+    ["Winter Haven, Polk County, Florida, United States of America", "USA,FL,Polk,Winter Haven"], // 1
+    ["Winterset, Madison County, Iowa, United States of America", "USA,IA,Madison,Winterset"], // 1
+    ["Winterset, Madison, Iowa, USA", "USA,IA,Madison,Winterset"], // 1
+    ["Wisconsin, United States", "USA,WI"], // 1
+    ["Woodruff, Phillips, Kansas", "USA,KS,Phillips,Woodruff"], // 1
+    ["Woodsborough, Frederick, Maryland, USA", "USA,MD,Frederick,Woodsborough"], // 1
+    ["Wymore, Gage, Nebraska", "USA,NE,Gage,Wymore"], // 1
+    ["Valley City, Barnes County, North Dakota, United States of America", "USA,ND,Barnes,Valley City"], // 1
+    ["Van Buren Township, Kosciusco County, Indiana, USA", "USA,IN,Kosciusko,Van Buren Township"], // 1
+    ["Van Lear, Johnson, Kentucky, USA", "USA,KY,Johnson,Van Lear"], // 1
+    ["Vaughan Markham, York, Ontario, Canada", "CAN,ON,York,Vaughan Markham"], // 1
+    ["Vermilion County, Illinois, USA", "USA,IL,Vermilion"], // 1
+    ["Vermilion County, Illinois, United States of America", "USA,IL,Vermilion"], // 1
+    ["Vermilion, Illinois, United States", "USA,IL,Vermilion"], // 1
+    ["Vermillion, Illinois, USA", "USA,IL,Vermilion"], // 1
+    ["Vermont, Dane, Wisconsin, USA", "USA,WI,Dane,Vermont"], // 1
+    ["Verndale, Wadena, Minnesota, USA", "USA,MN,Wadena,Verndale"], // 1
+    ["Verndale, Wadena, Minnesota, United States", "USA,MN,Wadena,Verndale"], // 1
+    ["WAYNE CO. W.V.", "USA,WV,Wayne"], // 1
+    ["Wadena,  Minnesota, USA", "USA,MN,Wadena"], // 1
+    ["Wadena, Wadena, Minnesota, United States", "USA,MN,Wadena,Wadena"], // 1
+    ["Waitsburg, Walla Walla, Washington, United States", "USA,WA,Walla Walla,Waitsburg"], // 1
+    ["Walsh Co, North Dakota, USA", "USA,ND,Walsh"], // 1
+    ["Wapello, Louisa, Iowa, USA", "USA,IA,Louisa,Wapello"], // 1
+    ["Warfield, Kentucky, USA", "USA,KY,Martin,Warfield"], // 1
+    ["Warfield, Martin, Kentucky, USA", "USA,KY,Martin,Warfield"], // 1
+    ["Warren, Illinois, United States", "USA,IL,Warren"], // 1
+    ["Washington County, Virginia, United States of America", "USA,VA,Washington"], // 1
+    ["Washington, Kentucky, United States", "USA,KY,Washington"], // 1
+    ["Wauwatosa, Milwaukee, Wisconsin, USA", "USA,WI,Milwaukee,Wauwatosa"], // 1
+    ["Wayne, West Virginia, USA", "USA,WV,Wayne"], // 1
+    ["Wayne, West Virginia", "USA,WV,Wayne"], // 1
+    ["Wearshead, Stanhope, Durham, England", "ENG,DUR,Stanhope,Wearshead"], // 1
+    ["Webster, Burnett, Wisconsin, United States", "USA,WI,Burnett,Webster"], // 1
+    ["West Grove, Hancock County, Indiana, USA", "USA,IN,Hancock,West Grove"], // 1
+    ["Westerly, Kings, Rhode Island, USA", "USA,RI,Washington,Westerly"], // 1
+    ["Telford, Montgomery County, Pennsylvania, United States of America", "USA,PA,Montgomery,Telford"], // 2
+    ["Temple City, Los Angeles County, California, United States of America", "USA,CA,Los Angeles,Temple City"], // 1
+    ["Three Rivers, St Joseph, Michigan, United States", "USA,MI,St. Joseph,Three Rivers"], // 1
+    ["Tioga, Williams, North Dakota, USA", "USA,ND,Williams,Tioga"], // 2
+    ["Towaco, Morris, New Jersey, United States", "USA,NJ,Morris,Towaco"], // 1
+    ["Towlesville, New York, United States", "USA,NY,Steuben,Towlesville"], // 1
+    ["Trenton, Hancock, Maine, USA", "USA,ME,Hancock,Trenton"], // 1
+    ["Twelve Mile, Cass County, Indiana, United States of America", "USA,IN,Cass,Twelve Mile"], // 1
+    ["Twin Valley, Norman County, Minnesota, United States of America", "USA,MN,Norman,Twin Valley"], // 1
+    ["Tynemouth, Northumberland, England", "ENG,NBL,Tynemouth"], // 1
+    ["Tynemouth, Northumberland", "ENG,NBL,Tynemouth"], // 1
+    ["U. S. Army Hospital, Chattanooga, Hamilton, Tennessee, USA", "USA,TN,Hamilton,Chattanooga,U S Army Hospital"], // 1
+    ["Uhrichsville, Tuscarawas Cty, Ohio, USA", "USA,OH,Tuscarawas,Uhrichsville"], // 1
+    ["Union, Tuscarawas, Ohio, USA", "USA,OH,Tuscarawas,Union"], // 1
+    ["United States of America", "USA"], // 1
+    ["Urbandale, Polk, Iowa, USA", "USA,IA,Polk,Urbandale"], // 2
+    ["Strånganäs Västergård,  Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Strånganäs Västergård"], // 1
+    ["Strånganäs Västergård, Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Strånganäs Västergård"], // 1
+    ["Sudbury, Middlesex, Massachusetts, American Colonies", "USA,MA,Middlesex,Sudbury"], // 1
+    ["Surrey County, N C, North Carolina, USA", "USA,NC,Surry"], // 1
+    ["Sussex, Virginia, USA", "USA,VA,Sussex"], // 1
+    ["Swansea, Bristol, MA, Massachusetts, USA", "USA,MA,Bristol,Swansea"], // 1
+    ["Swansea, Bristol, Massachusetts, United States", "USA,MA,Bristol,Swansea"], // 1
+    ["St. Sepulcher Parish, London, Middlesex, England", "ENG,MDL,London,St Sepulcher Parish"], // 1
+    ["Stark County, Ohio, and before father died 1854", "USA,OH,Stark"], // 1
+    ["Stark Co. Ohio", "USA,OH,Stark"], // 1
+    ["Ste  Anne, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Ste Anne"], // 1
+    ["Ste, Anne, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Anne,Ste"], // 1
+    ["Ste-Anne, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Ste Anne"], // 3
+    ["Sterling, Whiteside, Illinois, United States", "USA,IL,Whiteside,Sterling"], // 1
+    ["Stock, Harrison, Ohio, United States", "USA,OH,Harrison,Stock"], // 1
+    ["Stonington, New London, Connecticut, USA", "USA,CT,New London,Stonington"], // 1
+    ["Stover, Morgan, Missouri, United States", "USA,MO,Morgan,Stover"], // 1
+    ["Streefkerk, Netherlands", "NLD,ZUI,Streefkerk"], // 1
+    ["South Bend, St. Joseph County, Indiana, USA", "USA,IN,St. Joseph,South Bend"], // 1
+    ["Sparks, Washoe County, Nevada, United States of America", "USA,NV,Washoe,Sparks"], // 1
+    ["St Charles, Madison Co, Iowa, USA", "USA,IA,Madison,St Charles"], // 1
+    ["St Johns Chapel, Stanhope, County Durham, England", "ENG,DUR,Stanhope,St Johns Chapel"], // 1
+    ["St Leonard, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,St Leonard"], // 1
+    ["St Leonard, Victoria, New Brunswick, Canada", "CAN,NB,Victoria,St Leonard"], // 1
+    ["St Martins, Hanover, Virginia, USA", "USA,VA,Hanover,St Martins"], // 1
+    ["St Paul's Parish, New Kent in 1719 became, Hanover County, Virginia, USA", "USA,VA,Hanover,New Kent, in 1719 became St Pauls Parish"], // 1
+    ["St Paul, Dakota, Minnesota, United States", "USA,MN,Dakota,St Paul"], // 1
+    ["St Paul, Ramsey, Minnesota, USA", "USA,MN,Ramsey,St Paul"], // 3
+    ["St Pauls Parish, Hanover, Virginia, United States", "USA,VA,Hanover,St Pauls Parish"], // 1
+    ["St-Bruno, Van Buren, Maine, USA", "USA,ME,Aroostook,Van Buren,St Bruno"], // 2
+    ["St-Leonard, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,St Leonard"], // 1
+    ["St-Léonard Parish, Madawaska County, New Brunswick, Canada", "CAN,NB,Madawaska,St Léonard Parish"], // 1
+    ["Seattle, King, Washington, USA", "USA,WA,King,Seattle"], // 1
+    ["Seattle, King, Washington, United States", "USA,WA,King,Seattle"], // 1
+    ["Sevier, Tennessee, USA", "USA,TN,Sevier"], // 1
+    ["Sharon, Windsor County, Vermont, USA", "USA,VT,Windsor,Sharon"], // 2
+    ["Sharon, Windsor County, Vermont, United States of America", "USA,VT,Windsor,Sharon"], // 5
+    ["Sint Anthoniepolder, Zuid-Holland, Netherlands", "NLD,ZUI,Sint Anthoniepolder"], // 1
+    ["Somers, Flathead County, Montana, United States of America", "USA,MT,Flathead,Somers"], // 1
+    ["Somers, Flathead, Montana, USA", "USA,MT,Flathead,Somers"], // 1
+    ["Somerset County, Maryland", "USA,MD,Somerset"], // 1
+    ["Somerset, St Croix, Wisconsin, USA", "USA,WI,St. Croix,Somerset"], // 1
+    ["Somerset, Wabash, Indiana, United States", "USA,IN,Wabash,Somerset"], // 1
+    ["Sainte-Anne-de-Madawaska, Madawaska County, New Brunswick, Canada", "CAN,NB,Madawaska,Sainte Anne de Madawaska"], // 1
+    ["Sainte-Anne-de-Madawaska, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Sainte Anne de Madawaska"], // 1
+    ["Salisbury, Rowan County, North Carolina, USA", "USA,NC,Rowan,Salisbury"], // 1
+    ["San Bernardino, San Bernardino, California, USA", "USA,CA,San Bernardino,San Bernardino"], // 1
+    ["San Diego, San Diego, California, United States", "USA,CA,San Diego,San Diego"], // 1
+    ["San Jose, Santa Clara, California, USA", "USA,CA,Santa Clara,San Jose"], // 2
+    ["Sandgate, Bennington County, Vermont, United States of America", "USA,VT,Bennington,Sandgate"], // 1
+    ["Sandgate, Bennington, Vermont, USA", "USA,VT,Bennington,Sandgate"], // 1
+    ["Scio, Harrison, Ohio, USA", "USA,OH,Harrison,Scio"], // 1
+    ["Scituate, Plymouth County, Massachusetts, USA", "USA,MA,Plymouth,Scituate"], // 1
+    ["Scituate, Plymouth County, Massachusetts, United States of America", "USA,MA,Plymouth,Scituate"], // 2
+    ["Scott County, Kentucky, USA", "USA,KY,Scott"], // 1
+    ["Scott, Virginia, USA", "USA,VA,Scott"], // 2
+    ["Rappahannock, Essex, Virginia Colony", "USA,VA,Essex,Rappahannock River"], // 1
+    ["Rappahannock, Essex, Virginia, USA", "USA,VA,Essex,Rappahannock River"], // 1
+    ["Rappahannock, Virginia, United States", "USA,VA,Essex,Rappahannock River"], // 1
+    ["Reno, Washoe, Nevada, USA", "USA,NV,Washoe,Reno"], // 4
+    ["Repentigny, L'Assomption, Quebec, Canada", "CAN,QC,L'Assomption,Repentigny"], // 1
+    ["Rheinland-Pfalz, Rheinland Pfalz, Allemagne", "DEU,RP"], // 1
+    ["Richfield Springs, Otsego County, New York, United States of America", "USA,NY,Otsego,Richfield Springs"], // 1
+    ["Richwood, Becker, Minnesota, USA", "USA,MN,Becker,Richwood"], // 1
+    ["Ripley, Rush, Indiana, USA", "USA,IN,Rush,Ripley"], // 1
+    ["River, Johnson, Kentucky, USA", "USA,KY,Johnson,River"], // 1
+    ["Robbinsdale, Hennepin County, Minnesota, USA", "USA,MN,Hennepin,Robbinsdale"], // 1
+    ["Robbinsdale, Hennepin, Minnesota, United States", "USA,MN,Hennepin,Robbinsdale"], // 1
+    ["Rochester, Plymouth, Mass, Massachusetts, USA", "USA,MA,Plymouth,Rochester"], // 1
+    ["Rock Island, Rock Island, Illinois, USA", "USA,IL,Rock Island,Rock Island"], // 1
+    ["Rockwood, Wadena, Minnesota, United States", "USA,MN,Wadena,Rockwood"], // 1
+    ["Rolette County, North Dakota", "USA,ND,Rolette"], // 1
+    ["Rolla, Rolette, North Dakota, USA", "USA,ND,Rolette,Rolla"], // 1
+    ["Roseburg, Douglas County, Oregon, United States of America", "USA,OR,Douglas,Roseburg"], // 1
+    ["Rowan, North Carolina, United States", "USA,NC,Rowan"], // 1
+    ["Runnells, Polk County, Iowa, United States of America", "USA,IA,Polk,Runnells"], // 1
+    ["Saint Louis County, Minnesota, USA", "USA,MN,St. Louis"], // 1
+    ["Saint Paul's Parish, Baltimore, Colony of Maryland, British, Maryland, USA", "USA,MD,Baltimore,St Pauls Parish"], // 1
+    ["Saint-Didace, D'Autray, Lanaudière, Québec, Canada", "CAN,QC,Lanaudiere,D'Autray,St Didace"], // 1
     ["  Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda"], 
     ["  Brethren, Manistee, Michigan, USA", "USA,MI,Manistee,Brethen"],
     [" Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda"], 
@@ -67,7 +235,6 @@ export const GedcomPlaceKeys = new Map([
     ["Albert Lea, Minnesota, USA", "USA,MN,Freeborn,Albert Lea"],
     ["Allegheny, Pennsylvania, United States", "USA,PA,Allegheny"],
     ["Alliance, Stark, Ohio, USA", "USA,OH,Stark,Alliance"],
-    ["Älmeboda fg, Bänkebo, Kronoberg, Suède", "SWE,KRO,Bänkebo,Älmeboda fg"], // 2
     ["Älmeboda Fg, Kronoberg, Suède", "SWE,KRO,Älmeboda Fg"], 
     ["Älmeboda fg, Lekramåla, Kronoberg, Suède", "SWE,KRO,Älmeboda Fg"],
     ["Älmeboda, Kronoberg, Sweden", "SWE,KRO,Älmeboda"],
@@ -145,7 +312,7 @@ export const GedcomPlaceKeys = new Map([
     ["Baltimore, Maryland, USA", "USA,MD,Baltimore,Baltimore"],
     ["Bammental, Rhein-Neckar-Kreis, Baden-Wuerttemberg, Germany", "DEU,BW,Rhein-Neckar-Kreis,Bammental"],
     ["Bammenthal, Rhein-Neckar-Kreis, Baden-Wuerttemberg, Germany", "DEU,BW,Rhein-Neckar-Kreis,Bammental"], 
-    ["Bänkeboda, Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Bänkeboda"],
+    ["Bänkeboda, Älmeboda, Kronoberg, Sverige", "SWE,KRO, Älmeboda,Bänkeboda"],
     ["Baptist Churchyard, Bristol, Perry, Ohio, USA", "USA,OH,Perry,Bristol,Baptist Churchyard"],
     ["Barendrecht, Zuid-Holland, Pays-Bas", "NLD,ZUI,Barendrecht"],
     ["Barnstable County, Massachusetts, USA", "USA,MA,Barnstable"], 
@@ -244,7 +411,6 @@ export const GedcomPlaceKeys = new Map([
     ["Buckingham, Virginia, United States", "USA,VA,Buckingham"], 
     ["Buckinghamshire, England ", "ENG,BKM"],
     ["Buckinghamshire, England", "ENG,BKM"],
-    ["buried, st james', westminster, London, England", "ENG,LND,Westminster,St James,buried"], // 1
     ["Burke County, North Carolina, USA", "USA,NC,Burke"],
     ["Burlington, Coffey County, Kansas, United States of America", "USA,KS,Coffey,Burlington"],
     ["Burton Upon Trent, Staffordshire, England", "ENG,STS,Burton Upon Trent"], 
@@ -285,7 +451,7 @@ export const GedcomPlaceKeys = new Map([
     ["Carson City, Nevada, USA", "USA,NV,Carson City,Carson City"], 
     ["Carson City, Nevada", "USA,NV,Carson City,Carson City"], 
     ["Carstairs, Lanarkshire, Scotland", "SCO,LKS,Carstairs"],
-    ["Cartwright, Ontario, Canada", "CAN,ON,Cartwright"], // could be Cartwright Pt, on foot of Lake Ontario 
+    ["Cartwright, Ontario, Canada", "CAN,ON,Cartwright"],
     ["Cass County, Indiana, United States of America", "USA,IN,Cass"],
     ["Cass Cty, Indiana, USA", "USA,IN,Cass"],
     ["Cass Township, White County, Indiana, USA", "USA,IN,White,Cass Township"],
@@ -301,7 +467,6 @@ export const GedcomPlaceKeys = new Map([
     ["Cayuga, New York, USA", "USA,NY,Cayuga"],
     ["Center, Hancock, Indiana, USA", "USA,IN,Hancock,Center"],
     ["Center, O Brien, Iowa, USA", "USA,IA,O'Brien,Center"],
-    ["Center, White, Ch", "USA,NY"], // 1
     ["Cerro Gordo, Iowa", "USA,IA,Cerro Gordo"],
     ["Champlin Township, Champlin, Hennepin, Minnesota, USA", "USA,MN,Hennepin,Champlin"], // 3
     ["Champlin, Champlin, Hennepin, Minnesota, USA", "USA,MN,Hennepin,Champlin,Champlin"], // 3
@@ -315,12 +480,12 @@ export const GedcomPlaceKeys = new Map([
     ["Charlois, Rotterdam, Zuid-Holland, Netherlands", "NLD,ZUI,Rotterdam,Charlois"],
     ["Charlois, South Holland, Netherlands", "NLD,ZUI,Rotterdam,Charlois"],
     ["Chatanooga, TN, USA", "USA,TN,Hamilton,Chatanooga"],
-    ["Châteauguay, Quebec, Canada", "CAN,QC,Monteregie,Rossillon,Chateauguay"],
+    ["Châteauguay, Quebec, Canada", "CAN,QC,Châteauguay"],
     ["Chauncey, Athens, Ohio, USA", "USA,OH,Athens,Chauncey"],
     ["Chealiston, Devon, England", "ENG,DEV,Chealiston"],
     ["Cherokee County, Iowa, USA", "USA,IA,Cherokee"],
     ["Cherokee, Iowa, United States", "USA,IA,Cherokee"], // 3
-    ["Cheshire, Cheshire, England", "ENG,CHS"],
+    ["Cheshire, Cheshire, England", "ENG,CHS,Cheshire"],
     ["Cheshire, England", "ENG,CHS"],
     ["Chester County, Pennsylvania, United States of America", "USA,PA,Chester"],
     ["Chester County, Pennsylvania, USA", "USA,PA,Chester"],
@@ -627,7 +792,6 @@ export const GedcomPlaceKeys = new Map([
     ["Grand Rapids, MN", "USA,MN,Itasca,Grand Rapids"], // 5
     ["Grand Rapids", "USA,MN,Itasca,Grand Rapids"],
     ["Grange, Leicestershire, England", "ENG,LEI,Grange"],
-    ["Grantsburg", "USA,WI,Burnett,Grantsburg"], // 1
     ["Gray Eagle, Todd Co., MN, Minnesota, USA", "USA,MN,Todd,Gray Eagle"],
     ["Grayland, Washington, USA", "USA,WA,Grays Harbor,Grayland"],
     ["Greeley, Weld County, Colorado, United States of America", "USA,CO,Weld,Greeley"],
@@ -717,7 +881,6 @@ export const GedcomPlaceKeys = new Map([
     ["Illinois, United States", "USA,IL"],
     ["Illinois, USA", "USA,IL"],
     ["Illinois", "USA,IL"],
-    ["IN, Marshall, Alabama, United States", "USA,AL,Marshall"], // 1
     ["Indian Territory, Coffey County, Kansas, USA", "USA,KS,Coffey"],
     ["Indiana, United States of America", "USA,IN"],
     ["Indiana, United States", "USA,IN"],
@@ -741,7 +904,6 @@ export const GedcomPlaceKeys = new Map([
     ["Jackson, Jay, Indiana, USA", "USA,IN,Jay,Jackson"], // 4
     ["Jackson, Warren, Iowa, USA", "USA,IA,Warren,Jackson"],
     ["Jackson, Washington, New York, USA", "USA,NY,Washington,Jackson"],
-    ["Jamestown, James City, British Colonial America, Virginia, USA", "USA,VA,James City,Jamestown"], // James City is the county name
     ["Jarrow, Durham, England", "ENG,DUR,Jarrow"],
     ["Jasper County, Iowa, United States of America", "USA,IA,Jasper"],
     ["Jasper County, Iowa, USA", "USA,IA,Jasper"],
@@ -763,14 +925,11 @@ export const GedcomPlaceKeys = new Map([
     ["Johnson County, Kentucky, USA", "USA,KY,Johnson"],
     ["Johnson, Kentucky, United States", "USA,KY,Johnson"],
     ["Johnson, Kentucky, USA", "USA,KY,Johnson"],
-    ["Joliette, Comté-Joliette, Quebec, Canada", "CAN,QC,Lanaudiere,Joliette,Comte Joliette"], // 1
     ["Joranbyhuset, Hedalen, Sor Aurdal, Oppland, Norway", "NOR,OPP,Sør-Aurdal,Hedalen,Joranbyhuset"],
     ["Jøranbyhuset, Hedalen, Sør-Aurdal, Oppland, Norvège", "NOR,OPP,Sør-Aurdal,Hedalen,Joranbyhuset"],
     ["Kalispell, Flathead, Montana, USA", "USA,MT,Flathead,Kalispell"],
     ["Kalispell, Montana, USA", "USA,MT,Flathead,Kalispell"],
     ["Kamouraska, Kamouraska, Quebec, Canada", "CAN,QC,Kamouraska,Kamouraska"],
-    ["Kansas City, Clay, Missouri, USA", "USA,MO,Clay,Kansas City"], // 1
-    ["Kansas City, Wyandotte, Kansas, United States", "USA,KS,Wyandotte,Kansas City"], // 1
     ["Kansas, United States of America", "USA,KS"],
     ["Kellerton, Ringgold, Iowa, USA", "USA,IA,Ringgold,Kellerton"],
     ["Kennet Township, Chester, Pennsylvania, USA", "USA,PA,Chester,Kennet Township"],
@@ -792,7 +951,6 @@ export const GedcomPlaceKeys = new Map([
     ["King William, King William, VA, Virginia, USA", "USA,VA,King William,King William"],
     ["King William, King William, Virginia, United States", "USA,VA,King William,King William"],
     ["King William, King William, Virginia, USA", "USA,VA,King William,King William"],
-    ["Kings Chapel, Burying Grd, Boston, Massachusetts, USA", "USA,MA,Suffolk,Boston,Kings Chapel"], // 1
     ["Kingsland, Llano, Texas, USA", "USA,TX,Llano,Kingsland"],
     ["Kingston Township, Meeker County, Minnesota, USA", "USA,MN,Meeker,Kingston Township"], // 3
     ["Kingston, Kingston, Meeker, Minnesota, USA", "USA,MN,Meeker,Kingston"], // 6
@@ -818,6 +976,7 @@ export const GedcomPlaceKeys = new Map([
     ["L'Assomption, (l'Assomption), Québec, Canada", "CAN,QC,Lanaudiere,l'Assomption,l'Assomption"],
     ["L'Assomption, (Saint-Pierre-du-Portage), (l'Assomption), Québec, Canada", "CAN,QC,Lanaudiere,l'Assomption,St Pierre du Portage"], 
     ["L'Assomption, Québec, Canada", "CAN,QC,Lanaudiere,l'Assomption"],
+    ["St-Sulpice, (l'Assomption), Québec, Canada", "CAN,QC,(l'Assomption),St Sulpice"], // 1
     ["L'Isle Verte, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
     ["L'Isle Verte, Riviere du loup,  Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
     ["L'Isle Verte, Riviere du loup, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
@@ -832,8 +991,8 @@ export const GedcomPlaceKeys = new Map([
     ["Lagrance County, Indiana, United States", "USA,IN,LaGrange"],
     ["Lagrange County, Indiana, USA", "USA,IN,LaGrange"],
     ["Lagrange, Indiana, United States", "USA,IN,LaGrange"],
-    ["Lagrange, Indiana, USA", "USA,IN,LaGrange"],
     ["LaGrange, Indiana, USA", "USA,IN,LaGrange"],
+    ["Lagrange, Indiana, USA", "USA,IN,LaGrange"],
     ["Lagrange, Lagrange, Indiana, United States", "USA,IN,LaGrange,LaGrange"],
     ["Lagrange, Lagrange, Indiana, USA", "USA,IN,LaGrange"],
     ["Lake Grove, Mahnomen, Minnesota, USA", "USA,MN,Mahnomen,Lake Grove"], // 4
@@ -937,7 +1096,7 @@ export const GedcomPlaceKeys = new Map([
     ["Madison, Ohio, United States", "USA,OH,Lake,Madison"],
     ["Magheracloone, Monaghan, Ireland", "IRL,MOG,Magheracloone"],  // 3
     ["Mahnomen County, Minnesota, United States of America", "USA,MN,Mahnomen"],
-    ["Malbaie, Saguenay County, Canada East (Quebec), Canada", "CAN,QC,Saguenay–Lac-Saint-Jean,Charlevoix-Est,La Malbaie"],
+    ["Malbaie, Saguenay County, Canada East (Quebec), Canada", "CAN,QC,Saguenay,La Malbaie"],
     ["Manoakin, Somerset, Maryland", "USA,MD,Somerset,Manokin"],
     ["Manokin, Somerset County, Maryland", "USA,MD,Somerset,Manokin"],
     ["Manokin, Somerset, Maryland ", "USA,MD,Somerset,Manokin"],
@@ -1172,7 +1331,6 @@ export const GedcomPlaceKeys = new Map([
     ["Northumberland and Durham, Ontario, Canada", "CAN,ON,Northumberland and Durham"], 
     ["Northumberland Unitary Authority, Northumberland, England", "ENG,NBL,Northumberland Unitary Authority"],
     ["Norwalk, Huron County, Ohio", "USA,OH,Huron,Norwalk"],
-    ["Norwalk, Los Angeles, California, USA", "USA,CA,Los Angeles,Norwalk"], // 1
     ["Norway to Quebec to Wisconsin", "CAN,QC"],
     ["Norway to Wisconsin", "USA,WI"],
     ["Norway", "NOR"],
@@ -1183,8 +1341,7 @@ export const GedcomPlaceKeys = new Map([
     ["Numansdorp, Cromstrijen, Zuid-Holland, Netherlands", "NLD,ZUI,Numansdorp"],
     ["Numansdorp, Zuid-Holland, Netherlands", "NLD,ZUI,Numansdorp"],
     ["Numansdorp, Zuid-Holland, Pays-Bas", "NLD,ZUI,Numansdorp"],
-    ["Nygården farm, Åsnes, Hedmark, Norvège", "NOR,HED,Åsnes,Nygården farm"],
-    ["Nystorp, Lommaryd, Jönköpings län, Sverige", "SWE,JON,Jonkoping,Lommaryd,Nystorp"], // 1
+    ["Nygården farm, Åsnes, Hedmark, Norvège", "NOR,HED,├àsnes,Nyg├Ñrden farm"],
     ["Oakland, Alameda, California, USA", "USA,CA,Alameda,Oakland"],
     ["Oakwood, Pella Marion IA, USA", "USA,IA,Marion,Pella,Oakwood"],
     ["Odds, Johnson, Kentucky, USA", "USA,KY,Johnson,Odds"],
@@ -1219,7 +1376,7 @@ export const GedcomPlaceKeys = new Map([
     ["Oud Beierland, Zuid-Holland, Netherlands", "NLD,ZUI,Oud Beijerland"],
     ["Oud Beijerland, Netherlands", "NLD,ZUI,Oud Beijerland"],
     ["Oud Beijerland", "NLD,ZUI,Oud Beijerland"],
-    ["Oud Reijenerwaard, Zind Holland, Netherlands", "NLD,ZUI,Oud Reijerwaard"], 
+    ["Oud Reijenerwaard, Zind Holland, Netherlands", "NLD,ZUI,Oud Reijenerwaard"], 
     ["Oud Reijerwaard, Zuid-Holland, Netherlands", "NLD,ZUI,Oud Reijerwaard"],
     ["Oud-Beijerland, 6192, Zuid-Holland, Pays-Bas", "NLD,ZUI,Oud Beijerland"],
     ["Oud-Beijerland, Beijerland, Zuid Holland, Netherlands", "NLD,ZUI,Oud Beijerland"],
@@ -1325,7 +1482,6 @@ export const GedcomPlaceKeys = new Map([
     ["Presque Isle, Aroostook, Maine, USA", "USA,ME,Aroostook,Presque Isle"],
     ["Prestonsburg, Floyd, Kentucky, United States", "USA,KY,Floyd,Prestonburg"],
     ["Prestonsburg, Floyd, Kentucky, USA", "USA,KY,Floyd,Prestonburg"],
-    ["presumed, Barbadoes", "BAR"], // 1
     ["presumed, Connecticut, USA",""], 
     ["presumed, Cornwall, England", "ENG,COR"], 
     ["presumed, Devon, England", "ENG,DEV"],
@@ -1362,9 +1518,6 @@ export const GedcomPlaceKeys = new Map([
     ["Ramsgate, Kent, England", "ENG,KEN,Ramsgate"],
     ["Rapids City, Rock Island, Illinois, USA", "USA,IL,Rock Island,Rapids City"], // 7
     ["Rapids City, Whiteside, Illinois, United States", "USA,IL,Whiteside,Rapids City"], 
-    ["Rappahannock, Essex, Virginia Colony", "USA,VA,Essex,Rappahannock River"], // 1
-    ["Rappahannock, Essex, Virginia, USA", "USA,VA,Essex,Rappahannock River"], // 1
-    ["Rappahannock, Virginia, United States", "USA,VA,Essex,Rappahannock River"], // 1
     ["Red Eye Township, Red Eye, Wadena, Minnesota, USA", "USA,MN,Wadena,Red Eye"],
     ["Reilsheim, Baden, Baden Wurttemberg, Allemagne", "DEU,BW,Baden,Reilsheim"],
     ["Reilsheim, Rhein-Neckar-Kreis, Baden-Wuerttemberg, Germany", "DEU,BW,Baden,Reilsheim"],
@@ -1374,21 +1527,16 @@ export const GedcomPlaceKeys = new Map([
     ["Renfrewshire, Scotland", "SCO,RFW"],
     ["Reno, Nevada, USA", "USA,NV,Washoe,Reno"],
     ["Reno, NV", "USA,NV,Washoe,Reno"],
-    ["Reno, Washoe, Nevada, USA", "USA,NV,Washoe,Reno"], // 4
-    ["Repentigny, L'Assomption, Quebec, Canada", "CAN,QC,Lanaudiere,l'Assomption,Repentigny"], // 1
     ["Resolis A Cree Wisconsin, USA", "USA,WI,Adams,Roche a Cri"], 
-    ["Rheinland-Pfalz, Rheinland Pfalz, Allemagne", "DEU,RP"], // 1
     ["Rhineland-Palatinate, Frankenthal, Rheinland Pfalz, Allemagne", "DEU,RP,Frankenthal"],
     ["Rhodes, Marshall, Iowa, USA", "USA,IA,Marshall,Rhodes"], 
     ["RI, Rhode Island, USA", "USA,RI"], 
     ["Rice, North Dakota, USA", "USA,ND,Rolette,Rice Township"],
     ["Rice, Rolette, North Dakota, USA", "USA,ND,Rolette,Rice Township"],
     ["Rice, Township 159 Range 71, Rolette, North Dakota, USA", "USA,ND,Rolette,Rice Township,159 Range 71,Rice"],
-    ["Richfield Springs, Otsego County, New York, United States of America", "USA,NY,Otsego,Richfield Springs"], // 1
     ["Richfield, Hennepin, Minnesota, USA", "USA,MN,Hennepin,Richfield"],
     ["Richland, Wapello, Iowa, USA", "USA,IA,Wapello,Richland"], // 4
     ["Richland, Whitley, Indiana, USA", "USA,IN,Whitley,Richland"], // 6
-    ["Richwood, Becker, Minnesota, USA", "USA,MN,Becker,Richwood"], // 1
     ["Ridderkerk, Ridderkerk, Zuid-Holland, Netherlands", "NLD,ZUI,Ridderkerk"],
     ["Ridderkerk, Zuid Holland, Netherlands", "NLD,ZUI,Ridderkerk"],
     ["Ridderkerk, Zuid-Holland, Netherlands", "NLD,ZUI,Ridderkerk"],
@@ -1397,48 +1545,35 @@ export const GedcomPlaceKeys = new Map([
     ["Rijsoord, Ridderkerk, Zuid-Holland, Netherlands", "NLD,ZUI,Ridderkerk,Rijsoord"],
     ["Rimouski, Quebec, Canada", "CAN,QC,Bas-Saint-Laurent,Rimouski"],
     ["Rimouski, Rimouski-Neigette, Quebec, Canada", "CAN,QC,Bas-Saint-Laurent,Rimouski"],
-    ["Ripley, Rush, Indiana, USA", "USA,IN,Rush,Ripley"], // 1
-    ["River, Johnson, Kentucky, USA", "USA,KY,Johnson,River"], // 1
     ["Riviere-du-Loup, Québec, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup"],
-    ["Robbinsdale, Hennepin County, Minnesota, USA", "USA,MN,Hennepin,Robbinsdale"], // 1
-    ["Robbinsdale, Hennepin, Minnesota, United States", "USA,MN,Hennepin,Robbinsdale"], // 1
     ["Roche a Cree n.e.l. Menighed, Strongs Prairie Twp, Adams, Wisconsin, USA", "USA,WI,Adams,Roche a Cri"], 
     ["Rochester, Monroe County, New York, United States of America", "USA,NY,Monroe,Rochester"], 
     ["Rochester, Plymouth County, Massachusetts, United States of America", "USA,MA,Plymouth,Rochester"],
-    ["Rochester, Plymouth, Mass, Massachusetts, USA", "USA,MA,Plymouth,Rochester"], // 1
     ["Rochester, Plymouth, Massachusetts, United States", "USA,MA,Plymouth,Rochester"],
     ["Rochester, Plymouth, Massachusetts, USA", "USA,MA,Plymouth,Rochester"],
     ["Rock Hill, Bucks County, Pennsylvania, United States of America", "USA,PA,Bucks,Rock Hill"],
     ["Rock Island Ill.", "USA,IL,Rock Island"], 
     ["Rock Island, Illinois, USA", "USA,IL,Rock Island"], 
-    ["Rock Island, Rock Island, Illinois, USA", "USA,IL,Rock Island,Rock Island"], // 1
     ["Rock Island", "USA,IL,Rock Island"], 
     ["Rockingham County, Virginia, USA", "USA,VA,Rockingham"], 
     ["Rockingham, North Carolina", "USA,VA,Rockingham"], 
-    ["Rockwood, Wadena, Minnesota, United States", "USA,MN,Wadena,Rockwood"], // 1
     ["Rockwood, Wadena, Minnesota, USA", "USA,MN,Wadena,Rockwood"],
     ["Rolde, Drenthe, Pays-Bas", "NLD,DRE,Rolde"],
     ["Rolette County, North Dakota, USA", "USA,ND,Rolette"],
-    ["Rolette County, North Dakota", "USA,ND,Rolette"], // 1
     ["Rolette Role, North Dakota", "USA,ND,Rolette"],
     ["Rolette, North Dakota, USA", "USA,ND,Rolette"],
     ["Rolette, North Dakota", "USA,ND,Rolette"],
     ["Rolla, Rolette County, North Dakota, United States of America", "USA,ND,Rolette,Rolla"],
-    ["Rolla, Rolette, North Dakota, USA", "USA,ND,Rolette,Rolla"], // 1
     ["Rollete, North Dakota, USA", "USA,ND,Rolette"],
     ["Rollette, North Dakota, USA", "USA,ND,Rolette"],
-    ["Roseburg, Douglas County, Oregon, United States of America", "USA,OR,Douglas,Roseburg"], // 1
     ["Ross, Ohio, United States", "USA,OH,Ross"], 
     ["Rotterdam, 6240, Zuid-Holland, Pays-Bas", "NLD,ZUI,Rotterdam"],
     ["Rotterdam, Zuid-Holland, Pays-Bas", "NLD,ZUI,Rotterdam"],
     ["Rotterdam", "NLD,ZUI,Rotterdam"],
     ["Rowan County, North Carolina, USA", "USA,NC,Rowan"], 
-    ["Rowan, North Carolina, United States", "USA,NC,Rowan"], // 1
-    ["rowan, Yadkin County, North Carolina, USA", "USA,NC,Yadkin,rowan"], // 1
     ["Roxbury, Massachusetts", "USA,MA,Suffolk,Roxbury"], 
     ["Royalton, Windsor County, Vermont, United States of America", "USA,VT,Windsor,Royalton"],
     ["Royalton, Windsor, Vermont, USA", "USA,VT,Windsor,Royalton"], 
-    ["Runnells, Polk County, Iowa, United States of America", "USA,IA,Polk,Runnells"], // 1
     ["Rural, Becker, Minnesota", "USA,MN,Becker,Rural"], // 6
     ["Rural, Cass, Minnesota, USA", "USA,MN,Cass,Rural"],
     ["Rural, Itasca, Minnesota", "USA,MN,Itasca,Rural"], // 5
@@ -1454,28 +1589,17 @@ export const GedcomPlaceKeys = new Map([
     ["Saint Brunos Parish, Van Buren, Aroostook, Maine, USA", "USA,ME,Aroostook,Van Buren,St Brunos Parish"],
     ["Saint John The Baptist,Chester,Cheshire,England", "ENG,CHS,Chester,St John the Baptist"],
     ["Saint Leonard, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,St Leonard"], 
-    ["Saint Louis County, Minnesota, USA", "USA,MN,St. Louis"], // 1
     ["Saint Margarets, Anne Arundel County, Maryland, USA", "USA,MD,Anne Arundel,St Margarets"],
     ["Saint Paul, Ramsey County, Minnesota, United States of America", "USA,MN,Ramsey,St Paul"],
-    ["Saint Paul's Parish, Baltimore, Colony of Maryland, British, Maryland, USA", "USA,MD,Baltimore,St Pauls Parish"], // 1
     ["Saint Savior,Dartmouth,Devon,England", "ENG,DEV,Dartmouth,St Savior"], 
     ["Saint Vincent, Kittson County, Minnesota, United States of America", "USA,MN,Kittson,St Vincent"],
     ["Saint-Basile, Madawaska County, New Brunswick, Canada", "CAN,NB,Madawaska,St Basile"],
-    ["Saint-Didace, D'Autray, Lanaudière, Québec, Canada", "CAN,QC,Lanaudiere,D'Autray,St Didace"], // 1
     ["Saint-Leonard-Parent, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,St Leonard Parent"], 
-    ["Sainte-Anne-de-Madawaska, Madawaska County, New Brunswick, Canada", "CAN,NB,Madawaska,Sainte Anne de Madawaska"], // 1
-    ["Sainte-Anne-de-Madawaska, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Sainte Anne de Madawaska"], // 1
     ["Sainte-Élisabeth, D'Autray, Lanaudière, Québec, Canada", "CAN,QC,Lanaudiere,D'Autray,St Elisabeth"], 
     ["Sainte-Élisabeth, D'Autray, Quebec, Canada", "CAN,QC,Lanaudiere,D'Autray,St Elisabeth"],
     ["Salem, Washington County, New York, United States of America", "USA,NY,Washington,Salem"], 
     ["Salisbury, Rockingham, North Carolina", "USA,NC,Rockingham,Salisbury"],
-    ["Salisbury, Rowan County, North Carolina, USA", "USA,NC,Rowan,Salisbury"], // 1
-    ["San Bernardino, San Bernardino, California, USA", "USA,CA,San Bernardino,San Bernardino"], // 1
-    ["San Diego, San Diego, California, United States", "USA,CA,San Diego,San Diego"], // 1
-    ["San Jose, Santa Clara, California, USA", "USA,CA,Santa Clara,San Jose"], // 2
-    ["Sandgate, Bennington County, Vermont, United States of America", "USA,VT,Bennington,Sandgate"], // 1
     ["Sandgate, Bennington County, Vermont, USA", "USA,VT,Bennington,Sandgate"], 
-    ["Sandgate, Bennington, Vermont, USA", "USA,VT,Bennington,Sandgate"], // 1
     ["Sandwich, Barnstable County, Massachusetts, United States of America", "USA,MA,Barnstable,Sandwich"],
     ["Sandwich, Barnstable County, Massachusetts, USA", "USA,MA,Barnstable,Sandwich"],
     ["Sandwich, Barnstable County, New England", "USA,MA,Barnstable,Sandwich"],
@@ -1490,33 +1614,20 @@ export const GedcomPlaceKeys = new Map([
     ["Sandwitch, Plymouth, Massachusetts", "USA,MA,Barnstable,Sandwich"],
     ["Saratoga, Wood, Wisconsin, USA", "USA,WI,Wood,Saratoga"], 
     ["Schenectady, Schenectady, New York, United States", "USA,NY,Schenectady,Schenectady"], 
-    ["Scio, Harrison, Ohio, USA", "USA,OH,Harrison,Scio"], // 1
     ["Scituate, Massachusetts", "USA,MA,Plymouth,Scituate"], 
     ["Scituate, Plymouth County, Massachusetts, colony", "USA,MA,Plymouth,Scituate"],
-    ["Scituate, Plymouth County, Massachusetts, United States of America", "USA,MA,Plymouth,Scituate"], // 2
-    ["Scituate, Plymouth County, Massachusetts, USA", "USA,MA,Plymouth,Scituate"], // 1
     ["Scituate, Plymouth, Mass, Massachusetts, USA", "USA,MA,Plymouth,Scituate"],
     ["Scituate, Plymouth, Massachusetts, United States", "USA,MA,Plymouth,Scituate"],
     ["Scituate, Plymouth, Massachusetts, USA", "USA,MA,Plymouth,Scituate"], 
     ["Scotch Block, Rolette, North Dakota, USA", "USA,ND,Rolette,Scotch Block"],
     ["Scotland", "SCO"],
-    ["Scott County, Kentucky, USA", "USA,KY,Scott"], // 1
     ["Scott County, Virginia", "USA,VA,Scott"],
     ["Scott, Virginia, United States", "USA,VA,Scott"],
-    ["Scott, Virginia, USA", "USA,VA,Scott"], // 2
-    ["Sculcoates, Yorkshire East Riding, Yorkshire, England", "ENG,ERY,Sculcoates"], // 1
-    ["Sculcoates, Yorkshire, , England", "ENG,ERY,Sculcoates"], // 1
-    ["Sea, Sulawesi Tengah, Indonesia", "IDN,SUL,Sea"], // 2
-    ["Seattle, King, Washington, United States", "USA,WA,King,Seattle"], // 1
-    ["Seattle, King, Washington, USA", "USA,WA,King,Seattle"], // 1
     ["Seattle, Seattle, King, Washington, USA", "USA,WA,King,Seattle"],
     ["Sebeka, Wadena Co., MN, Minnesota, USA", "USA,MN,Wadena,Sebeka"],
     ["Sebeka, Wadena, Minnesota, United States", "USA,MN,Wadena,Sebeka"],
     ["Sebeka, Wadena, Minnesota, USA", "USA,MN,Wadena,Sebeka"],
-    ["Sevier, Tennessee, USA", "USA,TN,Sevier"], // 1
     ["Sharon, Vermont, USA", "USA,VT,Windsor,Sharon"], 
-    ["Sharon, Windsor County, Vermont, United States of America", "USA,VT,Windsor,Sharon"], // 5
-    ["Sharon, Windsor County, Vermont, USA", "USA,VT,Windsor,Sharon"], // 2
     ["Sharon, Windsor, Vermont, USA", "USA,VT,Windsor,Sharon"], 
     ["Sheffield, Bureau, Illinois, United States", "USA,IL,Bureau,Sheffield"], 
     ["Shenton, Leicestershire, England", "ENG,LEI,Shenton"],
@@ -1534,7 +1645,6 @@ export const GedcomPlaceKeys = new Map([
     ["Sint Anthoniepolder, Binnenmaas, Zuid-Holland, Netherlands", "NLD,ZUI,Sint Anthoniepolder"],
     ["Sint Anthoniepolder, Gemeente Binnenmaas, Zuid-Holland, Pays-Bas", "NLD,ZUI,Sint Anthoniepolder"],
     ["Sint Anthoniepolder, Zh.nld", "NLD,ZUI,Sint Anthoniepolder"],
-    ["Sint Anthoniepolder, Zuid-Holland, Netherlands", "NLD,ZUI,Sint Anthoniepolder"], // 1
     ["Sint Anthoniepolder, Zuid-Holland, Pays-Bas", "NLD,ZUI,Sint Anthoniepolder"],
     ["Sint Anthoniepolder", "NLD,ZUI,Sint Anthoniepolder"],
     ["Sint Antonie Polder, South Holland, Netherlands", "NLD,ZUI,Sint Anthoniepolder"],
@@ -1542,11 +1652,8 @@ export const GedcomPlaceKeys = new Map([
     ["Sint-Anthoniepolder, Zuid-Holland, Pays-Bas", "NLD,ZUI,Sint Anthoniepolder"],
     ["Siren, WI", "USA,WI,Burnett,Siren"],
     ["Siren, Wisconsin, USA", "USA,WI,Burnett,Siren"],
-    ["Somers, Flathead County, Montana, United States of America", "USA,MT,Flathead,Somers"], // 1
-    ["Somers, Flathead, Montana, USA", "USA,MT,Flathead,Somers"], // 1
     ["Somerset County, Maryland, United States of America", "USA,MD,Somerset"],
     ["Somerset County, Maryland, USA", "USA,MD,Somerset"],
-    ["Somerset County, Maryland", "USA,MD,Somerset"], // 1
     ["Somerset County, Pennsylvania, United States of America", "USA,PA,Somerset"],
     ["Somerset County, Pennsylvania, USA", "USA,PA,Somerset"],
     ["Somerset, Maryland, British America", "USA,MD,Somerset"], 
@@ -1556,12 +1663,9 @@ export const GedcomPlaceKeys = new Map([
     ["Somerset, Pennsylvania, United States", "USA,PA,Somerset"],
     ["Somerset, Pennsylvania, USA", "USA,PA,Somerset"],
     ["Somerset, Somerset, Pennsylvania, United States", "USA,PA,Somerset,Somerset"],
-    ["Somerset, St Croix, Wisconsin, USA", "USA,WI,St. Croix,Somerset"], // 1
-    ["Somerset, Wabash, Indiana, United States", "USA,IN,Wabash,Somerset"], // 1
     ["Sør-Aurdal, Oppland, Norvège", "NOR,OPP,Sør-Aurdal"], 
     ["South Bay, South Bay, Thurston, Washington, USA", "USA,WA,Thurston,South Bay,South Bay"],
     ["South Bay, Thurston, Washington, USA", "USA,WA,Thurston,South Bay"],
-    ["South Bend, St. Joseph County, Indiana, USA", "USA,IN,St. Joseph,South Bend"], // 1
     ["South Haven, Wright County, Minnesota, United States of America", "USA,MN,Wright,South Haven"],
     ["South Haven, Wright, Minnesota, USA", "USA,MN,Wright,South Haven"],
     ["South Pembina, Pembina, Dakota Territory, USA", "USA,ND,Pembina,South Pembina"],
@@ -1570,7 +1674,6 @@ export const GedcomPlaceKeys = new Map([
     ["South Red Rliver, Kittson, Minnesota", "USA,MN,Kittson,South Red River Township"],
     ["South Side, Wright, Minnesota, USA", "USA,MN,Wright,Southside Township"], // 9
     ["Southside, Wright, Minnesota, USA", "USA,MN,Wright,Southside Township"],
-    ["Sparks, Washoe County, Nevada, United States of America", "USA,NV,Washoe,Sparks"], // 1
     ["Sprendlingen, Offenbach, Hesse, Germany", "DEU,HE"], 
     ["Spring Green, Wisconsin, USA", "USA,WI,Sauk,Spring Green"],
     ["Springfield, Oregon, USA", "USA,OR,Lane,Springfield"],
@@ -1578,26 +1681,17 @@ export const GedcomPlaceKeys = new Map([
     ["St Ambroise de Kildare, Quebec, Canada", "CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare"],  // 7
     ["St Ann's, Dublin, Leinster, Ireland", "IRL,DUB,St Ann's"],
     ["St Basile, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,St Basile"],
-    ["St Charles, Madison Co, Iowa, USA", "USA,IA,Madison,St Charles"], // 1
     ["St Croix County, Wisconsin, USA", "USA,WI,St. Croix"], 
     ["St Germain, Rimouski, Quebec, Canada", "CAN,QC,Bas-Saint-Laurent,St Germain"], 
-    ["St Joachim, Chateaugay, Quebec, Canada", "CAN,QC,Monteregie,Rossillion,Chateauguay,St Joachim"],
-    ["St Johns Chapel, Stanhope, County Durham, England", "ENG,DUR,Stanhope,St Johns Chapel"], // 1
+    ["St Joachim, Chateaugay, Quebec, Canada", "CAN,QC,Chateauguay,St Joachim"],
     ["St Johns Parish, Baltimore, Maryland, USA", "USA,MD,Baltimore,St Johns Parish"],  // 3
-    ["St Leonard, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,St Leonard"], // 1
-    ["St Leonard, Victoria, New Brunswick, Canada", "CAN,NB,Victoria,St Leonard"], // 1
-    ["St Martine, Chateaugay, Quebec, Canada", "CAN,QC,Monteregie,Rossillion,Chateaugay,St Martine"], 
-    ["St Martins, Hanover, Virginia, USA", "USA,VA,Hanover,St Martins"], // 1
+    ["St Martine, Chateaugay, Quebec, Canada", "CAN,QC,Monteregie,Chateaugay,St Martine"], 
     ["St Mary, Leicestershire, England", "ENG,LEI,St Mary"],
     ["St Marys, Somerset, England", "ENG,SOM,St Marys"],
     ["St Nicholas, Leicestershire, , England", "ENG,LEI,St Nicholas"], 
     ["St Paul Ward 10, Ramsey, Minnesota, USA", "USA,MN,Ramsey,St Paul, Ward 10"],
-    ["St Paul, Dakota, Minnesota, United States", "USA,MN,Dakota,St Paul"], // 1
     ["St Paul, Joliette, Quebec, Canada", "CAN,QC,Lanaudiere,Joliette,St Paul"],
-    ["St Paul, Ramsey, Minnesota, USA", "USA,MN,Ramsey,St Paul"], // 3
-    ["St Paul's Parish, New Kent in 1719 became, Hanover County, Virginia, USA", "USA,VA,Hanover,New Kent, in 1719 became St Pauls Parish"], // 1
     ["St Pauls Parish, Baltimore, Maryland, USA", "USA,MD,Baltimore,St Pauls Parish"], 
-    ["St Pauls Parish, Hanover, Virginia, United States", "USA,VA,Hanover,St Pauls Parish"], // 1
     ["St Pauls Parish, Hanover, Virginia, USA", "USA,VA,Hanover,St Pauls Parish"], 
     ["St Pauls Parrish, Baltimore, Maryland, USA", "USA,MD,Baltimore,St Pauls Parish"], 
     ["St Pauls, Chester, Delaware, Pennsylvania, USA", "USA,PA,Delaware,Chester,St Pauls"], 
@@ -1612,71 +1706,53 @@ export const GedcomPlaceKeys = new Map([
     ["St-Ambroise-de-Kildare ; 2461040 ; Lanaudière ; Canada", "CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare"],
     ["St-Ambroise-de-Kildare, (Joliette), Québec, Canada", "CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare"], 
     ["St-Ambroise-de-Kildare, Joliette, Québec, Canada", "CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare"],
+    ["Joliette, Comté-Joliette, Quebec, Canada", "CAN,QC,Lanaudiere,Joliette,Comte Joliette"], // 1
     ["St-Basile, Madawaska, N.B. Canada, Canada", "CAN,NB,Madawaska,St Basile"], 
     ["St-Basile, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,St Basile"],
-    ["St-Bruno, Van Buren, Maine, USA", "USA,ME,Aroostook,Van Buren,St Bruno"], // 2
     ["St-Esprit, (Montcalm), Québec, Canada", "CAN,QC,Lanaudiere,Montcalm,St Esprit"], 
     ["St-Jacques-de-l'Achigan, (Moncalm), Québec, Canada", "CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan"],
-    ["St-Léonard Parish, Madawaska County, New Brunswick, Canada", "CAN,NB,Madawaska,St Léonard Parish"], // 1
-    ["St-Leonard, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,St Leonard"], // 1
     ["St-Louis, Kamouraska, Québec, Canada", "CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis"],
     ["St-Roches-des-Aulnais, Quebec, Canada", "CAN,QC,Chaudiere-Appalaches,St Roches des Aulnais"],
-    ["St-Sulpice, (l'Assomption), Québec, Canada", "CAN,QC,Lanaudiere,l'Assomption,St Sulpice"], // 1
-    ["St-Théodore-de-Chertsey ; 2462047 ; Québec ; Canada", "CAN,QC,Matawinie,Chertsey,St Theodore de Chertsey,2462047"], // 1
     ["St. Alexis de Montcalm, Quebec, Canada", "CAN,QC,Lanaudiere,Montcalm,St Alexis"],  // 3
     ["St. Alphonse Rodriguez, Quebec, Canada", "CAN,QC,Lanaudiere,Matawinie,St Alphone Rodrigues"], 
-    ["St. Alphonse Rodriguez, Quebec, canada", "CAN,QC,Lanaudiere,Matawinie,St Alphone Rodrigues"], // 1
     ["St. Alphonse-Rodriguez, Quebec, Canada", "CAN,QC,Lanaudiere,Matawinie,St Alphone Rodrigues"], 
+    ["St. Alphonse Rodriguez, Quebec, canada", "CAN,QC,Lanaudiere,Matawinie,St Alphone Rodrigues"], // 1
     ["St. Ambroise de Kildare, Joliette, Quebec, Canada", "CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare"],
     ["St. Anthoniepolder", "NLD,ZUI,Sint Anthoniepolder"], 
     ["St. Germain de Rimouski, Quebec, Canada", "CAN,QC,Bas-Saint-Laurent,St Germain"], 
-    ["St. Jacques l'Achigan, Quebec, Canada", "CAN,QC,Lanaudiere,St Jacques l'Achigan"],
-    ["St. Sepulcher Parish, London, Middlesex, England", "ENG,MDL,London,St Sepulcher Parish"], // 1
+    ["St. Jacques l'Achigan, Quebec, Canada", "CAN,QC,Lanaudiere,St. Jacques l'Achigan"],
     ["Stanhope, Durham, England", "ENG,DUR,Stanhope"],
     ["Stanton under Bardon, Leicestershire, England", "ENG,LEI,Stanton Under Bardon"],
     ["Stanton Under Bardon, Leicestershire, England", "ENG,LEI,Stanton Under Bardon"],
     ["Stanton, Leicestershire, England", "ENG,LEI,Stanton Under Bardon"],
     ["Star Prairie, Saint Croix, Wisconsin, USA", "USA,WI,St. Croix,Star Prairie"], // 7
     ["Star Prairie, St Croix, Wisconsin, USA", "USA,WI,St. Croix,Star Prairie"], // 3
-    ["Stark Co. Ohio", "USA,OH,Stark"], // 1
-    ["Stark County, Ohio, and before father died 1854", "USA,OH,Stark"], // 1
     ["Stark County, Ohio, USA", "USA,OH,Stark"],
     ["Starke, Indiana, United States", "USA,IN,Starke"], 
-    ["Ste  Anne, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Ste Anne"], // 1
     ["Ste Anne, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Ste Anne"],  // 5
-    ["Ste Elizabeth, Comte de Joliette ,Quebec, Canada", "CAN,QC,Lanaudiere,Joliette,St Elisabeth"],
-    ["Ste Martine, Chateaugay, Quebec, Canada", "CAN,QC,Monteregie,Roussillon,Chateauguay,St Martine"],
-    ["Ste-Anne, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Ste Anne"], // 3
+    ["Ste Elizabeth, Comte de Joliette ,Quebec, Canada", "CAN,QC,Joliette,St Elisabeth"],
+    ["Ste Martine, Chateaugay, Quebec, Canada", "CAN,QC,Chateauguay,St Martine"],
     ["Ste-Elisabeth, (Joliette), Québec, Canada", "CAN,QC,Lanaudiere,Joliette,St Elisabeth"],
     ["Ste-Élisabeth, (Joliette), Québec, Canada", "CAN,QC,Lanaudiere,Joliette,St Elisabeth"], 
-    ["Ste-Elisabeth, D'Autray, Québec, Canada", "CAN,QC,Lanaudiere,D'Autray,St Elisabeth"], // 1
-    ["Ste-Élisabeth, Joliette, Québec, Canada", "CAN,QC,Lanaudiere,Joliette,St Elisabeth"], // 1
-    ["Ste-Martine, Chateauguay, Quebec, Canada", "CAN,QC,Monteregie,Roussillon,Chateauguay,St Martine"],
+    ["Ste-Elisabeth, D'Autray, Québec, Canada", "CAN,QC,D'Autray,St Elisabeth"], // 1
+    ["Ste-Élisabeth, Joliette, Québec, Canada", "CAN,QC,Joliette,St Elisabeth"], // 1
+    ["Ste-Martine, Chateauguay, Quebec, Canada", "CAN,QC,Chateauguay,St Martine"],
     ["Ste-Mélanie ; 2461050 ; Lanaudière ; Canada", "CAN,QC,Lanaudiere,St Melanie"], 
-    ["Ste, Anne, Madawaska, New Brunswick, Canada", "CAN,NB,Madawaska,Anne,Ste"], // 1
     ["Steefkerk, Liesveld, Zuid-Holland, 🇳🇱 Nederland ", "NLD,ZUI,Liesveld,Streefkerk"], 
     ["Stepney Parish, Middlesex, , England", "ENG,MDL,Stepney Parish"],
     ["stepney parish, Somerset County, Maryland, USA", "USA,MD,Somerset,Stepney Parish"], 
     ["Stepney Parish, Somerset, Maryland, USA", "USA,MD,Somerset,Stepney Parish"],  // 3
     ["stepney parish, Wicomico County, Maryland, USA", "USA,MD,Wicomico,Stepney Parish"],
     ["Stepney, London, London, England, United Kingdom", "ENG,MDL,Stepney Parish"],
-    ["Sterling, Whiteside, Illinois, United States", "USA,IL,Whiteside,Sterling"], // 1
-    ["Stettler, Wainwright Census Division, Alberta, Canada", "CAN,AB,Wainwright, Census Division,Stettler"], // 1
     ["Stirlingshire, Scotland", "SCO,STI"],
-    ["Stock, Harrison, Ohio, United States", "USA,OH,Harrison,Stock"], // 1
     ["Stonington, Connecticut, USA", "USA,CT,New London,Stonington"], 
     ["Stonington, New London County, Connecticut, USA", "USA,CT,New London,Stonington"],
-    ["Stonington, New London, Connecticut, USA", "USA,CT,New London,Stonington"], // 1
-    ["Stover, Morgan, Missouri, United States", "USA,MO,Morgan,Stover"], // 1
     ["Strånganäs  Västergård, Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Västergård,Strånganäs"],
     ["Strånganäs Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Strånganäs"],
-    ["Strånganäs Västergård,  Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Strånganäs Västergård"], // 1
-    ["Strånganäs Västergård, Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Strånganäs Västergård"], // 1
     ["Strånganäs, Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Strånganäs"],
     ["Strassburg,Lorraine,Bas Rhin,Alsace,France", "FRA,ALS,Strassburg"],
     ["Stratford Bow, Middlesex, England", "ENG,MDL,Stratford Bow"],
     ["Streefkerk, Liesveld, Zuid-Holland, Netherlands", "NLD,ZUI,Liesveld,Streefkerk"],
-    ["Streefkerk, Netherlands", "NLD,ZUI,Streefkerk"], // 1
     ["Streefkerk, Zuid-Holland, Pays-Bas", "NLD,ZUI,Liesveld,Streefkerk"],
     ["Streefkerk", "NLD,ZUI,Liesveld,Streefkerk"],
     ["Strijen, Nl", "NLD,ZUI,Strijen"],
@@ -1687,26 +1763,18 @@ export const GedcomPlaceKeys = new Map([
     ["Strongs Prairie, Friendship, Adams, Wisconsin, USA", "USA,WI,Adams,Friendship"],
     ["Strongs Prairie, Strongs Prairie, Adams, Wisconsin, USA", "USA,WI,Adams,Strongs Prairie"],
     ["Sub District, Kentucky, United States", "USA,KY,Johnson,Sub District"], // Spencer Perry Collins draft registration
-    ["Sudbury, Middlesex, Massachusetts, American Colonies", "USA,MA,Middlesex,Sudbury"], // 1
     ["Sudbury, Middlesex, Massachusetts", "USA,MA,Middlesex,Sudbury"], 
-    ["Supe, Wisconsin", "USA,WI,Douglas,Superior"], // 1
-    ["Surrey County, N C, North Carolina, USA", "USA,NC,Surry"], // 1
     ["Surry County, North Carolina, USA", "USA,NC,Surry"], 
     ["Surry County, North Carolina", "USA,NC,Surry"],
     ["Surry, North Carolina, USA", "USA,NC,Surry"],
-    ["Sussex, Virginia, USA", "USA,VA,Sussex"], // 1
     ["Sutton Cheney, Leicestershire, England", "ENG,LEI,Sutton Cheney"],
     ["Swansea, Bristol County, Massachusetts, United States of America", "USA,MA,Bristol,Swansea"],
     ["Swansea, Bristol County, Massachusetts", "USA,MA,Bristol,Swansea"],
-    ["Swansea, Bristol, MA, Massachusetts, USA", "USA,MA,Bristol,Swansea"], // 1
     ["Swansea, Bristol, MA", "USA,MA,Bristol,Swansea"],  // 6
-    ["Swansea, Bristol, Massachusetts, United States", "USA,MA,Bristol,Swansea"], // 1
     ["Swansea, Bristol, Massachusetts, USA", "USA,MA,Bristol,Swansea"],
     ["Swansea, Bristol, Massachusetts", "USA,MA,Bristol,Swansea"], 
     ["Sweden", "SWE"],
     ["Symondsbury, Dorset, England", "ENG,DOR,Symondsbury"],
-    ["Telford, Montgomery County, Pennsylvania, United States of America", "USA,PA,Montgomery,Telford"], // 2
-    ["Temple City, Los Angeles County, California, United States of America", "USA,CA,Los Angeles,Temple City"], // 1
     ["Thames River Valley, Essex, England", "ENG,ESS,Thames River Valley"],
     ["The Forks, Hanover, Virginia, USA", "USA,VA,Hanover,The Forks"], 
     ["Thief River Fal, Minnesota, USA", "USA,MN,Pennington,Thief River Falls"],
@@ -1714,9 +1782,7 @@ export const GedcomPlaceKeys = new Map([
     ["Thief River Falls, MN", "USA,MN,Pennington,Thief River Falls"],
     ["Thornton, Leicestershire, England", "ENG,LEI,Thornton"],
     ["Thorpe Underwood, Kettering, Northamptonshire, England", "ENG,NOR,Kettering,Thorpe Underwood"],
-    ["Three Rivers, St Joseph, Michigan, United States", "USA,MI,St. Joseph,Three Rivers"], // 1
     ["Thurlaston,Leicester,England", "ENG,LEI,Thurlaston"], 
-    ["Tioga, Williams, North Dakota, USA", "USA,ND,Williams,Tioga"], // 2
     ["To, Oppland, Norway", "NOR,OPP,To"],
     ["Tomahawk, Wisconsin, USA", "USA,WI,Lincoln,Tomahawk"], 
     ["Topeka, Kansas, USA", "USA,KS,Shawnee,Topeka"],
@@ -1725,11 +1791,8 @@ export const GedcomPlaceKeys = new Map([
     ["Torquay, Devon, England", "ENG,DEV,Torquay"],
     ["Torr, Devon, England", "ENG,DEV,Torr"],
     ["Totnes, Devon, England", "ENG,DEV,Totnes"],
-    ["Towaco, Morris, New Jersey, United States", "USA,NJ,Morris,Towaco"], // 1
-    ["Towlesville, New York, United States", "USA,NY,Steuben,Towlesville"], // 1
     ["Towner County, North Dakota, USA", "USA,ND,Towner"],
     ["Townsend, Huron, Ohio, USA", "USA,OH,Huron,Townsend Township"], 
-    ["Trenton, Hancock, Maine, USA", "USA,ME,Hancock,Trenton"], // 1
     ["Trimble Township, Athens, Ohio, USA", "USA,OH,Athens,Trimble Township"],
     ["Trivoli, Peoria Co, Illinois, USA", "USA,IL,Peoria,Trivoli"], 
     ["Tucker, Georgia, USA", "USA,GA,DeKalb,Tucker"],
@@ -1740,13 +1803,7 @@ export const GedcomPlaceKeys = new Map([
     ["Turkeyfoot, Somerset County, Pennsylvania, USA", "USA,PA,Somerset,Turkeyfoot Township"],
     ["Turkeyfoot, Somerset, Pennsylvania, United States", "USA,PA,Somerset,Turkeyfoot Township"],
     ["Turtle Lake, Cass, Minnesota, USA", "USA,MN,Cass,Turtle Lake"],
-    ["Twelve Mile, Cass County, Indiana, United States of America", "USA,IN,Cass,Twelve Mile"], // 1
-    ["Twin Valley, Norman County, Minnesota, United States of America", "USA,MN,Norman,Twin Valley"], // 1
     ["Twin Valley, Norman, Minnesota, USA", "USA,MN,Norman,Twin Valley"],
-    ["Tynemouth, Northumberland, England", "ENG,NBL,Tynemouth"], // 1
-    ["Tynemouth, Northumberland", "ENG,NBL,Tynemouth"], // 1
-    ["U. S. Army Hospital, Chattanooga, Hamilton, Tennessee, USA", "USA,TN,Hamilton,Chattanooga,U S Army Hospital"], // 1
-    ["Uhrichsville, Tuscarawas Cty, Ohio, USA", "USA,OH,Tuscarawas,Uhrichsville"], // 1
     ["Ullensaker, Akershus, Norvège", "NOR,AKR,Ullensaker"],
     ["Ullensaker, Akershus, Norway", "NOR,AKR,Ullensaker"],
     ["Ulster, Ireland", "NIR"],
@@ -1754,45 +1811,30 @@ export const GedcomPlaceKeys = new Map([
     ["Union, Brown, Ohio, USA", "USA,OH,Brown,Union"],
     ["Union, Fulton, Indiana, USA", "USA,IN,Fulton,Union"], // 7
     ["Union, Rolette, North Dakota, USA", "USA,ND,Rolette,Union"],
-    ["Union, Tuscarawas, Ohio, USA", "USA,OH,Tuscarawas,Union"], // 1
     ["Union, Union, Rolette, North Dakota, USA", "USA,ND,Rolette,Union,Union"],
-    ["United States of America", "USA"], // 1
     ["United States", "USA"],
     ["Upper Marlborough, Prince George's, Maryland, USA", "USA,MD,Prince George's,Upper Marlborough"],
     ["Upper Marlborough, Prince George's, Maryland", "USA,MD,Prince George's,Upper Marlborough"], 
     ["Upper Turkeyfoot Township, Somerset, Pennsylvania, USA", "USA,PA,Somerset,Turkeyfoot"],
     ["Upper, Canada", "CAN,ON"], 
-    ["Urbandale, Polk, Iowa, USA", "USA,IA,Polk,Urbandale"], // 2
     ["USA", "USA"],
     ["VA, Virginia, USA", "USA,VA"],
     ["VA", "USA,VA"],
     ["Valeria, Jasper County, Iowa, United States of America", "USA,IA,Jasper,Van Buren"],
     ["Valeria, Jasper County, Iowa, USA", "USA,IA,Jasper,Valeria"],
     ["Valeria, Jasper, Iowa, USA", "USA,IA,Jasper,Valeria"], // 5
-    ["Valley City, Barnes County, North Dakota, United States of America", "USA,ND,Barnes,Valley City"], // 1
     ["Van Buren Plantation, Aroostook, Maine", "USA,ME,Aroostook,Van Buren,Van Buren Plantation"],
-    ["Van Buren Township, Kosciusco County, Indiana, USA", "USA,IN,Kosciusko,Van Buren Township"], // 1
     ["Van Buren, Aroostook , Maine, USA", "USA,ME,Aroostook,Van Buren"],
     ["Van Buren, Aroostook, Maine, United States", "USA,ME,Aroostook,Van Buren"],
     ["Van Buren, Aroostook, Maine, USA", "USA,ME,Aroostook,Van Buren"],
     ["Van Buren, Aroostoook, Maine, USA", "USA,ME,Aroostook,Van Buren"],
     ["Van Buren, Maine, USA", "USA,ME,Aroostook,Van Buren"],
-    ["Van Lear, Johnson, Kentucky, USA", "USA,KY,Johnson,Van Lear"], // 1
     ["Västra Skyberg, Värmland, Sverige", "SWE,VAR,Västra Skyberg"],
-    ["Vaughan Markham, York, Ontario, Canada", "CAN,ON,York,Vaughan Markham"], // 1
     ["Vaughan, York, Ontario, Canada", "CAN,ON,York,Vaughn"], 
-    ["Vermilion County, Illinois, United States of America", "USA,IL,Vermilion"], // 1
-    ["Vermilion County, Illinois, USA", "USA,IL,Vermilion"], // 1
-    ["Vermilion, Illinois, United States", "USA,IL,Vermilion"], // 1
     ["Vermilion, Illinois, USA", "USA,IL,Vermilion"], 
-    ["Vermillion, Illinois, USA", "USA,IL,Vermilion"], // 1
     ["Vermillion, LaSalle, Illinois, USA", "USA,IL,LaSalle,Vermillion"],
-    ["vermont twp, Dane County, Wisconsin, USA", "USA,WI,Dane,Vermont Township"], // 1
     ["Vermont, Black Earth, Dane, Wisconsin, USA", "USA,WI,Dane,Black Earth,Vermont Township"],
-    ["Vermont, Dane, Wisconsin, USA", "USA,WI,Dane,Vermont"], // 1
     ["Vermont", "USA,VT"],
-    ["Verndale, Wadena, Minnesota, United States", "USA,MN,Wadena,Verndale"], // 1
-    ["Verndale, Wadena, Minnesota, USA", "USA,MN,Wadena,Verndale"], // 1
     ["Vieboda Södergård, Linneryd, Kronoberg, Sverige", "SWE,KRO,Linneryd,Vieboda Södergård"],
     ["Vienna , VA.", "USA,VA,Fairfax,Vienna"],
     ["Vienna, VA", "USA,VA,Fairfax,Vienna"],
@@ -1808,34 +1850,24 @@ export const GedcomPlaceKeys = new Map([
     ["Voluntown, New London County, Connecticut, United States of America", "USA,CT,New London,Voluntown"],
     ["Wachtebrke, Oost-Vlaanderen, Belgique", "BEL,EFL,Wachtebrke"],
     ["Wadena Waden, Minnesota", "USA,MN,Wadena,Wadena"],
-    ["Wadena,  Minnesota, USA", "USA,MN,Wadena"], // 1
     ["Wadena, Minn.", "USA,MN,Wadena"],
     ["Wadena, Minnesota, United States", "USA,MN,Wadena"],
     ["Wadena, Minnesota, USA", "USA,MN,Wadena"],
     ["Wadena, Minnesota", "USA,MN,Wadena"],
-    ["Wadena, Wadena, Minnesota, United States", "USA,MN,Wadena,Wadena"], // 1
     ["Wadena, Wadena, Minnesota, USA", "USA,MN,Wadena,Wadena"],
-    ["Waitsburg, Walla Walla, Washington, United States", "USA,WA,Walla Walla,Waitsburg"], // 1
     ["Walker, Cass Co., MN, Minnesota, USA", "USA,MN,Cass,Walker"], 
     ["Walker, Northumberland, England", "ENG,NBL,Walker"],
-    ["Walsh Co, North Dakota, USA", "USA,ND,Walsh"], // 1
     ["Wapello County, Iowa, USA", "USA,IA,Wapello"], 
-    ["Wapello, Louisa, Iowa, USA", "USA,IA,Louisa,Wapello"], // 1
     ["Wapello,Iowa, USA", "USA,IA,Wapello"], 
     ["Ward, Hocking, Ohio, USA", "USA,OH,Hocking,Ward"], // 3
-    ["Warfield, Kentucky, USA", "USA,KY,Martin,Warfield"], // 1
-    ["Warfield, Martin, Kentucky, USA", "USA,KY,Martin,Warfield"], // 1
-    ["Warren, Illinois, United States", "USA,IL,Warren"], // 1
     ["Warrentown, Fauquier, VA, Virginia, USA", "USA,VA,Fauquier,Warrentown"],
     ["Warsaw, Kosciusko, Indiana, USA", "USA,IN,Kosciusko,Warsaw"], 
     ["Wartenburg, Erding, Bayern, Allemagne", "DEU,BY,Erding,Wartenburg"], 
     ["Washington Co., Virginia, USA", "USA,VA,Washington"], 
     ["Washington County, Iowa, USA", "USA,IA,Washington"],
-    ["Washington County, Virginia, United States of America", "USA,VA,Washington"], // 1
     ["Washington County, Virginia, USA", "USA,VA,Washington"],
     ["Washington, Iowa, USA", "USA,IA,Washington"],
     ["Washington, Jasper, Iowa, USA", "USA,IA,Jasper,Washington"],
-    ["Washington, Kentucky, United States", "USA,KY,Washington"], // 1
     ["Washington, Keokuk, Iowa, USA", "USA,IA,Keokuk,Washington"],
     ["Washington, Keokuk, Iowa", "USA,IA,Keokuk,Washington"],
     ["Washington, Pennsylvania, USA", "USA,PA,Washington"],
@@ -1845,42 +1877,30 @@ export const GedcomPlaceKeys = new Map([
     ["Washington, Virginia, USA", "USA,VA,Washington"],
     ["Washoe, Nevada", "USA,NV,Washoe"], 
     ["Waukegan, Illinois, USA", "USA,IL,Lake,Waukegan"],
-    ["Wauwatosa, Milwaukee, Wisconsin, USA", "USA,WI,Milwaukee,Wauwatosa"], // 1
-    ["WAYNE CO. W.V.", "USA,WV,Wayne"], // 1
-    ["Wayne, West Virginia, USA", "USA,WV,Wayne"], // 1
-    ["Wayne, West Virginia", "USA,WV,Wayne"], // 1
-    ["Weardale England", "ENG,DUR,Weardale"], // 1
-    ["Wearshead, Stanhope, Durham, England", "ENG,DUR,Stanhope,Wearshead"], // 1
-    ["Webster, Burnett, Wisconsin, United States", "USA,WI,Burnett,Webster"], // 1
     ["Wellsburgh, Clinton, New York, USA", "USA,NY,Clinton,Wellsburgh"],
     ["West Chester, Chester, Pennsylvania", "USA,PA,Chester,West Chester"],
-    ["West Grove, Hancock County, Indiana, USA", "USA,IN,Hancock,West Grove"], // 1
     ["West Palm Beach, Palm Beach, Florida, USA", "USA,FL,Palm Beach,West Palm Beach"], 
     ["West Virginia, USA", "USA,WV"], 
-    ["Westerly, Kings, Rhode Island, USA", "USA,RI,Washington,Westerly"], // 1
     ["Westerly, Washington, Rhode Island, USA", "USA,RI,Washington,Westerly"],
     ["Westerly, Washington, Rhode Island", "USA,RI,Washington,Westerly"], 
     ["Westhorpe, Suffolk, England", "ENG,SFK,Westhorpe"],
     ["Westland, West Coast, Nouvelle-Zélande", "NZL,WL"], 
     ["Westmaas, Beijerland, Zuid-Holland, Netherlands", "NLD,ZUI,Westmaas,Beijerland"],
-    ["Westmaas, Binnenmaas Municipality, Zuid-Holland, Netherlands", "NLD,ZUI,Westmaas,Binnenmaas"],
+    ["Westmaas, Binnenmaas Municipality, Zuid-Holland, Netherlands", "NLD,ZUI,Westmass,Binnenmaas"],
     ["Westmaas, Cromstrijen, Zuid-Holland, Netherlands", "NLD,ZUI,Westmaas,Cromstrijen"],
     ["Westmaas, South Holland, Netherlands", "NLD,ZUI,Westmaas"],
     ["Westmaas, South Holland, Zuid-Holland, Pays-Bas", "NLD,ZUI,Westmaas"],
     ["Westmaas, Zuid-Holland, Pays-Bas", "NLD,ZUI,Westmaas"],
-    ["Westmaas", "NLD,ZUI,Westmaas"],
     ["Westmass, Beijerland, Zuid Holland, Netherlands", "NLD,ZUI,Westmass"], // 2
-    ["Westminster, Carroll, Maryland, USA", "USA,MD,Carroll,Westminster"], // 1
+    ["Westmaas", "NLD,ZUI,Westmaas"],
     ["Weymouth, Dorset, England", "ENG,DOR,Weymouth"],
     ["Weymouth, Norfolk, Massachusetts, United States", "USA,MA,Norfolk,Weymouth"], 
     ["What Cheer, Iowa", "USA,IA,Keokuk,What Cheer"],
     ["What Cheer, Keokuk County, Iowa, United States of America", "USA,IA,Keokuk,What Cheer"],
     ["What Cheer, Keokuk, Iowa, USA", "USA,IA,Keokuk,What Cheer"],
     ["What Chier, Iowa", "USA,IA,Keokuk,What Cheer"],
-    ["Whigville, Noble, Ohio, USA", "USA,OH,Noble,Whigville"], // 1
     ["While Carth, Becker, Minnesota", "USA,MN,Becker,White Earth"],
     ["White Creek, Washington County, NY", "USA,NY,Washington,White Creek"],
-    ["White Creek, Washington, New York, USA", "USA,NY,Washington,White Creek"], // 1
     ["White Earth Indian Reservation, Becker, Minnesota, USA", "USA,MN,Becker,White Earth Indian Reservation"],
     ["White Earth, Becker County, Minnesota, United States of America", "USA,MN,Becker,White Earth"],
     ["White Earth, Becker, Minnesota, USA", "USA,MN,Becker,White Earth"],
@@ -1890,36 +1910,23 @@ export const GedcomPlaceKeys = new Map([
     ["Whitehall, Northampton, Pennsylvania, USA", "USA,PA,Northampton,Whitehall"],
     ["Whitley County, Indiana, United States of America", "USA,IN,Whitley"], 
     ["Wieboda Södergård, Kronobergs län, Sverige", "SWE,KRO,Wieboda Södergård"],
-    ["Williamston, Anderson County, South Carolina, USA", "USA,SC,Anderson,Williamston"], // 1
-    ["Williston, Williams, North Dakota, USA", "USA,ND,Williams,Williston"], // 1
     ["Willsborough, Clinton, New York, United States", "USA,NY,Clinton,Wellsburg"],
     ["Wilmington, Clinton, Ohio, USA", "USA,OH,Clinton,Wilmington"],
-    ["Wilmington, Los Angeles County, California, United States of America", "USA,CA,Los Angeles,Wilmington"], // 1
     ["Wilmington, New Castle, Delaware, USA", "USA,DE,New Castle,Wilmington"], 
     ["Wilmington, New Castle, Delaware", "USA,DE,New Castle,Wilmington"],
-    ["Wilson County, Kansas, United States of America", "USA,KS,Wilson"], // 1
     ["Winchester, Frederick, Maryland, USA", "USA,MD,Frederick,Winchester"],
     ["Windsor, Vermont, USA", "USA,VT,Windsor"],
-    ["Winter Haven, Polk County, Florida, United States of America", "USA,FL,Polk,Winter Haven"], // 1
-    ["Winterset, Madison County, Iowa, United States of America", "USA,IA,Madison,Winterset"], // 1
-    ["Winterset, Madison, Iowa, USA", "USA,IA,Madison,Winterset"], // 1
-    ["Wisconsin, United States", "USA,WI"], // 1
     ["Wisconsin, USA", "USA,WI"],
     ["Wisconsin", "USA,WI"],
     ["Wixhausen, Darmstadt, Hesse, Germany", "DEU,HE,Starkenberg,Darmstadt,Wixhausen"], 
     ["Wixhausen, Darmstadt, Starkenburg, Hessen, Germany", "DEU,HE,Starkenberg,Darmstadt,Wixhausen"],
     ["Wolsingham, Durham, England", "ENG,DUR,Wolsingham"], 
     ["Woodbridge Twp., Middlesex, New Jersey, USA", "USA,NJ,Middlesex,Woodbridge Township"], 
-    ["Woodruff, Phillips, Kansas", "USA,KS,Phillips,Woodruff"], // 1
     ["Woodsboro, Frederick, Maryland, USA", "USA,MD,Frederick,Woodsboro"],
-    ["Woodsborough, Frederick, Maryland, USA", "USA,MD,Frederick,Woodsborough"], // 1
     ["Worth, Hancock, Indiana, USA", "USA,IN,Hancock,Worth"],
     ["Wright County, Minnesota, USA", "USA,MN,Wright"],
     ["Wright, Minnesota, USA", "USA,MN,Wright"],
     ["Wymore, Gage County, Nebraska, United States of America", "USA,NE,Gage,Wymore"], 
-    ["Wymore, Gage, Nebraska", "USA,NE,Gage,Wymore"], // 1
-    ["Wythe Co, Virginia, USA", "USA,VA,Wythe"], // 1
-    ["Y, Somme, Picardie, France", "FRA,PIC,Somme,Y"], // 1
     ["Yarmouth, Barnstable County, Massachusetts, United States of America", "USA,MA,Barnstable,Yarmouth"],
     ["Yarmouth, Barnstable County, Massachusetts, USA", "USA,MA,Barnstable,Yarmouth"],
     ["Yarmouth, Barnstable, MA, USA", "USA,MA,Barnstable,Yarmouth"], 
@@ -1929,17 +1936,10 @@ export const GedcomPlaceKeys = new Map([
     ["York County, 1654323, Ontario, Canada", "CAN,ON,York"],
     ["York Township, Athens, Ohio, USA", "USA,OH,Athens,York Township"],
     ["York, 1654479, Quebec, Canada", "CAN,ON,York"],  // 4 York, Upper Canada was in Toronto old city
-    ["York, Accomack, Virginia, USA", "USA,VA,Accomack,York"], // 1
-    ["York, Athens, Ohio, United States ", "USA,OH,Athens,York"], // 1
     ["York, Athens, Ohio, USA", "USA,OH,Athens,York Township"],
-    ["York, Ontario, Canada", "CAN,ON,York"], // 1
     ["York, Quebec, Canada", "CAN,ON,York"], 
     ["Yorkhampton, York, Virginia, USA", "USA,VA,York,Yorkhampton"],  // 3
     ["Yuma, Arizona, USA", "USA,AZ,Yuma"],
-    ["Yuma, Yuma County, Arizona, USA", "USA,AZ,Yuma,Yuma"], // 1
-    ["Yuma, Yuma, Arizona, USA", "USA,AZ,Yuma,Yuma"], // 1
-    ["Zanesville, Muskingum, Ohio, United States", "USA,OH,Muskingum,Zanesville"], // 1
-    ["Zuid-Holland, Netherlands", "NLD,ZUI"], // 2
     ["Zuid-Holland, Pays-Bas", "NLD,ZUI"],
     ["Zweibrucken, Rhineland-Palatinate, Allemagne", "DEU,RP,Zweibrucken"],
 ])

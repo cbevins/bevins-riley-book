@@ -1,0 +1,1187 @@
+                                                            3
+AUS,WA,Claremont                                            1
+BAR                                                         1
+BEL,EFL,Melsele                                             1
+BEL,EFL,Wachtebrke                                          1
+CAN                                                         1
+CAN,AB,Consort,Hanna Census Division                        1
+CAN,AB,Strathmore Census Division,Carmangay                 1
+CAN,AB,Wainwright, Census Division,Stettler                 1
+CAN,NB                                                      2
+CAN,NB,Acadia                                               1
+CAN,NB,Acadia,Saint John River,Meductic                     1
+CAN,NB,Madawaska,Anne,Ste                                   1
+CAN,NB,Madawaska,Sainte Anne de Madawaska                   2
+CAN,NB,Madawaska,St Basile                                  5
+CAN,NB,Madawaska,St Leonard                                 3
+CAN,NB,Madawaska,St Leonard Parent                          1
+CAN,NB,Madawaska,St Léonard Parish                          1
+CAN,NB,Madawaska,Ste Anne                                   3
+CAN,NB,Plaster Rock                                         1
+CAN,NB,Victoria,Grand Falls                                 1
+CAN,NB,Victoria,St Leonard                                  1
+CAN,ON                                                      3
+CAN,ON,Cartwright                                           1
+CAN,ON,Durham,Brock                                         1
+CAN,ON,Durham,Newcastle                                     1
+CAN,ON,Durham,Ontario North                                 1
+CAN,ON,Grey,Durham                                          1
+CAN,ON,Northumberland and Durham                            1
+CAN,ON,Northumberland,Port Hope                             1
+CAN,ON,Peterborough                                         1
+CAN,ON,Peterborough,Cavan                                   3
+CAN,ON,Peterborough,Millbrook                               3
+CAN,ON,Peterborough,Millbrook,1654329                       1
+CAN,ON,Toronto                                              1
+CAN,ON,York                                                 4
+CAN,ON,York,Vaughan Markham                                 1
+CAN,ON,York,Vaughn                                          1
+CAN,QC                                                      4
+CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis                1
+CAN,QC,Bas-Saint-Laurent,L'Isle-Verte                       1
+CAN,QC,Bas-Saint-Laurent,Rimouski                           2
+CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup                    1
+CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,Cacouna            1
+CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte       7
+CAN,QC,Bas-Saint-Laurent,Riviere-du-LoupL'Isle Verte        1
+CAN,QC,Bas-Saint-Laurent,St Germain                         2
+CAN,QC,Charlevoix,Baie-St-Paul                              1
+CAN,QC,Chaudiere-Appalaches,St Roches des Aulnais           1
+CAN,QC,Gaspesie-Iles-de-la-Madeleine,La Cote-de-Gaspe       1
+CAN,QC,Kamouraska,Kamouraska                                1
+CAN,QC,Lanaudiere,D'Autray,Berthierville                    2
+CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève   1
+CAN,QC,Lanaudiere,D'Autray,St Didace                        1
+CAN,QC,Lanaudiere,D'Autray,St Elisabeth                     3
+CAN,QC,Lanaudiere,Joliette,Comte Joliette                   1
+CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare           5
+CAN,QC,Lanaudiere,Joliette,St Elisabeth                     4
+CAN,QC,Lanaudiere,Joliette,St Paul                          1
+CAN,QC,Lanaudiere,Matawinie,St Alphone Rodrigues            3
+CAN,QC,Lanaudiere,Montcalm,St Alexis                        2
+CAN,QC,Lanaudiere,Montcalm,St Esprit                        1
+CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan             1
+CAN,QC,Lanaudiere,St Jacques l'Achigan                      1
+CAN,QC,Lanaudiere,St Melanie                                1
+CAN,QC,Lanaudiere,l'Assomption                              1
+CAN,QC,Lanaudiere,l'Assomption,Repentigny                   1
+CAN,QC,Lanaudiere,l'Assomption,St Pierre du Portage         1
+CAN,QC,Lanaudiere,l'Assomption,St Sulpice                   1
+CAN,QC,Lanaudiere,l'Assomption,l'Assomption                 1
+CAN,QC,Matawinie,Chertsey,St Theodore de Chertsey,2462047   1
+CAN,QC,Monteregie,Longueuil                                 1
+CAN,QC,Monteregie,Longueuil,Chambly                         1
+CAN,QC,Monteregie,Longueuil,St Antoine de pade              1
+CAN,QC,Monteregie,Rossillion,Chateaugay,St Martine          1
+CAN,QC,Monteregie,Rossillion,Chateauguay,St Joachim         1
+CAN,QC,Monteregie,Rossillon,Chateauguay                     1
+CAN,QC,Monteregie,Roussillon,Chateauguay,St Martine         2
+CAN,QC,Saguenay–Lac-Saint-Jean,Charlevoix-Est,La Malbaie    1
+DEU                                                         3
+DEU,BW                                                      1
+DEU,BW,Baden,Reilsheim                                      2
+DEU,BW,Rhein-Neckar-Kreis,Bammental                         2
+DEU,BY                                                      1
+DEU,BY,Erding,Wartenburg                                    1
+DEU,BY,Pfalz,Kriegsfeld,Evangelisch                         1
+DEU,HE                                                      1
+DEU,HE,Darmstadt,Arheilgen                                  1
+DEU,HE,Starkenberg,Darmstadt,Wixhausen                      2
+DEU,NW,Aachen                                               1
+DEU,RP                                                      1
+DEU,RP,Bernkastel-Wittlich,Starkenburg,Evangelisch          1
+DEU,RP,Donnersberg,Kriegsfeld                               1
+DEU,RP,Donnersberg,Morsfeld                                 1
+DEU,RP,Donnersbergkreis,Morsfeld                            1
+DEU,RP,Frankenthal                                          1
+DEU,RP,Zweibrucken                                          1
+DEU,RP,Zweibrucken,Am                                       1
+DEU,RP,Zweibrucken,An Glan                                  2
+ENG                                                         1
+ENG,BKM                                                     2
+ENG,CAM,Cambridge                                           1
+ENG,CHS                                                     2
+ENG,CHS,Chester,St John the Baptist                         1
+ENG,CHS,Mobberly                                            1
+ENG,COR                                                     2
+ENG,COR,Megavissey                                          1
+ENG,COR,Mevagissey                                          2
+ENG,DBY                                                     1
+ENG,DEV                                                     3
+ENG,DEV,Asprington                                          1
+ENG,DEV,Brixham                                             8
+ENG,DEV,Chealiston                                          1
+ENG,DEV,Churston Ferrers                                    2
+ENG,DEV,Dartmouth                                           1
+ENG,DEV,Dartmouth,St Savior                                 1
+ENG,DEV,Exeter                                              1
+ENG,DEV,Plymouth                                            2
+ENG,DEV,Topsham                                             1
+ENG,DEV,Torquay                                             1
+ENG,DEV,Torr                                                1
+ENG,DEV,Totnes                                              1
+ENG,DOR,Symondsbury                                         1
+ENG,DOR,Weymouth                                            1
+ENG,DUR                                                     4
+ENG,DUR,37 Allen St,Co Durham                               1
+ENG,DUR,Avcliffe                                            1
+ENG,DUR,Frosterley                                          1
+ENG,DUR,Gateshead                                           1
+ENG,DUR,Heworth,Felling                                     1
+ENG,DUR,Heyworth                                            3
+ENG,DUR,Jarrow                                              1
+ENG,DUR,Monkwearmouth                                       2
+ENG,DUR,Stanhope                                            1
+ENG,DUR,Stanhope,Blackclough                                1
+ENG,DUR,Stanhope,Broadwood                                  1
+ENG,DUR,Stanhope,St Johns Chapel                            1
+ENG,DUR,Stanhope,St Thomas the Apostle                      1
+ENG,DUR,Stanhope,Wearshead                                  1
+ENG,DUR,Weardale                                            1
+ENG,DUR,Wolsingham                                          1
+ENG,ERY,Easington                                           4
+ENG,ERY,Hull                                                1
+ENG,ERY,Sculcoates                                          2
+ENG,ESS,Thames River Valley                                 1
+ENG,IOM,Michael,Kirk Michael                                1
+ENG,KEN                                                     1
+ENG,KEN,Ramsgate                                            1
+ENG,LEI                                                     4
+ENG,LEI,Ashby de la Zouch                                   2
+ENG,LEI,Aston Flamville                                     2
+ENG,LEI,Bagworth                                            1
+ENG,LEI,Barwell                                             2
+ENG,LEI,Belgrave                                            1
+ENG,LEI,Cadeby                                              1
+ENG,LEI,Earl Shilton                                        1
+ENG,LEI,Glenfield                                           1
+ENG,LEI,Grange                                              1
+ENG,LEI,Ibstock                                             1
+ENG,LEI,Ibstock Grange                                      1
+ENG,LEI,Kirkby Mallory                                      1
+ENG,LEI,Leicester                                           3
+ENG,LEI,Leicester,131 Northampton Rd                        1
+ENG,LEI,Longborough                                         1
+ENG,LEI,Market Bosworth                                     2
+ENG,LEI,Market Harborough                                   1
+ENG,LEI,Markfield                                           1
+ENG,LEI,Mevagissey                                          1
+ENG,LEI,Nailston                                            1
+ENG,LEI,Nailstone                                           2
+ENG,LEI,Netherseal                                          1
+ENG,LEI,Newbold Verdon                                      4
+ENG,LEI,Peckleton                                           1
+ENG,LEI,Pickering Grange                                    1
+ENG,LEI,Shenton                                             1
+ENG,LEI,Shepshed                                            1
+ENG,LEI,St Mary                                             1
+ENG,LEI,St Nicholas                                         1
+ENG,LEI,Stanton Under Bardon                                3
+ENG,LEI,Stanton under Bardon,Clotts Farm                    1
+ENG,LEI,Sutton Cheney                                       1
+ENG,LEI,Thornton                                            1
+ENG,LEI,Thurlaston                                          1
+ENG,LND                                                     6
+ENG,LND,Hammersmith                                         1
+ENG,LND,Kensington                                          1
+ENG,LND,Marylebone                                          1
+ENG,LND,Newgate,St Sepulchre                                4
+ENG,LND,Westminster                                         1
+ENG,LND,Westminster,St James,buried                         1
+ENG,MDL                                                     3
+ENG,MDL,Kensington                                          1
+ENG,MDL,London,St Sepulcher Parish                          1
+ENG,MDL,Marylebone                                          1
+ENG,MDL,Stepney Parish                                      2
+ENG,MDL,Stratford Bow                                       1
+ENG,MSY,Liverpool                                           3
+ENG,NBL                                                     1
+ENG,NBL,Longbenton                                          2
+ENG,NBL,Murton                                              1
+ENG,NBL,Newcastle                                           2
+ENG,NBL,Northumberland Unitary Authority                    1
+ENG,NBL,Tynemouth                                           2
+ENG,NBL,Tynemouth,Earsdon                                   1
+ENG,NBL,Walker                                              1
+ENG,NOR,Castor                                              1
+ENG,NOR,East Northamptonshire Borough,Achurch               1
+ENG,NOR,Eastcott                                            1
+ENG,NOR,Kettering,Thorpe Underwood                          1
+ENG,NTT,Nottingham                                          1
+ENG,OXF                                                     1
+ENG,SAL,Alvely                                              1
+ENG,SFK,Westhorpe                                           1
+ENG,SOM,Bridgewater                                         2
+ENG,SOM,Bristol                                             1
+ENG,SOM,Futham                                              1
+ENG,SOM,Nether Stowey                                       1
+ENG,SOM,North Petherton                                     1
+ENG,SOM,St Marys                                            1
+ENG,STS,Burton Upon Trent                                   1
+ENG,SXE,Rye                                                 1
+ENG,WAR,Coventry                                            1
+ENG,WAR,Halls End                                           1
+ENG,WOR,Worcester,Pedmore                                   1
+ENG,YKS                                                     1
+ENG,YKS,Hull                                                1
+ENG,YKS,Kingston upon Hull,4 Newton Street                  1
+FRA,ALS,Strassburg                                          1
+FRA,PIC,Somme,Y                                             1
+IDN,SUL,Sea                                                 1
+IRL                                                         2
+IRL,CAV                                                     1
+IRL,COR                                                     1
+IRL,COR,Cork                                                1
+IRL,COR,Dunmanway                                           1
+IRL,COR,Macroom                                             1
+IRL,DON,Bally Shannon                                       1
+IRL,DON,Donegal                                             1
+IRL,DUB,St Ann's                                            1
+IRL,KER,Dingle                                              1
+IRL,MOG,Carrickmacross                                      1
+IRL,MOG,Magheracloone                                       1
+NIR                                                         1
+NIR,ARM                                                     1
+NIR,ARM,Skankill,Lurgan                                     1
+NIR,DOW                                                     2
+NIR,DOW,Comber                                              4
+NIR,DOW,Donnahlong                                          1
+NIR,DOW,Newry                                               1
+NLD                                                         4
+NLD,DRE,Rolde                                               1
+NLD,GEL,Aalten                                              1
+NLD,GEL,Appeltern                                           1
+NLD,GEL,Gameren                                             1
+NLD,NBR,Dongen,Dongen                                       1
+NLD,NBR,Reusel de Mierden                                   1
+NLD,NBR,Waalre,Aalst                                        1
+NLD,NOR                                                     1
+NLD,NOR,Aalsmeer                                            1
+NLD,ZUI                                                     4
+NLD,ZUI,'s-Gravendeel                                       2
+NLD,ZUI,Alphen                                              1
+NLD,ZUI,Barendrecht                                         1
+NLD,ZUI,Brielle                                             1
+NLD,ZUI,Cillaarshoek                                        5
+NLD,ZUI,Delft                                               1
+NLD,ZUI,Goedereede,Ouddorp                                  3
+NLD,ZUI,Greup                                               1
+NLD,ZUI,IJsselmonde                                         4
+NLD,ZUI,Klaaswaal                                           1
+NLD,ZUI,Korendijk,Goudswaard                                1
+NLD,ZUI,Kromstrijen                                         1
+NLD,ZUI,Liesveld,Streefkerk                                 4
+NLD,ZUI,Liesveld,Streefkerk,1595 1600 Streefkerk            1
+NLD,ZUI,Maasdam                                             9
+NLD,ZUI,Mijnsheerenland                                     9
+NLD,ZUI,Naaldwijk                                           2
+NLD,ZUI,Naalswijk                                           2
+NLD,ZUI,Nieuw Beijerland                                    1
+NLD,ZUI,Numansdorp                                          3
+NLD,ZUI,Oost IJsselmonde                                    2
+NLD,ZUI,Oud Beijerland                                      8
+NLD,ZUI,Oud Reijerwaard                                     2
+NLD,ZUI,Piershil                                            2
+NLD,ZUI,Puttershoek                                         3
+NLD,ZUI,Ridderkerk                                          5
+NLD,ZUI,Ridderkerk,Rijsoord                                 1
+NLD,ZUI,Rotterdam                                           3
+NLD,ZUI,Rotterdam,Charlois                                  2
+NLD,ZUI,Sint Anthoniepolder                                 12
+NLD,ZUI,Streefkerk                                          1
+NLD,ZUI,Strijen                                             3
+NLD,ZUI,Westmaas                                            5
+NLD,ZUI,Westmaas,Beijerland                                 1
+NLD,ZUI,Westmaas,Binnenmaas                                 1
+NLD,ZUI,Westmaas,Cromstrijen                                1
+NLD,ZUI,Westmass                                            1
+NOR                                                         1
+NOR,AKR,Ullensaker                                          2
+NOR,AKR,Ullensaker prestegjeld,Hovin sokn,Nordmyren farm    2
+NOR,HED,Åsnes kirke                                         1
+NOR,HED,Åsnes,Bjørnebyqvern                                 1
+NOR,HED,Åsnes,Nygården farm                                 1
+NOR,HED,Åsnes,Åsnes Østre                                   1
+NOR,OPP,Hedal,Ruste                                         1
+NOR,OPP,Sør-Aurdal                                          1
+NOR,OPP,Sør-Aurdal,Bakke farm                               1
+NOR,OPP,Sør-Aurdal,Hedalen                                  1
+NOR,OPP,Sør-Aurdal,Hedalen,Hedalen kirke                    1
+NOR,OPP,Sør-Aurdal,Hedalen,Joranbyhuset                     2
+NOR,OPP,Sør-Aurdal,Hedalen,Ruste 92                         1
+NOR,OPP,Sør-Aurdal,Hølera,Nørre Fønhus 56/2                 1
+NOR,OPP,Sør-Aurdal,Åsli farm                                1
+NOR,OPP,To                                                  1
+NOR,OSL                                                     1
+NOR,OSL,Oslo                                                1
+NZL,WL                                                      1
+SCO                                                         1
+SCO,AYR,Ayr                                                 1
+SCO,FIF,Dunfermline                                         1
+SCO,FIF,Lochgelly                                           1
+SCO,KKD                                                     1
+SCO,KKD,Melrose                                             1
+SCO,LKS,Cambusnethan                                        3
+SCO,LKS,Carstairs                                           1
+SCO,LKS,Glasgow                                             1
+SCO,LKS,Old Monkland,Ballieston                             1
+SCO,MLN,Edinburgh                                           1
+SCO,RFW                                                     2
+SCO,ROX,Melrose                                             1
+SCO,STI                                                     1
+SCO,WLN                                                     1
+SCO,WLN,Linlithgow                                          2
+SWE                                                         1
+SWE,JON,Jonkoping,Lommaryd,Nystorp                          1
+SWE,JON,Nasby                                               1
+SWE,KRO,Bänkebo,Älmeboda fg                                 1
+SWE,KRO,Linneryd                                            1
+SWE,KRO,Linneryd,Vieboda Södergård                          1
+SWE,KRO,Orebro                                              1
+SWE,KRO,Södra Sandsjö,Gubbsmåla,Backstugan Nyalund          1
+SWE,KRO,Tokamåla,Linneryd fg                                1
+SWE,KRO,Wieboda Södergård                                   1
+SWE,KRO,Älmeboda                                            3
+SWE,KRO,Älmeboda Fg                                         2
+SWE,KRO,Älmeboda,Botamåla                                   1
+SWE,KRO,Älmeboda,Bänkeboda                                  1
+SWE,KRO,Älmeboda,Grönadal Södergård                         1
+SWE,KRO,Älmeboda,Kinnanäs                                   1
+SWE,KRO,Älmeboda,Strånganäs                                 2
+SWE,KRO,Älmeboda,Strånganäs Västergård                      2
+SWE,KRO,Älmeboda,Västergård,Strånganäs                      1
+SWE,VAR,Västra Skyberg                                      1
+USA                                                         4
+USA,AL,Marshall                                             1
+USA,AL,Morgan,Decatur                                       1
+USA,AR,Conway                                               1
+USA,AR,Polk,Board Camp                                      1
+USA,AZ                                                      1
+USA,AZ,Maricopa,Mesa                                        3
+USA,AZ,Maricopa,Phoenix                                     1
+USA,AZ,Yuma                                                 1
+USA,AZ,Yuma,Yuma                                            2
+USA,CA                                                      1
+USA,CA,Alameda,Oakland                                      1
+USA,CA,Amador                                               1
+USA,CA,Contra Costa                                         1
+USA,CA,Los Angeles,Los ANgeles,North Hollywood              1
+USA,CA,Los Angeles,Los Angeles                              1
+USA,CA,Los Angeles,Norwalk                                  1
+USA,CA,Los Angeles,Temple City                              1
+USA,CA,Los Angeles,Wilmington                               1
+USA,CA,Sacramento,Sacramento                                1
+USA,CA,San Bernardino,Adelanto                              1
+USA,CA,San Bernardino,San Bernardino                        1
+USA,CA,San Diego,San Diego                                  1
+USA,CA,Santa Clara,San Jose                                 1
+USA,CO                                                      1
+USA,CO,Cheyenne,Kit Carson                                  1
+USA,CO,Denver,Denver                                        1
+USA,CO,Weld,Greeley                                         1
+USA,CT                                                      3
+USA,CT,New Haven,Guilford                                   1
+USA,CT,New London,Stonington                                3
+USA,CT,New London,Voluntown                                 1
+USA,CT,Tolland,Mansfield                                    1
+USA,CT,Tolland,North Mansfield                              1
+USA,CT,Windham,Ashford                                      1
+USA,CT,Windham,Plainfield                                   1
+USA,DE,New Castle,New Castle                                2
+USA,DE,New Castle,Wilmington                                2
+USA,FL,Palm Beach,West Palm Beach                           1
+USA,FL,Polk,Winter Haven                                    1
+USA,GA,DeKalb,Decatur                                       2
+USA,GA,DeKalb,Tucker                                        1
+USA,GA,Fulton,Atlanta                                       2
+USA,IA                                                      3
+USA,IA,Adair,Greenfield                                     1
+USA,IA,Calhoun,Logan                                        1
+USA,IA,Cerro Gordo                                          1
+USA,IA,Cerro Gordo,Plymouth                                 1
+USA,IA,Cherokee                                             2
+USA,IA,Cherokee,Meriden                                     2
+USA,IA,Cherokee,Meriden,Meriden                             1
+USA,IA,Cherokee,Meriden,Sheridan                            1
+USA,IA,Cherokee,Shereden Township                           1
+USA,IA,Cherokee,Sheridan Township                           1
+USA,IA,Clinton,Camanche                                     2
+USA,IA,Jasper                                               4
+USA,IA,Jasper,Colfax                                        5
+USA,IA,Jasper,Colfax,Ward 2                                 1
+USA,IA,Jasper,Colfax,Ward 3                                 1
+USA,IA,Jasper,Greencastle,Poweshiek                         1
+USA,IA,Jasper,Mingo                                         2
+USA,IA,Jasper,Newton                                        11
+USA,IA,Jasper,Newton, Ward 1                                1
+USA,IA,Jasper,Poweshiek                                     3
+USA,IA,Jasper,Poweshiek Township                            1
+USA,IA,Jasper,Prairie City                                  2
+USA,IA,Jasper,Rural                                         2
+USA,IA,Jasper,Sherman                                       1
+USA,IA,Jasper,Valeria                                       2
+USA,IA,Jasper,Van Buren                                     1
+USA,IA,Jasper,Washington                                    1
+USA,IA,Jefferson,                                           1
+USA,IA,Keokuk                                               1
+USA,IA,Keokuk,Washington                                    2
+USA,IA,Keokuk,What Cheer                                    4
+USA,IA,Louisa,Columbus City                                 1
+USA,IA,Louisa,Wapello                                       1
+USA,IA,Madison,St Charles                                   1
+USA,IA,Madison,Winterset                                    2
+USA,IA,Mahaska,Beacon                                       3
+USA,IA,Mahaska,Oskaloosa                                    1
+USA,IA,Marion                                               1
+USA,IA,Marion,Durham                                        1
+USA,IA,Marion,Lake Prairie Township                         2
+USA,IA,Marion,Otley                                         3
+USA,IA,Marion,Pella                                         6
+USA,IA,Marion,Pella,Lake Prairie                            3
+USA,IA,Marion,Pella,Oakwood                                 1
+USA,IA,Marion,Pella,Verenigde Staten,5713,Pella             1
+USA,IA,Marion,Pella,Ward 4                                  1
+USA,IA,Marshall,Marshalltown                                1
+USA,IA,Marshall,Rhodes                                      1
+USA,IA,Muscatine                                            1
+USA,IA,O'Brien,Center                                       1
+USA,IA,O'Brien,Primghar                                     1
+USA,IA,Osceola,Melvin                                       1
+USA,IA,Osceola,Sibley                                       1
+USA,IA,Polk,Broadlowns General Hospital                     1
+USA,IA,Polk,Des Moines                                      2
+USA,IA,Polk,Runnells                                        1
+USA,IA,Polk,Urbandale                                       1
+USA,IA,Ringgold,Kellerton                                   1
+USA,IA,Taylor,Clearfield                                    1
+USA,IA,Wapello                                              2
+USA,IA,Wapello,District 13                                  1
+USA,IA,Wapello,Kirkville                                    1
+USA,IA,Wapello,Richland                                     1
+USA,IA,Warren,Jackson                                       1
+USA,IA,Washington                                           2
+USA,IA,Washington,Crawford                                  1
+USA,IA,Washington,Crawford Township                         1
+USA,IA,Washington,Crawfordsville                            4
+USA,IA,Washington,Division 20                               1
+USA,IA,Woodbury,Liberty                                     1
+USA,IA,Woodbury,Moville                                     1
+USA,IL                                                      4
+USA,IL,Adams,Quincy                                         1
+USA,IL,Brown                                                1
+USA,IL,Bureau,Sheffield                                     1
+USA,IL,Cook                                                 1
+USA,IL,Ford,Melvin                                          1
+USA,IL,Henry                                                1
+USA,IL,Henry,Annawan                                        7
+USA,IL,Henry,Cleveland                                      1
+USA,IL,Henry,Kewanee                                        2
+USA,IL,LaSalle,Vermillion                                   1
+USA,IL,Lake,Waukegan                                        1
+USA,IL,Lee,Dixon                                            1
+USA,IL,Lee,Lee                                              1
+USA,IL,Macon,Decatur                                        2
+USA,IL,McDonough,Hire                                       1
+USA,IL,Peoria,Trivoli                                       1
+USA,IL,Putnam                                               1
+USA,IL,Rock Island                                          3
+USA,IL,Rock Island,Coal Valley                              1
+USA,IL,Rock Island,Moline                                   3
+USA,IL,Rock Island,Moline,523 18th Ave                      1
+USA,IL,Rock Island,Rapids City                              1
+USA,IL,Rock Island,Rock Island                              1
+USA,IL,Sangamon,Springfield                                 1
+USA,IL,Tazewell,East Peoria                                 1
+USA,IL,Vermilion                                            5
+USA,IL,Vermilion,Blount Township                            1
+USA,IL,Vermilion,Danville                                   3
+USA,IL,Vermilion,District 21                                1
+USA,IL,Warren                                               1
+USA,IL,Warren,Monmouth                                      1
+USA,IL,Warren,Monmouth,Lake Warren                          1
+USA,IL,Whiteside,Rapids City                                1
+USA,IL,Whiteside,Sterling                                   1
+USA,IN                                                      4
+USA,IN,Bartholomew,Black Hawk War                           1
+USA,IN,Blackford,Montpelier                                 1
+USA,IN,Brown                                                1
+USA,IN,Carroll                                              5
+USA,IN,Cass                                                 4
+USA,IN,Cass,Adams                                           1
+USA,IN,Cass,Adams,Adams Township                            1
+USA,IN,Cass,Clay                                            1
+USA,IN,Cass,Logansport                                      6
+USA,IN,Cass,Twelve Mile                                     1
+USA,IN,Clark,Bethlehem Township                             4
+USA,IN,Clinton                                              1
+USA,IN,Clinton,Frankfort                                    2
+USA,IN,Clinton,Frankfort,Ward 2                             1
+USA,IN,Elkhart                                              2
+USA,IN,Elkhart,Clinton Township                             1
+USA,IN,Elkhart,Elkhart                                      3
+USA,IN,Elkhart,Locke                                        1
+USA,IN,Elkhart,Middlebury                                   1
+USA,IN,Elkhart,Nappanee                                     1
+USA,IN,Franklin                                             3
+USA,IN,Fulton                                               6
+USA,IN,Fulton,Fulton                                        1
+USA,IN,Fulton,Liberty                                       1
+USA,IN,Fulton,Liberty Township                              1
+USA,IN,Fulton,Union                                         1
+USA,IN,Grant,Marion                                         1
+USA,IN,Hancock,Center                                       1
+USA,IN,Hancock,Greenfield                                   1
+USA,IN,Hancock,Greenfield,Greenfield                        1
+USA,IN,Hancock,Jackson                                      1
+USA,IN,Hancock,Jackson Township,Cleveland                   1
+USA,IN,Hancock,West Grove                                   1
+USA,IN,Hancock,Worth                                        1
+USA,IN,Henry                                                1
+USA,IN,Howard,Kokomo                                        1
+USA,IN,Jay                                                  1
+USA,IN,Jay,Jackson                                          1
+USA,IN,Kosciusko                                            1
+USA,IN,Kosciusko,Atwood                                     2
+USA,IN,Kosciusko,Clunette                                   1
+USA,IN,Kosciusko,Jefferson Township                         1
+USA,IN,Kosciusko,Milford,Jefferson Township                 1
+USA,IN,Kosciusko,North Webster                              1
+USA,IN,Kosciusko,Van Buren Township                         1
+USA,IN,Kosciusko,Warsaw                                     1
+USA,IN,LaGrange                                             7
+USA,IN,LaGrange,Clay                                        1
+USA,IN,LaGrange,LaGrange                                    1
+USA,IN,LaGrange,Newberry                                    1
+USA,IN,LaPorte,Michigan City                                1
+USA,IN,Marion,Indianapolis                                  1
+USA,IN,Marshall                                             4
+USA,IN,Marshall,Bourbon                                     1
+USA,IN,Marshall,Bourbon Township,Bourbon                    3
+USA,IN,Miami                                                2
+USA,IN,Miami,Jefferson Township                             1
+USA,IN,Miami,Jefferson Township,Jefferson                   1
+USA,IN,Miami,Mexico                                         3
+USA,IN,Miami,Mexico,Jefferson Township                      1
+USA,IN,Miami,Perrysburg                                     1
+USA,IN,Miami,Peru                                           4
+USA,IN,Miami,Peru,Ward 3                                    1
+USA,IN,Rush,Ripley                                          1
+USA,IN,St. Joseph,Liberty                                   2
+USA,IN,St. Joseph,Liberty Township                          1
+USA,IN,St. Joseph,Mishawaka                                 1
+USA,IN,St. Joseph,South Bend                                1
+USA,IN,Starke                                               1
+USA,IN,Starke,San Pierre,Washington                         1
+USA,IN,Wabash,Somerset                                      1
+USA,IN,White,Cass Township                                  1
+USA,IN,Whitley                                              1
+USA,IN,Whitley,Cleveland                                    1
+USA,IN,Whitley,Richland                                     1
+USA,KS                                                      1
+USA,KS,Allen,Humboldt                                       1
+USA,KS,Coffey                                               3
+USA,KS,Coffey,Burlington                                    1
+USA,KS,Coffey,Neosho                                        3
+USA,KS,Dickinson,Abilene                                    1
+USA,KS,Phillips,Woodruff                                    1
+USA,KS,Republic,Belleville                                  1
+USA,KS,Republic,Courtland                                   1
+USA,KS,Shawnee,Topeka                                       1
+USA,KS,Wilson                                               1
+USA,KS,Wyandotte,Kansas City                                1
+USA,KY                                                      4
+USA,KY,Boone                                                1
+USA,KY,Bourbon                                              1
+USA,KY,Boyd,Ashland                                         2
+USA,KY,Christian                                            1
+USA,KY,Clinton                                              1
+USA,KY,Clinton,Albany                                       1
+USA,KY,Floyd                                                9
+USA,KY,Floyd,Buse                                           1
+USA,KY,Floyd,Daniels Creek                                  1
+USA,KY,Floyd,East Point                                     1
+USA,KY,Floyd,Floyd                                          1
+USA,KY,Floyd,Jacks Creek                                    3
+USA,KY,Floyd,John's Creek                                   2
+USA,KY,Floyd,Middle Creek                                   1
+USA,KY,Floyd,Mouth Beaver                                   1
+USA,KY,Floyd,My District                                    1
+USA,KY,Floyd,Prestonburg                                    2
+USA,KY,Floyd,Prestonsburg,Precinct 6                        1
+USA,KY,Floyd,Prestonsburg,Precinct 7                        1
+USA,KY,Greenup,Greenup                                      1
+USA,KY,Jefferson                                            1
+USA,KY,Jefferson,Louisville,Ward 5                          1
+USA,KY,Johnson                                              4
+USA,KY,Johnson,Boons Camp                                   1
+USA,KY,Johnson,Daniels Creek                                3
+USA,KY,Johnson,Johns Creek                                  1
+USA,KY,Johnson,Odds                                         1
+USA,KY,Johnson,Paintsville                                  2
+USA,KY,Johnson,Paintsville,Johns Creek                      1
+USA,KY,Johnson,River                                        1
+USA,KY,Johnson,Sub District                                 1
+USA,KY,Johnson,Van Lear                                     1
+USA,KY,Larue                                                1
+USA,KY,Lawrence                                             2
+USA,KY,Lewis                                                1
+USA,KY,Lincoln,Crab Orchard                                 1
+USA,KY,Madison                                              2
+USA,KY,Martin                                               1
+USA,KY,Martin,Warfield                                      2
+USA,KY,McLean,Comer                                         1
+USA,KY,Oldham,Floydsburg                                    1
+USA,KY,Pike                                                 3
+USA,KY,Scott                                                1
+USA,KY,Washington                                           1
+USA,MA                                                      8
+USA,MA,Barnstable                                           4
+USA,MA,Barnstable,Falmouth                                  1
+USA,MA,Barnstable,Sandwich                                  12
+USA,MA,Barnstable,Yarmouth                                  6
+USA,MA,Bristol,Dartmouth                                    2
+USA,MA,Bristol,New Bedford                                  1
+USA,MA,Bristol,Swansea                                      7
+USA,MA,Essex,Andover                                        1
+USA,MA,Essex,Gloucester                                     1
+USA,MA,Essex,Lynn                                           2
+USA,MA,Hampden,Blandford,Blandford                          1
+USA,MA,Hampden,Holyoke                                      2
+USA,MA,Hampshire,Northampton                                1
+USA,MA,Middlesex,Everett                                    1
+USA,MA,Middlesex,Sudbury                                    2
+USA,MA,Norfolk,Weymouth                                     1
+USA,MA,Plymouth,Duxbury                                     1
+USA,MA,Plymouth,Rochester                                   4
+USA,MA,Plymouth,Scituate                                    7
+USA,MA,Suffolk,Boston                                       2
+USA,MA,Suffolk,Boston,Kings Chapel                          1
+USA,MA,Suffolk,Dorchester                                   2
+USA,MA,Suffolk,Roxbury                                      1
+USA,MA,Worcester,Fitchburg                                  1
+USA,MD                                                      5
+USA,MD,Anne Arundel                                         7
+USA,MD,Anne Arundel,Baltimore                               1
+USA,MD,Anne Arundel,St Margarets                            1
+USA,MD,Baltimore                                            2
+USA,MD,Baltimore,Baltimore                                  4
+USA,MD,Baltimore,St Johns Parish                            1
+USA,MD,Baltimore,St Pauls Parish                            3
+USA,MD,Calvert,Calvert Cliffs                               1
+USA,MD,Calvert,Cliffs                                       1
+USA,MD,Carroll                                              1
+USA,MD,Carroll,Westminster                                  1
+USA,MD,Charles                                              2
+USA,MD,Frederick                                            6
+USA,MD,Frederick,Frederick                                  4
+USA,MD,Frederick,Liberty                                    1
+USA,MD,Frederick,Libertytown                                1
+USA,MD,Frederick,Winchester                                 1
+USA,MD,Frederick,Woodsboro                                  1
+USA,MD,Frederick,Woodsborough                               1
+USA,MD,Harford                                              1
+USA,MD,Montgomery,Somerset                                  1
+USA,MD,Prince George's                                      1
+USA,MD,Prince George's,Upper Marlborough                    2
+USA,MD,Somerset                                             6
+USA,MD,Somerset,Cattle Marks                                1
+USA,MD,Somerset,Manokin                                     3
+USA,MD,Somerset,Stepney Parish                              2
+USA,MD,Washington,Linton Hundred                            1
+USA,MD,Wicomico,Stepney Parish                              1
+USA,ME,Aroostook,Grand Isla                                 1
+USA,ME,Aroostook,Presque Isle                               1
+USA,ME,Aroostook,Van Buren                                  5
+USA,ME,Aroostook,Van Buren,St Bruno                         1
+USA,ME,Aroostook,Van Buren,St Brunos Parish                 2
+USA,ME,Aroostook,Van Buren,Van Buren Plantation             1
+USA,ME,Hancock,Trenton                                      1
+USA,ME,Washington,Machias                                   1
+USA,ME,York,Berwick                                         1
+USA,MI,Eaton,Eaton Rapids                                   1
+USA,MI,Macomb,Erin                                          1
+USA,MI,Manistee,Brethen                                     1
+USA,MI,Manistee,Brethern                                    1
+USA,MI,Manistee,Brethren                                    1
+USA,MI,Manistee,Dickson                                     1
+USA,MI,St. Joseph,Three Rivers                              1
+USA,MI,Wayne,Canton                                         1
+USA,MI,Wayne,Detroit                                        1
+USA,MI,Wayne,Plymouth                                       1
+USA,MN                                                      5
+USA,MN,Anoka                                                2
+USA,MN,Anoka,Anoka                                          1
+USA,MN,Anoka,Coon Rapids                                    1
+USA,MN,Anoka,Fridley,5720 E River Rd                        1
+USA,MN,Becker                                               2
+USA,MN,Becker,Detroit Lakes                                 2
+USA,MN,Becker,Green Valley                                  1
+USA,MN,Becker,Omega                                         1
+USA,MN,Becker,Richwood                                      1
+USA,MN,Becker,Rural                                         1
+USA,MN,Becker,White Earth                                   6
+USA,MN,Becker,White Earth Indian Reservation                1
+USA,MN,Beltrami                                             2
+USA,MN,Beltrami,Bemidji                                     3
+USA,MN,Cass                                                 1
+USA,MN,Cass,Remer                                           2
+USA,MN,Cass,Remer Township,Remer                            1
+USA,MN,Cass,Rural                                           1
+USA,MN,Cass,Shingobee                                       2
+USA,MN,Cass,Turtle Lake                                     1
+USA,MN,Cass,Walker                                          1
+USA,MN,Chisago,Lindstrom                                    1
+USA,MN,Clay,Moorehead                                       1
+USA,MN,Crow Wing,Brainerd                                   1
+USA,MN,Dakota,Apple Valley                                  1
+USA,MN,Dakota,St Paul                                       1
+USA,MN,Freeborn,Albert Lea                                  1
+USA,MN,Grant,Barrett                                        1
+USA,MN,Hennepin                                             5
+USA,MN,Hennepin,Bloomington                                 1
+USA,MN,Hennepin,Brooklyn Center,3813 N Janet lane           1
+USA,MN,Hennepin,Brooklyn Park                               1
+USA,MN,Hennepin,Champlin                                    4
+USA,MN,Hennepin,Champlin,Champlin                           1
+USA,MN,Hennepin,Excelsior                                   2
+USA,MN,Hennepin,Hopkins                                     2
+USA,MN,Hennepin,Minneapolis                                 15
+USA,MN,Hennepin,Minneapolis,                                1
+USA,MN,Hennepin,Minneapolis,1604 Park Av                    1
+USA,MN,Hennepin,Minneapolis,1815 Forty Sixth Avenue N       1
+USA,MN,Hennepin,Minneapolis,3839 Lyndale Avenue N           1
+USA,MN,Hennepin,Minneapolis,Ward 1                          1
+USA,MN,Hennepin,Minneapolis,Ward 10                         1
+USA,MN,Hennepin,Minneapolis,Ward 11                         1
+USA,MN,Hennepin,Minneapolis,Ward 4                          1
+USA,MN,Hennepin,Minneapolis,Ward 9                          1
+USA,MN,Hennepin,Mound,Lake Minnetonka                       1
+USA,MN,Hennepin,Osseo                                       1
+USA,MN,Hennepin,Richfield                                   1
+USA,MN,Hennepin,Robbinsdale                                 2
+USA,MN,Hubbard                                              1
+USA,MN,Hubbard,Badoura                                      1
+USA,MN,Hubbard,Park Rapids                                  1
+USA,MN,Itasca                                               2
+USA,MN,Itasca,Ball Club                                     1
+USA,MN,Itasca,Bass Lake                                     1
+USA,MN,Itasca,Cohasset                                      2
+USA,MN,Itasca,Coleraine                                     1
+USA,MN,Itasca,Deer River                                    10
+USA,MN,Itasca,Grand Rapids                                  11
+USA,MN,Itasca,Rural                                         1
+USA,MN,Kittson                                              1
+USA,MN,Kittson,South Red River Township                     3
+USA,MN,Kittson,St Vincent                                   1
+USA,MN,Lake of the Woods                                    1
+USA,MN,Lyon,Marshall                                        1
+USA,MN,Mahnomen                                             1
+USA,MN,Mahnomen,Lake Grove                                  1
+USA,MN,Marshall,Argyle                                      1
+USA,MN,McLeod                                               1
+USA,MN,Meeker                                               1
+USA,MN,Meeker,Dassel                                        1
+USA,MN,Meeker,Eden Valley                                   1
+USA,MN,Meeker,Kingston                                      4
+USA,MN,Meeker,Kingston Township                             1
+USA,MN,Nobles                                               1
+USA,MN,Norman,Twin Valley                                   2
+USA,MN,Otter Tail                                           1
+USA,MN,Otter Tail,Blowers                                   1
+USA,MN,Otter Tail,Fergus Falls                              1
+USA,MN,Otter Tail,Newton                                    1
+USA,MN,Otter Tail,Otter Tail                                1
+USA,MN,Pennington,Thief River Falls                         3
+USA,MN,Pipestone,Pipestone                                  1
+USA,MN,Ramsey                                               1
+USA,MN,Ramsey,St Paul                                       2
+USA,MN,Ramsey,St Paul, Ward 10                              1
+USA,MN,Rice,Cannon City                                     1
+USA,MN,Rice,Fairbault                                       1
+USA,MN,Rice,Northfield                                      1
+USA,MN,St. Louis                                            1
+USA,MN,St. Louis,Duluth                                     1
+USA,MN,Todd,Gray Eagle                                      1
+USA,MN,Wadena                                               5
+USA,MN,Wadena,Red Eye                                       1
+USA,MN,Wadena,Red Eye,Rural                                 1
+USA,MN,Wadena,Rockwood                                      2
+USA,MN,Wadena,Sebeka                                        3
+USA,MN,Wadena,Sebeka,Kirkwood                               1
+USA,MN,Wadena,Verndale                                      2
+USA,MN,Wadena,Wadena                                        3
+USA,MN,Wilkin,Breckenridge                                  1
+USA,MN,Winona,Minnesota City                                1
+USA,MN,Wright                                               2
+USA,MN,Wright,Howard Lake                                   2
+USA,MN,Wright,Monticello                                    1
+USA,MN,Wright,Otsego                                        1
+USA,MN,Wright,South Haven                                   2
+USA,MN,Wright,Southside Township                            2
+USA,MO,Clay,Kansas City                                     1
+USA,MO,Morgan,Stover                                        1
+USA,MT                                                      1
+USA,MT,Flathead,Kalispell                                   2
+USA,MT,Flathead,Somers                                      2
+USA,MT,Missoula,Missoula                                    4
+USA,NC                                                      3
+USA,NC,Burke                                                1
+USA,NC,Onslow                                               1
+USA,NC,Orange                                               1
+USA,NC,Rockingham,Salisbury                                 1
+USA,NC,Rowan                                                2
+USA,NC,Rowan,Salisbury                                      1
+USA,NC,Surry                                                4
+USA,NC,Surry,Capt John G Poindexters District               1
+USA,NC,Yadkin,rowan                                         1
+USA,ND                                                      3
+USA,ND,Barnes,Valley City                                   1
+USA,ND,Cass,Fargo                                           2
+USA,ND,Grand Forks                                          1
+USA,ND,Grand Forks,Grand Forks                              1
+USA,ND,Pembina                                              1
+USA,ND,Pembina,South Pembina                                1
+USA,ND,Ramsey,Devils Lake                                   3
+USA,ND,Ramsey,Odessa                                        1
+USA,ND,Rolette                                              7
+USA,ND,Rolette,Ellsworth                                    1
+USA,ND,Rolette,Island Lake                                  2
+USA,ND,Rolette,Mylo                                         3
+USA,ND,Rolette,Rice Township                                2
+USA,ND,Rolette,Rice Township,159 Range 71,Rice              1
+USA,ND,Rolette,Rolla                                        2
+USA,ND,Rolette,Rural                                        1
+USA,ND,Rolette,Scotch Block                                 1
+USA,ND,Rolette,Union                                        1
+USA,ND,Rolette,Union,Union                                  1
+USA,ND,Towner                                               1
+USA,ND,Towner,Bisbee                                        1
+USA,ND,Towner,Perth                                         2
+USA,ND,Walsh                                                2
+USA,ND,Walsh,Dundee                                         1
+USA,ND,Walsh,Glenwood                                       1
+USA,ND,Walsh,Glenwood Township                              1
+USA,ND,Walsh,Grafton                                        1
+USA,ND,Williams,Dry Fork                                    1
+USA,ND,Williams,Tioga                                       1
+USA,ND,Williams,Williston                                   1
+USA,NE                                                      1
+USA,NE,Dakota,Jackson                                       1
+USA,NE,Douglas,Omaha                                        2
+USA,NE,Gage,Beatrice                                        1
+USA,NE,Gage,Wymore                                          2
+USA,NE,Harlan,Prairie                                       1
+USA,NE,Knox                                                 1
+USA,NE,Knox,Bloomfield                                      1
+USA,NE,Lancaster,Lincoln                                    1
+USA,NE,Madison,Union Creek Precinct                         1
+USA,NE,Sarpy,Bellevue                                       1
+USA,NE,Thayer,Byron                                         2
+USA,NJ,Essex,Newark                                         1
+USA,NJ,Middlesex,Woodbridge Township                        1
+USA,NJ,Morris,Towaco                                        1
+USA,NV                                                      1
+USA,NV,Carson City,Carson City                              2
+USA,NV,Clark,Las Vegas                                      2
+USA,NV,Douglas                                              1
+USA,NV,Washoe                                               1
+USA,NV,Washoe,Reno                                          3
+USA,NV,Washoe,Sparks                                        1
+USA,NY                                                      6
+USA,NY,Cayuga                                               2
+USA,NY,Clinton                                              2
+USA,NY,Clinton,Churubusco                                   2
+USA,NY,Clinton,Clinton                                      3
+USA,NY,Clinton,Ellenburg                                    1
+USA,NY,Clinton,Mooers Forks,Clinton                         1
+USA,NY,Clinton,Standish                                     1
+USA,NY,Clinton,Wellsburg                                    1
+USA,NY,Clinton,Wellsburgh                                   1
+USA,NY,Franklin,Bellmont                                    1
+USA,NY,Genesee                                              1
+USA,NY,Livingston,Avon                                      1
+USA,NY,Monroe,Rochester                                     1
+USA,NY,New York                                             1
+USA,NY,New York,Port of New York                            1
+USA,NY,Otsego,Richfield Springs                             1
+USA,NY,Rensselaer,Grafton                                   1
+USA,NY,Rensselaer,Hoosick                                   4
+USA,NY,Rensselaer,Hoosick Falls                             1
+USA,NY,Schenectady,Schenectady                              1
+USA,NY,Steuben,Towlesville                                  1
+USA,NY,Washington,Argyle                                    1
+USA,NY,Washington,Jackson                                   1
+USA,NY,Washington,Salem                                     1
+USA,NY,Washington,White Creek                               2
+USA,OH                                                      5
+USA,OH,Ashtabula,Jefferson                                  1
+USA,OH,Athens                                               1
+USA,OH,Athens,Chauncey                                      1
+USA,OH,Athens,Dover Township                                3
+USA,OH,Athens,Nelsonville                                   1
+USA,OH,Athens,Trimble Township                              1
+USA,OH,Athens,York                                          1
+USA,OH,Athens,York Township                                 2
+USA,OH,Brown,Perry Township                                 1
+USA,OH,Brown,Union                                          1
+USA,OH,Butler,Hamilton                                      1
+USA,OH,Clark                                                1
+USA,OH,Clark,Mad River                                      1
+USA,OH,Clermont                                             1
+USA,OH,Clinton,Chester Township                             1
+USA,OH,Clinton,Wilmington                                   1
+USA,OH,Coshocton,Coshocton                                  1
+USA,OH,Crawford                                             1
+USA,OH,Darke                                                2
+USA,OH,Defiance,Defiance                                    1
+USA,OH,Fulton,Fulton                                        1
+USA,OH,Hamilton,Harrison City                               1
+USA,OH,Hamilton,Montgomery                                  1
+USA,OH,Harrison                                             7
+USA,OH,Harrison,Athens Township                             1
+USA,OH,Harrison,Cadiz                                       4
+USA,OH,Harrison,Cadiz Township                              1
+USA,OH,Harrison,Franklin                                    1
+USA,OH,Harrison,Hanover                                     1
+USA,OH,Harrison,Monroe                                      1
+USA,OH,Harrison,Monroe Tonwship                             1
+USA,OH,Harrison,New Athens                                  1
+USA,OH,Harrison,North                                       1
+USA,OH,Harrison,Nottingham                                  1
+USA,OH,Harrison,Nottingham Township                         1
+USA,OH,Harrison,Scio                                        1
+USA,OH,Harrison,Stock                                       1
+USA,OH,Hocking,Ward                                         1
+USA,OH,Huron,Norwalk                                        1
+USA,OH,Huron,Townsend Township                              1
+USA,OH,Jackson                                              1
+USA,OH,Jefferson                                            2
+USA,OH,Lake,Madison                                         1
+USA,OH,Lake,Perry                                           1
+USA,OH,Marion                                               1
+USA,OH,Medina                                               1
+USA,OH,Meigs                                                3
+USA,OH,Meigs,Bedford                                        1
+USA,OH,Meigs,Meigs                                          1
+USA,OH,Miami,Elizabeth                                      1
+USA,OH,Montgomery                                           3
+USA,OH,Montgomery,Brookville                                1
+USA,OH,Montgomery,Germantown                                1
+USA,OH,Montgomery,Liberty                                   1
+USA,OH,Muskingum,Zanesville                                 1
+USA,OH,Noble,Whigville                                      1
+USA,OH,Perry,Bristol,Baptist Churchyard                     1
+USA,OH,Pike                                                 3
+USA,OH,Pike,Beaver                                          1
+USA,OH,Pike,Pike Township                                   1
+USA,OH,Pike,Piketon                                         1
+USA,OH,Preble                                               4
+USA,OH,Preble,Preble                                        1
+USA,OH,Ross                                                 1
+USA,OH,Stark                                                3
+USA,OH,Stark,Alliance                                       1
+USA,OH,Stark,Paris                                          1
+USA,OH,Tuscarawas,Uhrichsville                              1
+USA,OH,Tuscarawas,Union                                     1
+USA,OK,Comanche,Lawton                                      1
+USA,OR,Clackamas                                            2
+USA,OR,Clackamas,Portland                                   1
+USA,OR,Douglas,Roseburg                                     1
+USA,OR,Lane                                                 1
+USA,OR,Lane,Eugene                                          2
+USA,OR,Lane,Springfield                                     1
+USA,OR,Multnomah                                            1
+USA,OR,Multnomah,Portland                                   4
+USA,OR,Umatilla,Pendleton                                   1
+USA,OR,Washington,Beaverton                                 1
+USA,PA                                                      10
+USA,PA,Allegheny                                            1
+USA,PA,Armstrong                                            1
+USA,PA,Bedford                                              1
+USA,PA,Bedford,Huntingdon                                   1
+USA,PA,Blair                                                1
+USA,PA,Bucks,Rock Hill                                      1
+USA,PA,Chester                                              4
+USA,PA,Chester,Kennet Township                              1
+USA,PA,Chester,Kennett                                      2
+USA,PA,Chester,Kennett Square                               3
+USA,PA,Chester,Kennett,Friends Burying                      1
+USA,PA,Chester,West Chester                                 1
+USA,PA,Delaware,Chester,St Pauls                            1
+USA,PA,Fayette                                              1
+USA,PA,Fayette,Masontown                                    1
+USA,PA,Franklin                                             2
+USA,PA,Greene                                               3
+USA,PA,Greene,Greene                                        1
+USA,PA,Huntingdon,Mill Creek                                1
+USA,PA,Lancaster                                            3
+USA,PA,Lancaster,East Hempfield                             1
+USA,PA,Lancaster,Kissel Hill                                1
+USA,PA,Lawrence,New Castle                                  1
+USA,PA,Lehigh                                               2
+USA,PA,Montgomery,Harleysville,Old Goshenhoppen Church      1
+USA,PA,Montgomery,Telford                                   1
+USA,PA,Northampton,Whitehall                                1
+USA,PA,Philadelphia                                         1
+USA,PA,Philadelphia,Philadelphia                            1
+USA,PA,Pike,Milford                                         2
+USA,PA,Somerset                                             7
+USA,PA,Somerset,Somerset                                    1
+USA,PA,Somerset,Turkey Creek Township                       1
+USA,PA,Somerset,Turkeyfoot                                  1
+USA,PA,Somerset,Turkeyfoot Township                         5
+USA,PA,Washington                                           1
+USA,RI                                                      1
+USA,RI,Bristol                                              2
+USA,RI,Bristol,Barrington                                   1
+USA,RI,Bristol,Bristol                                      2
+USA,RI,Newport,Portsmouth                                   4
+USA,RI,Providence,Foster                                    1
+USA,RI,Washington,Exeter                                    1
+USA,RI,Washington,Westerly                                  3
+USA,SC,Anderson,Eastern Subdivision                         1
+USA,SC,Anderson,Williamston                                 1
+USA,TN,Bedford                                              1
+USA,TN,Blount,Friendsville                                  1
+USA,TN,Davidson,Nashville                                   2
+USA,TN,Greene                                               1
+USA,TN,Hamilton,Chatanooga                                  1
+USA,TN,Hamilton,Chattanooga,U S Army Hospital               1
+USA,TN,Sevier                                               1
+USA,TX,Comanche,Comanche                                    1
+USA,TX,El Paso,El Paso                                      1
+USA,TX,Foard,Crowell                                        1
+USA,TX,Harris                                               1
+USA,TX,Harris,Channelview                                   2
+USA,TX,Harris,Houston                                       1
+USA,TX,Llano,Kingsland                                      1
+USA,VA                                                      10
+USA,VA,Accomack                                             1
+USA,VA,Accomack,Franklin City                               1
+USA,VA,Accomack,York                                        1
+USA,VA,Albemarle                                            6
+USA,VA,Albemarle,Browns Cove                                1
+USA,VA,Albemarle,Fredricksville Parish                      1
+USA,VA,Augusta                                              2
+USA,VA,Augusta,Bath                                         1
+USA,VA,Augusta,Cowpasture                                   1
+USA,VA,Bath                                                 1
+USA,VA,Bland,Bland                                          1
+USA,VA,Botetourt                                            1
+USA,VA,Buckingham                                           1
+USA,VA,Buckingham,Buckingham                                1
+USA,VA,Buckingham,Northern District                         1
+USA,VA,Chesterfield                                         3
+USA,VA,Chesterfield,Chesterfield                            2
+USA,VA,Culpeper                                             2
+USA,VA,Essex,Rappahannock River                             3
+USA,VA,Fairfax,Vienna                                       3
+USA,VA,Fauquier                                             3
+USA,VA,Fauquier,No Two Listed                               1
+USA,VA,Fauquier,Warrentown                                  1
+USA,VA,Floyd                                                2
+USA,VA,Floyd,Copper Hill                                    2
+USA,VA,Floyd,Floyd                                          1
+USA,VA,Franklin                                             4
+USA,VA,Franklin,Callaway                                    1
+USA,VA,Franklin,Henry                                       1
+USA,VA,Franklin,Nicholas Creek                              1
+USA,VA,Frederick                                            1
+USA,VA,Goochland,Goochland                                  1
+USA,VA,Greensville,Hicksford                                1
+USA,VA,Halifax                                              3
+USA,VA,Hanover                                              4
+USA,VA,Hanover,Anna River,St. Pauls Parish                  1
+USA,VA,Hanover,Doswell,Glen Cairn Cemetery                  1
+USA,VA,Hanover,Forks                                        1
+USA,VA,Hanover,Hanover                                      1
+USA,VA,Hanover,New Kent, in 1719 became St Pauls Parish     1
+USA,VA,Hanover,St Martins                                   1
+USA,VA,Hanover,St Pauls Parish                              2
+USA,VA,Hanover,St Peters Parish                             2
+USA,VA,Hanover,The Forks                                    1
+USA,VA,Henrico                                              2
+USA,VA,Henry                                                1
+USA,VA,James City,Jamestown                                 1
+USA,VA,King William,King William                            3
+USA,VA,Lee                                                  1
+USA,VA,Lee,District 31                                      1
+USA,VA,Lunenburg                                            3
+USA,VA,Montgomery                                           2
+USA,VA,Montgomery,Blacksburg                                1
+USA,VA,New Kent                                             4
+USA,VA,New Kent,Forks                                       1
+USA,VA,New Kent,New Kent                                    2
+USA,VA,New Kent,Pamunkey River                              1
+USA,VA,New Kent,St Peters                                   1
+USA,VA,Patrick                                              3
+USA,VA,Patrick,Goblintown Creek                             1
+USA,VA,Powhatan,Powhatan                                    1
+USA,VA,Prince William                                       1
+USA,VA,Rappahannock,Washington                              2
+USA,VA,Rockingham                                           2
+USA,VA,Rockingham,Linville Creek                            1
+USA,VA,Scott                                                3
+USA,VA,Spotsylvania,Fredericksburg                          2
+USA,VA,Sussex                                               1
+USA,VA,Washington                                           6
+USA,VA,Washington,1833,USA,KY,Floyd,1848                    1
+USA,VA,Wythe                                                1
+USA,VA,York,Yorkhampton                                     1
+USA,VT                                                      1
+USA,VT,Bennington,Sandgate                                  3
+USA,VT,Windham,Petitioners                                  1
+USA,VT,Windsor                                              1
+USA,VT,Windsor,Royalton                                     2
+USA,VT,Windsor,Sharon                                       4
+USA,WA,Chelan,Peshastin                                     1
+USA,WA,Grays Harbor,Grayland                                1
+USA,WA,Grays Harbor,Hoquiam                                 1
+USA,WA,King,Seattle                                         3
+USA,WA,Snohomish,Arlington                                  1
+USA,WA,Thurston,                                            1
+USA,WA,Thurston,Olympia                                     1
+USA,WA,Thurston,South Bay                                   1
+USA,WA,Thurston,South Bay,South Bay                         1
+USA,WA,Walla Walla,Waitsburg                                1
+USA,WA,Whatcom,Bellingham                                   1
+USA,WI                                                      4
+USA,WI,Adams,Friendship                                     1
+USA,WI,Adams,Roche a Cri                                    2
+USA,WI,Adams,Strongs Prairie                                2
+USA,WI,Adams,Strongs Prairie Township                       1
+USA,WI,Burnett,Grantsburg                                   1
+USA,WI,Burnett,Siren                                        2
+USA,WI,Burnett,Webster                                      1
+USA,WI,Dane,Black Earth,Vermont Township                    1
+USA,WI,Dane,Vermont                                         1
+USA,WI,Dane,Vermont Township                                1
+USA,WI,Douglas,Superior                                     1
+USA,WI,Eau Claire                                           1
+USA,WI,Eau Claire,Eau Claire                                2
+USA,WI,Iron,Mercer                                          1
+USA,WI,Lincoln,Tomahawk                                     1
+USA,WI,Milwaukee,Milwaukee                                  1
+USA,WI,Milwaukee,Wauwatosa                                  1
+USA,WI,Polk,Georgetown                                      1
+USA,WI,Sauk,Spring Green                                    1
+USA,WI,St. Croix                                            1
+USA,WI,St. Croix,Somerset                                   1
+USA,WI,St. Croix,Star Prairie                               2
+USA,WI,Wood,Saratoga                                        1
+USA,WV                                                      1
+USA,WV,Cabell                                               3
+USA,WV,Cabell,District 10                                   1
+USA,WV,Cabell,Falls Mills PO                                1
+USA,WV,Calhoun                                              1
+USA,WV,Clay,Pleasant                                        1
+USA,WV,Greenbrier                                           1
+USA,WV,Hancock                                              1
+USA,WV,Lincoln                                              2
+USA,WV,Lincoln,Griffithsville                               1
+USA,WV,Logan                                                1
+USA,WV,Logan,Holden                                         1
+USA,WV,Logan,Logan                                          1
+USA,WV,Monroe                                               1
+USA,WV,Wayne                                                4
+USA,WV,Wayne,Genoa                                          1
