@@ -33,6 +33,7 @@ export const GedcomPlaceKeys = new Map([
     ["'s-Gravendeel,Zuid Holland,Nederland", "NLD,ZUI,'s-Gravendeel"],
     ["131 Northampton Rd, Leicester, Leicestershire, England", "ENG,LEI,Leicester,131 Northampton Rd"], // 1
     ["1365 Spruce Pi", "USA,MN,Hennepin"], // 1 Ray Heddens - Louise Petruskas wedding
+    ["1595-1600 Streefkerk", "NLD,ZUI,Liesveld,Streefkerk,1595 1600 Streefkerk"], // 1
     ["1604 Park Av.", "USA,MN,Hennepin,Minneapolis,1604 Park Av"], // 1 Ray Vernon Heddens undated newspaper marriage index
     ["1815 Forty-Sixth Avenue N., Minneapolis, Hennepin, MN, USA", "USA,MN,Hennepin,Minneapolis,1815 Forty Sixth Avenue N "], // 1
     ["37 Allen St Co Durham", "ENG,DUR,37 Allen St,Co Durham"], // Thomas Nattrass microfilm, could be ENG or CAN
@@ -121,7 +122,6 @@ export const GedcomPlaceKeys = new Map([
     ["Ayr, Ayrshire, Scotland", "SCO,AYR,Ayr"],
     ["Backstugan Nyalund, Gubbsmåla, Södra Sandsjö, Kronoberg, Sverige", "SWE,KRO,Södra Sandsjö,Gubbsmåla,Backstugan Nyalund"], // 2
     ["Badoura, Hubbard, Minnesota, United States", "USA,MN,Hubbard,Badoura"], // 1
-    
     ["Bagworth, Leicestershire, England", "ENG,LEI,Bagworth"],
     ["Baie-St-Paul, Charlevoix, Quebec, Canada", "CAN,QC,Charlevoix,Baie-St-Paul"],
     ["Ball Club, Itasca, Minnesota, USA", "USA,MN,Itasca,Ball Club"],
@@ -339,6 +339,7 @@ export const GedcomPlaceKeys = new Map([
     ["Clark, Ohio, USA", "USA,OH,Clark"],  // 1
     ["Clay, Cass, Indiana, USA", "USA,IN,Cass,Clay"], // 1
     ["Clay, La Grange, Indiana, USA", "USA,IN,LaGrange,Clay"], // 2
+    ["Clearfield, Taylor County, Iowa, United States of America", "USA,IA,Taylor,Clearfield"], // 1
     ["Cleveland, Whitley, Indiana, USA", "USA,IN,Whitley,Cleveland"], // 1
     ["Cleveland, Illinois", "USA,IL,Henry,Cleveland"],
     ["Cliffs, Calvert, Maryland, USA", "USA,MD,Calvert,Cliffs"], // 1
@@ -534,6 +535,7 @@ export const GedcomPlaceKeys = new Map([
     ["Floyd, Floyd, Kentucky, USA", "USA,KY,Floyd,Floyd"], // 4
     ["Floyd, Floyd, Virginia, USA", "USA,VA,Floyd,Floyd"], // 1
     ["Floyd, Virginia, USA", "USA,VA,Floyd"], // 1
+    ["Floydsburg, Oldham County, Kentucky, United States of America", "USA,KY,Oldham,Floydsburg"], // 1
     ["Forks, Hanover, Virginia, USA", "USA,VA,Hanover,Forks"],
     ["Forks, New Kent, Virginia, USA", "USA,VA,New Kent,Forks"],
     ["Foster, Providence, Rhode Island, USA", "USA,RI,Providence,Foster"],
@@ -541,10 +543,12 @@ export const GedcomPlaceKeys = new Map([
     ["Frankfort, Clinton, Indiana, USA", "USA,IN,Clinton,Frankfort"], // 2
     ["Frankfort, Indiana, USA", "USA,IN,Clinton,Frankfort"], // 1
     ["Franklin, Pennsylvania, USA", "USA,PA,Franklin"], // 1
+    ["Franklin, Harrison, Ohio, USA", "USA,OH,Harrison,Franklin"], // 1
     ["Franklin County, Indiana, USA", "USA,IN,Franklin"],  // 1
     ["Franklin Cty, Virginia, USA", "USA,VA,Accomack,Franklin City"],  // 1
     ["Frederick, MD", "USA,MD,Frederick"],  // 1
     ["Frederick, Maryland, USA", "USA,MD,Frederick"],  // 1
+    ["Frederick, Virginia, USA", "USA,VA,Frederick"], // 2
     ["Frederick County, Maryland", "USA,MD,Frederick"],
     ["Frederick, Frederick, Maryland, United States", "USA,MD,Frederick,Frederick"],
     ["Franklin Co, IN, USA", "USA,IN,Franklin"],
@@ -563,6 +567,9 @@ export const GedcomPlaceKeys = new Map([
     ["Fredericksburg, Spotsylvania, Virginia, United States", "USA,VA,Spotsylvania,Fredericksburg"],
     ["Fredericksburg, Virginia, USA", "USA,VA,Spotsylvania,Fredericksburg"],
     ["Fredricksville Parish, Albemarle County, Virginia, United States", "USA,VA,Albemarle,Fredricksville Parish"], // 1
+    ["Friends Burying, Kennett, Chester, Pennsylvania, USA", "USA,PA,Chester,Kennett,Friends Burying"], // 1
+    ["Friendsville, Blount, Tennessee, United States", "USA,TN,Blount,Friendsville"], // 1
+    ["Frosterley, Durham, England", "ENG,DUR,Frosterley"], // 1
     ["Fulton County, Indiana, USA", "USA,IN,Fulton"],
     ["Fulton, Indiana, USA", "USA,IN,Fulton"],
     ["Fulton Co, Indiana, USA", "USA,IN,Fulton"],  // 1
@@ -575,15 +582,27 @@ export const GedcomPlaceKeys = new Map([
     ["Gameren, Gelderland, Pays-Bas", "NLD,GEL,Gameren"],
     ["Gateshead, Durham,England", "ENG,DUR,Gateshead"],
     ["Genesee, New York, USA", "USA,NY,Genesee"],  // 1
+    ["Genoa, Wayne County, West Virginia, United States of America", "USA,WV,Wayne,Genoa"], // 1
+    ["Georgetown, Polk, Wisconsin, USA", "USA,WI,Polk,Georgetown"], // 1
+    ["Germantown, Montgomery County, Ohio, United States of America", "USA,OH,Montgomery,Germantown"], // 1
     ["Germany", "DEU"],
     ["Germany, Allemagne", "DEU"],
     ["Germany, Baden-Wuerttemberg, Germany", "DEU,BW"],
     ["Glasgow, Lanarkshire, Scotland", "SCO,LKS,Glasgow"],
+    ["Glen Cairn, Doswell, VA, British Colonies, Virginia, USA", "USA,VA,Hanover,Doswell,Glen Cairn Cemetery"], // 1
+    ["Glenfield, Leicestershire, England", "ENG,LEI,Glenfield"], // 1
     ["Glenwood, Walsh, North Dakota, USA", "USA,ND,Walsh,Glenwood"], // 2
+    ["Glenwood Twp, Walsh, North Dakota, USA", "USA,ND,Walsh,Glenwood Township"], // 1
     ["Gloucester, Essex, Massachusetts, United States", "USA,MA,Essex,Gloucester"],
+    ["Goblintown Creek, Patrick, Virginia, USA", "USA,VA,Patrick,Goblintown Creek"], // 1
     ["Goochland, Goochland, Virginia, USA", "USA,VA,Goochland,Goochland"],
     ["Goudswaard, Korendijk, Zuid-Holland, Netherlands", "NLD,ZUI,Korendijk,Goudswaard"],
+    ["Gra Forks, Grand Forks, North Dakota, USA", "USA,ND,Grand Forks,Grand Forks"], // 1
+    ["Grand Falls, Victoria, New Brunswick, Canada", "CAN,NB,Victoria,Grand Falls"], // 1
+    ["Grand Forks, N.D.", "USA,ND,Grand Forks"], // 1
+    ["Grafton, Walsh, North Dakota, USA", "USA,ND,Walsh,Grafton"], // 1
     ["Grand Isle, Aroostook, Maine, USA", "USA,ME,Aroostook,Grand Isla"],
+    ["Grand Rapids, Itasca, Minnesota, United States", "USA,MN,Itasca,Grand Rapids"], // 2
     ["Grand Rapids, Itasca County, Minnesota, United States of America", "USA,MN,Itasca,Grand Rapids"],
     ["Grand Rapids, Itasca, Minnesota USA", "USA,MN,Itasca,Grand Rapids"],
     ["Grand Rapids, Itasca, Minnesota, USA", "USA,MN,Itasca,Grand Rapids"],
@@ -594,13 +613,23 @@ export const GedcomPlaceKeys = new Map([
     ["Grand Rapids, MN", "USA,MN,Itasca,Grand Rapids"], // 5
     ["Grand Rapids, Minnesota, USA", "USA,MN,Itasca,Grand Rapids"], // 9
     ["Grand Rapids", "USA,MN,Itasca,Grand Rapids"], // 2
+    ["Grange, Leicestershire, England", "ENG,LEI,Grange"], // 1
     ["Grayland, Washington, USA", "USA,WA,Grays Harbor,Grayland"], // 1
     ["Gray Eagle, Todd Co., MN, Minnesota, USA", "USA,MN,Todd,Gray Eagle"],
-    ["Greene, Pennsylvania, USA", "USA,PA,Greene"],
+    ["Greeley, Weld County, Colorado, United States of America", "USA,CO,Weld,Greeley"], // 1
+    ["Greenbrier County, West Virginia, USA", "USA,WV,Greenbrier"], // 1
+    ["Greenfield, Adair County, Iowa, United States of America", "USA,IA,Adair,Greenfield"], // 1
+    ["Greenfield, Hancock, Indiana, USA", "USA,IN,Hancock,Greenfield"], // 2
+    ["Greenup, Greenup, Kentucky, United States", "USA,KY,Greenup,Greenup"], // 1
     ["Green, Pennsylvania, USA", "USA,PA,Greene"],
+    ["Green Valley, Becker, Minnesota, USA", "USA,MN,Becker,Green Valley"], // 1
+    ["Greene, Greene, Pennsylvania, United States", "USA,PA,Greene,Greene"], // 1
+    ["Greene, Pennsylvania, USA", "USA,PA,Greene"],
     ["Greene, Greene, Pennsylvania, USA", "USA,PA,Greene"],
     ["Greene, Tennessee, United States", "USA,TN,Greene"],  // 1
     ["Greenfield, Greenfield, Hancock, Indiana, USA", "USA,IN,Hancock,Greenfield,Greenfield"], // 5
+    ["Greup, Zuid-Holland, Pays-Bas", "NLD,ZUI,Greup"], // 1
+    ["Guilford, New Haven, Connecticut, United States", "USA,CT,New Haven,Guilford"], // 1
     ["Grönadal Södergård, Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Grönadal Södergård"],
     ["Halifax, Virginia, USA", "USA,VA,Halifax"],
     ["Halifax, Halifax, Virginia, United States", "USA,VA,Halifax"],
@@ -608,6 +637,7 @@ export const GedcomPlaceKeys = new Map([
     ["Halls End, Warwickshire, England", "ENG,WAR,Halls End"],
     ["Hammersmith, London, England", "ENG,LND,Hammersmith"], // 2
     ["Hamilton, Butler, Ohio, USA", "USA,OH,Butler,Hamilton"], // 5
+    ["Hanover, Harrison Co., Ohio", "USA,OH,Harrison,Hanover"], // 1
     ["Hanover, Virginia", "USA,VA,Hanover"], // 1
     ["Hancock, Indiana, USA", "USA,WV,Hancock"],
     ["Hanover County, Virginia, United States of America", "USA,VA,Hanover"],
@@ -632,12 +662,17 @@ export const GedcomPlaceKeys = new Map([
     ["Henry, Virginia, United States", "USA,VA,Henry"],
     ["Hennepin County, Minnesota, USA", "USA,MN,Hennepin"],  // 1
     ["Hennepin, Minnesota, USA", "USA,MN,Hennepin"],
+    ["Hennepin County, Minnesota, United States of America", "USA,MN,Hennepin"], // 1
+    ["Hennepin, Minnesota", "USA,MN,Hennepin"], // 1
     ["Henrico, Virginia, United States", "USA,VA,Henrico"],
+    ["Henrico, Virginia, USA", "USA,VA,Henrico"], // 1
     ["Heyworth, Durham, England", "ENG,DUR,Heyworth"],
     ["Heworth, Duram,  England", "ENG,DUR,Heyworth"],
     ["Heworth, Durham, England", "ENG,DUR,Heyworth"],
     ["Hicksford, Greensville, Virginia, USA", "USA,VA,Greensville,Hicksford"],
     ["Hire, McDonough, Illinois, USA", "USA,IL,McDonough,Hire"],
+    ["Holden, Logan, West Virginia, United States", "USA,WV,Logan,Holden"], // 1
+    ["Hoquiam, Grays Harbor, Washington, USA", "USA,WA,Grays Harbor,Hoquiam"], // 1
     ["Holland, Reusel-de Mierden, Noord-Brabant, Netherlands", "NLD,NBR,Reusel de Mierden"],  // 1
     ["Holyoke, Hampden, Massachusetts, USA", "USA,MA,Hampden,Holyoke"],
     ["Holyoke, Massachusetts, USA", "USA,MA,Hampden,Holyoke"],
@@ -649,9 +684,17 @@ export const GedcomPlaceKeys = new Map([
     ["Hopkins, Hennepin, Minnesota, USA", "USA,MN,Hennepin,Hopkins"], // 1
     ["Hopkins, Minnesota, USA", "USA,MN,Hennepin,Hopkins"], // 1
     ["Houston, Texas, USA", "USA,TX,Harris,Houston"], // 2
+    ["Howard Lake, Wright County, Minnesota, USA", "USA,MN,Wright,Howard Lake"], // 1
+    ["Howard Lake, Wright, Minnesota, USA", "USA,MN,Wright,Howard Lake"], // 2
+    ["Hubbard, Minnesota, USA", "USA,MN,Hubbard"], // 1
+    ["Hull, Humberside, England", "ENG,ERY,Hull"], // 1 Humberside is now East Riding of Yorkshire
+    ["Hull, Yorkshire, England", "ENG,YKS,Hull"], // 2
+    ["Humboldt, Allen, Kansas, USA", "USA,KS,Allen,Humboldt"], // 1
+    ["Huntingdon, Bedford, Pennsylvania, USA", "USA,PA,Bedford,Huntingdon"], // 1
     ["IA", "USA,IA"],
     ["Ibstock, Leicestershire, England", "ENG,LEI,Ibstock"],
     ["Ibstock Grange, Leicester", "ENG,LEI,Ibstock Grange"],
+    ["IJsselmonde, South Holland, Zuid-Holland, Pays-Bas", "NLD,ZUI,IJsselmonde"], // 1
     ["IJsselmonde, Rotterdam, Zuid-Holland, Pays-Bas", "NLD,ZUI,IJsselmonde"],
     ["IJsselmonde, Zuid-Holland, Netherlands", "NLD,ZUI,IJsselmonde"],
     ["IJsselmonde, Zuid-Holland, Pays-Bas", "NLD,ZUI,IJsselmonde"],
@@ -663,6 +706,8 @@ export const GedcomPlaceKeys = new Map([
     ["Indiana", "USA,IN"],
     ["Indiana, United States", "USA,IN"],
     ["Indiana, USA", "USA,IN"],
+    ["Indiana, United States of America", "USA,IN"], // 1
+    ["Indianapolis, Marion, Indiana, USA", "USA,IN,Marion,Indianapolis"], // 1
     ["Iowa, USA", "USA,IA"],
     ["Iowa", "USA,IA"],
     ["Ireland", "IRL"],  // 1
@@ -671,6 +716,11 @@ export const GedcomPlaceKeys = new Map([
     ["Itasca, Minnesota", "USA,MN,Itasca"], // 3
     ["Itasca, Minnesota, USA", "USA,MN,Itasca"],
     ["Jacks Creek, Floyd County, Kentucky, USA", "USA,KY,Floyd,Jacks Creek"],
+    ["Jacks Creek, Floyd, Kentucky, USA", "USA,KY,Floyd,Jacks Creek"], // 1
+    ["Jacks Creek, Floyd, Kentucky, United States", "USA,KY,Floyd,Jacks Creek"], // 1
+    ["Jackson County, Ohio, USA", "USA,OH,Jackson"], // 1
+    ["Jackson, Hancock, Indiana, United States", "USA,IN,Hancock,Jackson"], // 2
+    ["Jackson, Warren, Iowa, USA", "USA,IA,Warren,Jackson"], // 1
     ["Jackson, Dakota County, Nebraska, United States of America", "USA,NE,Dakota,Jackson"],  // 1
     ["Jackson, Cleaveland, Hancock, Indiana, USA", "USA,IN,Hancock,Jackson Township,Cleveland"], // 5
     ["Jackson, Jay, Indiana, USA", "USA,IN,Jay,Jackson"], // 4
@@ -678,16 +728,21 @@ export const GedcomPlaceKeys = new Map([
     ["Jarrow, Durham, England", "ENG,DUR,Jarrow"],
     ["Jasper, Iowa, United States", "USA,IA,Jasper"], // 5
     ["Jasper, Iowa, USA", "USA,IA,Jasper"],
+    ["Jasper County, Iowa, USA", "USA,IA,Jasper"], // 2
+    ["Jasper County, Iowa, United States of America", "USA,IA,Jasper"], // 1
     ["Jay County, Indiana, United States of America", "USA,IN,Jay"],  // 1
     ["Jefferson City, Ohio, USA", "USA,OH,Ashtabula,Jefferson"],
     ["Jefferson County, Ohio, USA", "USA,OH,Jefferson"],  // 1
     ["Jefferson, Ohio, USA", "USA,OH,Jefferson"],  // 1
     ["Jefferson, Jefferson, Miami, Indiana, USA", "USA,IN,Miami,Jefferson Township,Jefferson"], // 1
     ["Jefferson, Miami, Indiana, USA", "USA,IN,Miami,Jefferson Township"], // 2
+    ["Jefferson Co., Kentucky, USA", "USA,KY,Jefferson"], // 1
+    ["Jefferson Township, Kosciusko County, Indiana, USA", "USA,IN,Kosciusko,Jefferson Township"], // 1
     ["John's Creek, Floyd County, Kentucky, USA", "USA,KY,Floyd,John's Creek"],
     ["Johns Creek, Floyd, Kentucky, USA", "USA,KY,Floyd,John's Creek"],
     ["Johns Creek, Johnson, Kentucky, USA", "USA,KY,Johnson,Johns Creek"], // 1
     ["Johns Creek, Paintsville, Johnson, Kentucky, USA", "USA,KY,Johnson,Paintsville,Johns Creek"], // 1
+    ["Johnson, Kentucky, United States", "USA,KY,Johnson"], // 1
     ["Johnson, Kentucky, USA", "USA,KY,Johnson"],
     ["Johnson County, Kentucky, USA", "USA,KY,Johnson"],
     ["Johnson County, Kentucky, United States of America", "USA,KY,Johnson"],
@@ -697,6 +752,10 @@ export const GedcomPlaceKeys = new Map([
     ["Kalispell, Montana, USA", "USA,MT,Flathead,Kalispell"], // 2
     ["Kamouraska, Kamouraska, Quebec, Canada", "CAN,QC,Kamouraska,Kamouraska"],
     ["Kansas, United States of America", "USA,KS"],
+    ["Kellerton, Ringgold, Iowa, USA", "USA,IA,Ringgold,Kellerton"], // 1
+    ["Kennet Township, Chester, Pennsylvania, USA", "USA,PA,Chester,Kennet Township"], // 1
+    ["Kennett Square, Chester County, Pennsylvania", "USA,PA,Chester,Kennett Square"], // 1
+    ["Kensington, London, England", "ENG,LND,Kensington"], // 1
     ["Kensington, Middlesex, England", "ENG,MDL,Kensington"],
     ["Kentucky, USA", "USA,KY"], // 1
     ["Kentucky, United States", "USA,KY"], // 1
@@ -707,13 +766,19 @@ export const GedcomPlaceKeys = new Map([
     ["Kennett, Chester, Pennsylvania, United States", "USA,PA,Chester,Kennett"],
     ["Kennett, Chester, Pennsylvania", "USA,PA,Chester,Kennett"],
     ["Kent, England", "ENG,KEN"],
+    ["Keokuk County, Iowa, USA", "USA,IA,Keokuk"], // 1
+    ["Kewanee, Henry, Illinois, USA", "USA,IL,Henry,Kewanee"], // 1
     ["Kewanee, Henry County, Illinois, United States of America", "USA,IL,Henry,Kewanee"],
     ["King William, King William, VA, Virginia, USA", "USA,VA,King William,King William"],
     ["King William, King William, Virginia, United States", "USA,VA,King William,King William"],
+    ["King William, King William, Virginia, USA", "USA,VA,King William,King William"], // 1
+    ["Kingsland, Llano, Texas, USA", "USA,TX,Llano,Kingsland"], // 1
+    ["Kingston Township, Meeker County, Minnesota, USA", "USA,MN,Meeker,Kingston Township"], // 3
     ["Kingston, Meeker, Minnesota, USA", "USA,MN,Meeker,Kingston"],
     ["Kingston, Kingston, Meeker, Minnesota, USA", "USA,MN,Meeker,Kingston"], // 6
     ["Kingston, Wright, Minnesota, USA", "USA,MN,Meeker,Kingston"],
     ["Kingston, Meeker, Minnesota, United States", "USA,MN,Meeker,Kingston"],
+    ["Kinnanäs, Älmeboda, Kronoberg, Sverige", "SWE,KRO,Älmeboda,Kinnanäs"], // 1
     ["Kirk Michael, Michael, Isle of Man", "ENG,IOM,Michael,Kirk Michael"],  // 1
     ["Kirkby Mallory, Leicestershire, England", "ENG,LEI,Kirkby Mallory"],  // 1
     ["Kirkville, Wapello, Iowa, USA", "USA,IA,Wapello,Kirkville"], // 2
@@ -724,25 +789,32 @@ export const GedcomPlaceKeys = new Map([
     ["Kirkwood", "USA,MN,Wadena,Sebeka,Kirkwood"], // 1 Geo W Collins residence in 1907
     ["Kittson, Minnesota, USA", "USA,MN,Kittson"],  // 1
     ["Knox, Nebraska, USA", "USA,NE,Knox"],  // 1
+    ["Kokomo, Howard, Indiana, United States", "USA,IN,Howard,Kokomo"], // 1
     ["Kriegsfeld, Donnersberg, Rhineland-Palatinate, Germany", "DEU,RP,Donnersberg,Kriegsfeld"],
     ["Kromstrijen, Zuid-Holland, Netherlands", "NLD,ZUI,Kromstrijen"],
     ["Kronoberg, Orebro, Sweden", "SWE,KRO,Orebro"],
     ["Kosciusko, Indiana, USA", "USA,IN,Kosciusko"],  // 2
     ["L'Assomption, (Saint-Pierre-du-Portage), (l'Assomption), Québec, Canada", "CAN,QC,L'Assomption,St Pierre du Portage"],  // 1
     ["L'Assomption, (l'Assomption), Québec, Canada", "CAN,QC,L'Assomption"],
+    ["L'Assomption, Québec, Canada", "CAN,QC,L'Assomption"], // 1
     ["L'Isle-Verte (Église Saint-Jean-Baptiste), 150, rue Saint-Jean-Baptiste, Québec, Canada", "CAN,QC,Bas-Saint-Laurent,L'Isle-Verte"],
-    ["L'Isle-Verte, Riviere-du-Loup, Quebec, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup"],
-    ["L'Isle Verte, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup"],
-    ["L'Isle Verte, Riviere du Loup, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup"],
-    ["L'Isle Verte, Riviere du loup,  Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup"],
-    ["L'Isle Verte, Riviere du loup, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup"],
-    ["L'Isle Verte, Rviere du Loup, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup"],
+    ["L'Isle-Verte, Riviere-du-Loup, Quebec, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
+    ["L'Isle Verte, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
+    ["L'Isle Verte, Riviere du Loup, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
+    ["L'Isle Verte, Riviere du loup,  Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
+    ["L'Isle Verte, Riviere du loup, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
+    ["L'Isle Verte, Rviere du Loup, Que, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"],
+    ["L'Isle Verte, Riviere du Loup, Que., Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte"], // 1
+    ["L'Isle-Verte, Riviere-du-Loup, Québec, Canada", "CAN,QC,Bas-Saint-Laurent,Riviere-du-LoupL'Isle Verte"], // 3
     ["La Côte-de-Gaspé, Gaspesie-Iles-de-la-Madeleine Region, Quebec, Canada", "CAN,QC,Gaspesie-Iles-de-la-Madeleine,La C├┤te-de-Gasp├⌐,"],
     ["Lagrange, Lagrange, Indiana, USA", "USA,IN,LaGrange"],
     ["La Grange, Indiana, United States", "USA,IN,LaGrange"],
     ["Lagrance County, Indiana, United States", "USA,IN,LaGrange"],
     ["Lagrange County, Indiana, USA", "USA,IN,LaGrange"],
-    ["Lagrange, Lagrange, Indiana, United States", "USA,IN,LaGrange"],
+    ["Lagrange, Lagrange, Indiana, United States", "USA,IN,LaGrange,LaGrange"],
+    ["LaGrange, Indiana, USA", "USA,IN,LaGrange"], // 1
+    ["Lagrange, Indiana, USA", "USA,IN,LaGrange"], // 2
+    ["Lagrange, Indiana, United States", "USA,IN,LaGrange"], // 1
     ["Lake Grove, Mahnomen, Minnesota, USA", "USA,MN,Mahnomen,Lake Grove"], // 4
     ["Lake Prairie, Marion, Iowa, USA", "USA,IA,Marion,Lake Prairie Township"],
     ["Lake Prairie, Marion, Iowa", "USA,IA,Marion,Lake Prairie Township"],
@@ -750,26 +822,41 @@ export const GedcomPlaceKeys = new Map([
     ["Lake Prairie, Pella Marion County, Marion, Iowa, USA", "USA,IA,Marion,Pella,Lake Prairie"], // 2
     ["Lake Prairie, Pella, Marion, Iowa, USA", "USA,IA,Marion,Pella,Lake Prairie"], // 7
     ["Lake Warren, Monmouth", "USA,IL,Warren,Monmouth,Lake Warren"], // 1
+    ["Lake of the Woods County, Minnesota, United States of America", "USA,MN,Lake of the Woods"], // 1
+    ["Lane County, Oregon, United States of America", "USA,OR,Lane"], // 1
     ["Lancaster, Pennsylvania, USA", "USA,PA,Lancaster"],
     ["Lancaster, Lancaster, Pennsylvania, United States", "USA,PA,Lancaster"],
     ["Lancaster, Pennsylvania", "USA,PA,Lancaster"],
+    ["Larue, Kentucky, United States", "USA,KY,Larue"], // 1
     ["Las Vegas, Clark, Nevada, USA", "USA,NV,Clark,Las Vegas"],  // 1
+    ["Las Vegas, Clark Co, Nevada, USA", "USA,NV,Clark,Las Vegas"], // 1
     ["Lawrence, KY, USA", "USA,KY,Lawrence"],  // 1
-    ["Liberty, Frederick, Maryland", "USA,MD,Frederick,Liberty"], // 3
-    ["Liberty, Fulton, Indiana, USA", "USA,IN,Fulton,Liberty"], // 8
-    ["Liberty, Woodbury, Iowa, USA", "USA,IA,Woodbury,Liberty"], // 5
+    ["Lawrence, Kentucky, USA", "USA,KY,Lawrence"], // 1
+    ["Lawton, Comanche County, Oklahoma, United States of America", "USA,OK,Comanche,Lawton"], // 1
+    ["Lee, Lee, Illinois, United States", "USA,IL,Lee,Lee"], // 1
+    ["Lehigh County, Pennsylvania, USA", "USA,PA,Lehigh"], // 1
+    ["Lehigh County, Pennsylvania, United States of America", "USA,PA,Lehigh"], // 1
     ["Leicester, Leicester Unitary Authority, Leicestershire, England", "ENG,LEI,Leicester"],
+    ["Leichestershire, England", "ENG,LEI"], // 1
     ["Leicestershire, England", "ENG,LEI"],
     ["Leicestershire, Leicestershire, England, United Kingdom", "ENG,LEI"],
     ["Leichester, Leicestershire, England", "ENG,LEI,Leicester"],
     ["Lee County, Virginia, USA", "USA,VA,Lee"],
     ["Lewis", "USA,KY,Lewis"], // 1 Barbara L Bevins residence 
+    ["Liberty, Frederick, Maryland", "USA,MD,Frederick,Liberty"], // 3
+    ["Liberty, Fulton, Indiana, USA", "USA,IN,Fulton,Liberty"], // 8
+    ["Liberty, Woodbury, Iowa, USA", "USA,IA,Woodbury,Liberty"], // 5
+    ["Liberty Twp, St Joseph Co., Indiana, USA", "USA,IN,St. Joseph,Liberty Township"], // 1
+    ["Liberty, St Joseph, Indiana, USA", "USA,IN,St. Joseph,Liberty"], // 1
+    ["Liberty, St Joseph, Indiana, United States", "USA,IN,St. Joseph,Liberty"], // 1
     ["Liberty, Montgomery, OH, USA", "USA,OH,Montgomery,Liberty"],  // 1
     ["Liberty Twp, Indiana", "USA,IN,Fulton,Liberty Township"], // 1  Fredrick Lee Heddens marriage record
     ["Libertytown, Frederick, Maryland, USA", "USA,MD,Frederick,Libertytown"],  // 1
     ["Lincoln, Lancaster, Nebraska, USA", "USA,NE,Lancaster,Lincoln"],  // 1
     ["Lincoln, West Virginia, United States", "USA,WV,Lincoln"],  // 1
     ["Leicester, Leicestershire, England", "ENG,LEI,Leicester"],
+    ["Lincoln, West Virginia, USA", "USA,WV,Lincoln"], // 1
+    ["Lindstrom, Chisago, Minnesota, USA", "USA,MN,Chisago,Lindstrom"], // 1
     ["Linlithgow, West Lothian, Linlithgowshire, Scotland", "SCO,WLN,Linlithgow"],
     ["Linlithgow, West Lothian, Linlithgowshire,, Scotland", "SCO,WLN,Linlithgow"],  // 1
     ["Linneryd fg, Tokamåla, Kronoberg, Suède", "SWE,KRO,Tokamåla,Linneryd fg"],
@@ -778,10 +865,13 @@ export const GedcomPlaceKeys = new Map([
     ["Linton Hundred, Washington, Maryland, United States", "USA,MD,Washington,Linton Hundred"],
     ["Liverpool, England", "ENG,MSY,Liverpool"],  // 3
     ["Liverpool, England and Queenstown, Ireland", "ENG,MSY,Liverpool"], // 1
+    ["Liverpool, Lancashire, England", "ENG,MSY,Liverpool"], // 1
     ["Locke, Elkhart, Indiana, USA", "USA,IN,Elkhart,Locke"], // 7
+    ["Lochgelly, Fife, Scotland", "SCO,FIF,Lochgelly"], // 1
     ["Logan, Calhoun, Iowa", "USA,IA,Calhoun,Logan"],  // 1
     ["Logan, Virginia, USA", "USA,WV,Calhoun"],  // 1, was in VA. now in WV
     ["Logan, West Virginia, USA", "USA,WV,Logan"],  // 1
+    ["Logan, Logan, West Virginia, United States", "USA,WV,Logan,Logan"], // 1
     ["Logansport", "USA,IN,Cass,Logansport"], // 1
     ["Logansport, Cass Co, Indiana, USA", "USA,IN,Cass,Logansport"],
     ["Logansport, Cass County, Indiana, United States of America", "USA,IN,Cass,Logansport"],
@@ -794,11 +884,14 @@ export const GedcomPlaceKeys = new Map([
     ["London, London, England", "ENG,LND"],
     ["London, Middlesex, , England", "ENG,LND"],
     ["London, Middlesex, England", "ENG,LND"],
+    ["Longbenton, Northumberland, England", "ENG,NBL,Longbenton"], // 1
     ["Loughborough, Leicestershire, England", "ENG,LEI,Longborough"],
     ["Longueuil, Quebec, Canada", "CAN,QC,Monteregie,Longueuil"],
     ["Lonqueuil (Co-Cathedrale St Antoine-de-pade), Quebec, Canada", "CAN,QC,Monteregie,Longueuil,St Antoine de pade"],  // 1
     ["Longueuil, Chambly, Quebec, Canada", "CAN,QC,Monteregie,Longueuil,Chambly"],  // 3
+    ["Los Angeles, Los Angeles, California, USA", "USA,CA,Los Angeles,Los Angeles"], // 1
     ["Louisville Ward 5, Jefferson, Kentucky, USA", "USA,KY,Jefferson,Louisville,Ward 5"], // 1
+    ["Lunenburg, Virginia, USA", "USA,VA,Lunenburg"], // 1
     ["Lunenburg, Lunenburg, Colony of Virginia, British Colonial A, Virginia, USA", "USA,VA,Lunenburg"],  // 1
     ["Lunenburg, Lunenburg, Virginia, USA", "USA,VA,Lunenburg"],  // 1
     ["Lurgan, Shankill, Armagh, Northern Ireland", "NIR,ARM,Skankill,Lurgan"],
@@ -816,35 +909,55 @@ export const GedcomPlaceKeys = new Map([
     ["Maasdam, Zuid Holland, Nederland", "NLD,ZUI,Maasdam"],
     ["Maasdam, Zuid-Holland, Nederland", "NLD,ZUI,Maasdam"],
     ["Macroom, Cork, Munster, Ireland", "IRL,COR,Macroom"],
+    ["Machias, Washington, Maine, United States", "USA,ME,Washington,Machias"], // 1
     ["Mad River, Clark, Ohio, USA", "USA,OH,Clark,Mad River"],  // 1
+    ["Madison County, Kentucky, United States of America", "USA,KY,Madison"], // 1
+    ["Madison, Kentucky, USA", "USA,KY,Madison"], // 1
     ["Madison, Ohio, United States", "USA,OH,Lake,Madison"], // 1
     ["Magheracloone, Monaghan, Ireland", "IRL,MOG,Magheracloone"],  // 3
+    ["Mahnomen County, Minnesota, United States of America", "USA,MN,Mahnomen"], // 1
     ["Malbaie, Saguenay County, Canada East (Quebec), Canada", "CAN,QC,Saguenay,La Malbaie"],
     ["Manoakin, Somerset, Maryland", "USA,MD,Somerset,Manokin"],
     ["Manokin, Somerset County, Maryland", "USA,MD,Somerset,Manokin"],
     ["Manokin, Somerset, Maryland ", "USA,MD,Somerset,Manokin"],
     ["Mansfield, Tolland, Conn", "USA,CT,Tolland,Mansfield"],  // 1
+    ["Marion, Grant, Indiana, USA", "USA,IN,Grant,Marion"], // 1
+    ["Marion, Ohio, USA", "USA,OH,Marion"], // 1
+    ["Market Bosworth district, Leicestershire, England", "ENG,LEI,Market Bosworth"], // 7
+    ["Markfield, Leicestershire, England", "ENG,LEI,Markfield"], // 1
     ["Marshall County, Indiana, USA", "USA,IN,Marshall"],  // 2
     ["Market Bosworth, Leicestershire, England", "ENG,LEI,Market Bosworth"],  // 2
     ["Market Harborough, Leicestershire, England", "ENG,LEI,Market Harborough"],  // 1
     ["Marion County, Iowa, USA", "USA,IA,Marion"],  // 1
     ["Marshall, Indiana", "USA,IN,Marshall"],  // 1
     ["Marshall, Minnesota, USA", "USA,MN,Lyon,Marshall"],  // 1
+    ["Marshall, Indiana, USA", "USA,IN,Marshall"], // 1
+    ["Marshall, Indiana, United States", "USA,IN,Marshall"], // 4
+    ["Marshalltown, Marshall, Iowa, USA", "USA,IA,Marshall,Marshalltown"], // 1
     ["Martin, Kentucky, USA", "USA,KY,Martin"],  // 1
     ["Maryland, Maryland, USA", "USA,MD"],
     ["Maryland", "USA,MD"],
     ["Maryland, USA", "USA,MD"],
     ["Maryland, United States", "USA,MD"],  // 1
+    ["Marylebone, London, England", "ENG,LND,Marylebone"], // 1
     ["Marylebone, Middlesex, , England", "ENG,MDL,Marylebone"],
     ["Masontown, Fayette, Pennsylvania, United States", "USA,PA,Fayette,Masontown"],  // 1
+    ["Massachuettes, USA", "USA,MA"], // 1
+    ["Massachusettes, USA", "USA,MA"], // 2
     ["Massachusetts", "USA,MA"],
     ["Massachusetts, USA", "USA,MA"], // 1
     ["Massachusetts, United States of America", "USA,MA"],
+    ["McLeod Co, Minnesota, USA", "USA,MN,McLeod"], // 1
+    ["Medina, Ohio, United States", "USA,OH,Medina"], // 2
+    ["Meeker, Minnesota, USA", "USA,MN,Meeker"],
+    ["Meigs Co, Ohio, USA", "USA,OH,Meigs"], // 2
     ["Megavissey, Cornwall, England", "ENG,COR,Megavissey"],  // 1
     ["Meigs County, Ohio, USA", "USA,OH,Meigs"],  // 1
     ["Meigs, Ohio, USA", "USA,OH,Meigs"],  // 1
-    ["Meeker, Minnesota, USA", "USA,MN,Meeker"],
+    ["Meigs, Meigs, Ohio, United States", "USA,OH,Meigs,Meigs"], // 1
     ["Melrose, Roxburghshire, Scotland", "SCO,ROX,Melrose"],
+    ["Melvin, Ford, Illinois, USA", "USA,IL,Ford,Melvin"], // 1
+    ["Melvin, Osceola County, Iowa, United States of America", "USA,IA,Osceola,Melvin"], // 1
     ["Melsele, Oost-Vlaanderen, Belgium", "BEL,EFL,Melsele"],
     ["Mercer, WI", "USA,WI,Iron,Mercer"],  // 1
     ["Meriden, Cherokee, Iowa, USA", "USA,IA,Cherokee,Meriden"], // 1
@@ -852,9 +965,17 @@ export const GedcomPlaceKeys = new Map([
     ["Meriden, Meriden, Cherokee, Iowa, USA", "USA,IA,Cherokee,Meriden,Meriden"], // 1
     ["Mevagissey, Cornwall, England", "ENG,COR,Mevagissey"],
     ["Megavissey Cornwall, England", "ENG,COR,Mevagissey"],
+    ["Mesa, Maricopa, Arizona, USA", "USA,AZ,Maricopa,Mesa"], // 1
+    ["Mesa, Maricopa, Arizona, United States of America", "USA,AZ,Maricopa,Mesa"], // 1
     ["Mesa, AZ", "USA,AZ,Maricopa,Mesa"], // 2
-    ["Mexico, Indiana", "USA,IN,Jefferson,Mexico"], // 1
-    ["Miami, Indiana, United States", "USA,IN,Miami,Miami"],  // 1
+    ["Mexico, Indiana", "USA,IN,Miami,Mexico"], // 1
+    ["Mexico, Jefferson Township, Miami County, Indiana", "USA,IN,Miami,Mexico,Jefferson Township"], // 2
+    ["Mexico, Miami County, Indiana, United States of America", "USA,IN,Miami,Mexico"], // 1
+    ["Mexico, Miami, Indiana, USA", "USA,IN,Miami,Mexico"], // 1
+    ["Miami County, Indiana, USA", "USA,IN,Miami"], // 1
+    ["Miami, Indiana, United States", "USA,IN,Miami"],  // 1
+    ["Michigan City, Laporte, Indiana, USA", "USA,IN,LaPorte,Michigan City"], // 1
+    ["Middlebury, Elkhart, Indiana, USA", "USA,IN,Elkhart,Middlebury"], // 1
     ["Middle Creek, Kentucky, USA", "USA,KY,Floyd,Middle Creek"],  // 1
     ["Middlesex, England", "ENG,MDL"],
     ["Middlesex, London, England", "ENG,MDL"],
@@ -867,14 +988,20 @@ export const GedcomPlaceKeys = new Map([
     ["Mijnsheerenland, 6141, Zuid-Holland, Pays-Bas", "NLD,ZUI,Mijnsheerenland"],
     ["Mijnsheerenland, Binnenmaas Municipality, Zuid-Holland, Netherlands", "NLD,ZUI,Mijnsheerenland"],
     ["Mijnsheerenland, Nl", "NLD,ZUI,Mijnsheerenland"],
+    ["Mill Creek, PA, USA", "USA,PA,Huntingdon,Mill Creek"], // 1
+    ["Milford, Jefferson Township, Kosciuski County, Indiana, USA", "USA,IN,Kosciusko,Milford,Jefferson Township"], // 1
     ["Milford, Bucks, Pennsylvania, Colonial America", "USA,PA,Pike,Milford"],
     ["Milford, Pike, Pennsylvania, United States", "USA,PA,Pike,Milford"],
     ["Millbrook, Peterborough County, Ontario, Canada", "CAN,ON,Peterborough,Millbrook"],
     ["Millbrook, Peterborough, Ontario, Canada", "CAN,ON,Peterborough,Millbrook"],  // 1
+    ["Millbrook, 1654329, Ontario, Canada", "CAN,ON,Peterborough,Millbrook,1654329"], // 2
+    ["Millbrook, Ontario, Canada", "CAN,ON,Peterborough,Millbrook"], // 1
     ["Milwaukee, Milwaukee, Wisconsin, USA", "USA,WI,Milwaukee,Milwaukee"], // 3
+    ["Mingo, Jasper County, Iowa, USA", "USA,IA,Jasper,Mingo"], // 1
+    ["Mingo, Jasper County, Iowa, United States of America", "USA,IA,Jasper,Mingo"], // 1
+    ["Minesota, USA", "USA,MN"],
     ["Minneapolis, Hennepin Co., Minnesota, USA", "USA,MN,Hennepin,Minneapolis"],
     ["Minneapolis, Hennepin, Minnesota, USA", "USA,MN,Hennepin,Minneapolis"],
-    ["Minesota, USA", "USA,MN"],
     ["Minneapolis, Hennepin County, Minnesota, USA", "USA,MN,Hennepin,Minneapolis"],
     ["Minneapolis, Hennepin County, Minnesota, United States of America", "USA,MN,Hennepin,Minneapolis"],
     ["Minneapolis, Hennepin, MN, USA", "USA,MN,Hennepin,Minneapolis"],
@@ -895,6 +1022,9 @@ export const GedcomPlaceKeys = new Map([
     ["Minnesota, USA", "USA,MN"],
     ["Minnesota, United States of America", "USA,MN"],
     ["Minnesota", "USA,MN"],
+    ["Minnesota, United States", "USA,MN"], // 1
+    ["Minnesota City, Winona, Minnesota, United States", "USA,MN,Winona,Minnesota City"], // 1
+    ["Mishawaka, St Joseph, Indiana, USA", "USA,IN,St. Joseph,Mishawaka"], // 1
     ["Missoula, Missoula, Montana, USA", "USA,MT,Missoula,Missoula"],
     ["Missoula, Missoula, MT, USA", "USA,MT,Missoula,Missoula"],
     ["Missoula, Montana, USA", "USA,MT,Missoula,Missoula"],  // 8
@@ -902,6 +1032,10 @@ export const GedcomPlaceKeys = new Map([
     ["Mobberly, Cheshire, England", "ENG,CHS,Mobberly"],
     ["Moline, Rock Island, Illinois, USA", "USA,IL,Rock Island,Moline"], // 3
     ["Moline", "USA,IL,Rock Island,Moline"], // 2
+    ["Moline, Rock Island County, Illinois, United States of America", "USA,IL,Rock Island,Moline"], // 1
+    ["Monmouth, Warren County, Illinois, USA", "USA,IL,Warren,Monmouth"], // 1
+    ["Monroe County, Virginia, United States", "USA,WV,Monroe"], // 1
+    ["Monroe, Harrison, Ohio, United States, ", "USA,OH,Harrison,Monroe"], // 1
     ["Monk Wearmouth, Durham, England", "ENG,DUR,Monkwearmouth"],
     ["Monkwearmouth, Durham, England", "ENG,DUR,Monkwearmouth"],
     ["Montana", "USA,MT"],
@@ -911,11 +1045,18 @@ export const GedcomPlaceKeys = new Map([
     ["Montgomery County, Ohio, United States of America", "USA,OH,Montgomery"],
     ["Montgomery County, Virginia, USA", "USA,OH,Montgomery"],
     ["Montgomery, Virginia, USA", "USA,VA,Montgomery"],
+    ["Montgomery County, Virginia, United States of America", "USA,VA,Montgomery"], // 1
     ["Monticello, Wright, Minnesota, USA", "USA,MN,Wright,Monticello"],
+    ["Montpelier, Blackford County, Indiana, United States of America", "USA,IN,Blackford,Montpelier"], // 1
     ["Moorhead, Minnesota, USA", "USA,MN,Clay,Moorehead"],  // 1
+    ["Morsfeld, Donnersberg, Rhineland-Palatinate, Germany", "DEU,RP,Donnersberg,Morsfeld"], // 1
+    ["Mouth Beaver, Floyd, Kentucky, USA", "USA,KY,Floyd,Mouth Beaver"], // 1
+    ["Moville, Woodbury, Iowa, USA", "USA,IA,Woodbury,Moville"], // 1
     ["Mpls", "USA,MN,Hennepin,Minneapolis"], // 1
     ["Mound , Lake Mlnnetonka", "USA,MN,Hennepin,Mound,Lake Minnetonka"], // 2
+    ["Multnomah, Oregon, USA", "USA,OR,Multnomah"], // 1
     ["Murton, Northumberland, England", "ENG,NBL,Murton"],
+    ["Muscatine County, Iowa, USA", "USA,IA,Muscatine"], // 1
     ["Mörsfeld , Donnersbergkreis, Rhineland-Palatinate, Germany", "DEU,RP,Donnersbergkreis,Morsfeld"],
     ["My District, Floyd, Kentucky, USA", "USA,KY,Floyd,My District"], // 7
     ["Mylo Rollett, North Dakota, USA", "USA,ND,Rolette,Mylo"],

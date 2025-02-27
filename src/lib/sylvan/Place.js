@@ -32,6 +32,14 @@ export class Place {
         }
         return this._data.country
     }
+    
+    county() {
+        if (this.location()) {
+            const [keys, names, lat, lng] = this.location()
+            return (names.length > 2) ? names[2] : ''
+        }
+        return this._data.locale
+    }
 
     fullName(countryFirst=false, sep=', ') {
         if (this.location()) {
@@ -44,6 +52,7 @@ export class Place {
         return this._data.parts.join(',')
     }
 
+    // Returns an array of all the *search* GEDKEY record keys,
     keys() {
         if (this.location()) {
             const [keys, names, lat, lng] = this.location()
@@ -73,13 +82,23 @@ export class Place {
     location() { return this._data.location }
     
     messages() { return this._data.messages }
-    
+
+    // Returns an array of all the *found* key location names,
+    // which may be fewer than the *search* keys
+    names() {
+        if (this.location()) {
+            const [keys, names, lat, lng] = this.location()
+            return names
+        }
+        return []
+    }
+
     standard() { return this.fullName() }
     
     state() {
         if (this.location()) {
             const [keys, names, lat, lng] = this.location()
-            if (names.length > 1) return names[1]
+            return (names.length > 1) ? names[1] : ''
         }
         return this._data.state
     }

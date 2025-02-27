@@ -54,7 +54,7 @@ async function runMissing() {
             + `${(missing.length+'').padStart(6)}`)
         all.set(context, [selected.length, missing])
     }
-    writeMissing(all, 'missingPlaces.js')
+    writeMissing(all, 'missingGedcomPlaceKeys.js')
 }
 
 // Returns an array of GEDCOM [<text>, <count>] elements from lines[] that match 'context'
