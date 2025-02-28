@@ -1,0 +1,46 @@
+
+
+Ancestral Origins of Frances Marie SHOFNER (#BH11)
+   1                                 
+        0 11  Thomas COEBOURNE (#BH2624) []
+   1 ENG,CHS                         
+        1692 9  Sarah Elizabeth HEALD (#BH759) [ENG,CHS,Mobberly]
+   1 ENG,OXF                         
+        1672 10  Francis BALDWIN Sr (#BH1312) [ENG,OXF]
+   2 NIR,ARM                         
+        1660 10  Elizabeth DUCK (#BH1517) [NIR,ARM,Skankill,Lurgan]
+        1632 11  Hannah Calvert HOOPE (#BH3035) [NIR,ARM]
+   1 NIR,DOW                         
+        1685 9  Aaron Yoeman HARLAN Sr. (#BH758) [NIR,DOW,Donnahlong]
+   1 SCO,MLN                         
+        1724 8  Archibald GUTHRIE (#BH376) [SCO,MLN,Edinburgh]
+   1 USA,IL,LaSalle                  
+        1841 4  Elizabeth Ann SOWDERS (#BH23) [USA,IL,LaSalle,Vermillion]
+   1 USA,MN,Wright                   
+        1871 3  Frances Marie SHOFNER (#BH11) [USA,MN,Wright,Monticello]
+   1 USA,OH,Pike                     
+        1795 5  Elizabeth GUTHERY (#BH47) [USA,OH,Pike]
+   4 USA,PA,Chester                  
+        1713 8  Charity Heald HARLAN (#BH379) [USA,PA,Chester,Kennett Square]
+        1712 8  Francis Coebourne BALDWIN Jr (#BH378) [USA,PA,Chester,Kennett Square]
+        1697 9  Mary BEEL (#BH657) [USA,PA,Chester]
+        1692 9  THOMAS  BALDWIN (#BH656) [USA,PA,Chester,West Chester]
+   2 USA,PA,Greene                   
+        1772 6  William GUTHERY (#BH94) [USA,PA,Greene]
+        1755 7  Lydia Harlan BALDWIN (#BH189) [USA,PA,Greene]
+   1 USA,PA,Somerset                 
+        1774 6  Catharina Dorothea THEOBOLD (#BH95) [USA,PA,Somerset]
+   3 USA,PA                          
+        1830 4  Samuel Frederick SHOFFNER (#BH22) [USA,PA]
+        1744 7  John GUTHERY (#BH188) [USA,PA]
+        1672 10  Cicely COEBOURNE (#BH1313) [USA,PA]
+   1 USA,VA                          
+        1796 5  John William SOWDERS (#BH46) [USA,VA]
+  21 Ancestors born in 14 locations.
+
+There are 5 possible immigrants:
+    England => United States by Sarah Elizabeth HEALD (#BH759) (1692-1749)
+    England => United States by Francis BALDWIN Sr (#BH1312) (1672-1702)
+    Northern Ireland => United States by Elizabeth DUCK (#BH1517) (1660-1712)
+    Northern Ireland => United States by Aaron Yoeman HARLAN Sr. (#BH758) (1685-1732)
+    Scotland => United States by Archibald GUTHRIE (#BH376) (1724-1744)

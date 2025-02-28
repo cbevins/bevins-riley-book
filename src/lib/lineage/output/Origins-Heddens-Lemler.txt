@@ -1,0 +1,36 @@
+
+
+Ancestral Origins of Meartia Mae  LEMLER (#BH13)
+   2                                 
+        0 6  Margaret BOARMAN []
+        0 6  Ambrose CARTWRIGHT []
+   3 DEU,BW                          
+        1832 5  Nicholas LEMLER (#BH52) [DEU,BW,Baden,Reilsheim]
+        1812 6  Catharina Barbara GANSHORN (#BH105) [DEU,BW]
+        1806 6  George Peter LEMLER (#BH104) [DEU,BW,Rhein-Neckar-Kreis,Bammental]
+   1 USA,IN,Henry                    
+        1829 5  Abigail Josephine Maria CATT (#BH55) [USA,IN,Henry]
+   1 USA,IN,Kosciusko                
+        1889 3  Meartia Mae  LEMLER (#BH13) [USA,IN,Kosciusko,Atwood]
+   1 USA,IN,LaGrange                 
+        1859 4  Laura E CARTWRIGHT (#BH27) [USA,IN,LaGrange]
+   1 USA,IN                          
+        1857 4  Daniel David LEMLER (#BH26) [USA,IN]
+   1 USA,NC                          
+        1828 5  Joseph  CARTWRIGHT (#BH54) [USA,NC]
+   1 USA,OH,Stark                    
+        1837 5  Amanda HARTSEL (#BH53) [USA,OH,Stark]
+   1 USA,PA,Bucks                    
+        1791 6  Henry HARTZELL (#BH106) [USA,PA,Bucks,Rock Hill]
+   1 USA,PA,Fayette                  
+        1794 6  Michael CATT [USA,PA,Fayette,Masontown]
+   1 USA,PA,Franklin                 
+        1797 6  Mary BURKETT (#BH107) [USA,PA,Franklin]
+   1 USA,VA                          
+        1804 6  Matilda HATTON [USA,VA]
+  15 Ancestors born in 12 locations.
+
+There are 3 possible immigrants:
+    Germany => United States by Nicholas LEMLER (#BH52) (1832-1873)
+    Germany => United States by George Peter LEMLER (#BH104) (1806-1879)
+    Germany => United States by Catharina Barbara GANSHORN (#BH105) (1812-1888)

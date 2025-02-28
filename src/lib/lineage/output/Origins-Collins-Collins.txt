@@ -1,0 +1,203 @@
+
+
+Ancestral Origins of George Washington COLLINS (#BH10)
+   2                                 
+        1687 9  Major Robert HARRIS (2) (#BH688) []
+        1669 10  William HARRIS (#BH1376) []
+   2 DEU,RP                          
+        1705 8  Christiana Henerietta HORNBERGER (#BH337) [DEU,RP,Zweibrucken,An Glan]
+        1701 8  Johann Friedrich GABEL (#BH336) [DEU,RP,Zweibrucken]
+   1 ENG,BKM                         
+        1635 13  Thomas POOLE (#BH10498) [ENG,BKM]
+   2 ENG,CHS                         
+        1655 12  Jane  POOLE (#BH5249) [ENG,CHS,Chester,St John the Baptist]
+        1585 12  Hugh KINSEY (#BH5326) [ENG,CHS,Cheshire]
+   4 ENG,ERY                         
+        1638 11  William OVERTON (#BH2754) [ENG,ERY,Easington]
+        1609 12  Major General Robert OVERTON (#BH5508) [ENG,ERY,Easington]
+        1585 13  John OVERTON (#BH11016) [ENG,ERY,Easington]
+        1560 14  Bishop Christopher 'William' OVERTON (#22032) [ENG,ERY,Easington]
+   3 ENG,LND                         
+        1654 11  Mary Elizabeth WATERS (#BH2755) [ENG,LND,Newgate,St Sepulchre]
+        1625 10  Richard TYDINGS (#BH1330) [ENG,LND]
+        1619 12  Ann PEAKE WATERS (#BH5511) [ENG,LND,Newgate,St Sepulchre]
+   2 ENG,MDL                         
+        1668 11  Richard EASTOPP (ESTEP) (#BH2632) [ENG,MDL,Stepney Parish]
+        1590 13  Jeremy GARDINER (#BH11018) [ENG,MDL,Stratford Bow]
+   2 ENG,NOR                         
+        1617 12  Sir Samuel Thomas WATERS (#BH5510) [ENG,NOR,Eastcott]
+        1565 13  Sir Henry Boniface PEAKE (#BH11022) [ENG,NOR,Kettering,Thorpe Underwood]
+   1 ENG,SAL                         
+        1581 13  Lady Joanne Palmer SNAWSELL (#BH11017) [ENG,SAL,Alvely]
+   1 ENG,SFK                         
+        1578 13  Joan CLARKE (#BH11023) [ENG,SFK,Westhorpe]
+   1 ENG,SOM                         
+        1585 12  Margaret JOHNS (#BH5327) [ENG,SOM,St Marys]
+   3 ENG,WAR                         
+        1659 11  Sarah CHAPMAN (#BH2629) [ENG,WAR,Coventry]
+        1654 10  Elizabeth KEMP (#BH1333) [ENG,WAR,Halls End]
+        1650 10  Nicholas CORBIN (#BH1332) [ENG,WAR,Halls End]
+   1 ENG,WOR                         
+        1615 11  Thomas SPARROW (#BH2662) ("A'fearless Quaker Preacher") [ENG,WOR,Worcester,Pedmore]
+   1 ENG,YKS                         
+        1610 12  Ann GARDINER (#BH5509) [ENG,YKS]
+   4 ENG                             
+        1655 11  John CURFMAN\CUPMAN\COPEMAN [ENG]
+        1644 12  John ESTEP (#BH5264) [ENG]
+        1637 13  Alice LUNT (#BH10499) [ENG]
+        1587 12  William CLAIRBOURNE (#BH5506) [ENG]
+   1 FRA,ALS                         
+        1725 8  Peter GUISE (GUYSE) Sr [FRA,ALS,Strassburg]
+   3 IRL,COR                         
+        1755 7  Patrick COLLINS (#BH160) [IRL,COR,Macroom]
+        1735 8  Mary O' CALLAGON [IRL,COR]
+        1733 8  Denis COLLINS (#BH320) [IRL,COR,Dunmanway]
+   2 IRL,DON                         
+        1663 11  Jean ANDREW (#BH2625) [IRL,DON,Donegal]
+        1640 12  Andrew SPEER II (#5248) [IRL,DON,Donegal]
+   1 NLD                             
+        1728 8  Catherine (Katie) MEYER (#BH347) [NLD]
+   2 SCO,KKD                         
+        1687 10  Jonet LOCK [SCO,KKD]
+        1683 10  James GILLESPIE [SCO,KKD,Melrose]
+   1 SCO,LKS                         
+        1627 13  Jonet JOHNSOUN (#BH10503) [SCO,LKS,Glasgow]
+   4 SCO,RFW                         
+        1593 13  Rebecca Marion (Lady of Duart)  MCDONALD (#BH10497) [SCO,RFW]
+        1590 13  Andrew SPEARS I (#BH10496) [SCO,RFW]
+        1568 14  Naomia KENNIS  SPEER (#BH20993) [SCO,RFW]
+        1565 14  James Isaac SPEER (#BH20992) [SCO,RFW]
+   1 SCO,ROX                         
+        1709 9  Thomas GILLESPE [SCO,ROX,Melrose]
+   1 SCO,STI                         
+        1660 10  James GLENN [SCO,STI]
+   4 SCO,WLN                         
+        1642 12  Jonet (Janet, Jane, Jean) PENDAR (#BH5251) [SCO,WLN,Linlithgow]
+        1632 12  William ANDREW (#BH5250) [SCO,WLN,Linlithgow]
+        1612 13  Robert ANDROW (#BH10500) [SCO,WLN]
+        1612 13  Janet HEGGEN (#10501) [SCO,WLN]
+   3 USA,KY,Floyd                    
+        1839 4  Spencer Perry COLLINS (#BH20) [USA,KY,Floyd,John's Creek]
+        1822 5  Martha Amy HARRIS (#BH43) [USA,KY,Floyd,Prestonburg]
+        1815 5  Cynthia SPEARS (#BH41) [USA,KY,Floyd,John's Creek]
+   1 USA,KY,Johnson                  
+        1843 4  Eliza Ann GOBBLE (#BH21) [USA,KY,Johnson]
+   5 USA,MD,Anne Arundel             
+        1730 9  Thomas T ESTEP Jr (#BH658) [USA,MD,Anne Arundel,St Margarets]
+        1712 10  Mary Jane LETCHWALT (#BH1317) [USA,MD,Anne Arundel]
+        1679 9  Pretitia TYDINGS [USA,MD,Anne Arundel]
+        1674 9  Rev. Dutton LANE [USA,MD,Anne Arundel,Baltimore]
+        1640 10  Charity Ramsey SPARROW (#BH1331) [USA,MD,Anne Arundel]
+   5 USA,MD,Baltimore                
+        1756 7  Frances Fanny PROCTOR (#BH167) [USA,MD,Baltimore,Baltimore]
+        1750 7  Corbin LANE (#BH166) [USA,MD,Baltimore,Baltimore]
+        1700 8  Rev Samuel LANE Sr [USA,MD,Baltimore]
+        1690 9  Mary Jane WILKINSON [USA,MD,Baltimore,Baltimore]
+        1676 9  Edward Edwin CORBIN [USA,MD,Baltimore,Baltimore]
+   1 USA,MD,Calvert                  
+        1615 11  Elizabeth KINSEY (#BH2663) [USA,MD,Calvert,Calvert Cliffs]
+   1 USA,MD,Carroll                  
+        1708 8  Jane CORBIN [USA,MD,Carroll]
+   1 USA,MD,Charles                  
+        1686 11  Rebecca Calvert RAMSEY (#BH2633) [USA,MD,Charles]
+   8 USA,MD,Frederick                
+        1807 5  Christopher Columbus COLLINS (#BH40) [USA,MD,Frederick,Winchester]
+        1800 6  Anne Catherine "Kitty" WARD (#BH85) [USA,MD,Frederick,Frederick]
+        1792 6  Jacob  GOBBLE (#BH84) [USA,MD,Frederick,Woodsboro]
+        1785 6  Mary (Polly) BROOKE (#BH81) [USA,MD,Frederick,Frederick]
+        1780 6  Rhesa "Reese" COLLINS (#BH80) [USA,MD,Frederick,Winchester]
+        1755 8  Rebecca ESTEP (#BH329) [USA,MD,Frederick,Frederick]
+        1742 9  Lenora Susannah HOLMES [USA,MD,Frederick,Frederick]
+        1709 10  Thomas ESTEP I (#BH1316) [USA,MD,Frederick]
+   1 USA,MD,Montgomery               
+        1690 10  Peter CURFMAN (#BH1314) [USA,MD,Montgomery,Somerset]
+   6 USA,MD,Somerset                 
+        1771 7  Rev James WARD (#BH170) [USA,MD,Somerset]
+        1734 8  Thomas SPEER (#BH328) [USA,MD,Somerset]
+        1713 9  Mary C CURFMAN (#BH657) [USA,MD,Somerset]
+        1692 10  Jane CALLOWAY (#BH1313) [USA,MD,Somerset]
+        1666 11  Andrew SPEER (#BH2624) [USA,MD,Somerset]
+        1630 11  Peter CALLAWAY [USA,MD,Somerset]
+   2 USA,MD,Wicomico                 
+        1713 9  Robert SPEER (#BH656) [USA,MD,Wicomico,Stepney Parish]
+        1686 10  Henry SPEER Sr (#BH1312) [USA,MD,Wicomico,Stepney Parish]
+   1 USA,MD                          
+        1690 10  Rhonda JORDAN HARRISON (#BH1315) [USA,MD]
+   1 USA,MN,Meeker                   
+        1870 3  George Washington COLLINS (#BH10) [USA,MN,Meeker,Kingston]
+   1 USA,NC,Surry                    
+        1765 7  Spencer SPEARS Sr (#BH164) [USA,NC,Surry]
+   2 USA,PA,Chester                  
+        1764 7  Sarah GISE (#BH169) [USA,PA,Chester]
+        1754 7  Christian B GOBLE (#BH168) [USA,PA,Chester]
+   1 USA,VA,Accomack                 
+        1668 10  Mourning WINN [USA,VA,Accomack]
+   3 USA,VA,Augusta                  
+        1749 8  Mary GILLESPE [USA,VA,Augusta,Bath]
+        1746 8  Charles DONNELLY [USA,VA,Augusta]
+        1723 9  Eleanor BOWEN [USA,VA,Augusta,Bath]
+   1 USA,VA,Bland                    
+        1777 7  Jordan CLAY (#BH174) [USA,VA,Bland,Bland]
+   1 USA,VA,Buckingham               
+        1752 7  James Polk HARRIS (2) (#BH172) [USA,VA,Buckingham,Buckingham]
+   2 USA,VA,Chesterfield             
+        1797 6  Samuel Marshall (Henry Samuel) HARRIS (#BH86) [USA,VA,Chesterfield]
+        1760 7  Patte Sarah GEARHEART (#BH173) [USA,VA,Chesterfield]
+   1 USA,VA,Goochland                
+        1630 11  Maj Robert William HARRIS (#BH2752) [USA,VA,Goochland,Goochland]
+   1 USA,VA,Greensville              
+        1785 6  Thomas SPEARS (#BH82) [USA,VA,Greensville,Hicksford]
+   1 USA,VA,Halifax                  
+        1776 7  Mary Eliza CARTER [USA,VA,Halifax]
+   3 USA,VA,Hanover                  
+        1802 6  Nancy Jane CLAY (#BH87) [USA,VA,Hanover]
+        1730 8  Mary HARRIS (#BH345) [USA,VA,Hanover]
+        1722 8  James HARRIS (1) (#BH344) [USA,VA,Hanover]
+   2 USA,VA,King William             
+        1630 11  Mary CLAIRBOURNE (#BH2753) [USA,VA,King William,King William]
+        1587 12  Elizabeth BUTLER (#BH5507) [USA,VA,King William,King William]
+   1 USA,VA,New Kent                 
+        1702 9  Mourning GLENN (#BH689) [USA,VA,New Kent]
+   1 USA,VA,Powhatan                 
+        1632 11  Elizabeth PALMER JOHNSON [USA,VA,Powhatan,Powhatan]
+   1 USA,VA,Scott                    
+        1790 6  Ruth Proctor LANE (#BH83) [USA,VA,Scott]
+   1 USA,VA,Washington               
+        1820 5  William GOBBLE (#BH42) [USA,VA,Washington]
+   5 USA,VA                          
+        1769 7  Catherine Jane DONNALLY (#BH171) [USA,VA]
+        1765 7  Meaca SPEARS (#BH165) [USA,VA]
+        1755 7  Elizabeth OLDHAM PEPPER (#BH161) [USA,VA]
+        1729 8  Johannes (John) GEARHEART [USA,VA]
+        1679 10  Temperance OVERTON (#BH1377) [USA,VA]
+ 114 Ancestors born in 55 locations.
+
+There are 28 possible immigrants:
+    Germany => United States by Johann Friedrich GABEL (#BH336) (1701-1768)
+    Germany => United States by Christiana Henerietta HORNBERGER (#BH337) (1705-1777)
+    England => United States by Thomas POOLE (#BH10498) (1635-1691)
+    England => United States by Jane  POOLE (#BH5249) (1655-1690)
+    England => United States by Hugh KINSEY (#BH5326) (1585-1667)
+    England => United States by William OVERTON (#BH2754) (1638-1690)
+    England => unknown country by Major General Robert OVERTON (#BH5508) (1609-1679)
+    England => United States by Richard TYDINGS (#BH1330) (1625-1686)
+    England => United States by Mary Elizabeth WATERS (#BH2755) (1654-1697)
+    England => United States by Richard EASTOPP (ESTEP) (#BH2632) (1668-1767)
+    England => United States by Margaret JOHNS (#BH5327) (1585-1667)
+    England => United States by Nicholas CORBIN (#BH1332) (1650-1696)
+    England => United States by Elizabeth KEMP (#BH1333) (1654-1685)
+    England => United States by Thomas SPARROW (#BH2662) ("A'fearless Quaker Preacher") (1615-1674)
+    England => United States by William CLAIRBOURNE (#BH5506) (1587-1676)
+    France => United States by Peter GUISE (GUYSE) Sr (1725-1782)
+    Ireland => United States by Patrick COLLINS (#BH160) (1755-1833)
+    Ireland => United States by Andrew SPEER II (#5248) (1640-1690)
+    Ireland => United States by Jean ANDREW (#BH2625) (1663-1690)
+    Netherlands => United States by Catherine (Katie) MEYER (#BH347) (1728-1786)
+    Scotland => United States by James GILLESPIE (1683-1769)
+    Scotland => United States by Jonet LOCK (1687-1734)
+    Scotland => Ireland by Andrew SPEARS I (#BH10496) (1590-1644)
+    Scotland => Ireland by Rebecca Marion (Lady of Duart)  MCDONALD (#BH10497) (1593-1661)
+    Scotland => United States by Thomas GILLESPE (1709-1789)
+    Scotland => United States by James GLENN (1660-1745)
+    Scotland => United States by William ANDREW (#BH5250) (1632-1690)
+    Scotland => United States by Jonet (Janet, Jane, Jean) PENDAR (#BH5251) (1642-1690)

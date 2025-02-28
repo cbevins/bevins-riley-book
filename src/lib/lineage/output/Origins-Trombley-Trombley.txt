@@ -1,0 +1,37 @@
+
+
+Ancestral Origins of George Thomas TROMBLEY (#RT12)
+   1 CAN,QC,Capitale-Nationale       
+        1803 6  Leon TROMBLY (#RT96) [CAN,QC,Charlevoix,Baie-St-Paul]
+   8 CAN,QC,Lanaudiere               
+        1835 5  Célina Délima ARNO\ARNAUD (#RT51) [CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare]
+        1831 5  Eustache (Elie) DUPUIS (#RT50) [CAN,QC,Lanaudiere,St. Jacques l'Achigan]
+        1813 6  Rosalie DUBEAU (#RT103) [CAN,QC,Lanaudiere,D'Autray,St Elisabeth]
+        1812 6  Francois Regis ARNAUD (#RT102) [CAN,QC,Lanaudiere,Joliette,St Paul]
+        1805 6  Marie Esther PERREAULT (#RT101) [CAN,QC,Lanaudiere,l'Assomption,l'Assomption]
+        1799 6  Firmin DUPUIS (#RT100) [CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan]
+        1779 7  Geneviève CLERMONT (#RT207) [CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève]
+        1778 7  François DUBEAU (#RT206) [CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève]
+   4 CAN,QC,Monteregie               
+        1837 5  Sophie Marie BERTHIAUME (#RT49) [CAN,QC,Chateauguay,St Martine]
+        1808 6  Josephte Joséphine PATENAUDE (#RT99) [CAN,QC,Chateauguay,St Joachim]
+        1805 6  Joseph BERTHIAUME (#RT98) [CAN,QC,Chateauguay,St Joachim]
+        1800 6  Marie Charlotte POIRIER (#RT97) [CAN,QC,Monteregie,Longueuil]
+   1 CAN,QC,Saguenay–Lac-Saint-Jean  
+        1835 5  Hilarie Elie Theodore TROMBLEY (#RT48) [CAN,QC,Saguenay,La Malbaie]
+   1 CAN,QC                          
+        1861 4  Marie Louise DUPUIS (#RT25) [CAN,QC]
+   1 USA,NY,Clinton                  
+        1858 4  Eli Helier F. TROMBLEY (#RT24) [USA,NY,Clinton,Clinton]
+   1 USA,RI,Bristol                  
+        1879 3  George Thomas TROMBLEY (#RT12) [USA,RI,Bristol]
+  17 Ancestors born in 7 locations.
+
+There are 7 possible immigrants:
+    Canada => United States by Leon TROMBLY (#RT96) (1803-1900)
+    Canada => United States by Marie Charlotte POIRIER (#RT97) (1800-1916)
+    Canada => United States by Sophie Marie BERTHIAUME (#RT49) (1837-1907)
+    Canada => United States by Joseph BERTHIAUME (#RT98) (1805-1855)
+    Canada => United States by Josephte Joséphine PATENAUDE (#RT99) (1808-1849)
+    Canada => United States by Hilarie Elie Theodore TROMBLEY (#RT48) (1835-1916)
+    Canada => United States by Marie Louise DUPUIS (#RT25) (1861-1929)

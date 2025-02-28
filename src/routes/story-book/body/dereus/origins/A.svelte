@@ -39,7 +39,7 @@
     const dorothyTrombley = find('DorothyMayTrombley1927')
     const sheldonJamesRiley = find('SheldonJamesRiley1902')
     const peterDeReus = find('PeterDeReus1862')
-    const helenPoulson = find('HelenSophia(Ella)Poulson1860')
+    const helenPoulson = find('HelenSophia(Ella)Poulson1866')
     const ariedeReus = find('AriedeReus1836')
     const grietjeBruggeman = find('GrietjeMargaret\"Maggie\"DykhaezaBruggeman1839')
     const arijdeReus = find("ArijPieterszdeReus1811")

@@ -1,0 +1,31 @@
+
+
+Ancestral Origins of Florence CYR (#RT13)
+   7 CAN,NB                          
+        1879 3  Florence CYR (#RT13) [CAN,NB,Acadia]
+        1828 5  Suzanne VIOLETTE (#RT55) [CAN,NB,Madawaska,St Basile]
+        1816 5  Joseph Crock CYR (#RT52) [CAN,NB,Madawaska,St Basile]
+        1800 6  Victoire THIBODEAU (#RT111) [CAN,NB,Madawaska,St Basile]
+        1796 6  Isaac Joseph VIOLETTTE (#RT110) [CAN,NB,Madawaska,St Basile]
+        1785 6  Marie-Euphrosine MARTIN (#RT105) [CAN,NB,Madawaska,St Basile]
+        1780 6  Jean-Marie CYR (#RT104) [CAN,NB,Acadia,Saint John River,Meductic]
+   4 CAN,QC,Bas-Saint-Laurent        
+        1812 5  Joseph Amable DESJARDINS II (#RT54) [CAN,QC,Bas-Saint-Laurent,L'Isle-Verte]
+        1811 6  Jean Frederic * "Hilaire" COTE (#RT106) [CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte]
+        1792 6  Marie-Genevieve OUELLET (#RT109) [CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis]
+        1786 6  Amable (Desjardins) ROY (#RT108) [CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis]
+   1 CAN,QC,Chaudiere-Appalaches     
+        1811 6  Angelique Marie VAILLANCOURT (#RT107) [CAN,QC,Chaudiere-Appalaches,St Roches des Aulnais]
+   3 USA,ME,Aroostook                
+        1853 4  Marguerite DESJARDINS (#RT27) [USA,ME,Aroostook,Van Buren]
+        1851 4  Joseph Eugene Thomas CYR (#RT26) [USA,ME,Aroostook,Van Buren,St Brunos Parish]
+        1834 5  Angelique (Angele) COTE (#RT53) [USA,ME,Aroostook,Van Buren,St Brunos Parish]
+  15 Ancestors born in 4 locations.
+
+There are 6 possible immigrants:
+    Canada => United States by Florence CYR (#RT13) (1879-1968)
+    Canada => United States by Isaac Joseph VIOLETTTE (#RT110) (1796-1850)
+    Canada => United States by Victoire THIBODEAU (#RT111) (1800-1855)
+    Canada => United States by Angelique Marie VAILLANCOURT (#RT107) (1811-1844)
+    United States => Canada by Joseph Eugene Thomas CYR (#RT26) (1851-1920)
+    United States => Canada by Angelique (Angele) COTE (#RT53) (1834-1914)

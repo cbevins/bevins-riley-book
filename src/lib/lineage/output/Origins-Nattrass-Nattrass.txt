@@ -1,0 +1,119 @@
+
+
+Ancestral Origins of Harry Sing NATTRASS (#BH14)
+   2 CAN,ON                          
+        1844 4  Harriet Lucretia SING (#BH29) [CAN,ON,Peterborough,Cavan]
+        1844 4  Alfred Caleb NATTRASS (#BH28) [CAN,ON,Peterborough,Millbrook]
+   1 CAN,QC,Gaspesie-Iles-de-la-Madeleine
+        1805 5  Mary DEXTER (#BH57) [CAN,QC,Gaspesie-Iles-de-la-Madeleine,La Cote-de-Gaspe]
+   2 DEU,HE                          
+        1657 10  Maria Elisabetha [DEU,HE,Starkenberg,Darmstadt,Wixhausen]
+        1643 10  Johann Nikolaus WENTZ (VONWINTZ) [DEU,HE,Starkenberg,Darmstadt,Wixhausen]
+   2 DEU,RP                          
+        1691 9  Anna Elisabetha LIED [DEU,RP,Donnersbergkreis,Morsfeld]
+        1687 9  Henrich WENTZ [DEU,RP,Donnersberg,Kriegsfeld]
+   1 DEU                             
+        1732 8  Johann Herman NIECE (#BH460) [DEU]
+   2 ENG,CAM                         
+        1609 11  Anthony New BESSEY [ENG,CAM,Cambridge]
+        1584 12  Jane (Joane) SKIFFE (#BH7309) [ENG,CAM,Cambridge]
+   3 ENG,DOR                         
+        1620 11  Mary RAWLINS (#BH3811) [ENG,DOR,Weymouth]
+        1607 10  Andrew HALLETT (2) (#BH1826) [ENG,DOR,Symondsbury]
+        1593 12  Thomas RAWLINS (#BH7622) [ENG,DOR,Weymouth]
+   7 ENG,DUR                         
+        1799 5  Thomas NATTRASS (#BH56) [ENG,DUR,Stanhope]
+        1780 6  Elizabeth HEDLEY (#BH113) [ENG,DUR,Stanhope]
+        1771 6  Matthew NATTRASS (#BH112) [ENG,DUR]
+        1755 7  Ann  PHILIPSON (#BH227) [ENG,DUR,Stanhope,Broadwood]
+        1748 7  Mathew NATTRASS [ENG,DUR,Stanhope,Blackclough]
+        1748 7  Ann BLADES (#BH225) [ENG,DUR]
+        1745 7  Thomas HEDLEY (#BH226) [ENG,DUR]
+   1 ENG,KEN                         
+        1620 11  William PARKER (#BH3810) [ENG,KEN]
+   1 ENG,MDL                         
+        1751 6  Elizabeth BABINGTON (#BH117) [ENG,MDL]
+   2 ENG,NTT                         
+        1620 11  Richard HANDY (#BH3812) [ENG,NTT,Nottingham]
+        1620 11  Hellyne THOMSON (#BH3813) [ENG,NTT,Nottingham]
+   1 ENG,SOM                         
+        1594 10  Thomas Barsbie DEXTER (#BH1824) [ENG,SOM,Bristol]
+   1 ENG,SXE                         
+        1587 12  John BESSE (#BH7308) [ENG,SXE,Rye]
+   2 ENG                             
+        1601 11  Jane STOCKHOUSE (#BH3665) [ENG]
+        1599 12  Mary RAWLINS (#BH7623) [ENG]
+   1 IRL,DUB                         
+        1753 6  Rev Edward SYNGE DD (#BH116) [IRL,DUB,St Ann's]
+   1 IRL,MOG                         
+        1808 5  Samuel SING (#BH58) [IRL,MOG,Carrickmacross]
+   2 USA,CT,New London               
+        1753 7  Hannah HUNTER (#239) [USA,CT,New London,Voluntown]
+        1721 8  Mary LARKIN (#BH479) [USA,CT,New London,Stonington]
+   2 USA,CT,Windham                  
+        1773 6  John DEXTER (2) (#BH114) [USA,CT,Windham,Ashford]
+        1728 7  Lydia SMITH [USA,CT,Windham,Ashford]
+   1 USA,CT                          
+        1700 9  Elizabeth ROOS (#BH959) [USA,CT]
+   8 USA,MA,Barnstable               
+        1713 8  Robert HANDY Sr (#BH476) [USA,MA,Barnstable,Sandwich]
+        1686 8  Thomas DEXTER (#BH456) [USA,MA,Barnstable,Sandwich]
+        1672 9  Richard HANDY (#BH952) [USA,MA,Barnstable,Sandwich]
+        1656 9  John DEXTER (1) (#BH912) [USA,MA,Barnstable,Sandwich]
+        1652 9  Mehitable HALLETT [USA,MA,Barnstable,Yarmouth]
+        1645 10  Richard HANDY (#BH1904) [USA,MA,Barnstable,Sandwich]
+        1630 10  Ann (Anna) BESSEY (#BH1827) [USA,MA,Barnstable,Sandwich]
+        1628 10  Elizabeth Graham VINCENT (#BH1825) [USA,MA,Barnstable,Sandwich]
+   2 USA,MA,Bristol                  
+        1744 7  Robert F HANDY Jr (#238) [USA,MA,Bristol,Swansea]
+        1716 8  Rachel KELLY (#BH477) [USA,MA,Bristol,Swansea]
+   1 USA,MA,Essex                    
+        1718 8  William Caldwell  HUNTER (#BH478) [USA,MA,Essex,Gloucester]
+   3 USA,MA,Plymouth                 
+        1679 9  Patience RANDALL (#BH953) [USA,MA,Plymouth,Scituate]
+        1650 10  John RANDALL (#BH1906) [USA,MA,Plymouth,Scituate]
+        1648 10  Patience PARKER (#BH1905) [USA,MA,Plymouth,Scituate]
+   1 USA,MA                          
+        1634 10  Hannah HANDY (#BH1905) [USA,MA]
+   1 USA,ND,Rolette                  
+        1888 3  Harry Sing NATTRASS (#BH14) [USA,ND,Rolette,Scotch Block]
+   2 USA,NY,Rensselaer               
+        1808 5  Lucretia BARNHARD (#BH59) [USA,NY,Rensselaer,Hoosick]
+        1768 6  David BARNHART (#BH118) [USA,NY,Rensselaer,Hoosick Falls]
+   2 USA,PA,Pike                     
+        1756 7  Johann Harmon NEICE Sr. [USA,PA,Pike,Milford]
+        1719 8  Anna Catherena WENTZ (#BH461) [USA,PA,Pike,Milford]
+   1 USA,PA,Somerset                 
+        1772 6  Jane NIECE (#BH115) [USA,PA,Somerset]
+   1 USA,RI,Bristol                  
+        1731 7  Elisha DEXTER [USA,RI,Bristol,Barrington]
+   1 USA,RI,Newport                  
+        1693 8  Mary Mercy FISH (#BH457) [USA,RI,Newport,Portsmouth]
+   3 USA,RI,Washington               
+        1706 9  John LARKIN (#BH958) [USA,RI,Washington,Westerly]
+        1676 10  Hannah BABCOCK [USA,RI,Washington,Westerly]
+        1671 10  Roger LARKIN [USA,RI,Washington,Westerly]
+   1 USA,VA                          
+        1760 7  Lucretia WERTZ [USA,VA]
+   1 USA,VT,Windsor                  
+        1778 6  Lucretia HANDY (#BH119) [USA,VT,Windsor,Royalton]
+  63 Ancestors born in 33 locations.
+
+There are 17 possible immigrants:
+    Canada => United States by Alfred Caleb NATTRASS (#BH28) (1844-1932)
+    Germany => United States by Johann Herman NIECE (#BH460) (1732-1805)
+    England => United States by Anthony New BESSEY (1609-1657)
+    England => United States by Andrew HALLETT (2) (#BH1826) (1607-1683)
+    England => United States by Mary RAWLINS (#BH3811) (1620-1651)
+    England => United States by Thomas RAWLINS (#BH7622) (1593-1660)
+    England => Canada by Thomas NATTRASS (#BH56) (1799-1865)
+    England => United States by William PARKER (#BH3810) (1620-1684)
+    England => United States by Richard HANDY (#BH3812) (1620-1645)
+    England => United States by Hellyne THOMSON (#BH3813) (1620-1700)
+    England => United States by Thomas Barsbie DEXTER (#BH1824) (1594-1676)
+    England => United States by Jane STOCKHOUSE (#BH3665) (1601-1693)
+    England => United States by Mary RAWLINS (#BH7623) (1599-1660)
+    Ireland => England by Rev Edward SYNGE DD (#BH116) (1753-1818)
+    Ireland => Canada by Samuel SING (#BH58) (1808-1874)
+    United States => Canada by John DEXTER (2) (#BH114) (1773-1815)
+    United States => Canada by Jane NIECE (#BH115) (1772-1839)

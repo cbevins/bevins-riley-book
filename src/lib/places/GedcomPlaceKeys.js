@@ -132,7 +132,7 @@ export const GedcomPlaceKeys = new Map([
     ["Backstugan Nyalund, Gubbsmåla, Södra Sandsjö, Kronoberg, Sverige", "SWE,KRO,Södra Sandsjö,Gubbsmåla,Backstugan Nyalund"],
     ["Badoura, Hubbard, Minnesota, United States", "USA,MN,Hubbard,Badoura"],
     ["Bagworth, Leicestershire, England", "ENG,LEI,Bagworth"],
-    ["Baie-St-Paul, Charlevoix, Quebec, Canada", "CAN,QC,Charlevoix,Baie-St-Paul"],
+    ["Baie-St-Paul, Charlevoix, Quebec, Canada", "CAN,QC,Capitale-Nationale,Charlevoix,Baie-St-Paul"],
     ["Bakke farm, Sør-Aurdal, Oppland, Norvège", "NOR,OPP,Sør-Aurdal,Bakke farm"],
     ["Ball Club, Itasca, Minnesota, USA", "USA,MN,Itasca,Ball Club"],
     ["Ballieston, Old Monkland, Lanarkshire, Scotland", "SCO,LKS,Old Monkland,Ballieston"],
@@ -504,7 +504,7 @@ export const GedcomPlaceKeys = new Map([
     ["Eau Claire, WI", "USA,WI,Eau Claire,Eau Claire"], // 4
     ["Eau Claire, Wisconsin, USA", "USA,WI,Eau Claire"],  // 3
     ["Eden Valley, Meeker, Minnesota, USA", "USA,MN,Meeker,Eden Valley"],
-    ["Ekoupag Meductic, Saint John River, New Brunswick, Canada", "CAN,NB,Acadia,Saint John River,Meductic"],
+    ["Ekoupag Meductic, Saint John River, New Brunswick, Canada", "CAN,NB,York,Saint John River,Meductic"],
     ["El Paso, Texas, USA", "USA,TX,El Paso,El Paso"],
     ["Elizabeth, Miami, Ohio, United States", "USA,OH,Miami,Elizabeth"],
     ["Elkhart co., IN.", "USA,IN,Elkhart"],
@@ -768,7 +768,7 @@ export const GedcomPlaceKeys = new Map([
     ["Jøranbyhuset, Hedalen, Sør-Aurdal, Oppland, Norvège", "NOR,OPP,Sør-Aurdal,Hedalen,Joranbyhuset"],
     ["Kalispell, Flathead, Montana, USA", "USA,MT,Flathead,Kalispell"],
     ["Kalispell, Montana, USA", "USA,MT,Flathead,Kalispell"],
-    ["Kamouraska, Kamouraska, Quebec, Canada", "CAN,QC,Kamouraska,Kamouraska"],
+    ["Kamouraska, Kamouraska, Quebec, Canada", "CAN,QC,Bas-Saint-Laurent,Kamouraska,Kamouraska"],
     ["Kansas City, Clay, Missouri, USA", "USA,MO,Clay,Kansas City"], // 1
     ["Kansas City, Wyandotte, Kansas, United States", "USA,KS,Wyandotte,Kansas City"], // 1
     ["Kansas, United States of America", "USA,KS"],
