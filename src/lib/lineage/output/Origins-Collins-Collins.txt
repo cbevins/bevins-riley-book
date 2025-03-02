@@ -1,203 +1,228 @@
+g3: George Washington COLLINS (#BH10) (1870-1964)
+g2:      |-> Hattie Jane COLLINS (#BH5) (1889-1977)
 
+has 114 Ancestors born in 55 Locations with 28 possible Immigrants
 
-Ancestral Origins of George Washington COLLINS (#BH10)
-   2                                 
-        1687 9  Major Robert HARRIS (2) (#BH688) []
-        1669 10  William HARRIS (#BH1376) []
-   2 DEU,RP                          
-        1705 8  Christiana Henerietta HORNBERGER (#BH337) [DEU,RP,Zweibrucken,An Glan]
-        1701 8  Johann Friedrich GABEL (#BH336) [DEU,RP,Zweibrucken]
-   1 ENG,BKM                         
-        1635 13  Thomas POOLE (#BH10498) [ENG,BKM]
-   2 ENG,CHS                         
-        1655 12  Jane  POOLE (#BH5249) [ENG,CHS,Chester,St John the Baptist]
-        1585 12  Hugh KINSEY (#BH5326) [ENG,CHS,Cheshire]
-   4 ENG,ERY                         
-        1638 11  William OVERTON (#BH2754) [ENG,ERY,Easington]
-        1609 12  Major General Robert OVERTON (#BH5508) [ENG,ERY,Easington]
-        1585 13  John OVERTON (#BH11016) [ENG,ERY,Easington]
-        1560 14  Bishop Christopher 'William' OVERTON (#22032) [ENG,ERY,Easington]
-   3 ENG,LND                         
-        1654 11  Mary Elizabeth WATERS (#BH2755) [ENG,LND,Newgate,St Sepulchre]
-        1625 10  Richard TYDINGS (#BH1330) [ENG,LND]
-        1619 12  Ann PEAKE WATERS (#BH5511) [ENG,LND,Newgate,St Sepulchre]
-   2 ENG,MDL                         
-        1668 11  Richard EASTOPP (ESTEP) (#BH2632) [ENG,MDL,Stepney Parish]
-        1590 13  Jeremy GARDINER (#BH11018) [ENG,MDL,Stratford Bow]
-   2 ENG,NOR                         
-        1617 12  Sir Samuel Thomas WATERS (#BH5510) [ENG,NOR,Eastcott]
-        1565 13  Sir Henry Boniface PEAKE (#BH11022) [ENG,NOR,Kettering,Thorpe Underwood]
-   1 ENG,SAL                         
-        1581 13  Lady Joanne Palmer SNAWSELL (#BH11017) [ENG,SAL,Alvely]
-   1 ENG,SFK                         
-        1578 13  Joan CLARKE (#BH11023) [ENG,SFK,Westhorpe]
-   1 ENG,SOM                         
-        1585 12  Margaret JOHNS (#BH5327) [ENG,SOM,St Marys]
-   3 ENG,WAR                         
-        1659 11  Sarah CHAPMAN (#BH2629) [ENG,WAR,Coventry]
-        1654 10  Elizabeth KEMP (#BH1333) [ENG,WAR,Halls End]
-        1650 10  Nicholas CORBIN (#BH1332) [ENG,WAR,Halls End]
-   1 ENG,WOR                         
-        1615 11  Thomas SPARROW (#BH2662) ("A'fearless Quaker Preacher") [ENG,WOR,Worcester,Pedmore]
-   1 ENG,YKS                         
-        1610 12  Ann GARDINER (#BH5509) [ENG,YKS]
-   4 ENG                             
-        1655 11  John CURFMAN\CUPMAN\COPEMAN [ENG]
-        1644 12  John ESTEP (#BH5264) [ENG]
-        1637 13  Alice LUNT (#BH10499) [ENG]
-        1587 12  William CLAIRBOURNE (#BH5506) [ENG]
-   1 FRA,ALS                         
-        1725 8  Peter GUISE (GUYSE) Sr [FRA,ALS,Strassburg]
-   3 IRL,COR                         
-        1755 7  Patrick COLLINS (#BH160) [IRL,COR,Macroom]
-        1735 8  Mary O' CALLAGON [IRL,COR]
-        1733 8  Denis COLLINS (#BH320) [IRL,COR,Dunmanway]
-   2 IRL,DON                         
-        1663 11  Jean ANDREW (#BH2625) [IRL,DON,Donegal]
-        1640 12  Andrew SPEER II (#5248) [IRL,DON,Donegal]
-   1 NLD                             
-        1728 8  Catherine (Katie) MEYER (#BH347) [NLD]
-   2 SCO,KKD                         
-        1687 10  Jonet LOCK [SCO,KKD]
-        1683 10  James GILLESPIE [SCO,KKD,Melrose]
-   1 SCO,LKS                         
-        1627 13  Jonet JOHNSOUN (#BH10503) [SCO,LKS,Glasgow]
-   4 SCO,RFW                         
-        1593 13  Rebecca Marion (Lady of Duart)  MCDONALD (#BH10497) [SCO,RFW]
-        1590 13  Andrew SPEARS I (#BH10496) [SCO,RFW]
-        1568 14  Naomia KENNIS  SPEER (#BH20993) [SCO,RFW]
-        1565 14  James Isaac SPEER (#BH20992) [SCO,RFW]
-   1 SCO,ROX                         
-        1709 9  Thomas GILLESPE [SCO,ROX,Melrose]
-   1 SCO,STI                         
-        1660 10  James GLENN [SCO,STI]
-   4 SCO,WLN                         
-        1642 12  Jonet (Janet, Jane, Jean) PENDAR (#BH5251) [SCO,WLN,Linlithgow]
-        1632 12  William ANDREW (#BH5250) [SCO,WLN,Linlithgow]
-        1612 13  Robert ANDROW (#BH10500) [SCO,WLN]
-        1612 13  Janet HEGGEN (#10501) [SCO,WLN]
-   3 USA,KY,Floyd                    
-        1839 4  Spencer Perry COLLINS (#BH20) [USA,KY,Floyd,John's Creek]
-        1822 5  Martha Amy HARRIS (#BH43) [USA,KY,Floyd,Prestonburg]
-        1815 5  Cynthia SPEARS (#BH41) [USA,KY,Floyd,John's Creek]
-   1 USA,KY,Johnson                  
-        1843 4  Eliza Ann GOBBLE (#BH21) [USA,KY,Johnson]
-   5 USA,MD,Anne Arundel             
-        1730 9  Thomas T ESTEP Jr (#BH658) [USA,MD,Anne Arundel,St Margarets]
-        1712 10  Mary Jane LETCHWALT (#BH1317) [USA,MD,Anne Arundel]
-        1679 9  Pretitia TYDINGS [USA,MD,Anne Arundel]
-        1674 9  Rev. Dutton LANE [USA,MD,Anne Arundel,Baltimore]
-        1640 10  Charity Ramsey SPARROW (#BH1331) [USA,MD,Anne Arundel]
-   5 USA,MD,Baltimore                
-        1756 7  Frances Fanny PROCTOR (#BH167) [USA,MD,Baltimore,Baltimore]
-        1750 7  Corbin LANE (#BH166) [USA,MD,Baltimore,Baltimore]
-        1700 8  Rev Samuel LANE Sr [USA,MD,Baltimore]
-        1690 9  Mary Jane WILKINSON [USA,MD,Baltimore,Baltimore]
-        1676 9  Edward Edwin CORBIN [USA,MD,Baltimore,Baltimore]
-   1 USA,MD,Calvert                  
-        1615 11  Elizabeth KINSEY (#BH2663) [USA,MD,Calvert,Calvert Cliffs]
-   1 USA,MD,Carroll                  
-        1708 8  Jane CORBIN [USA,MD,Carroll]
-   1 USA,MD,Charles                  
-        1686 11  Rebecca Calvert RAMSEY (#BH2633) [USA,MD,Charles]
-   8 USA,MD,Frederick                
-        1807 5  Christopher Columbus COLLINS (#BH40) [USA,MD,Frederick,Winchester]
-        1800 6  Anne Catherine "Kitty" WARD (#BH85) [USA,MD,Frederick,Frederick]
-        1792 6  Jacob  GOBBLE (#BH84) [USA,MD,Frederick,Woodsboro]
-        1785 6  Mary (Polly) BROOKE (#BH81) [USA,MD,Frederick,Frederick]
-        1780 6  Rhesa "Reese" COLLINS (#BH80) [USA,MD,Frederick,Winchester]
-        1755 8  Rebecca ESTEP (#BH329) [USA,MD,Frederick,Frederick]
-        1742 9  Lenora Susannah HOLMES [USA,MD,Frederick,Frederick]
-        1709 10  Thomas ESTEP I (#BH1316) [USA,MD,Frederick]
-   1 USA,MD,Montgomery               
-        1690 10  Peter CURFMAN (#BH1314) [USA,MD,Montgomery,Somerset]
-   6 USA,MD,Somerset                 
-        1771 7  Rev James WARD (#BH170) [USA,MD,Somerset]
-        1734 8  Thomas SPEER (#BH328) [USA,MD,Somerset]
-        1713 9  Mary C CURFMAN (#BH657) [USA,MD,Somerset]
-        1692 10  Jane CALLOWAY (#BH1313) [USA,MD,Somerset]
-        1666 11  Andrew SPEER (#BH2624) [USA,MD,Somerset]
-        1630 11  Peter CALLAWAY [USA,MD,Somerset]
-   2 USA,MD,Wicomico                 
-        1713 9  Robert SPEER (#BH656) [USA,MD,Wicomico,Stepney Parish]
-        1686 10  Henry SPEER Sr (#BH1312) [USA,MD,Wicomico,Stepney Parish]
-   1 USA,MD                          
-        1690 10  Rhonda JORDAN HARRISON (#BH1315) [USA,MD]
-   1 USA,MN,Meeker                   
-        1870 3  George Washington COLLINS (#BH10) [USA,MN,Meeker,Kingston]
-   1 USA,NC,Surry                    
-        1765 7  Spencer SPEARS Sr (#BH164) [USA,NC,Surry]
-   2 USA,PA,Chester                  
-        1764 7  Sarah GISE (#BH169) [USA,PA,Chester]
-        1754 7  Christian B GOBLE (#BH168) [USA,PA,Chester]
-   1 USA,VA,Accomack                 
-        1668 10  Mourning WINN [USA,VA,Accomack]
-   3 USA,VA,Augusta                  
-        1749 8  Mary GILLESPE [USA,VA,Augusta,Bath]
-        1746 8  Charles DONNELLY [USA,VA,Augusta]
-        1723 9  Eleanor BOWEN [USA,VA,Augusta,Bath]
-   1 USA,VA,Bland                    
-        1777 7  Jordan CLAY (#BH174) [USA,VA,Bland,Bland]
-   1 USA,VA,Buckingham               
-        1752 7  James Polk HARRIS (2) (#BH172) [USA,VA,Buckingham,Buckingham]
-   2 USA,VA,Chesterfield             
-        1797 6  Samuel Marshall (Henry Samuel) HARRIS (#BH86) [USA,VA,Chesterfield]
-        1760 7  Patte Sarah GEARHEART (#BH173) [USA,VA,Chesterfield]
-   1 USA,VA,Goochland                
-        1630 11  Maj Robert William HARRIS (#BH2752) [USA,VA,Goochland,Goochland]
-   1 USA,VA,Greensville              
-        1785 6  Thomas SPEARS (#BH82) [USA,VA,Greensville,Hicksford]
-   1 USA,VA,Halifax                  
-        1776 7  Mary Eliza CARTER [USA,VA,Halifax]
-   3 USA,VA,Hanover                  
-        1802 6  Nancy Jane CLAY (#BH87) [USA,VA,Hanover]
-        1730 8  Mary HARRIS (#BH345) [USA,VA,Hanover]
-        1722 8  James HARRIS (1) (#BH344) [USA,VA,Hanover]
-   2 USA,VA,King William             
-        1630 11  Mary CLAIRBOURNE (#BH2753) [USA,VA,King William,King William]
-        1587 12  Elizabeth BUTLER (#BH5507) [USA,VA,King William,King William]
-   1 USA,VA,New Kent                 
-        1702 9  Mourning GLENN (#BH689) [USA,VA,New Kent]
-   1 USA,VA,Powhatan                 
-        1632 11  Elizabeth PALMER JOHNSON [USA,VA,Powhatan,Powhatan]
-   1 USA,VA,Scott                    
-        1790 6  Ruth Proctor LANE (#BH83) [USA,VA,Scott]
-   1 USA,VA,Washington               
-        1820 5  William GOBBLE (#BH42) [USA,VA,Washington]
-   5 USA,VA                          
-        1769 7  Catherine Jane DONNALLY (#BH171) [USA,VA]
-        1765 7  Meaca SPEARS (#BH165) [USA,VA]
-        1755 7  Elizabeth OLDHAM PEPPER (#BH161) [USA,VA]
-        1729 8  Johannes (John) GEARHEART [USA,VA]
-        1679 10  Temperance OVERTON (#BH1377) [USA,VA]
- 114 Ancestors born in 55 locations.
+'' Location has 2 Ancestors:
+         1687 g9  MajorRobertHarris(2)1687, Major Robert HARRIS (2) (#BH688) [b:, d:]
+         1669 g10  WilliamHarris1669, William HARRIS (#BH1376) [b:, d:]
 
-There are 28 possible immigrants:
-    Germany => United States by Johann Friedrich GABEL (#BH336) (1701-1768)
-    Germany => United States by Christiana Henerietta HORNBERGER (#BH337) (1705-1777)
-    England => United States by Thomas POOLE (#BH10498) (1635-1691)
-    England => United States by Jane  POOLE (#BH5249) (1655-1690)
-    England => United States by Hugh KINSEY (#BH5326) (1585-1667)
-    England => United States by William OVERTON (#BH2754) (1638-1690)
-    England => unknown country by Major General Robert OVERTON (#BH5508) (1609-1679)
-    England => United States by Richard TYDINGS (#BH1330) (1625-1686)
-    England => United States by Mary Elizabeth WATERS (#BH2755) (1654-1697)
-    England => United States by Richard EASTOPP (ESTEP) (#BH2632) (1668-1767)
-    England => United States by Margaret JOHNS (#BH5327) (1585-1667)
-    England => United States by Nicholas CORBIN (#BH1332) (1650-1696)
-    England => United States by Elizabeth KEMP (#BH1333) (1654-1685)
-    England => United States by Thomas SPARROW (#BH2662) ("A'fearless Quaker Preacher") (1615-1674)
-    England => United States by William CLAIRBOURNE (#BH5506) (1587-1676)
-    France => United States by Peter GUISE (GUYSE) Sr (1725-1782)
-    Ireland => United States by Patrick COLLINS (#BH160) (1755-1833)
-    Ireland => United States by Andrew SPEER II (#5248) (1640-1690)
-    Ireland => United States by Jean ANDREW (#BH2625) (1663-1690)
-    Netherlands => United States by Catherine (Katie) MEYER (#BH347) (1728-1786)
-    Scotland => United States by James GILLESPIE (1683-1769)
-    Scotland => United States by Jonet LOCK (1687-1734)
-    Scotland => Ireland by Andrew SPEARS I (#BH10496) (1590-1644)
-    Scotland => Ireland by Rebecca Marion (Lady of Duart)  MCDONALD (#BH10497) (1593-1661)
-    Scotland => United States by Thomas GILLESPE (1709-1789)
-    Scotland => United States by James GLENN (1660-1745)
-    Scotland => United States by William ANDREW (#BH5250) (1632-1690)
-    Scotland => United States by Jonet (Janet, Jane, Jean) PENDAR (#BH5251) (1642-1690)
+'DEU,RP' Location has 2 Ancestors:
+     *** 1705 g8  ChristianaHeneriettaHornberger1705, Christiana Henerietta HORNBERGER (#BH337) [b:DEU,RP,Zweibrucken,An Glan, d:USA,MD,Frederick]
+     *** 1701 g8  JohannFriedrichGabel1701, Johann Friedrich GABEL (#BH336) [b:DEU,RP,Zweibrucken, d:USA,MD]
+
+'ENG,BKM' Location has 1 Ancestors:
+     *** 1635 g13  ThomasPoole1635, Thomas POOLE (#BH10498) [b:ENG,BKM, d:USA,MD,Somerset]
+
+'ENG,CHS' Location has 2 Ancestors:
+     *** 1655 g12  JanePoole1655, Jane  POOLE (#BH5249) [b:ENG,CHS,Chester,St John the Baptist, d:USA,MD,Somerset]
+     *** 1585 g12  HughKinsey1585, Hugh KINSEY (#BH5326) [b:ENG,CHS,Cheshire, d:USA,MD,Anne Arundel]
+
+'ENG,ERY' Location has 4 Ancestors:
+     *** 1638 g11  WilliamOverton1638, William OVERTON (#BH2754) [b:ENG,ERY,Easington, d:USA,VA,James City,Jamestown]
+     *** 1609 g12  MajorGeneralRobertOverton1609, Major General Robert OVERTON (#BH5508) [b:ENG,ERY,Easington, d:BAR,presumed]
+         1585 g13  JohnOverton1585, John OVERTON (#BH11016) [b:ENG,ERY,Easington, d:ENG,ERY,Easington]
+         1560 g14  BishopChristopher'William'Overton1560, Bishop Christopher 'William' OVERTON (#22032) [b:ENG,ERY,Easington, d:ENG,ERY,Easington]
+
+'ENG,LND' Location has 3 Ancestors:
+     *** 1654 g11  MaryElizabethWaters1654, Mary Elizabeth WATERS (#BH2755) [b:ENG,LND,Newgate,St Sepulchre, d:USA,VA,Hanover,New Kent, in 1719 became St Pauls Parish]
+     *** 1625 g10  RichardTydings1625, Richard TYDINGS (#BH1330) [b:ENG,LND, d:USA,MD,Anne Arundel]
+         1619 g12  AnnPeakeWaters1619, Ann PEAKE WATERS (#BH5511) [b:ENG,LND,Newgate,St Sepulchre, d:ENG,LND,Newgate,St Sepulchre]
+
+'ENG,MDL' Location has 2 Ancestors:
+     *** 1668 g11  RichardEastopp(Estep)1668, Richard EASTOPP (ESTEP) (#BH2632) [b:ENG,MDL,Stepney Parish, d:USA,MD,Charles]
+         1590 g13  JeremyGardiner1590, Jeremy GARDINER (#BH11018) [b:ENG,MDL,Stratford Bow, d:ENG,MDL]
+
+'ENG,NOR' Location has 2 Ancestors:
+         1617 g12  SirSamuelThomasWaters1617, Sir Samuel Thomas WATERS (#BH5510) [b:ENG,NOR,Eastcott, d:ENG,LND]
+         1565 g13  SirHenryBonifacePeake1565, Sir Henry Boniface PEAKE (#BH11022) [b:ENG,NOR,Kettering,Thorpe Underwood, d:ENG,NOR,Kettering,Thorpe Underwood]
+
+'ENG,SAL' Location has 1 Ancestors:
+         1581 g13  LadyJoannePalmerSnawsell1581, Lady Joanne Palmer SNAWSELL (#BH11017) [b:ENG,SAL,Alvely, d:ENG,ERY,Easington]
+
+'ENG,SFK' Location has 1 Ancestors:
+         1578 g13  JoanClarke1578, Joan CLARKE (#BH11023) [b:ENG,SFK,Westhorpe, d:ENG,NOR,East Northamptonshire Borough,Achurch]
+
+'ENG,SOM' Location has 1 Ancestors:
+     *** 1585 g12  MargaretJohns1585, Margaret JOHNS (#BH5327) [b:ENG,SOM,St Marys, d:USA,MD,Anne Arundel]
+
+'ENG,WAR' Location has 3 Ancestors:
+         1659 g11  SarahChapman1659, Sarah CHAPMAN (#BH2629) [b:ENG,WAR,Coventry, d:]
+     *** 1654 g10  ElizabethKemp1654, Elizabeth KEMP (#BH1333) [b:ENG,WAR,Halls End, d:USA,MD,Baltimore,Baltimore]
+     *** 1650 g10  NicholasCorbin1650, Nicholas CORBIN (#BH1332) [b:ENG,WAR,Halls End, d:USA,MD,Baltimore,Baltimore]
+
+'ENG,WOR' Location has 1 Ancestors:
+     *** 1615 g11  ThomasSparrow1615, Thomas SPARROW (#BH2662) ("A'fearless Quaker Preacher") [b:ENG,WOR,Worcester,Pedmore, d:USA,MD,Anne Arundel]
+
+'ENG,YKS' Location has 1 Ancestors:
+         1610 g12  AnnGardiner1610, Ann GARDINER (#BH5509) [b:ENG,YKS, d:ENG,YKS]
+
+'ENG' Location has 4 Ancestors:
+         1655 g11  JohnCurfman\Cupman\Copeman1655, John CURFMAN\CUPMAN\COPEMAN [b:ENG, d:]
+         1644 g12  JohnEstep1644, John ESTEP (#BH5264) [b:ENG, d:ENG]
+         1637 g13  AliceLunt1637, Alice LUNT (#BH10499) [b:ENG, d:]
+     *** 1587 g12  WilliamClairbourne1587, William CLAIRBOURNE (#BH5506) [b:ENG, d:USA,VA]
+
+'FRA,ALS' Location has 1 Ancestors:
+     *** 1725 g8  PeterGuise(Guyse)1725, Peter GUISE (GUYSE) Sr [b:FRA,ALS,Strassburg, d:USA,VA,Rockingham]
+
+'IRL,COR' Location has 3 Ancestors:
+     *** 1755 g7  PatrickCollins1755, Patrick COLLINS (#BH160) [b:IRL,COR,Macroom, d:USA,VA,Washington]
+         1735 g8  MaryO'Callagon1735, Mary O' CALLAGON [b:IRL,COR, d:]
+         1733 g8  DenisCollins1733, Denis COLLINS (#BH320) [b:IRL,COR,Dunmanway, d:IRL]
+
+'IRL,DON' Location has 2 Ancestors:
+     *** 1663 g11  JeanAndrew1663, Jean ANDREW (#BH2625) [b:IRL,DON,Donegal, d:USA,MD,Somerset]
+     *** 1640 g12  AndrewSpeer1640, Andrew SPEER II (#5248) [b:IRL,DON,Donegal, d:USA,MD,Somerset]
+
+'NLD' Location has 1 Ancestors:
+     *** 1728 g8  Catherine(Katie)Meyer1728, Catherine (Katie) MEYER (#BH347) [b:NLD, d:USA,VA,Wythe]
+
+'SCO,KKD' Location has 2 Ancestors:
+     *** 1687 g10  JonetLock1687, Jonet LOCK [b:SCO,KKD, d:USA,NC]
+     *** 1683 g10  JamesGillespie1683, James GILLESPIE [b:SCO,KKD,Melrose, d:USA,VA,Augusta,Bath]
+
+'SCO,LKS' Location has 1 Ancestors:
+         1627 g13  JonetJohnsoun1627, Jonet JOHNSOUN (#BH10503) [b:SCO,LKS,Glasgow, d:SCO,LKS,Carstairs]
+
+'SCO,RFW' Location has 4 Ancestors:
+     *** 1593 g13  RebeccaMarion(LadyofDuart)McDonald1593, Rebecca Marion (Lady of Duart)  MCDONALD (#BH10497) [b:SCO,RFW, d:IRL]
+     *** 1590 g13  AndrewSpears1590, Andrew SPEARS I (#BH10496) [b:SCO,RFW, d:IRL,DON,Bally Shannon]
+         1568 g14  NaomiaKennisSpeer1568, Naomia KENNIS  SPEER (#BH20993) [b:SCO,RFW, d:SCO,RFW]
+         1565 g14  JamesIsaacSpeer1565, James Isaac SPEER (#BH20992) [b:SCO,RFW, d:SCO,RFW]
+
+'SCO,ROX' Location has 1 Ancestors:
+     *** 1709 g9  ThomasGillespe1709, Thomas GILLESPE [b:SCO,ROX,Melrose, d:USA,VA,Augusta,Cowpasture]
+
+'SCO,STI' Location has 1 Ancestors:
+     *** 1660 g10  JamesGlenn1660, James GLENN [b:SCO,STI, d:USA,VA,New Kent]
+
+'SCO,WLN' Location has 4 Ancestors:
+     *** 1642 g12  Jonet(Janet,Jane,Jean)Pendar1642, Jonet (Janet, Jane, Jean) PENDAR (#BH5251) [b:SCO,WLN,Linlithgow, d:USA,MD,Somerset]
+     *** 1632 g12  WilliamAndrew1632, William ANDREW (#BH5250) [b:SCO,WLN,Linlithgow, d:USA,MD,Somerset]
+         1612 g13  RobertAndrow1612, Robert ANDROW (#BH10500) [b:SCO,WLN, d:SCO,WLN]
+         1612 g13  JanetHeggen1612, Janet HEGGEN (#10501) [b:SCO,WLN, d:SCO,WLN]
+
+'USA,KY,Floyd' Location has 3 Ancestors:
+         1839 g4  SpencerPerryCollins1839, Spencer Perry COLLINS (#BH20) [b:USA,KY,Floyd,John's Creek, d:USA,MN,Meeker,Kingston]
+         1822 g5  MarthaAmyHarris1822, Martha Amy HARRIS (#BH43) [b:USA,KY,Floyd,Prestonburg, d:USA,NE,Thayer,Byron]
+         1815 g5  CynthiaSpears1815, Cynthia SPEARS (#BH41) [b:USA,KY,Floyd,John's Creek, d:USA,KY,Johnson,Daniels Creek]
+
+'USA,KY,Johnson' Location has 1 Ancestors:
+         1843 g4  ElizaAnnGobble1843, Eliza Ann GOBBLE (#BH21) [b:USA,KY,Johnson, d:USA,MN,Meeker,Kingston]
+
+'USA,MD,Anne Arundel' Location has 5 Ancestors:
+         1730 g9  ThomasTEstep1730, Thomas T ESTEP Jr (#BH658) [b:USA,MD,Anne Arundel,St Margarets, d:USA,NC,Rowan,Salisbury]
+         1712 g10  MaryJaneLetchwalt1712, Mary Jane LETCHWALT (#BH1317) [b:USA,MD,Anne Arundel, d:USA,NC,Rowan]
+         1679 g9  PretitiaTydings1679, Pretitia TYDINGS [b:USA,MD,Anne Arundel, d:USA,MD,Baltimore,St Pauls Parish]
+         1674 g9  Rev.DuttonLane1674, Rev. Dutton LANE [b:USA,MD,Anne Arundel,Baltimore, d:USA,MD,Baltimore,Baltimore]
+         1640 g10  CharityRamseySparrow1640, Charity Ramsey SPARROW (#BH1331) [b:USA,MD,Anne Arundel, d:USA,MD,Anne Arundel]
+
+'USA,MD,Baltimore' Location has 5 Ancestors:
+         1756 g7  FrancesFannyProctor1756, Frances Fanny PROCTOR (#BH167) [b:USA,MD,Baltimore,Baltimore, d:USA,VA,Scott]
+         1750 g7  CorbinLane1750, Corbin LANE (#BH166) [b:USA,MD,Baltimore,Baltimore, d:USA,VA,Scott]
+         1700 g8  RevSamuelLane1700, Rev Samuel LANE Sr [b:USA,MD,Baltimore, d:USA,PA,Bedford,Huntingdon]
+         1690 g9  MaryJaneWilkinson1690, Mary Jane WILKINSON [b:USA,MD,Baltimore,Baltimore, d:USA,MD,Baltimore,Baltimore]
+         1676 g9  EdwardEdwinCorbin1676, Edward Edwin CORBIN [b:USA,MD,Baltimore,Baltimore, d:USA,MD,Baltimore,Baltimore]
+
+'USA,MD,Calvert' Location has 1 Ancestors:
+         1615 g11  ElizabethKinsey1615, Elizabeth KINSEY (#BH2663) [b:USA,MD,Calvert,Calvert Cliffs, d:USA,MD,Calvert,Cliffs]
+
+'USA,MD,Carroll' Location has 1 Ancestors:
+         1708 g8  JaneCorbin1708, Jane CORBIN [b:USA,MD,Carroll, d:USA,MD,Baltimore]
+
+'USA,MD,Charles' Location has 1 Ancestors:
+         1686 g11  RebeccaCalvertRamsey1686, Rebecca Calvert RAMSEY (#BH2633) [b:USA,MD,Charles, d:USA,MD,Charles]
+
+'USA,MD,Frederick' Location has 8 Ancestors:
+         1807 g5  ChristopherColumbusCollins1807, Christopher Columbus COLLINS (#BH40) [b:USA,MD,Frederick,Winchester, d:USA,KY,Johnson]
+         1800 g6  AnneCatherine"Kitty"Ward1800, Anne Catherine "Kitty" WARD (#BH85) [b:USA,MD,Frederick,Frederick, d:USA,KY,Floyd,Prestonburg]
+         1792 g6  JacobGobble1792, Jacob  GOBBLE (#BH84) [b:USA,MD,Frederick,Woodsboro, d:USA,KY,Floyd]
+         1785 g6  Mary(Polly)Brooke1785, Mary (Polly) BROOKE (#BH81) [b:USA,MD,Frederick,Frederick, d:USA,KY,Floyd]
+         1780 g6  Rhesa"Reese"Collins1780, Rhesa "Reese" COLLINS (#BH80) [b:USA,MD,Frederick,Winchester, d:USA,KY,Floyd]
+         1755 g8  RebeccaEstep1755, Rebecca ESTEP (#BH329) [b:USA,MD,Frederick,Frederick, d:USA,NC,Surry]
+         1742 g9  LenoraSusannahHolmes1742, Lenora Susannah HOLMES [b:USA,MD,Frederick,Frederick, d:USA,NC,Rowan]
+         1709 g10  ThomasEstep1709, Thomas ESTEP I (#BH1316) [b:USA,MD,Frederick, d:USA,MD,Frederick]
+
+'USA,MD,Montgomery' Location has 1 Ancestors:
+         1690 g10  PeterCurfman1690, Peter CURFMAN (#BH1314) [b:USA,MD,Montgomery,Somerset, d:USA,MD,Montgomery,Somerset]
+
+'USA,MD,Somerset' Location has 6 Ancestors:
+         1771 g7  RevJamesWard1771, Rev James WARD (#BH170) [b:USA,MD,Somerset, d:USA,KY,Oldham,Floydsburg]
+         1734 g8  ThomasSpeer1734, Thomas SPEER (#BH328) [b:USA,MD,Somerset, d:USA,NC,Surry]
+         1713 g9  MaryCCurfman1713, Mary C CURFMAN (#BH657) [b:USA,MD,Somerset, d:USA,MD,Montgomery,Somerset]
+         1692 g10  JaneCalloway1692, Jane CALLOWAY (#BH1313) [b:USA,MD,Somerset, d:USA,MD,Somerset]
+         1666 g11  AndrewSpeer1666, Andrew SPEER (#BH2624) [b:USA,MD,Somerset, d:USA,MD,Somerset]
+         1630 g11  PeterCallaway1630, Peter CALLAWAY [b:USA,MD,Somerset, d:USA,MD,Somerset]
+
+'USA,MD,Wicomico' Location has 2 Ancestors:
+         1713 g9  RobertSpeer1713, Robert SPEER (#BH656) [b:USA,MD,Wicomico,Stepney Parish, d:USA,MD,Somerset]
+         1686 g10  HenrySpeer1686, Henry SPEER Sr (#BH1312) [b:USA,MD,Wicomico,Stepney Parish, d:USA,NC,Yadkin,rowan]
+
+'USA,MD' Location has 1 Ancestors:
+         1690 g10  RhondaJordanHarrison1690, Rhonda JORDAN HARRISON (#BH1315) [b:USA,MD, d:USA,MD]
+
+'USA,MN,Meeker' Location has 1 Ancestors:
+         1870 g3  GeorgeWashingtonCollins1870, George Washington COLLINS (#BH10) [b:USA,MN,Meeker,Kingston, d:USA,MN,Hubbard,Park Rapids]
+
+'USA,NC,Surry' Location has 1 Ancestors:
+         1765 g7  SpencerSpears1765, Spencer SPEARS Sr (#BH164) [b:USA,NC,Surry, d:USA,OH,Clermont]
+
+'USA,PA,Chester' Location has 2 Ancestors:
+         1764 g7  SarahGise1764, Sarah GISE (#BH169) [b:USA,PA,Chester, d:USA,KY,Floyd]
+         1754 g7  ChristianBGoble1754, Christian B GOBLE (#BH168) [b:USA,PA,Chester, d:USA,KY,Floyd]
+
+'USA,VA,Accomack' Location has 1 Ancestors:
+         1668 g10  MourningWinn1668, Mourning WINN [b:USA,VA,Accomack, d:USA,VA,Albemarle]
+
+'USA,VA,Augusta' Location has 3 Ancestors:
+         1749 g8  MaryGillespe1749, Mary GILLESPE [b:USA,VA,Augusta,Bath, d:USA,VA,Augusta]
+         1746 g8  CharlesDonnelly1746, Charles DONNELLY [b:USA,VA,Augusta, d:USA,VA,Augusta,Cowpasture]
+         1723 g9  EleanorBowen1723, Eleanor BOWEN [b:USA,VA,Augusta,Bath, d:USA,VA,Augusta,Cowpasture]
+
+'USA,VA,Bland' Location has 1 Ancestors:
+         1777 g7  JordanClay1777, Jordan CLAY (#BH174) [b:USA,VA,Bland,Bland, d:USA,KY,Martin,Warfield]
+
+'USA,VA,Buckingham' Location has 1 Ancestors:
+         1752 g7  JamesPolkHarris(2)1752, James Polk HARRIS (2) (#BH172) [b:USA,VA,Buckingham,Buckingham, d:USA,KY,Floyd]
+
+'USA,VA,Chesterfield' Location has 2 Ancestors:
+         1797 g6  SamuelMarshall(HenrySamuel)Harris1797, Samuel Marshall (Henry Samuel) HARRIS (#BH86) [b:USA,VA,Chesterfield, d:USA,KY,Floyd,Jacks Creek]
+         1760 g7  PatteSarahGearheart1760, Patte Sarah GEARHEART (#BH173) [b:USA,VA,Chesterfield, d:USA,KY,Floyd]
+
+'USA,VA,Goochland' Location has 1 Ancestors:
+         1630 g11  MajRobertWilliamHarris1630, Maj Robert William HARRIS (#BH2752) [b:USA,VA,Goochland,Goochland, d:USA,VA,New Kent]
+
+'USA,VA,Greensville' Location has 1 Ancestors:
+         1785 g6  ThomasSpears1785, Thomas SPEARS (#BH82) [b:USA,VA,Greensville,Hicksford, d:USA,KY,Floyd]
+
+'USA,VA,Halifax' Location has 1 Ancestors:
+         1776 g7  MaryElizaCarter1776, Mary Eliza CARTER [b:USA,VA,Halifax, d:USA,KY,Martin,Warfield]
+
+'USA,VA,Hanover' Location has 3 Ancestors:
+         1802 g6  NancyJaneClay1802, Nancy Jane CLAY (#BH87) [b:USA,VA,Hanover, d:USA,WV,Lincoln]
+         1730 g8  MaryHarris1730, Mary HARRIS (#BH345) [b:USA,VA,Hanover, d:USA,VA,Albemarle]
+         1722 g8  JamesHarris(1)1722, James HARRIS (1) (#BH344) [b:USA,VA,Hanover, d:USA,VA,Albemarle]
+
+'USA,VA,King William' Location has 2 Ancestors:
+         1630 g11  MaryClairbourne1630, Mary CLAIRBOURNE (#BH2753) [b:USA,VA,King William,King William, d:USA,VA,Hanover,Doswell,Glen Cairn Cemetery]
+         1587 g12  ElizabethButler1587, Elizabeth BUTLER (#BH5507) [b:USA,VA,King William,King William, d:USA,VA]
+
+'USA,VA,New Kent' Location has 1 Ancestors:
+         1702 g9  MourningGlenn1702, Mourning GLENN (#BH689) [b:USA,VA,New Kent, d:USA,VA,Albemarle,Browns Cove]
+
+'USA,VA,Powhatan' Location has 1 Ancestors:
+         1632 g11  ElizabethPalmerJohnson1632, Elizabeth PALMER JOHNSON [b:USA,VA,Powhatan,Powhatan, d:USA,MA,Essex,Andover]
+
+'USA,VA,Scott' Location has 1 Ancestors:
+         1790 g6  RuthProctorLane1790, Ruth Proctor LANE (#BH83) [b:USA,VA,Scott, d:USA,KY,Floyd]
+
+'USA,VA,Washington' Location has 1 Ancestors:
+         1820 g5  WilliamGobble1820, William GOBBLE (#BH42) [b:USA,VA,Washington, d:USA,MN,Meeker,Kingston]
+
+'USA,VA' Location has 5 Ancestors:
+         1769 g7  CatherineJaneDonnally1769, Catherine Jane DONNALLY (#BH171) [b:USA,VA, d:USA,KY,Jefferson]
+         1765 g7  MeacaSpears1765, Meaca SPEARS (#BH165) [b:USA,VA, d:USA,KY,Floyd]
+         1755 g7  ElizabethOldhamPepper1755, Elizabeth OLDHAM PEPPER (#BH161) [b:USA,VA, d:USA,VA,Washington]
+         1729 g8  Johannes(John)Gearheart1729, Johannes (John) GEARHEART [b:USA,VA, d:USA,VA]
+         1679 g10  TemperanceOverton1679, Temperance OVERTON (#BH1377) [b:USA,VA, d:USA,VA,Hanover]

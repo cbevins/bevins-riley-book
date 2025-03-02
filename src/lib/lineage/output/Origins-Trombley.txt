@@ -1,64 +1,61 @@
+g2: Harold Richard TROMBLEY (#RT6) (1901-1960)
+g1:      |-> Dorothy May TROMBLEY (#RT3) (1927-2014)
 
+has 33 Ancestors born in 12 Locations with 13 possible Immigrants
 
-Ancestral Origins of Harold Richard TROMBLEY (#RT6)
-   7 CAN,NB                          
-        1879 3  Florence CYR (#RT13) [CAN,NB,Acadia]
-        1828 5  Suzanne VIOLETTE (#RT55) [CAN,NB,Madawaska,St Basile]
-        1816 5  Joseph Crock CYR (#RT52) [CAN,NB,Madawaska,St Basile]
-        1800 6  Victoire THIBODEAU (#RT111) [CAN,NB,Madawaska,St Basile]
-        1796 6  Isaac Joseph VIOLETTTE (#RT110) [CAN,NB,Madawaska,St Basile]
-        1785 6  Marie-Euphrosine MARTIN (#RT105) [CAN,NB,Madawaska,St Basile]
-        1780 6  Jean-Marie CYR (#RT104) [CAN,NB,Acadia,Saint John River,Meductic]
-   4 CAN,QC,Bas-Saint-Laurent        
-        1812 5  Joseph Amable DESJARDINS II (#RT54) [CAN,QC,Bas-Saint-Laurent,L'Isle-Verte]
-        1811 6  Jean Frederic * "Hilaire" COTE (#RT106) [CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte]
-        1792 6  Marie-Genevieve OUELLET (#RT109) [CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis]
-        1786 6  Amable (Desjardins) ROY (#RT108) [CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis]
-   1 CAN,QC,Capitale-Nationale       
-        1803 6  Leon TROMBLY (#RT96) [CAN,QC,Charlevoix,Baie-St-Paul]
-   1 CAN,QC,Chaudiere-Appalaches     
-        1811 6  Angelique Marie VAILLANCOURT (#RT107) [CAN,QC,Chaudiere-Appalaches,St Roches des Aulnais]
-   8 CAN,QC,Lanaudiere               
-        1835 5  Célina Délima ARNO\ARNAUD (#RT51) [CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare]
-        1831 5  Eustache (Elie) DUPUIS (#RT50) [CAN,QC,Lanaudiere,St. Jacques l'Achigan]
-        1813 6  Rosalie DUBEAU (#RT103) [CAN,QC,Lanaudiere,D'Autray,St Elisabeth]
-        1812 6  Francois Regis ARNAUD (#RT102) [CAN,QC,Lanaudiere,Joliette,St Paul]
-        1805 6  Marie Esther PERREAULT (#RT101) [CAN,QC,Lanaudiere,l'Assomption,l'Assomption]
-        1799 6  Firmin DUPUIS (#RT100) [CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan]
-        1779 7  Geneviève CLERMONT (#RT207) [CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève]
-        1778 7  François DUBEAU (#RT206) [CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève]
-   4 CAN,QC,Monteregie               
-        1837 5  Sophie Marie BERTHIAUME (#RT49) [CAN,QC,Chateauguay,St Martine]
-        1808 6  Josephte Joséphine PATENAUDE (#RT99) [CAN,QC,Chateauguay,St Joachim]
-        1805 6  Joseph BERTHIAUME (#RT98) [CAN,QC,Chateauguay,St Joachim]
-        1800 6  Marie Charlotte POIRIER (#RT97) [CAN,QC,Monteregie,Longueuil]
-   1 CAN,QC,Saguenay–Lac-Saint-Jean  
-        1835 5  Hilarie Elie Theodore TROMBLEY (#RT48) [CAN,QC,Saguenay,La Malbaie]
-   1 CAN,QC                          
-        1861 4  Marie Louise DUPUIS (#RT25) [CAN,QC]
-   3 USA,ME,Aroostook                
-        1853 4  Marguerite DESJARDINS (#RT27) [USA,ME,Aroostook,Van Buren]
-        1851 4  Joseph Eugene Thomas CYR (#RT26) [USA,ME,Aroostook,Van Buren,St Brunos Parish]
-        1834 5  Angelique (Angele) COTE (#RT53) [USA,ME,Aroostook,Van Buren,St Brunos Parish]
-   1 USA,MN,Hennepin                 
-        1901 2  Harold Richard TROMBLEY (#RT6) [USA,MN,Hennepin,Minneapolis]
-   1 USA,NY,Clinton                  
-        1858 4  Eli Helier F. TROMBLEY (#RT24) [USA,NY,Clinton,Clinton]
-   1 USA,RI,Bristol                  
-        1879 3  George Thomas TROMBLEY (#RT12) [USA,RI,Bristol]
-  33 Ancestors born in 12 locations.
+'CAN,NB' Location has 7 Ancestors:
+     *** 1879 g3  FlorenceCyr1879, Florence CYR (#RT13) [b:CAN,NB,Acadia, d:USA,MN,Hennepin,Minneapolis]
+         1828 g5  SuzanneViolette1828, Suzanne VIOLETTE (#RT55) [b:CAN,NB,Madawaska,St Basile, d:CAN,NB,Madawaska,Anne,Ste]
+         1816 g5  JosephCrockCyr1816, Joseph Crock CYR (#RT52) [b:CAN,NB,Madawaska,St Basile, d:CAN,NB,Madawaska,Sainte Anne de Madawaska]
+     *** 1800 g6  VictoireThibodeau1800, Victoire THIBODEAU (#RT111) [b:CAN,NB,Madawaska,St Basile, d:USA,ME,Aroostook,Van Buren,St Bruno]
+     *** 1796 g6  IsaacJosephViolettte1796, Isaac Joseph VIOLETTTE (#RT110) [b:CAN,NB,Madawaska,St Basile, d:USA,ME,Aroostook,Van Buren,St Bruno]
+         1785 g6  Marie-EuphrosineMartin1785, Marie-Euphrosine MARTIN (#RT105) [b:CAN,NB,Madawaska,St Basile, d:CAN,NB,Madawaska,St Basile]
+         1780 g6  Jean-MarieCyr1780, Jean-Marie CYR (#RT104) [b:CAN,NB,Acadia,Saint John River,Meductic, d:CAN,NB,Madawaska,St Basile]
 
-There are 13 possible immigrants:
-    Canada => United States by Florence CYR (#RT13) (1879-1968)
-    Canada => United States by Isaac Joseph VIOLETTTE (#RT110) (1796-1850)
-    Canada => United States by Victoire THIBODEAU (#RT111) (1800-1855)
-    Canada => United States by Leon TROMBLY (#RT96) (1803-1900)
-    Canada => United States by Angelique Marie VAILLANCOURT (#RT107) (1811-1844)
-    Canada => United States by Marie Charlotte POIRIER (#RT97) (1800-1916)
-    Canada => United States by Sophie Marie BERTHIAUME (#RT49) (1837-1907)
-    Canada => United States by Joseph BERTHIAUME (#RT98) (1805-1855)
-    Canada => United States by Josephte Joséphine PATENAUDE (#RT99) (1808-1849)
-    Canada => United States by Hilarie Elie Theodore TROMBLEY (#RT48) (1835-1916)
-    Canada => United States by Marie Louise DUPUIS (#RT25) (1861-1929)
-    United States => Canada by Joseph Eugene Thomas CYR (#RT26) (1851-1920)
-    United States => Canada by Angelique (Angele) COTE (#RT53) (1834-1914)
+'CAN,QC,Bas-Saint-Laurent' Location has 4 Ancestors:
+         1812 g5  JosephAmableDesjardins1812, Joseph Amable DESJARDINS II (#RT54) [b:CAN,QC,Bas-Saint-Laurent,L'Isle-Verte, d:CAN,NB,Madawaska,St Léonard Parish]
+         1811 g6  JeanFrederic*"Hilaire"Cote1811, Jean Frederic * "Hilaire" COTE (#RT106) [b:CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte, d:CAN,NB,Madawaska,Sainte Anne de Madawaska]
+         1792 g6  Marie-GenevieveOuellet1792, Marie-Genevieve OUELLET (#RT109) [b:CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis, d:CAN,QC,Bas-Saint-Laurent,Riviere-du-LoupL'Isle Verte]
+         1786 g6  Amable(Desjardins)Roy1786, Amable (Desjardins) ROY (#RT108) [b:CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis, d:CAN,QC,Bas-Saint-Laurent,Riviere-du-LoupL'Isle Verte]
+
+'CAN,QC,Capitale-Nationale' Location has 1 Ancestors:
+     *** 1803 g6  LeonTrombly1803, Leon TROMBLY (#RT96) [b:CAN,QC,Charlevoix,Baie-St-Paul, d:USA,MN,St. Louis]
+
+'CAN,QC,Chaudiere-Appalaches' Location has 1 Ancestors:
+     *** 1811 g6  AngeliqueMarieVaillancourt1811, Angelique Marie VAILLANCOURT (#RT107) [b:CAN,QC,Chaudiere-Appalaches,St Roches des Aulnais, d:USA,ME,Aroostook,Van Buren]
+
+'CAN,QC,Lanaudiere' Location has 8 Ancestors:
+         1835 g5  CélinaDélimaArno\Arnaud1835, Célina Délima ARNO\ARNAUD (#RT51) [b:CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare, d:CAN,QC,Lanaudiere,Montcalm,St Alexis]
+         1831 g5  Eustache(Elie)Dupuis1831, Eustache (Elie) DUPUIS (#RT50) [b:CAN,QC,Lanaudiere,St. Jacques l'Achigan, d:CAN,QC,Lanaudiere,Montcalm,St Alexis]
+         1813 g6  RosalieDubeau1813, Rosalie DUBEAU (#RT103) [b:CAN,QC,Lanaudiere,D'Autray,St Elisabeth, d:CAN,QC,(l'Assomption),St Sulpice]
+         1812 g6  FrancoisRegisArnaud1812, Francois Regis ARNAUD (#RT102) [b:CAN,QC,Lanaudiere,Joliette,St Paul, d:CAN,QC,L'Assomption,Repentigny]
+         1805 g6  MarieEstherPerreault1805, Marie Esther PERREAULT (#RT101) [b:CAN,QC,Lanaudiere,l'Assomption,l'Assomption, d:CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan]
+         1799 g6  FirminDupuis1799, Firmin DUPUIS (#RT100) [b:CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan, d:CAN,QC,Lanaudiere,Montcalm,St Alexis]
+         1779 g7  GenevièveClermont1779, Geneviève CLERMONT (#RT207) [b:CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève, d:CAN,QC,Lanaudiere,Joliette,Comte Joliette]
+         1778 g7  FrançoisDubeau1778, François DUBEAU (#RT206) [b:CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève, d:CAN,QC,Lanaudiere,D'Autray,Berthierville]
+
+'CAN,QC,Monteregie' Location has 4 Ancestors:
+     *** 1837 g5  SophieMarieBerthiaume1837, Sophie Marie BERTHIAUME (#RT49) [b:CAN,QC,Chateauguay,St Martine, d:USA,MN,Hennepin,Minneapolis]
+     *** 1808 g6  JosephteJoséphinePatenaude1808, Josephte Joséphine PATENAUDE (#RT99) [b:CAN,QC,Chateauguay,St Joachim, d:USA,NY,Clinton,Standish]
+     *** 1805 g6  JosephBerthiaume1805, Joseph BERTHIAUME (#RT98) [b:CAN,QC,Chateauguay,St Joachim, d:USA,NY,Clinton,Ellenburg]
+     *** 1800 g6  MarieCharlottePoirier1800, Marie Charlotte POIRIER (#RT97) [b:CAN,QC,Monteregie,Longueuil, d:USA,MN,Rice,Fairbault]
+
+'CAN,QC,Saguenay–Lac-Saint-Jean' Location has 1 Ancestors:
+     *** 1835 g5  HilarieElieTheodoreTrombley1835, Hilarie Elie Theodore TROMBLEY (#RT48) [b:CAN,QC,Saguenay,La Malbaie, d:USA,MN,Rice,Cannon City]
+
+'CAN,QC' Location has 1 Ancestors:
+     *** 1861 g4  MarieLouiseDupuis1861, Marie Louise DUPUIS (#RT25) [b:CAN,QC, d:USA,MN,Ramsey]
+
+'USA,ME,Aroostook' Location has 3 Ancestors:
+         1853 g4  MargueriteDesjardins1853, Marguerite DESJARDINS (#RT27) [b:USA,ME,Aroostook,Van Buren, d:USA,MN,Hennepin,Minneapolis]
+     *** 1851 g4  JosephEugeneThomasCyr1851, Joseph Eugene Thomas CYR (#RT26) [b:USA,ME,Aroostook,Van Buren,St Brunos Parish, d:CAN,NB,Madawaska,Ste Anne]
+     *** 1834 g5  Angelique(Angele)Cote1834, Angelique (Angele) COTE (#RT53) [b:USA,ME,Aroostook,Van Buren,St Brunos Parish, d:CAN,NB,Madawaska,Ste Anne]
+
+'USA,MN,Hennepin' Location has 1 Ancestors:
+         1901 g2  HaroldRichardTrombley1901, Harold Richard TROMBLEY (#RT6) [b:USA,MN,Hennepin,Minneapolis, d:USA,MN,Hennepin]
+
+'USA,NY,Clinton' Location has 1 Ancestors:
+         1858 g4  EliHelierF.Trombley1858, Eli Helier F. TROMBLEY (#RT24) [b:USA,NY,Clinton,Clinton, d:USA,MN,Ramsey,St Paul]
+
+'USA,RI,Bristol' Location has 1 Ancestors:
+         1879 g3  GeorgeThomasTrombley1879, George Thomas TROMBLEY (#RT12) [b:USA,RI,Bristol, d:USA,MN,Hennepin,Champlin]

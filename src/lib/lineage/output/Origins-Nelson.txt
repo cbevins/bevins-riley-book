@@ -1,30 +1,31 @@
+g2: Myrtle Estelle NELSON (#RT7) (1899-1975)
+g1:      |-> Dorothy May TROMBLEY (#RT3) (1927-2014)
 
+has 17 Ancestors born in 5 Locations with 2 possible Immigrants
 
-Ancestral Origins of Myrtle Estelle NELSON (#RT7)
-   1 SWE,JON                         
-        1753 6  Nils MÅNSSON (#RT116) [SWE,JON,Nasby]
-  12 SWE,KRO                         
-        1876 3  Hulda Sophia PETERSON (#RT15) [SWE,KRO,Älmeboda]
-        1870 3  Carl Johan Gottfred NELSON (#RT14) [SWE,KRO,Älmeboda,Västergård,Strånganäs]
-        1853 4  Emma Carolina JOHANNESDOTTER (#RT29) [SWE,KRO,Älmeboda,Strånganäs]
-        1844 4  Nils Peter NICOLAUSSON (#RT28) [SWE,KRO, Älmeboda,Bänkeboda]
-        1819 5  Evalena PETERSDOTTER (#RT59) [SWE,KRO,Orebro]
-        1811 5  Lisa JOHANNESDOTTER (#RT57) [SWE,KRO, Älmeboda,Bänkeboda]
-        1810 5  Nicolaus MÅNSSON  MAGNUSSON (#RT56) [SWE,KRO,Linneryd,Vieboda Södergård]
-        1802 5  Johannes NILSSON (#RT58) [SWE,KRO,Orebro]
-        1791 6  Maria GUMMESDOTTER (#RT119) [SWE,KRO,Linneryd]
-        1783 6  Peter Magnus PEHRSSON (#RT118) [SWE,KRO,Linneryd]
-        1775 6  Ingeborg PETERSDOTTER [SWE,KRO,Älmeboda Fg]
-        1764 6  Johannes GUMMESSON [SWE,KRO,Tokamåla,Linneryd fg]
-   1 SWE,VAR                         
-        1767 6  Marit SALOMONSEN (#RT117) [SWE,VAR,Västra Skyberg]
-   2 SWE                             
-        1782 6  Ingrid BÖRJESSON [SWE]
-        1774 6  Mans CARLSSON [SWE]
-   1 USA,MN,Hennepin                 
-        1899 2  Myrtle Estelle NELSON (#RT7) [USA,MN,Hennepin,Minneapolis]
-  17 Ancestors born in 5 locations.
+'SWE,JON' Location has 1 Ancestors:
+         1753 g6  NilsMånsson1753, Nils MÅNSSON (#RT116) [b:SWE,JON,Nasby, d:SWE,VAR,Västra Skyberg]
 
-There are 2 possible immigrants:
-    Sweden => United States by Carl Johan Gottfred NELSON (#RT14) (1870-1955)
-    Sweden => United States by Hulda Sophia PETERSON (#RT15) (1876-1951)
+'SWE,KRO' Location has 12 Ancestors:
+     *** 1876 g3  HuldaSophiaPeterson1876, Hulda Sophia PETERSON (#RT15) [b:SWE,KRO,Älmeboda, d:USA,MN,Hennepin,Minneapolis]
+     *** 1870 g3  CarlJohanGottfredNelson1870, Carl Johan Gottfred NELSON (#RT14) [b:SWE,KRO,Älmeboda,Västergård,Strånganäs, d:USA,MN,Hennepin,Minneapolis]
+         1853 g4  EmmaCarolinaJohannesdotter1853, Emma Carolina JOHANNESDOTTER (#RT29) [b:SWE,KRO,Älmeboda,Strånganäs, d:SWE,KRO,Älmeboda,Strånganäs Västergård]
+         1844 g4  NilsPeterNicolausson1844, Nils Peter NICOLAUSSON (#RT28) [b:SWE,KRO, Älmeboda,Bänkeboda, d:SWE,KRO,Älmeboda,Strånganäs Västergård]
+         1819 g5  EvalenaPetersdotter1819, Evalena PETERSDOTTER (#RT59) [b:SWE,KRO,Orebro, d:SWE,KRO,Orebro]
+         1811 g5  LisaJohannesdotter1811, Lisa JOHANNESDOTTER (#RT57) [b:SWE,KRO, Älmeboda,Bänkeboda, d:SWE,KRO,Södra Sandsjö,Gubbsmåla,Backstugan Nyalund]
+         1810 g5  NicolausMånssonMagnusson1810, Nicolaus MÅNSSON  MAGNUSSON (#RT56) [b:SWE,KRO,Linneryd,Vieboda Södergård, d:SWE,KRO,Södra Sandsjö,Gubbsmåla,Backstugan Nyalund]
+         1802 g5  JohannesNilsson1802, Johannes NILSSON (#RT58) [b:SWE,KRO,Orebro, d:SWE,KRO,Orebro]
+         1791 g6  MariaGummesdotter1791, Maria GUMMESDOTTER (#RT119) [b:SWE,KRO,Linneryd, d:SWE,KRO,Linneryd]
+         1783 g6  PeterMagnusPehrsson1783, Peter Magnus PEHRSSON (#RT118) [b:SWE,KRO,Linneryd, d:SWE,KRO,Linneryd]
+         1775 g6  IngeborgPetersdotter1775, Ingeborg PETERSDOTTER [b:SWE,KRO,Älmeboda Fg, d:SWE,KRO,Bänkebo,Älmeboda fg]
+         1764 g6  JohannesGummesson1764, Johannes GUMMESSON [b:SWE,KRO,Tokamåla,Linneryd fg, d:SWE,KRO,Bänkebo,Älmeboda fg]
+
+'SWE,VAR' Location has 1 Ancestors:
+         1767 g6  MaritSalomonsen1767, Marit SALOMONSEN (#RT117) [b:SWE,VAR,Västra Skyberg, d:SWE,VAR,Västra Skyberg]
+
+'SWE' Location has 2 Ancestors:
+         1782 g6  IngridBörjesson1782, Ingrid BÖRJESSON [b:SWE, d:]
+         1774 g6  MansCarlsson1774, Mans CARLSSON [b:SWE, d:]
+
+'USA,MN,Hennepin' Location has 1 Ancestors:
+         1899 g2  MyrtleEstelleNelson1899, Myrtle Estelle NELSON (#RT7) [b:USA,MN,Hennepin,Minneapolis, d:USA,MN,Hennepin,Minneapolis]

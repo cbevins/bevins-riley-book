@@ -1,29 +1,35 @@
+g3: Helen Sophia (Ella) POULSON (#RT11) (1866-1951)
+g2:      |-> Gladys Mae DE REUS (#RT5) (1907-1984)
 
+has 13 Ancestors born in 9 Locations with 1 possible Immigrants
 
-Ancestral Origins of Helen Sophia (Ella) POULSON (#RT11)
-   1 ENG,NTT                         
-        1760 6  John SPRAY (#RT92) [ENG,NTT,Nottingham]
-   1 USA,IA,Jasper                   
-        1866 3  Helen Sophia (Ella) POULSON (#RT11) [USA,IA,Jasper,Colfax]
-   1 USA,MD,Baltimore                
-        1759 6  Rachel DURBIN (#RT89) [USA,MD,Baltimore,Baltimore]
-   3 USA,MD,Frederick                
-        1787 5  James POULSON (#RT44) [USA,MD,Frederick,Frederick]
-        1762 6  Mary SUMMERS (#RT93) [USA,MD,Frederick]
-        1755 6  James POULSON (#RT88) [USA,MD,Frederick]
-   1 USA,MD,Harford                  
-        1777 6  Mary HUFF (#RT95) [USA,MD,Harford]
-   1 USA,MD,Washington               
-        1772 6  John FOWLER (#RT94) [USA,MD,Washington,Linton Hundred]
-   1 USA,MD                          
-        1786 5  John H SPRAY (#RT46) [USA,MD]
-   1 USA,OH,Ashtabula                
-        1790 5  Elizabeth ARNOLD (#RT45) [USA,OH,Ashtabula,Jefferson]
-   3 USA,OH,Harrison                 
-        1827 4  Mahala SPRAY (#RT23) [USA,OH,Harrison]
-        1820 4  Jehu C POULSON (#RT22) [USA,OH,Harrison]
-        1808 5  Elizabeth (Betsey) FOWLER (#RT47) [USA,OH,Harrison]
-  13 Ancestors born in 9 locations.
+'ENG,NTT' Location has 1 Ancestors:
+     *** 1760 g6  JohnSpray1760, John SPRAY (#RT92) [b:ENG,NTT,Nottingham, d:USA,OH,Harrison]
 
-There are 1 possible immigrants:
-    England => United States by John SPRAY (#RT92) (1760-1820)
+'USA,IA,Jasper' Location has 1 Ancestors:
+         1866 g3  HelenSophia(Ella)Poulson1866, Helen Sophia (Ella) POULSON (#RT11) [b:USA,IA,Jasper,Colfax, d:USA,IA,Jasper,Valeria]
+
+'USA,MD,Baltimore' Location has 1 Ancestors:
+         1759 g6  RachelDurbin1759, Rachel DURBIN (#RT89) [b:USA,MD,Baltimore,Baltimore, d:USA,OH,Harrison]
+
+'USA,MD,Frederick' Location has 3 Ancestors:
+         1787 g5  JamesPoulson1787, James POULSON (#RT44) [b:USA,MD,Frederick,Frederick, d:USA,OH,Harrison,Stock]
+         1762 g6  MarySummers1762, Mary SUMMERS (#RT93) [b:USA,MD,Frederick, d:USA,KY,Boone]
+         1755 g6  JamesPoulson1755, James POULSON (#RT88) [b:USA,MD,Frederick, d:USA,OH,Harrison]
+
+'USA,MD,Harford' Location has 1 Ancestors:
+         1777 g6  MaryHuff1777, Mary HUFF (#RT95) [b:USA,MD,Harford, d:USA,OH,Harrison]
+
+'USA,MD,Washington' Location has 1 Ancestors:
+         1772 g6  JohnFowler1772, John FOWLER (#RT94) [b:USA,MD,Washington,Linton Hundred, d:USA,OH,Harrison,Hanover]
+
+'USA,MD' Location has 1 Ancestors:
+         1786 g5  JohnHSpray1786, John H SPRAY (#RT46) [b:USA,MD, d:USA,OH,Meigs]
+
+'USA,OH,Ashtabula' Location has 1 Ancestors:
+         1790 g5  ElizabethArnold1790, Elizabeth ARNOLD (#RT45) [b:USA,OH,Ashtabula,Jefferson, d:USA,OH,Harrison,Cadiz]
+
+'USA,OH,Harrison' Location has 3 Ancestors:
+         1827 g4  MahalaSpray1827, Mahala SPRAY (#RT23) [b:USA,OH,Harrison, d:USA,IA,Jasper,Poweshiek]
+         1820 g4  JehuCPoulson1820, Jehu C POULSON (#RT22) [b:USA,OH,Harrison, d:USA,IA,Jasper]
+         1808 g5  Elizabeth(Betsey)Fowler1808, Elizabeth (Betsey) FOWLER (#RT47) [b:USA,OH,Harrison, d:USA,OH,Meigs]

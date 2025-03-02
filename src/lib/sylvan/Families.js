@@ -5,6 +5,9 @@ import { EvDate } from './EvDate.js'
 import { Family } from './Family.js'
 
 export class Families {
+    // people: reference to Sylvan.people() Map
+    // locations: reference to GedcomPlaceLocationsJson Map() database
+    // places: reference to Sylvan.places() Map
     constructor(gedcom, people, locations, places) {
         this._data = {
             famKeyMap: null,    // Map of famKey => Family

@@ -1,37 +1,35 @@
+g3: George Thomas TROMBLEY (#RT12) (1879-1951)
+g2:      |-> Harold Richard TROMBLEY (#RT6) (1901-1960)
 
+has 17 Ancestors born in 7 Locations with 7 possible Immigrants
 
-Ancestral Origins of George Thomas TROMBLEY (#RT12)
-   1 CAN,QC,Capitale-Nationale       
-        1803 6  Leon TROMBLY (#RT96) [CAN,QC,Charlevoix,Baie-St-Paul]
-   8 CAN,QC,Lanaudiere               
-        1835 5  Célina Délima ARNO\ARNAUD (#RT51) [CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare]
-        1831 5  Eustache (Elie) DUPUIS (#RT50) [CAN,QC,Lanaudiere,St. Jacques l'Achigan]
-        1813 6  Rosalie DUBEAU (#RT103) [CAN,QC,Lanaudiere,D'Autray,St Elisabeth]
-        1812 6  Francois Regis ARNAUD (#RT102) [CAN,QC,Lanaudiere,Joliette,St Paul]
-        1805 6  Marie Esther PERREAULT (#RT101) [CAN,QC,Lanaudiere,l'Assomption,l'Assomption]
-        1799 6  Firmin DUPUIS (#RT100) [CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan]
-        1779 7  Geneviève CLERMONT (#RT207) [CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève]
-        1778 7  François DUBEAU (#RT206) [CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève]
-   4 CAN,QC,Monteregie               
-        1837 5  Sophie Marie BERTHIAUME (#RT49) [CAN,QC,Chateauguay,St Martine]
-        1808 6  Josephte Joséphine PATENAUDE (#RT99) [CAN,QC,Chateauguay,St Joachim]
-        1805 6  Joseph BERTHIAUME (#RT98) [CAN,QC,Chateauguay,St Joachim]
-        1800 6  Marie Charlotte POIRIER (#RT97) [CAN,QC,Monteregie,Longueuil]
-   1 CAN,QC,Saguenay–Lac-Saint-Jean  
-        1835 5  Hilarie Elie Theodore TROMBLEY (#RT48) [CAN,QC,Saguenay,La Malbaie]
-   1 CAN,QC                          
-        1861 4  Marie Louise DUPUIS (#RT25) [CAN,QC]
-   1 USA,NY,Clinton                  
-        1858 4  Eli Helier F. TROMBLEY (#RT24) [USA,NY,Clinton,Clinton]
-   1 USA,RI,Bristol                  
-        1879 3  George Thomas TROMBLEY (#RT12) [USA,RI,Bristol]
-  17 Ancestors born in 7 locations.
+'CAN,QC,Capitale-Nationale' Location has 1 Ancestors:
+     *** 1803 g6  LeonTrombly1803, Leon TROMBLY (#RT96) [b:CAN,QC,Charlevoix,Baie-St-Paul, d:USA,MN,St. Louis]
 
-There are 7 possible immigrants:
-    Canada => United States by Leon TROMBLY (#RT96) (1803-1900)
-    Canada => United States by Marie Charlotte POIRIER (#RT97) (1800-1916)
-    Canada => United States by Sophie Marie BERTHIAUME (#RT49) (1837-1907)
-    Canada => United States by Joseph BERTHIAUME (#RT98) (1805-1855)
-    Canada => United States by Josephte Joséphine PATENAUDE (#RT99) (1808-1849)
-    Canada => United States by Hilarie Elie Theodore TROMBLEY (#RT48) (1835-1916)
-    Canada => United States by Marie Louise DUPUIS (#RT25) (1861-1929)
+'CAN,QC,Lanaudiere' Location has 8 Ancestors:
+         1835 g5  CélinaDélimaArno\Arnaud1835, Célina Délima ARNO\ARNAUD (#RT51) [b:CAN,QC,Lanaudiere,Joliette,St Ambroise de Kildare, d:CAN,QC,Lanaudiere,Montcalm,St Alexis]
+         1831 g5  Eustache(Elie)Dupuis1831, Eustache (Elie) DUPUIS (#RT50) [b:CAN,QC,Lanaudiere,St. Jacques l'Achigan, d:CAN,QC,Lanaudiere,Montcalm,St Alexis]
+         1813 g6  RosalieDubeau1813, Rosalie DUBEAU (#RT103) [b:CAN,QC,Lanaudiere,D'Autray,St Elisabeth, d:CAN,QC,(l'Assomption),St Sulpice]
+         1812 g6  FrancoisRegisArnaud1812, Francois Regis ARNAUD (#RT102) [b:CAN,QC,Lanaudiere,Joliette,St Paul, d:CAN,QC,L'Assomption,Repentigny]
+         1805 g6  MarieEstherPerreault1805, Marie Esther PERREAULT (#RT101) [b:CAN,QC,Lanaudiere,l'Assomption,l'Assomption, d:CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan]
+         1799 g6  FirminDupuis1799, Firmin DUPUIS (#RT100) [b:CAN,QC,Lanaudiere,Montcalm,St Jacques l'Achigan, d:CAN,QC,Lanaudiere,Montcalm,St Alexis]
+         1779 g7  GenevièveClermont1779, Geneviève CLERMONT (#RT207) [b:CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève, d:CAN,QC,Lanaudiere,Joliette,Comte Joliette]
+         1778 g7  FrançoisDubeau1778, François DUBEAU (#RT206) [b:CAN,QC,Lanaudiere,D'Autray,Berthierville,Sainte-Geneviève, d:CAN,QC,Lanaudiere,D'Autray,Berthierville]
+
+'CAN,QC,Monteregie' Location has 4 Ancestors:
+     *** 1837 g5  SophieMarieBerthiaume1837, Sophie Marie BERTHIAUME (#RT49) [b:CAN,QC,Chateauguay,St Martine, d:USA,MN,Hennepin,Minneapolis]
+     *** 1808 g6  JosephteJoséphinePatenaude1808, Josephte Joséphine PATENAUDE (#RT99) [b:CAN,QC,Chateauguay,St Joachim, d:USA,NY,Clinton,Standish]
+     *** 1805 g6  JosephBerthiaume1805, Joseph BERTHIAUME (#RT98) [b:CAN,QC,Chateauguay,St Joachim, d:USA,NY,Clinton,Ellenburg]
+     *** 1800 g6  MarieCharlottePoirier1800, Marie Charlotte POIRIER (#RT97) [b:CAN,QC,Monteregie,Longueuil, d:USA,MN,Rice,Fairbault]
+
+'CAN,QC,Saguenay–Lac-Saint-Jean' Location has 1 Ancestors:
+     *** 1835 g5  HilarieElieTheodoreTrombley1835, Hilarie Elie Theodore TROMBLEY (#RT48) [b:CAN,QC,Saguenay,La Malbaie, d:USA,MN,Rice,Cannon City]
+
+'CAN,QC' Location has 1 Ancestors:
+     *** 1861 g4  MarieLouiseDupuis1861, Marie Louise DUPUIS (#RT25) [b:CAN,QC, d:USA,MN,Ramsey]
+
+'USA,NY,Clinton' Location has 1 Ancestors:
+         1858 g4  EliHelierF.Trombley1858, Eli Helier F. TROMBLEY (#RT24) [b:USA,NY,Clinton,Clinton, d:USA,MN,Ramsey,St Paul]
+
+'USA,RI,Bristol' Location has 1 Ancestors:
+         1879 g3  GeorgeThomasTrombley1879, George Thomas TROMBLEY (#RT12) [b:USA,RI,Bristol, d:USA,MN,Hennepin,Champlin]

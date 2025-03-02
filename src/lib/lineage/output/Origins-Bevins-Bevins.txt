@@ -1,39 +1,37 @@
+g3: William Alfred BEVINS (#BH8) (1843-1935)
+g2:      |-> Samuel BEVINS (#BH4) (1881-1970)
 
+has 27 Ancestors born in 3 Locations with 3 possible Immigrants
 
-Ancestral Origins of William Alfred BEVINS (#BH8)
-  24 ENG,LEI                         
-        1843 3  William Alfred BEVINS (#BH8) [ENG,LEI,Newbold Verdon]
-        1822 4  Mary BOLT (#BH17) [ENG,LEI,Barwell]
-        1815 4  William Longford BEVINS (#BH16) [ENG,LEI,Newbold Verdon]
-        1783 5  Mary WYKES (#BH35) [ENG,LEI,Thornton]
-        1783 5  John BEVINS (#BH32) [ENG,LEI,Shepshed]
-        1779 5  Simon BOTT (#BH34) [ENG,LEI,Stanton under Bardon,Clotts Farm]
-        1766 6  Mary Ann ISOM (#BH65) [ENG,LEI,Earl Shilton]
-        1762 6  Joseph BEVINS (#BH64) [ENG,LEI,Newbold Verdon]
-        1756 6  John BOTT (#BH68) [ENG,LEI,Nailstone]
-        1756 6  Ann THIRLBY (#BH69) [ENG,LEI,Ibstock]
-        1740 7  Ann QUEENBOROUGH (#BH131) [ENG,LEI,Aston Flamville]
-        1738 7  Thomas ISOM (#BH130) [ENG,LEI,Peckleton]
-        1736 7  Sarah WRATHBURN (#BH129) [ENG,LEI,Shenton]
-        1736 7  Katherine MOORE (#BH137) [ENG,LEI,Nailstone]
-        1731 7  Thomas BEVINS (#BH128) [ENG,LEI,Newbold Verdon]
-        1729 7  Benjamin BOTT (#BH136) [ENG,LEI,Newbold Verdon]
-        1720 7  Mary POOLE (#BH139) [ENG,LEI,Leicester]
-        1709 7  George THIRLBY (#BH138) [ENG,LEI,Pickering Grange]
-        1705 8  William BEVINS (#BH256) [ENG,LEI,Newbold Verdon]
-        1696 8  Sarah WILKINSON (#BH257) [ENG,LEI,Thornton]
-        1693 8  Margaret TUDNEY (#BH273) [ENG,LEI,Sutton Cheney]
-        1690 8  Jonathon BOTT (#BH272) [ENG,LEI,Newbold Verdon]
-        1665 9  William BEVINS Sr. (#BH512) [ENG,LEI,Newbold Verdon]
-        1665 9  Judith BAKER (#BH513) [ENG,LEI,Newbold Verdon]
-   1 ENG,MDL                         
-        1788 5  Sarah Ann LONGFORD (#BH33) [ENG,MDL]
-   2 ENG,SOM                         
-        1780 6  Sarah SLOCOMBE  (#BH67) [ENG,SOM,Nether Stowey]
-        1778 6  Robert LANGFORD (#BH66) [ENG,SOM,North Petherton]
-  27 Ancestors born in 3 locations.
+'ENG,LEI' Location has 24 Ancestors:
+     *** 1843 g3  WilliamAlfredBevins1843, William Alfred BEVINS (#BH8) [b:ENG,LEI,Newbold Verdon, d:USA,MN,Otter Tail]
+     *** 1822 g4  MaryBolt1822, Mary BOLT (#BH17) [b:ENG,LEI,Barwell, d:USA,IL,Henry,Annawan]
+     *** 1815 g4  WilliamLongfordBevins1815, William Longford BEVINS (#BH16) [b:ENG,LEI,Newbold Verdon, d:USA,IL,Henry,Annawan]
+         1783 g5  JohnBevins1783, John BEVINS (#BH32) [b:ENG,LEI,Shepshed, d:ENG,LEI]
+         1783 g5  MaryWykes1783, Mary WYKES (#BH35) [b:ENG,LEI,Thornton, d:ENG,LEI,Stanton Under Bardon]
+         1779 g5  SimonBott1779, Simon BOTT (#BH34) [b:ENG,LEI,Stanton under Bardon,Clotts Farm, d:ENG,LEI,Market Bosworth]
+         1766 g6  MaryAnnIsom1766, Mary Ann ISOM (#BH65) [b:ENG,LEI,Earl Shilton, d:ENG,LEI,Earl Shilton]
+         1762 g6  JosephBevins1762, Joseph BEVINS (#BH64) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+         1756 g6  JohnBott1756, John BOTT (#BH68) [b:ENG,LEI,Nailstone, d:ENG,LEI,Barwell]
+         1756 g6  AnnThirlby1756, Ann THIRLBY (#BH69) [b:ENG,LEI,Ibstock, d:ENG,LEI]
+         1740 g7  AnnQueenborough1740, Ann QUEENBOROUGH (#BH131) [b:ENG,LEI,Aston Flamville, d:ENG,LEI]
+         1738 g7  ThomasIsom1738, Thomas ISOM (#BH130) [b:ENG,LEI,Peckleton, d:ENG,LEI,Earl Shilton]
+         1736 g7  SarahWrathburn1736, Sarah WRATHBURN (#BH129) [b:ENG,LEI,Shenton, d:ENG,LEI,Newbold Verdon]
+         1736 g7  KatherineMoore1736, Katherine MOORE (#BH137) [b:ENG,LEI,Nailstone, d:ENG,LEI]
+         1731 g7  ThomasBevins1731, Thomas BEVINS (#BH128) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI]
+         1729 g7  BenjaminBott1729, Benjamin BOTT (#BH136) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Nailstone]
+         1720 g7  MaryPoole1720, Mary POOLE (#BH139) [b:ENG,LEI,Leicester, d:ENG,LEI]
+         1709 g7  GeorgeThirlby1709, George THIRLBY (#BH138) [b:ENG,LEI,Pickering Grange, d:ENG,LEI,Grange]
+         1705 g8  WilliamBevins1705, William BEVINS (#BH256) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+         1696 g8  SarahWilkinson1696, Sarah WILKINSON (#BH257) [b:ENG,LEI,Thornton, d:ENG,LEI,Newbold Verdon]
+         1693 g8  MargaretTudney1693, Margaret TUDNEY (#BH273) [b:ENG,LEI,Sutton Cheney, d:ENG,LEI,Newbold Verdon]
+         1690 g8  JonathonBott1690, Jonathon BOTT (#BH272) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+         1665 g9  WilliamBevins1665, William BEVINS Sr. (#BH512) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+         1665 g9  JudithBaker1665, Judith BAKER (#BH513) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
 
-There are 3 possible immigrants:
-    England => United States by William Alfred BEVINS (#BH8) (1843-1935)
-    England => United States by William Longford BEVINS (#BH16) (1815-1889)
-    England => United States by Mary BOLT (#BH17) (1822-1878)
+'ENG,MDL' Location has 1 Ancestors:
+         1788 g5  SarahAnnLongford1788, Sarah Ann LONGFORD (#BH33) [b:ENG,MDL, d:ENG,LEI]
+
+'ENG,SOM' Location has 2 Ancestors:
+         1780 g6  SarahSlocombe1780, Sarah SLOCOMBE  (#BH67) [b:ENG,SOM,Nether Stowey, d:ENG,SOM,Bridgewater]
+         1778 g6  RobertLangford1778, Robert LANGFORD (#BH66) [b:ENG,SOM,North Petherton, d:ENG,SOM,Bridgewater]

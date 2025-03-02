@@ -1,46 +1,53 @@
+g3: Frances Marie SHOFNER (#BH11) (1871-1939)
+g2:      |-> Hattie Jane COLLINS (#BH5) (1889-1977)
 
+has 21 Ancestors born in 14 Locations with 5 possible Immigrants
 
-Ancestral Origins of Frances Marie SHOFNER (#BH11)
-   1                                 
-        0 11  Thomas COEBOURNE (#BH2624) []
-   1 ENG,CHS                         
-        1692 9  Sarah Elizabeth HEALD (#BH759) [ENG,CHS,Mobberly]
-   1 ENG,OXF                         
-        1672 10  Francis BALDWIN Sr (#BH1312) [ENG,OXF]
-   2 NIR,ARM                         
-        1660 10  Elizabeth DUCK (#BH1517) [NIR,ARM,Skankill,Lurgan]
-        1632 11  Hannah Calvert HOOPE (#BH3035) [NIR,ARM]
-   1 NIR,DOW                         
-        1685 9  Aaron Yoeman HARLAN Sr. (#BH758) [NIR,DOW,Donnahlong]
-   1 SCO,MLN                         
-        1724 8  Archibald GUTHRIE (#BH376) [SCO,MLN,Edinburgh]
-   1 USA,IL,LaSalle                  
-        1841 4  Elizabeth Ann SOWDERS (#BH23) [USA,IL,LaSalle,Vermillion]
-   1 USA,MN,Wright                   
-        1871 3  Frances Marie SHOFNER (#BH11) [USA,MN,Wright,Monticello]
-   1 USA,OH,Pike                     
-        1795 5  Elizabeth GUTHERY (#BH47) [USA,OH,Pike]
-   4 USA,PA,Chester                  
-        1713 8  Charity Heald HARLAN (#BH379) [USA,PA,Chester,Kennett Square]
-        1712 8  Francis Coebourne BALDWIN Jr (#BH378) [USA,PA,Chester,Kennett Square]
-        1697 9  Mary BEEL (#BH657) [USA,PA,Chester]
-        1692 9  THOMAS  BALDWIN (#BH656) [USA,PA,Chester,West Chester]
-   2 USA,PA,Greene                   
-        1772 6  William GUTHERY (#BH94) [USA,PA,Greene]
-        1755 7  Lydia Harlan BALDWIN (#BH189) [USA,PA,Greene]
-   1 USA,PA,Somerset                 
-        1774 6  Catharina Dorothea THEOBOLD (#BH95) [USA,PA,Somerset]
-   3 USA,PA                          
-        1830 4  Samuel Frederick SHOFFNER (#BH22) [USA,PA]
-        1744 7  John GUTHERY (#BH188) [USA,PA]
-        1672 10  Cicely COEBOURNE (#BH1313) [USA,PA]
-   1 USA,VA                          
-        1796 5  John William SOWDERS (#BH46) [USA,VA]
-  21 Ancestors born in 14 locations.
+'' Location has 1 Ancestors:
+         0 g11  ThomasCoebourne?, Thomas COEBOURNE (#BH2624) [b:, d:]
 
-There are 5 possible immigrants:
-    England => United States by Sarah Elizabeth HEALD (#BH759) (1692-1749)
-    England => United States by Francis BALDWIN Sr (#BH1312) (1672-1702)
-    Northern Ireland => United States by Elizabeth DUCK (#BH1517) (1660-1712)
-    Northern Ireland => United States by Aaron Yoeman HARLAN Sr. (#BH758) (1685-1732)
-    Scotland => United States by Archibald GUTHRIE (#BH376) (1724-1744)
+'ENG,CHS' Location has 1 Ancestors:
+     *** 1692 g9  SarahElizabethHeald1692, Sarah Elizabeth HEALD (#BH759) [b:ENG,CHS,Mobberly, d:USA,PA,Chester,Kennett Square]
+
+'ENG,OXF' Location has 1 Ancestors:
+     *** 1672 g10  FrancisBaldwin1672, Francis BALDWIN Sr (#BH1312) [b:ENG,OXF, d:USA,PA,Lawrence,New Castle]
+
+'NIR,ARM' Location has 2 Ancestors:
+     *** 1660 g10  ElizabethDuck1660, Elizabeth DUCK (#BH1517) [b:NIR,ARM,Skankill,Lurgan, d:USA,PA,Chester,Kennett,Friends Burying]
+         1632 g11  HannahCalvertHoope1632, Hannah Calvert HOOPE (#BH3035) [b:NIR,ARM, d:NIR,ARM]
+
+'NIR,DOW' Location has 1 Ancestors:
+     *** 1685 g9  AaronYoemanHarlan1685, Aaron Yoeman HARLAN Sr. (#BH758) [b:NIR,DOW,Donnahlong, d:USA,PA,Chester,Kennet Township]
+
+'SCO,MLN' Location has 1 Ancestors:
+     *** 1724 g8  ArchibaldGuthrie1724, Archibald GUTHRIE (#BH376) [b:SCO,MLN,Edinburgh, d:USA,PA]
+
+'USA,IL,LaSalle' Location has 1 Ancestors:
+         1841 g4  ElizabethAnnSowders1841, Elizabeth Ann SOWDERS (#BH23) [b:USA,IL,LaSalle,Vermillion, d:USA,MN,Wadena,Rockwood]
+
+'USA,MN,Wright' Location has 1 Ancestors:
+         1871 g3  FrancesMarieShofner1871, Frances Marie SHOFNER (#BH11) [b:USA,MN,Wright,Monticello, d:USA,MN,Itasca,Deer River]
+
+'USA,OH,Pike' Location has 1 Ancestors:
+         1795 g5  ElizabethGuthery1795, Elizabeth GUTHERY (#BH47) [b:USA,OH,Pike, d:USA,IL,Vermilion,Danville]
+
+'USA,PA,Chester' Location has 4 Ancestors:
+         1713 g8  CharityHealdHarlan1713, Charity Heald HARLAN (#BH379) [b:USA,PA,Chester,Kennett Square, d:USA,VA,Frederick]
+         1712 g8  FrancisCoebourneBaldwin1712, Francis Coebourne BALDWIN Jr (#BH378) [b:USA,PA,Chester,Kennett Square, d:USA,WV,Greenbrier]
+         1697 g9  MaryBeel1697, Mary BEEL (#BH657) [b:USA,PA,Chester, d:USA,PA,Somerset]
+         1692 g9  THOMASBALDWIN1692, THOMAS  BALDWIN (#BH656) [b:USA,PA,Chester,West Chester, d:USA,PA,Chester]
+
+'USA,PA,Greene' Location has 2 Ancestors:
+         1772 g6  WilliamGuthery1772, William GUTHERY (#BH94) [b:USA,PA,Greene, d:USA,IL,Vermilion]
+         1755 g7  LydiaHarlanBaldwin1755, Lydia Harlan BALDWIN (#BH189) [b:USA,PA,Greene, d:USA,OH,Pike,Piketon]
+
+'USA,PA,Somerset' Location has 1 Ancestors:
+         1774 g6  CatharinaDorotheaTheobold1774, Catharina Dorothea THEOBOLD (#BH95) [b:USA,PA,Somerset, d:USA,IL,Vermilion]
+
+'USA,PA' Location has 3 Ancestors:
+         1830 g4  SamuelFrederickShoffner1830, Samuel Frederick SHOFFNER (#BH22) [b:USA,PA, d:USA,MN,Wright,Southside Township]
+         1744 g7  JohnGuthery1744, John GUTHERY (#BH188) [b:USA,PA, d:USA,OH,Pike,Piketon]
+         1672 g10  CicelyCoebourne1672, Cicely COEBOURNE (#BH1313) [b:USA,PA, d:USA,PA]
+
+'USA,VA' Location has 1 Ancestors:
+         1796 g5  JohnWilliamSowders1796, John William SOWDERS (#BH46) [b:USA,VA, d:USA,IL,Vermilion,Danville]

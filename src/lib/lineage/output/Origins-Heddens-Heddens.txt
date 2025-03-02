@@ -1,38 +1,51 @@
+g3: Ralph Roy HEDDENS (#BH12) (1890-1944)
+g2:      |-> Ralph Vernon HEDDENS (#BH6) (1909-1983)
 
+has 17 Ancestors born in 15 Locations with 0 possible Immigrants
 
-Ancestral Origins of Ralph Roy HEDDENS (#BH12)
-   2 USA,IN,Carroll                  
-        1841 5  Lavina BRUBAKER (#BH51) [USA,IN,Carroll]
-        1780 7  Jacob BRUBAKER [USA,IN,Carroll]
-   2 USA,IN,Cass                     
-        1862 4  Mary Elizabeth (Betty) CONN (#BH25) [USA,IN,Cass]
-        1831 5  Joseph C. CONN (#BH50) [USA,IN,Cass]
-   1 USA,IN,Miami                    
-        1890 3  Ralph Roy HEDDENS (#BH12) [USA,IN,Miami,Perrysburg]
-   1 USA,KS,Coffey                   
-        1857 4  George Custer HEDDENS (#BH24) [USA,KS,Coffey]
-   1 USA,OH,Darke                    
-        1803 6  Lucretia CLARY (#BH101) [USA,OH,Darke]
-   1 USA,OH,Hamilton                 
-        1832 5  Mary Margaret KRIDER (#BH49) [USA,OH,Hamilton,Montgomery]
-   1 USA,OH,Preble                   
-        1828 5  John Vandever HEDDENS (#BH48) [USA,OH,Preble]
-   1 USA,OH                          
-        1807 6  Martha VANDEVER (#BH97) [USA,OH]
-   1 USA,PA,Lancaster                
-        1799 6  Henry Ellenberger KREIDER (#BH98) [USA,PA,Lancaster]
-   1 USA,PA,Washington               
-        1802 6  Susannah Ball CUSTER (#BH99) [USA,PA,Washington]
-   1 USA,PA                          
-        1800 6  James HEDDENS (#BH96) [USA,PA]
-   1 USA,VA,Botetourt                
-        1784 7  Hannah PETERS [USA,VA,Botetourt]
-   1 USA,VA,Franklin                 
-        1803 6  Samuel E. BRUBAKER (#BH102) [USA,VA,Franklin]
-   1 USA,VA,Lee                      
-        1795 6  John CONN (#BH100) [USA,VA,Lee]
-   1 USA,VA                          
-        1802 6  Elizabeth WIMMER (#BH103) [USA,VA]
-  17 Ancestors born in 15 locations.
+'USA,IN,Carroll' Location has 2 Ancestors:
+         1841 g5  LavinaBrubaker1841, Lavina BRUBAKER (#BH51) [b:USA,IN,Carroll, d:USA,IN,Miami,Mexico]
+         1780 g7  JacobBrubaker1780, Jacob BRUBAKER [b:USA,IN,Carroll, d:USA,IN,Carroll]
 
-There are 0 possible immigrants:
+'USA,IN,Cass' Location has 2 Ancestors:
+         1862 g4  MaryElizabeth(Betty)Conn1862, Mary Elizabeth (Betty) CONN (#BH25) [b:USA,IN,Cass, d:USA,ND,Rolette,Mylo]
+         1831 g5  JosephC.Conn1831, Joseph C. CONN (#BH50) [b:USA,IN,Cass, d:USA,IN,Miami,Mexico]
+
+'USA,IN,Miami' Location has 1 Ancestors:
+         1890 g3  RalphRoyHeddens1890, Ralph Roy HEDDENS (#BH12) [b:USA,IN,Miami,Perrysburg, d:USA,MN,Itasca,Grand Rapids]
+
+'USA,KS,Coffey' Location has 1 Ancestors:
+         1857 g4  GeorgeCusterHeddens1857, George Custer HEDDENS (#BH24) [b:USA,KS,Coffey, d:USA,ND,Rolette,Mylo]
+
+'USA,OH,Darke' Location has 1 Ancestors:
+         1803 g6  LucretiaClary1803, Lucretia CLARY (#BH101) [b:USA,OH,Darke, d:USA,IN,Fulton]
+
+'USA,OH,Hamilton' Location has 1 Ancestors:
+         1832 g5  MaryMargaretKrider1832, Mary Margaret KRIDER (#BH49) [b:USA,OH,Hamilton,Montgomery, d:USA,IN,Miami,Peru]
+
+'USA,OH,Preble' Location has 1 Ancestors:
+         1828 g5  JohnVandeverHeddens1828, John Vandever HEDDENS (#BH48) [b:USA,OH,Preble, d:USA,IN,Miami,Peru]
+
+'USA,OH' Location has 1 Ancestors:
+         1807 g6  MarthaVandever1807, Martha VANDEVER (#BH97) [b:USA,OH, d:USA,KS,Coffey,Burlington]
+
+'USA,PA,Lancaster' Location has 1 Ancestors:
+         1799 g6  HenryEllenbergerKreider1799, Henry Ellenberger KREIDER (#BH98) [b:USA,PA,Lancaster, d:USA,IN,Clark,Bethlehem Township]
+
+'USA,PA,Washington' Location has 1 Ancestors:
+         1802 g6  SusannahBallCuster1802, Susannah Ball CUSTER (#BH99) [b:USA,PA,Washington, d:USA,OH]
+
+'USA,PA' Location has 1 Ancestors:
+         1800 g6  JamesHeddens1800, James HEDDENS (#BH96) [b:USA,PA, d:USA,KS,Coffey,Burlington]
+
+'USA,VA,Botetourt' Location has 1 Ancestors:
+         1784 g7  HannahPeters1784, Hannah PETERS [b:USA,VA,Botetourt, d:USA,OH,Darke]
+
+'USA,VA,Franklin' Location has 1 Ancestors:
+         1803 g6  SamuelE.Brubaker1803, Samuel E. BRUBAKER (#BH102) [b:USA,VA,Franklin, d:USA,IN,Cass,Twelve Mile]
+
+'USA,VA,Lee' Location has 1 Ancestors:
+         1795 g6  JohnConn1795, John CONN (#BH100) [b:USA,VA,Lee, d:USA,IN,Fulton]
+
+'USA,VA' Location has 1 Ancestors:
+         1802 g6  ElizabethWimmer1802, Elizabeth WIMMER (#BH103) [b:USA,VA, d:USA,MN,Wright,Howard Lake]

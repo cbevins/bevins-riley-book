@@ -1,45 +1,51 @@
+g2: Sheldon James RILEY (#RT4) (1902-1965)
+g1:      |-> Sheldon Junior RILEY (#RT2) (1926-2017)
 
+has 25 Ancestors born in 11 Locations with 3 possible Immigrants
 
-Ancestral Origins of Sheldon James RILEY (#RT4)
-   1                                 
-        1762 7  Frances JAMES []
-   5 ENG,DUR                         
-        1874 3  Caroline Carrie ROBSON (#RT9) [ENG,DUR,Heyworth]
-        1849 4  Joseph John ROBSON (#RT18) [ENG,DUR,Monkwearmouth]
-        1824 5  John Robert ROBSON (#RT36) [ENG,DUR,Jarrow]
-        1793 6  Margaret (#RT73) [ENG,DUR,Gateshead]
-        1790 6  John ROBSON (#RT72) [ENG,DUR,Monkwearmouth]
-   6 ENG,NBL                         
-        1850 4  Elizabeth GILBERT (#RT19) [ENG,NBL,Walker]
-        1825 5  Mary Ann LOWTHER (#RT37) [ENG,NBL,Murton]
-        1808 5  Mary GILBERT (#RT39) [ENG,NBL]
-        1799 5  Robert GILBERT (#RT38) [ENG,NBL]
-        1797 6  Jane SOMERVILLE (#RT75) [ENG,NBL,Newcastle]
-        1792 6  Joseph LOWTHER (#RT74) [ENG,NBL,Tynemouth,Earsdon]
-   1 USA,IA,Keokuk                   
-        1902 2  Sheldon James RILEY (#RT4) [USA,IA,Keokuk,What Cheer]
-   1 USA,MD                          
-        1801 5  George H JUNIPER (#RT34) [USA,MD]
-   2 USA,OH,Athens                   
-        1860 3  Jeremiah RILEY (#RT8) [USA,OH,Athens,Nelsonville]
-        1840 4  Matildia Jane JUNIPER (#RT17) [USA,OH,Athens,Trimble Township]
-   1 USA,OH                          
-        1840 4  Henry Thomas RILEY (#RT16) [USA,OH]
-   1 USA,PA                          
-        1810 5  Elizabeth ECHART (#RT35) [USA,PA]
-   3 USA,VA,Fauquier                 
-        1801 5  Harrison RILEY (#RT32) [USA,VA,Fauquier,Warrentown]
-        1788 6  Charlotte CORLEY (#RT67) [USA,VA,Fauquier]
-        1776 6  Nathaniel (Nathan) RILEY (#RT64) [USA,VA,Fauquier]
-   2 USA,VA,Spotsylvania             
-        1811 5  Sarah Ann SETTLE (#RT33) [USA,VA,Spotsylvania,Fredericksburg]
-        1780 6  "James" William SETTLE (#RT66) [USA,VA,Spotsylvania,Fredericksburg]
-   2 USA,VA                          
-        1784 6  Nancy AYLIFFE (#RT65) [USA,VA]
-        1754 7  William SETTLE (#122) [USA,VA]
-  25 Ancestors born in 11 locations.
+'' Location has 1 Ancestors:
+         1762 g7  FrancesJames1762, Frances JAMES [b:, d:]
 
-There are 3 possible immigrants:
-    England => United States by Caroline Carrie ROBSON (#RT9) (1874-1926)
-    England => United States by Joseph John ROBSON (#RT18) (1849-1917)
-    England => United States by Elizabeth GILBERT (#RT19) (1850-1919)
+'ENG,DUR' Location has 5 Ancestors:
+     *** 1874 g3  CarolineCarrieRobson1874, Caroline Carrie ROBSON (#RT9) [b:ENG,DUR,Heyworth, d:USA,IA,Jasper,Colfax]
+     *** 1849 g4  JosephJohnRobson1849, Joseph John ROBSON (#RT18) [b:ENG,DUR,Monkwearmouth, d:USA,IA,Jasper,Newton]
+         1824 g5  JohnRobertRobson1824, John Robert ROBSON (#RT36) [b:ENG,DUR,Jarrow, d:ENG,DUR]
+         1793 g6  Margaret1793, Margaret (#RT73) [b:ENG,DUR,Gateshead, d:ENG,DUR]
+         1790 g6  JohnRobson1790, John ROBSON (#RT72) [b:ENG,DUR,Monkwearmouth, d:ENG,DUR]
+
+'ENG,NBL' Location has 6 Ancestors:
+     *** 1850 g4  ElizabethGilbert1850, Elizabeth GILBERT (#RT19) [b:ENG,NBL,Walker, d:USA,IA,Jasper,Colfax]
+         1825 g5  MaryAnnLowther1825, Mary Ann LOWTHER (#RT37) [b:ENG,NBL,Murton, d:ENG,DUR]
+         1808 g5  MaryGilbert1808, Mary GILBERT (#RT39) [b:ENG,NBL, d:ENG,NBL]
+         1799 g5  RobertGilbert1799, Robert GILBERT (#RT38) [b:ENG,NBL, d:ENG,NBL]
+         1797 g6  JaneSomerville1797, Jane SOMERVILLE (#RT75) [b:ENG,NBL,Newcastle, d:ENG,NBL,Tynemouth]
+         1792 g6  JosephLowther1792, Joseph LOWTHER (#RT74) [b:ENG,NBL,Tynemouth,Earsdon, d:ENG,NBL,Longbenton]
+
+'USA,IA,Keokuk' Location has 1 Ancestors:
+         1902 g2  SheldonJamesRiley1902, Sheldon James RILEY (#RT4) [b:USA,IA,Keokuk,What Cheer, d:USA,MN,Hennepin,Minneapolis]
+
+'USA,MD' Location has 1 Ancestors:
+         1801 g5  GeorgeHJuniper1801, George H JUNIPER (#RT34) [b:USA,MD, d:USA,OH,Athens,Dover Township]
+
+'USA,OH,Athens' Location has 2 Ancestors:
+         1860 g3  JeremiahRiley1860, Jeremiah RILEY (#RT8) [b:USA,OH,Athens,Nelsonville, d:USA,IA,Jasper,Colfax]
+         1840 g4  MatildiaJaneJuniper1840, Matildia Jane JUNIPER (#RT17) [b:USA,OH,Athens,Trimble Township, d:USA,IA]
+
+'USA,OH' Location has 1 Ancestors:
+         1840 g4  HenryThomasRiley1840, Henry Thomas RILEY (#RT16) [b:USA,OH, d:USA,IA,Jasper]
+
+'USA,PA' Location has 1 Ancestors:
+         1810 g5  ElizabethEchart1810, Elizabeth ECHART (#RT35) [b:USA,PA, d:USA,OH,Athens,York]
+
+'USA,VA,Fauquier' Location has 3 Ancestors:
+         1801 g5  HarrisonRiley1801, Harrison RILEY (#RT32) [b:USA,VA,Fauquier,Warrentown, d:USA,IA,Washington,Crawfordsville]
+         1788 g6  CharlotteCorley1788, Charlotte CORLEY (#RT67) [b:USA,VA,Fauquier, d:USA,VA,Spotsylvania,Fredericksburg]
+         1776 g6  Nathaniel(Nathan)Riley1776, Nathaniel (Nathan) RILEY (#RT64) [b:USA,VA,Fauquier, d:USA,OH,Harrison,Cadiz]
+
+'USA,VA,Spotsylvania' Location has 2 Ancestors:
+         1811 g5  SarahAnnSettle1811, Sarah Ann SETTLE (#RT33) [b:USA,VA,Spotsylvania,Fredericksburg, d:USA,IA,Washington]
+         1780 g6  "James"WilliamSettle1780, "James" William SETTLE (#RT66) [b:USA,VA,Spotsylvania,Fredericksburg, d:USA,OH,Muskingum,Zanesville]
+
+'USA,VA' Location has 2 Ancestors:
+         1784 g6  NancyAyliffe1784, Nancy AYLIFFE (#RT65) [b:USA,VA, d:USA,OH,Harrison,Cadiz]
+         1754 g7  WilliamSettle1754, William SETTLE (#122) [b:USA,VA, d:USA,VA]

@@ -6,6 +6,8 @@ import { Person } from './Person.js'
 
 export class People {
     // Creates hydrated Person instances for each GEDCOM INDI reord
+    // locations: reference to GedcomPlaceLocationsJson Map() database
+    // places: reference to Sylvan.places Map
     constructor(gedcom, locations, places) {
         this._data = {
             gedcom: gedcom,     // Gedcom instance

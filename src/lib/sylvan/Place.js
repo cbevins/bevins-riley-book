@@ -1,4 +1,5 @@
 export class Place {
+    // location: reference to GedcomPlaceLocationsJson Map() entry
     constructor(text, location, parts, messages) {
         const country = parts.length > 0 ? parts.pop() : ''
         const state = parts.length > 0 ? parts.pop() : ''
@@ -79,6 +80,8 @@ export class Place {
     
     locale() { return this._data.locale }
     
+    // Returns reference to a 
+    // ["USA,MN,Itasca,Grand Rapids", [47.2380, -93.5327, "Grand Rapids"]],
     location() { return this._data.location }
     
     messages() { return this._data.messages }

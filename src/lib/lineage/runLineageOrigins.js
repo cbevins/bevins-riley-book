@@ -121,41 +121,51 @@ export class Origins {
     }
 
     report(fileName) {
-        let str = `\n\nAncestral Origins of ${this.subjectNode.person.fullName()}\n`
+        let str = ''
+        // freqMap is <locationKey> => [<nodes>],
+        // so array is [ [locationKey, nodes]]
         const ar = Array.from(this.freqMap.entries()).sort()
         let n = 0
-        const immigrants = []
+        let m = 0
         for (let i=0; i<ar.length; i++) {
-            const [key, nodes] = ar[i]
-            str += `${(nodes.length+'').padStart(4)} ${key.padEnd(32)}\n`
+            let [key, nodes] = ar[i]
+            str += `\n'${key}' Location has ${nodes.length} Ancestors:\n`
+            nodes.sort((a, b) => { return b.person.birthYear() - a.person.birthYear()})
             n += nodes.length
-            const years = []
             for(let j=0; j<nodes.length; j++) {
                 const node = nodes[j]
                 const person = node.person
-                years.push(`${person.birthYear()} ${node.gen}  ${person.fullName()} [${person.birthPlace().keys()}]`)
                 const born =  person.birthCountry()
                 const died = person.deathCountry()
-                if (this.knownCountry(born) && this.knownCountry(died) && born !== died)
-                    immigrants.push(node)
-            }
-            years.sort().reverse()
-            for(let j=0; j<years.length; j++) {
-                str += `        ${years[j]}\n`
+                let imm = '   '
+                if (this.knownCountry(born) && this.knownCountry(died) && born !== died) {
+                    imm = '***'
+                    m++
+                }
+                str += `     ${imm} ${person.birthYear()} g${node.gen}  ${person.nameKey()}, ${person.fullName()} `
+                    + `[b:${person.birthPlace().keys()}, d:${person.deathPlace().keys()}]\n`
             }
         }
-        str += `${(n+'').padStart(4)} Ancestors born in ${ar.length} locations.\n\n`
-        str += `There are ${immigrants.length} possible immigrants:\n`
-        for(let i=0; i<immigrants.length; i++) {
-            const person = immigrants[i].person
-            str += `    ${person.birthCountry()} => ${person.deathCountry()} by ${person.label()}\n`
+        // Trace lineage
+        let trace = ''
+        let child = this.subjectNode.child
+        let depth = 1
+        let c = '|->'   // String.fromCharCode(766)
+        while(child) {
+            trace += `g${child.gen}: ${' '.padStart(4*depth++)} ${c} ${child.person.label()}\n`
+            child = child.node
         }
+        str = `g${this.subjectNode.gen}: ${this.subjectNode.person.label()}\n`
+            + trace + '\n'
+            + `has ${n} Ancestors born in ${ar.length} Locations with ${m} possible Immigrants\n`
+            + str
         fs.writeFile(fileName, str, function (err) {
             if (err) throw err
         })
         console.log(`Output was written to '${fileName}'`)
     }
 }
+
 
 const origins = new Origins(sylvan)
 for(let i=0; i<branchSpecs.length; i++) {

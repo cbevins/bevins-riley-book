@@ -1,71 +1,71 @@
+g2: Samuel BEVINS (#BH4) (1881-1970)
+g1:      |-> William Collins BEVINS (#BH2) (1931-1997)
 
+has 55 Ancestors born in 6 Locations with 4 possible Immigrants
 
-Ancestral Origins of Samuel BEVINS (#BH4)
-   4 ENG,COR                         
-        1787 5  Mary TOLL (#BH39) [ENG,COR,Mevagissey]
-        1784 5  John OLIVER (#BH38) [ENG,COR,Mevagissey]
-        1762 6  Susannah HOCKING (#BH77) [ENG,COR,Mevagissey]
-        1758 6  John OLIVER (#BH76) [ENG,COR,Mevagissey]
-  23 ENG,DEV                         
-        1848 3  Mary Ann WHITE (#BH9) [ENG,DEV,Torquay]
-        1829 4  Jane OLIVER (#BH19) [ENG,DEV,Torr]
-        1827 4  Thomas WHITE (#BH18) [ENG,DEV,Chealiston]
-        1806 5  Agnes DECENT (#BH37) [ENG,DEV,Brixham]
-        1797 5  Thomas WHITE (#BH36) [ENG,DEV,Brixham]
-        1778 6  Agnes WHEATON (#BH75) [ENG,DEV,Brixham]
-        1776 6  John Caldwell DECENT (#BH74) [ENG,DEV,Brixham]
-        1770 6  Jenny TERRY (#BH73) [ENG,DEV,Brixham]
-        1770 6  George WHITE (#BH72) [ENG,DEV]
-        1750 7  John WHEATON (#BH150) [ENG,DEV,Brixham]
-        1750 7  Elizabeth DECENT (#BH149) [ENG,DEV,Brixham]
-        1749 7  Agnes COLLIER (#BH151) [ENG,DEV,Brixham]
-        1748 7  John DECENT (#BH148) [ENG,DEV,Brixham]
-        1725 8  William DECENT (#BH296) [ENG,DEV,Brixham]
-        1725 8  John WHEATON (#BH300) [ENG,DEV,Brixham]
-        1723 8  Mary PORTER (#BH297) [ENG,DEV,Dartmouth]
-        1721 8  Susanna AULGAR (#BH301) [ENG,DEV,Brixham]
-        1710 8  Jane PUTT (#BH303) [ENG,DEV,Brixham]
-        1705 9  Susannah DECENT (#BH593) [ENG,DEV]
-        1705 9  John DECENT (#BH592) [ENG,DEV,Brixham]
-        1701 8  Nicholas COLLIER (#BH302) [ENG,DEV,Brixham]
-        1680 10  Francis DECENT (#BH1184) [ENG,DEV,Topsham]
-        1676 10  Elizabeth COLE (#BH1185) [ENG,DEV,Brixham]
-  24 ENG,LEI                         
-        1843 3  William Alfred BEVINS (#BH8) [ENG,LEI,Newbold Verdon]
-        1822 4  Mary BOLT (#BH17) [ENG,LEI,Barwell]
-        1815 4  William Longford BEVINS (#BH16) [ENG,LEI,Newbold Verdon]
-        1783 5  Mary WYKES (#BH35) [ENG,LEI,Thornton]
-        1783 5  John BEVINS (#BH32) [ENG,LEI,Shepshed]
-        1779 5  Simon BOTT (#BH34) [ENG,LEI,Stanton under Bardon,Clotts Farm]
-        1766 6  Mary Ann ISOM (#BH65) [ENG,LEI,Earl Shilton]
-        1762 6  Joseph BEVINS (#BH64) [ENG,LEI,Newbold Verdon]
-        1756 6  John BOTT (#BH68) [ENG,LEI,Nailstone]
-        1756 6  Ann THIRLBY (#BH69) [ENG,LEI,Ibstock]
-        1740 7  Ann QUEENBOROUGH (#BH131) [ENG,LEI,Aston Flamville]
-        1738 7  Thomas ISOM (#BH130) [ENG,LEI,Peckleton]
-        1736 7  Sarah WRATHBURN (#BH129) [ENG,LEI,Shenton]
-        1736 7  Katherine MOORE (#BH137) [ENG,LEI,Nailstone]
-        1731 7  Thomas BEVINS (#BH128) [ENG,LEI,Newbold Verdon]
-        1729 7  Benjamin BOTT (#BH136) [ENG,LEI,Newbold Verdon]
-        1720 7  Mary POOLE (#BH139) [ENG,LEI,Leicester]
-        1709 7  George THIRLBY (#BH138) [ENG,LEI,Pickering Grange]
-        1705 8  William BEVINS (#BH256) [ENG,LEI,Newbold Verdon]
-        1696 8  Sarah WILKINSON (#BH257) [ENG,LEI,Thornton]
-        1693 8  Margaret TUDNEY (#BH273) [ENG,LEI,Sutton Cheney]
-        1690 8  Jonathon BOTT (#BH272) [ENG,LEI,Newbold Verdon]
-        1665 9  William BEVINS Sr. (#BH512) [ENG,LEI,Newbold Verdon]
-        1665 9  Judith BAKER (#BH513) [ENG,LEI,Newbold Verdon]
-   1 ENG,MDL                         
-        1788 5  Sarah Ann LONGFORD (#BH33) [ENG,MDL]
-   2 ENG,SOM                         
-        1780 6  Sarah SLOCOMBE  (#BH67) [ENG,SOM,Nether Stowey]
-        1778 6  Robert LANGFORD (#BH66) [ENG,SOM,North Petherton]
-   1 USA,IL,Henry                    
-        1881 2  Samuel BEVINS (#BH4) [USA,IL,Henry,Annawan]
-  55 Ancestors born in 6 locations.
+'ENG,COR' Location has 4 Ancestors:
+         1787 g5  MaryToll1787, Mary TOLL (#BH39) [b:ENG,COR,Mevagissey, d:ENG,COR]
+         1784 g5  JohnOliver1784, John OLIVER (#BH38) [b:ENG,COR,Mevagissey, d:ENG,COR]
+         1762 g6  SusannahHocking1762, Susannah HOCKING (#BH77) [b:ENG,COR,Mevagissey, d:ENG,LEI,Mevagissey]
+         1758 g6  JohnOliver1758, John OLIVER (#BH76) [b:ENG,COR,Mevagissey, d:ENG,LEI,Mevagissey]
 
-There are 4 possible immigrants:
-    England => United States by Mary Ann WHITE (#BH9) (1848-1922)
-    England => United States by William Alfred BEVINS (#BH8) (1843-1935)
-    England => United States by William Longford BEVINS (#BH16) (1815-1889)
-    England => United States by Mary BOLT (#BH17) (1822-1878)
+'ENG,DEV' Location has 23 Ancestors:
+     *** 1848 g3  MaryAnnWhite1848, Mary Ann WHITE (#BH9) [b:ENG,DEV,Torquay, d:USA,MN,Wadena]
+         1829 g4  JaneOliver1829, Jane OLIVER (#BH19) [b:ENG,DEV,Torr, d:ENG,LND,Kensington]
+         1827 g4  ThomasWhite1827, Thomas WHITE (#BH18) [b:ENG,DEV,Chealiston, d:ENG,LND,Marylebone]
+         1806 g5  AgnesDecent1806, Agnes DECENT (#BH37) [b:ENG,DEV,Brixham, d:ENG,YKS,Hull]
+         1797 g5  ThomasWhite1797, Thomas WHITE (#BH36) [b:ENG,DEV,Brixham, d:ENG,KEN,Ramsgate]
+         1778 g6  AgnesWheaton1778, Agnes WHEATON (#BH75) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1776 g6  JohnCaldwellDecent1776, John Caldwell DECENT (#BH74) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1770 g6  GeorgeWhite1770, George WHITE (#BH72) [b:ENG,DEV, d:ENG,DEV]
+         1770 g6  JennyTerry1770, Jenny TERRY (#BH73) [b:ENG,DEV,Brixham, d:ENG,DEV,Asprington]
+         1750 g7  ElizabethDecent1750, Elizabeth DECENT (#BH149) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1750 g7  JohnWheaton1750, John WHEATON (#BH150) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1749 g7  AgnesCollier1749, Agnes COLLIER (#BH151) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1748 g7  JohnDecent1748, John DECENT (#BH148) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1725 g8  WilliamDecent1725, William DECENT (#BH296) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1725 g8  JohnWheaton1725, John WHEATON (#BH300) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1723 g8  MaryPorter1723, Mary PORTER (#BH297) [b:ENG,DEV,Dartmouth, d:ENG,DEV,Brixham]
+         1721 g8  SusannaAulgar1721, Susanna AULGAR (#BH301) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1710 g8  JanePutt1710, Jane PUTT (#BH303) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1705 g9  JohnDecent1705, John DECENT (#BH592) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1705 g9  SusannahDecent1705, Susannah DECENT (#BH593) [b:ENG,DEV, d:ENG,DEV]
+         1701 g8  NicholasCollier1701, Nicholas COLLIER (#BH302) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1680 g10  FrancisDecent1680, Francis DECENT (#BH1184) [b:ENG,DEV,Topsham, d:ENG,DEV]
+         1676 g10  ElizabethCole1676, Elizabeth COLE (#BH1185) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+
+'ENG,LEI' Location has 24 Ancestors:
+     *** 1843 g3  WilliamAlfredBevins1843, William Alfred BEVINS (#BH8) [b:ENG,LEI,Newbold Verdon, d:USA,MN,Otter Tail]
+     *** 1822 g4  MaryBolt1822, Mary BOLT (#BH17) [b:ENG,LEI,Barwell, d:USA,IL,Henry,Annawan]
+     *** 1815 g4  WilliamLongfordBevins1815, William Longford BEVINS (#BH16) [b:ENG,LEI,Newbold Verdon, d:USA,IL,Henry,Annawan]
+         1783 g5  JohnBevins1783, John BEVINS (#BH32) [b:ENG,LEI,Shepshed, d:ENG,LEI]
+         1783 g5  MaryWykes1783, Mary WYKES (#BH35) [b:ENG,LEI,Thornton, d:ENG,LEI,Stanton Under Bardon]
+         1779 g5  SimonBott1779, Simon BOTT (#BH34) [b:ENG,LEI,Stanton under Bardon,Clotts Farm, d:ENG,LEI,Market Bosworth]
+         1766 g6  MaryAnnIsom1766, Mary Ann ISOM (#BH65) [b:ENG,LEI,Earl Shilton, d:ENG,LEI,Earl Shilton]
+         1762 g6  JosephBevins1762, Joseph BEVINS (#BH64) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+         1756 g6  JohnBott1756, John BOTT (#BH68) [b:ENG,LEI,Nailstone, d:ENG,LEI,Barwell]
+         1756 g6  AnnThirlby1756, Ann THIRLBY (#BH69) [b:ENG,LEI,Ibstock, d:ENG,LEI]
+         1740 g7  AnnQueenborough1740, Ann QUEENBOROUGH (#BH131) [b:ENG,LEI,Aston Flamville, d:ENG,LEI]
+         1738 g7  ThomasIsom1738, Thomas ISOM (#BH130) [b:ENG,LEI,Peckleton, d:ENG,LEI,Earl Shilton]
+         1736 g7  SarahWrathburn1736, Sarah WRATHBURN (#BH129) [b:ENG,LEI,Shenton, d:ENG,LEI,Newbold Verdon]
+         1736 g7  KatherineMoore1736, Katherine MOORE (#BH137) [b:ENG,LEI,Nailstone, d:ENG,LEI]
+         1731 g7  ThomasBevins1731, Thomas BEVINS (#BH128) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI]
+         1729 g7  BenjaminBott1729, Benjamin BOTT (#BH136) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Nailstone]
+         1720 g7  MaryPoole1720, Mary POOLE (#BH139) [b:ENG,LEI,Leicester, d:ENG,LEI]
+         1709 g7  GeorgeThirlby1709, George THIRLBY (#BH138) [b:ENG,LEI,Pickering Grange, d:ENG,LEI,Grange]
+         1705 g8  WilliamBevins1705, William BEVINS (#BH256) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+         1696 g8  SarahWilkinson1696, Sarah WILKINSON (#BH257) [b:ENG,LEI,Thornton, d:ENG,LEI,Newbold Verdon]
+         1693 g8  MargaretTudney1693, Margaret TUDNEY (#BH273) [b:ENG,LEI,Sutton Cheney, d:ENG,LEI,Newbold Verdon]
+         1690 g8  JonathonBott1690, Jonathon BOTT (#BH272) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+         1665 g9  WilliamBevins1665, William BEVINS Sr. (#BH512) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+         1665 g9  JudithBaker1665, Judith BAKER (#BH513) [b:ENG,LEI,Newbold Verdon, d:ENG,LEI,Newbold Verdon]
+
+'ENG,MDL' Location has 1 Ancestors:
+         1788 g5  SarahAnnLongford1788, Sarah Ann LONGFORD (#BH33) [b:ENG,MDL, d:ENG,LEI]
+
+'ENG,SOM' Location has 2 Ancestors:
+         1780 g6  SarahSlocombe1780, Sarah SLOCOMBE  (#BH67) [b:ENG,SOM,Nether Stowey, d:ENG,SOM,Bridgewater]
+         1778 g6  RobertLangford1778, Robert LANGFORD (#BH66) [b:ENG,SOM,North Petherton, d:ENG,SOM,Bridgewater]
+
+'USA,IL,Henry' Location has 1 Ancestors:
+         1881 g2  SamuelBevins1881, Samuel BEVINS (#BH4) [b:USA,IL,Henry,Annawan, d:USA,MN,Itasca,Deer River]

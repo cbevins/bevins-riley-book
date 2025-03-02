@@ -1,31 +1,27 @@
+g3: Florence CYR (#RT13) (1879-1968)
+g2:      |-> Harold Richard TROMBLEY (#RT6) (1901-1960)
 
+has 15 Ancestors born in 4 Locations with 6 possible Immigrants
 
-Ancestral Origins of Florence CYR (#RT13)
-   7 CAN,NB                          
-        1879 3  Florence CYR (#RT13) [CAN,NB,Acadia]
-        1828 5  Suzanne VIOLETTE (#RT55) [CAN,NB,Madawaska,St Basile]
-        1816 5  Joseph Crock CYR (#RT52) [CAN,NB,Madawaska,St Basile]
-        1800 6  Victoire THIBODEAU (#RT111) [CAN,NB,Madawaska,St Basile]
-        1796 6  Isaac Joseph VIOLETTTE (#RT110) [CAN,NB,Madawaska,St Basile]
-        1785 6  Marie-Euphrosine MARTIN (#RT105) [CAN,NB,Madawaska,St Basile]
-        1780 6  Jean-Marie CYR (#RT104) [CAN,NB,Acadia,Saint John River,Meductic]
-   4 CAN,QC,Bas-Saint-Laurent        
-        1812 5  Joseph Amable DESJARDINS II (#RT54) [CAN,QC,Bas-Saint-Laurent,L'Isle-Verte]
-        1811 6  Jean Frederic * "Hilaire" COTE (#RT106) [CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte]
-        1792 6  Marie-Genevieve OUELLET (#RT109) [CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis]
-        1786 6  Amable (Desjardins) ROY (#RT108) [CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis]
-   1 CAN,QC,Chaudiere-Appalaches     
-        1811 6  Angelique Marie VAILLANCOURT (#RT107) [CAN,QC,Chaudiere-Appalaches,St Roches des Aulnais]
-   3 USA,ME,Aroostook                
-        1853 4  Marguerite DESJARDINS (#RT27) [USA,ME,Aroostook,Van Buren]
-        1851 4  Joseph Eugene Thomas CYR (#RT26) [USA,ME,Aroostook,Van Buren,St Brunos Parish]
-        1834 5  Angelique (Angele) COTE (#RT53) [USA,ME,Aroostook,Van Buren,St Brunos Parish]
-  15 Ancestors born in 4 locations.
+'CAN,NB' Location has 7 Ancestors:
+     *** 1879 g3  FlorenceCyr1879, Florence CYR (#RT13) [b:CAN,NB,Acadia, d:USA,MN,Hennepin,Minneapolis]
+         1828 g5  SuzanneViolette1828, Suzanne VIOLETTE (#RT55) [b:CAN,NB,Madawaska,St Basile, d:CAN,NB,Madawaska,Anne,Ste]
+         1816 g5  JosephCrockCyr1816, Joseph Crock CYR (#RT52) [b:CAN,NB,Madawaska,St Basile, d:CAN,NB,Madawaska,Sainte Anne de Madawaska]
+     *** 1800 g6  VictoireThibodeau1800, Victoire THIBODEAU (#RT111) [b:CAN,NB,Madawaska,St Basile, d:USA,ME,Aroostook,Van Buren,St Bruno]
+     *** 1796 g6  IsaacJosephViolettte1796, Isaac Joseph VIOLETTTE (#RT110) [b:CAN,NB,Madawaska,St Basile, d:USA,ME,Aroostook,Van Buren,St Bruno]
+         1785 g6  Marie-EuphrosineMartin1785, Marie-Euphrosine MARTIN (#RT105) [b:CAN,NB,Madawaska,St Basile, d:CAN,NB,Madawaska,St Basile]
+         1780 g6  Jean-MarieCyr1780, Jean-Marie CYR (#RT104) [b:CAN,NB,Acadia,Saint John River,Meductic, d:CAN,NB,Madawaska,St Basile]
 
-There are 6 possible immigrants:
-    Canada => United States by Florence CYR (#RT13) (1879-1968)
-    Canada => United States by Isaac Joseph VIOLETTTE (#RT110) (1796-1850)
-    Canada => United States by Victoire THIBODEAU (#RT111) (1800-1855)
-    Canada => United States by Angelique Marie VAILLANCOURT (#RT107) (1811-1844)
-    United States => Canada by Joseph Eugene Thomas CYR (#RT26) (1851-1920)
-    United States => Canada by Angelique (Angele) COTE (#RT53) (1834-1914)
+'CAN,QC,Bas-Saint-Laurent' Location has 4 Ancestors:
+         1812 g5  JosephAmableDesjardins1812, Joseph Amable DESJARDINS II (#RT54) [b:CAN,QC,Bas-Saint-Laurent,L'Isle-Verte, d:CAN,NB,Madawaska,St Léonard Parish]
+         1811 g6  JeanFrederic*"Hilaire"Cote1811, Jean Frederic * "Hilaire" COTE (#RT106) [b:CAN,QC,Bas-Saint-Laurent,Riviere-du-Loup,L'Isle Verte, d:CAN,NB,Madawaska,Sainte Anne de Madawaska]
+         1792 g6  Marie-GenevieveOuellet1792, Marie-Genevieve OUELLET (#RT109) [b:CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis, d:CAN,QC,Bas-Saint-Laurent,Riviere-du-LoupL'Isle Verte]
+         1786 g6  Amable(Desjardins)Roy1786, Amable (Desjardins) ROY (#RT108) [b:CAN,QC,Bas-Saint-Laurent,Kamouraska,St-Louis, d:CAN,QC,Bas-Saint-Laurent,Riviere-du-LoupL'Isle Verte]
+
+'CAN,QC,Chaudiere-Appalaches' Location has 1 Ancestors:
+     *** 1811 g6  AngeliqueMarieVaillancourt1811, Angelique Marie VAILLANCOURT (#RT107) [b:CAN,QC,Chaudiere-Appalaches,St Roches des Aulnais, d:USA,ME,Aroostook,Van Buren]
+
+'USA,ME,Aroostook' Location has 3 Ancestors:
+         1853 g4  MargueriteDesjardins1853, Marguerite DESJARDINS (#RT27) [b:USA,ME,Aroostook,Van Buren, d:USA,MN,Hennepin,Minneapolis]
+     *** 1851 g4  JosephEugeneThomasCyr1851, Joseph Eugene Thomas CYR (#RT26) [b:USA,ME,Aroostook,Van Buren,St Brunos Parish, d:CAN,NB,Madawaska,Ste Anne]
+     *** 1834 g5  Angelique(Angele)Cote1834, Angelique (Angele) COTE (#RT53) [b:USA,ME,Aroostook,Van Buren,St Brunos Parish, d:CAN,NB,Madawaska,Ste Anne]

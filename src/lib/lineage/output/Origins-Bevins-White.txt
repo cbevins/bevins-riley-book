@@ -1,36 +1,35 @@
+g3: Mary Ann WHITE (#BH9) (1848-1922)
+g2:      |-> Samuel BEVINS (#BH4) (1881-1970)
 
+has 27 Ancestors born in 2 Locations with 1 possible Immigrants
 
-Ancestral Origins of Mary Ann WHITE (#BH9)
-   4 ENG,COR                         
-        1787 5  Mary TOLL (#BH39) [ENG,COR,Mevagissey]
-        1784 5  John OLIVER (#BH38) [ENG,COR,Mevagissey]
-        1762 6  Susannah HOCKING (#BH77) [ENG,COR,Mevagissey]
-        1758 6  John OLIVER (#BH76) [ENG,COR,Mevagissey]
-  23 ENG,DEV                         
-        1848 3  Mary Ann WHITE (#BH9) [ENG,DEV,Torquay]
-        1829 4  Jane OLIVER (#BH19) [ENG,DEV,Torr]
-        1827 4  Thomas WHITE (#BH18) [ENG,DEV,Chealiston]
-        1806 5  Agnes DECENT (#BH37) [ENG,DEV,Brixham]
-        1797 5  Thomas WHITE (#BH36) [ENG,DEV,Brixham]
-        1778 6  Agnes WHEATON (#BH75) [ENG,DEV,Brixham]
-        1776 6  John Caldwell DECENT (#BH74) [ENG,DEV,Brixham]
-        1770 6  Jenny TERRY (#BH73) [ENG,DEV,Brixham]
-        1770 6  George WHITE (#BH72) [ENG,DEV]
-        1750 7  John WHEATON (#BH150) [ENG,DEV,Brixham]
-        1750 7  Elizabeth DECENT (#BH149) [ENG,DEV,Brixham]
-        1749 7  Agnes COLLIER (#BH151) [ENG,DEV,Brixham]
-        1748 7  John DECENT (#BH148) [ENG,DEV,Brixham]
-        1725 8  William DECENT (#BH296) [ENG,DEV,Brixham]
-        1725 8  John WHEATON (#BH300) [ENG,DEV,Brixham]
-        1723 8  Mary PORTER (#BH297) [ENG,DEV,Dartmouth]
-        1721 8  Susanna AULGAR (#BH301) [ENG,DEV,Brixham]
-        1710 8  Jane PUTT (#BH303) [ENG,DEV,Brixham]
-        1705 9  Susannah DECENT (#BH593) [ENG,DEV]
-        1705 9  John DECENT (#BH592) [ENG,DEV,Brixham]
-        1701 8  Nicholas COLLIER (#BH302) [ENG,DEV,Brixham]
-        1680 10  Francis DECENT (#BH1184) [ENG,DEV,Topsham]
-        1676 10  Elizabeth COLE (#BH1185) [ENG,DEV,Brixham]
-  27 Ancestors born in 2 locations.
+'ENG,COR' Location has 4 Ancestors:
+         1787 g5  MaryToll1787, Mary TOLL (#BH39) [b:ENG,COR,Mevagissey, d:ENG,COR]
+         1784 g5  JohnOliver1784, John OLIVER (#BH38) [b:ENG,COR,Mevagissey, d:ENG,COR]
+         1762 g6  SusannahHocking1762, Susannah HOCKING (#BH77) [b:ENG,COR,Mevagissey, d:ENG,LEI,Mevagissey]
+         1758 g6  JohnOliver1758, John OLIVER (#BH76) [b:ENG,COR,Mevagissey, d:ENG,LEI,Mevagissey]
 
-There are 1 possible immigrants:
-    England => United States by Mary Ann WHITE (#BH9) (1848-1922)
+'ENG,DEV' Location has 23 Ancestors:
+     *** 1848 g3  MaryAnnWhite1848, Mary Ann WHITE (#BH9) [b:ENG,DEV,Torquay, d:USA,MN,Wadena]
+         1829 g4  JaneOliver1829, Jane OLIVER (#BH19) [b:ENG,DEV,Torr, d:ENG,LND,Kensington]
+         1827 g4  ThomasWhite1827, Thomas WHITE (#BH18) [b:ENG,DEV,Chealiston, d:ENG,LND,Marylebone]
+         1806 g5  AgnesDecent1806, Agnes DECENT (#BH37) [b:ENG,DEV,Brixham, d:ENG,YKS,Hull]
+         1797 g5  ThomasWhite1797, Thomas WHITE (#BH36) [b:ENG,DEV,Brixham, d:ENG,KEN,Ramsgate]
+         1778 g6  AgnesWheaton1778, Agnes WHEATON (#BH75) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1776 g6  JohnCaldwellDecent1776, John Caldwell DECENT (#BH74) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1770 g6  GeorgeWhite1770, George WHITE (#BH72) [b:ENG,DEV, d:ENG,DEV]
+         1770 g6  JennyTerry1770, Jenny TERRY (#BH73) [b:ENG,DEV,Brixham, d:ENG,DEV,Asprington]
+         1750 g7  ElizabethDecent1750, Elizabeth DECENT (#BH149) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1750 g7  JohnWheaton1750, John WHEATON (#BH150) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1749 g7  AgnesCollier1749, Agnes COLLIER (#BH151) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1748 g7  JohnDecent1748, John DECENT (#BH148) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1725 g8  WilliamDecent1725, William DECENT (#BH296) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1725 g8  JohnWheaton1725, John WHEATON (#BH300) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1723 g8  MaryPorter1723, Mary PORTER (#BH297) [b:ENG,DEV,Dartmouth, d:ENG,DEV,Brixham]
+         1721 g8  SusannaAulgar1721, Susanna AULGAR (#BH301) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1710 g8  JanePutt1710, Jane PUTT (#BH303) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1705 g9  JohnDecent1705, John DECENT (#BH592) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1705 g9  SusannahDecent1705, Susannah DECENT (#BH593) [b:ENG,DEV, d:ENG,DEV]
+         1701 g8  NicholasCollier1701, Nicholas COLLIER (#BH302) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]
+         1680 g10  FrancisDecent1680, Francis DECENT (#BH1184) [b:ENG,DEV,Topsham, d:ENG,DEV]
+         1676 g10  ElizabethCole1676, Elizabeth COLE (#BH1185) [b:ENG,DEV,Brixham, d:ENG,DEV,Brixham]

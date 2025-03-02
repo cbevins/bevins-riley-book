@@ -1,9 +1,7 @@
+g3: Hulda Sophia PETERSON (#RT15) (1876-1951)
+g2:      |-> Myrtle Estelle NELSON (#RT7) (1899-1975)
 
+has 1 Ancestors born in 1 Locations with 1 possible Immigrants
 
-Ancestral Origins of Hulda Sophia PETERSON (#RT15)
-   1 SWE,KRO                         
-        1876 3  Hulda Sophia PETERSON (#RT15) [SWE,KRO,Älmeboda]
-   1 Ancestors born in 1 locations.
-
-There are 1 possible immigrants:
-    Sweden => United States by Hulda Sophia PETERSON (#RT15) (1876-1951)
+'SWE,KRO' Location has 1 Ancestors:
+     *** 1876 g3  HuldaSophiaPeterson1876, Hulda Sophia PETERSON (#RT15) [b:SWE,KRO,Älmeboda, d:USA,MN,Hennepin,Minneapolis]

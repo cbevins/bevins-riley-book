@@ -1,22 +1,19 @@
+g3: Caroline Carrie ROBSON (#RT9) (1874-1926)
+g2:      |-> Sheldon James RILEY (#RT4) (1902-1965)
 
+has 11 Ancestors born in 2 Locations with 3 possible Immigrants
 
-Ancestral Origins of Caroline Carrie ROBSON (#RT9)
-   5 ENG,DUR                         
-        1874 3  Caroline Carrie ROBSON (#RT9) [ENG,DUR,Heyworth]
-        1849 4  Joseph John ROBSON (#RT18) [ENG,DUR,Monkwearmouth]
-        1824 5  John Robert ROBSON (#RT36) [ENG,DUR,Jarrow]
-        1793 6  Margaret (#RT73) [ENG,DUR,Gateshead]
-        1790 6  John ROBSON (#RT72) [ENG,DUR,Monkwearmouth]
-   6 ENG,NBL                         
-        1850 4  Elizabeth GILBERT (#RT19) [ENG,NBL,Walker]
-        1825 5  Mary Ann LOWTHER (#RT37) [ENG,NBL,Murton]
-        1808 5  Mary GILBERT (#RT39) [ENG,NBL]
-        1799 5  Robert GILBERT (#RT38) [ENG,NBL]
-        1797 6  Jane SOMERVILLE (#RT75) [ENG,NBL,Newcastle]
-        1792 6  Joseph LOWTHER (#RT74) [ENG,NBL,Tynemouth,Earsdon]
-  11 Ancestors born in 2 locations.
+'ENG,DUR' Location has 5 Ancestors:
+     *** 1874 g3  CarolineCarrieRobson1874, Caroline Carrie ROBSON (#RT9) [b:ENG,DUR,Heyworth, d:USA,IA,Jasper,Colfax]
+     *** 1849 g4  JosephJohnRobson1849, Joseph John ROBSON (#RT18) [b:ENG,DUR,Monkwearmouth, d:USA,IA,Jasper,Newton]
+         1824 g5  JohnRobertRobson1824, John Robert ROBSON (#RT36) [b:ENG,DUR,Jarrow, d:ENG,DUR]
+         1793 g6  Margaret1793, Margaret (#RT73) [b:ENG,DUR,Gateshead, d:ENG,DUR]
+         1790 g6  JohnRobson1790, John ROBSON (#RT72) [b:ENG,DUR,Monkwearmouth, d:ENG,DUR]
 
-There are 3 possible immigrants:
-    England => United States by Caroline Carrie ROBSON (#RT9) (1874-1926)
-    England => United States by Joseph John ROBSON (#RT18) (1849-1917)
-    England => United States by Elizabeth GILBERT (#RT19) (1850-1919)
+'ENG,NBL' Location has 6 Ancestors:
+     *** 1850 g4  ElizabethGilbert1850, Elizabeth GILBERT (#RT19) [b:ENG,NBL,Walker, d:USA,IA,Jasper,Colfax]
+         1825 g5  MaryAnnLowther1825, Mary Ann LOWTHER (#RT37) [b:ENG,NBL,Murton, d:ENG,DUR]
+         1808 g5  MaryGilbert1808, Mary GILBERT (#RT39) [b:ENG,NBL, d:ENG,NBL]
+         1799 g5  RobertGilbert1799, Robert GILBERT (#RT38) [b:ENG,NBL, d:ENG,NBL]
+         1797 g6  JaneSomerville1797, Jane SOMERVILLE (#RT75) [b:ENG,NBL,Newcastle, d:ENG,NBL,Tynemouth]
+         1792 g6  JosephLowther1792, Joseph LOWTHER (#RT74) [b:ENG,NBL,Tynemouth,Earsdon, d:ENG,NBL,Longbenton]

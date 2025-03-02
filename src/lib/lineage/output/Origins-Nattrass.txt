@@ -1,151 +1,161 @@
+g2: Margaret Eva NATTRASS (#BH7) (1914-1995)
+g1:      |-> Meartia Margaret HEDDENS (#BH3) (1933-2007)
 
+has 81 Ancestors born in 38 Locations with 26 possible Immigrants
 
-Ancestral Origins of Margaret Eva NATTRASS (#BH7)
-   2 CAN,ON                          
-        1844 4  Harriet Lucretia SING (#BH29) [CAN,ON,Peterborough,Cavan]
-        1844 4  Alfred Caleb NATTRASS (#BH28) [CAN,ON,Peterborough,Millbrook]
-   1 CAN,QC,Gaspesie-Iles-de-la-Madeleine
-        1805 5  Mary DEXTER (#BH57) [CAN,QC,Gaspesie-Iles-de-la-Madeleine,La Cote-de-Gaspe]
-   2 DEU,HE                          
-        1657 10  Maria Elisabetha [DEU,HE,Starkenberg,Darmstadt,Wixhausen]
-        1643 10  Johann Nikolaus WENTZ (VONWINTZ) [DEU,HE,Starkenberg,Darmstadt,Wixhausen]
-   2 DEU,RP                          
-        1691 9  Anna Elisabetha LIED [DEU,RP,Donnersbergkreis,Morsfeld]
-        1687 9  Henrich WENTZ [DEU,RP,Donnersberg,Kriegsfeld]
-   1 DEU                             
-        1732 8  Johann Herman NIECE (#BH460) [DEU]
-   2 ENG,CAM                         
-        1609 11  Anthony New BESSEY [ENG,CAM,Cambridge]
-        1584 12  Jane (Joane) SKIFFE (#BH7309) [ENG,CAM,Cambridge]
-   3 ENG,DOR                         
-        1620 11  Mary RAWLINS (#BH3811) [ENG,DOR,Weymouth]
-        1607 10  Andrew HALLETT (2) (#BH1826) [ENG,DOR,Symondsbury]
-        1593 12  Thomas RAWLINS (#BH7622) [ENG,DOR,Weymouth]
-   7 ENG,DUR                         
-        1799 5  Thomas NATTRASS (#BH56) [ENG,DUR,Stanhope]
-        1780 6  Elizabeth HEDLEY (#BH113) [ENG,DUR,Stanhope]
-        1771 6  Matthew NATTRASS (#BH112) [ENG,DUR]
-        1755 7  Ann  PHILIPSON (#BH227) [ENG,DUR,Stanhope,Broadwood]
-        1748 7  Mathew NATTRASS [ENG,DUR,Stanhope,Blackclough]
-        1748 7  Ann BLADES (#BH225) [ENG,DUR]
-        1745 7  Thomas HEDLEY (#BH226) [ENG,DUR]
-   1 ENG,KEN                         
-        1620 11  William PARKER (#BH3810) [ENG,KEN]
-   1 ENG,MDL                         
-        1751 6  Elizabeth BABINGTON (#BH117) [ENG,MDL]
-   2 ENG,NTT                         
-        1620 11  Richard HANDY (#BH3812) [ENG,NTT,Nottingham]
-        1620 11  Hellyne THOMSON (#BH3813) [ENG,NTT,Nottingham]
-   1 ENG,SOM                         
-        1594 10  Thomas Barsbie DEXTER (#BH1824) [ENG,SOM,Bristol]
-   1 ENG,SXE                         
-        1587 12  John BESSE (#BH7308) [ENG,SXE,Rye]
-   2 ENG                             
-        1601 11  Jane STOCKHOUSE (#BH3665) [ENG]
-        1599 12  Mary RAWLINS (#BH7623) [ENG]
-   1 IRL,DUB                         
-        1753 6  Rev Edward SYNGE DD (#BH116) [IRL,DUB,St Ann's]
-   1 IRL,MOG                         
-        1808 5  Samuel SING (#BH58) [IRL,MOG,Carrickmacross]
-   3 NOR,AKR                         
-        1843 4  Hans Johanesen MYHRE (#BH30) [NOR,AKR,Ullensaker prestegjeld,Hovin sokn,Nordmyren farm]
-        1812 5  Karen Marie HANSDATTER (#BH61) [NOR,AKR,Ullensaker]
-        1809 5  Johanes Gulbrandsen NORDMYREN (#BH60) [NOR,AKR,Ullensaker]
-   3 NOR,HED                         
-        1833 5  Gunerius INGEBRETSEN BJORNEBY (#BH62) [NOR,HED,Åsnes,Bjørnebyqvern]
-        1802 6  Ragnhild Guttormsdatter NYGÅRDEN (#BH125) [NOR,HED,├àsnes,Nyg├Ñrden farm]
-        1799 6  Engebret Christiansen BJØRNEBYQVERN (#BH124) [NOR,HED,Åsnes,Åsnes Østre]
-   7 NOR,OPP                         
-        1837 5  Olea Andersdatter JORANBYHUSET (#BH63) [NOR,OPP,Sør-Aurdal,Hedalen,Joranbyhuset]
-        1798 6  Anders Pålson JØRANBYHUSET (#BH126) [NOR,OPP,Sør-Aurdal,Hedalen]
-        1792 6  Marit Kristoffersdatter RUSTE (#BH127) [NOR,OPP,Hedal,Ruste]
-        1771 7  Paul Paulsen Bakkom JØRANBYHUSET [NOR,OPP,Sør-Aurdal,Bakke farm]
-        1767 7  Olaug Andersdatter ÅSLI [NOR,OPP,Sør-Aurdal,Åsli farm]
-        1766 7  Johanne Toresdatter BRAKA [NOR,OPP,Sør-Aurdal,Hedalen,Ruste 92]
-        1759 7  Kristoffer Mikjelsen FØNHUS [NOR,OPP,Sør-Aurdal,Hølera,Nørre Fønhus 56/2]
-   2 NOR                             
-        1790 6  Maria CHRISTENSDATTER (#BH123) [NOR]
-        1790 6  Hans LARSEN (#BH122) [NOR]
-   2 USA,CT,New London               
-        1753 7  Hannah HUNTER (#239) [USA,CT,New London,Voluntown]
-        1721 8  Mary LARKIN (#BH479) [USA,CT,New London,Stonington]
-   2 USA,CT,Windham                  
-        1773 6  John DEXTER (2) (#BH114) [USA,CT,Windham,Ashford]
-        1728 7  Lydia SMITH [USA,CT,Windham,Ashford]
-   1 USA,CT                          
-        1700 9  Elizabeth ROOS (#BH959) [USA,CT]
-   8 USA,MA,Barnstable               
-        1713 8  Robert HANDY Sr (#BH476) [USA,MA,Barnstable,Sandwich]
-        1686 8  Thomas DEXTER (#BH456) [USA,MA,Barnstable,Sandwich]
-        1672 9  Richard HANDY (#BH952) [USA,MA,Barnstable,Sandwich]
-        1656 9  John DEXTER (1) (#BH912) [USA,MA,Barnstable,Sandwich]
-        1652 9  Mehitable HALLETT [USA,MA,Barnstable,Yarmouth]
-        1645 10  Richard HANDY (#BH1904) [USA,MA,Barnstable,Sandwich]
-        1630 10  Ann (Anna) BESSEY (#BH1827) [USA,MA,Barnstable,Sandwich]
-        1628 10  Elizabeth Graham VINCENT (#BH1825) [USA,MA,Barnstable,Sandwich]
-   2 USA,MA,Bristol                  
-        1744 7  Robert F HANDY Jr (#238) [USA,MA,Bristol,Swansea]
-        1716 8  Rachel KELLY (#BH477) [USA,MA,Bristol,Swansea]
-   1 USA,MA,Essex                    
-        1718 8  William Caldwell  HUNTER (#BH478) [USA,MA,Essex,Gloucester]
-   3 USA,MA,Plymouth                 
-        1679 9  Patience RANDALL (#BH953) [USA,MA,Plymouth,Scituate]
-        1650 10  John RANDALL (#BH1906) [USA,MA,Plymouth,Scituate]
-        1648 10  Patience PARKER (#BH1905) [USA,MA,Plymouth,Scituate]
-   1 USA,MA                          
-        1634 10  Hannah HANDY (#BH1905) [USA,MA]
-   2 USA,ND,Rolette                  
-        1914 2  Margaret Eva NATTRASS (#BH7) [USA,ND,Rolette,Island Lake]
-        1888 3  Harry Sing NATTRASS (#BH14) [USA,ND,Rolette,Scotch Block]
-   2 USA,NY,Rensselaer               
-        1808 5  Lucretia BARNHARD (#BH59) [USA,NY,Rensselaer,Hoosick]
-        1768 6  David BARNHART (#BH118) [USA,NY,Rensselaer,Hoosick Falls]
-   2 USA,PA,Pike                     
-        1756 7  Johann Harmon NEICE Sr. [USA,PA,Pike,Milford]
-        1719 8  Anna Catherena WENTZ (#BH461) [USA,PA,Pike,Milford]
-   1 USA,PA,Somerset                 
-        1772 6  Jane NIECE (#BH115) [USA,PA,Somerset]
-   1 USA,RI,Bristol                  
-        1731 7  Elisha DEXTER [USA,RI,Bristol,Barrington]
-   1 USA,RI,Newport                  
-        1693 8  Mary Mercy FISH (#BH457) [USA,RI,Newport,Portsmouth]
-   3 USA,RI,Washington               
-        1706 9  John LARKIN (#BH958) [USA,RI,Washington,Westerly]
-        1676 10  Hannah BABCOCK [USA,RI,Washington,Westerly]
-        1671 10  Roger LARKIN [USA,RI,Washington,Westerly]
-   1 USA,VA                          
-        1760 7  Lucretia WERTZ [USA,VA]
-   1 USA,VT,Windsor                  
-        1778 6  Lucretia HANDY (#BH119) [USA,VT,Windsor,Royalton]
-   2 USA,WI,Adams                    
-        1890 3  Gina Olivia MYHRE (#BH15) [USA,WI,Adams,Strongs Prairie Township]
-        1858 4  Mathea Gunneriusdatter INGEBRETSEN BJORNEBY (#BH31) [USA,WI,Adams,Strongs Prairie Township]
-  81 Ancestors born in 38 locations.
+'CAN,ON' Location has 2 Ancestors:
+     *** 1844 g4  AlfredCalebNattrass1844, Alfred Caleb NATTRASS (#BH28) [b:CAN,ON,Peterborough,Millbrook, d:USA,WA,King,Seattle]
+         1844 g4  HarrietLucretiaSing1844, Harriet Lucretia SING (#BH29) [b:CAN,ON,Peterborough,Cavan, d:CAN,AB,Strathmore Census Division,Carmangay]
 
-There are 26 possible immigrants:
-    Canada => United States by Alfred Caleb NATTRASS (#BH28) (1844-1932)
-    Germany => United States by Johann Herman NIECE (#BH460) (1732-1805)
-    England => United States by Anthony New BESSEY (1609-1657)
-    England => United States by Andrew HALLETT (2) (#BH1826) (1607-1683)
-    England => United States by Mary RAWLINS (#BH3811) (1620-1651)
-    England => United States by Thomas RAWLINS (#BH7622) (1593-1660)
-    England => Canada by Thomas NATTRASS (#BH56) (1799-1865)
-    England => United States by William PARKER (#BH3810) (1620-1684)
-    England => United States by Richard HANDY (#BH3812) (1620-1645)
-    England => United States by Hellyne THOMSON (#BH3813) (1620-1700)
-    England => United States by Thomas Barsbie DEXTER (#BH1824) (1594-1676)
-    England => United States by Jane STOCKHOUSE (#BH3665) (1601-1693)
-    England => United States by Mary RAWLINS (#BH7623) (1599-1660)
-    Ireland => England by Rev Edward SYNGE DD (#BH116) (1753-1818)
-    Ireland => Canada by Samuel SING (#BH58) (1808-1874)
-    Norway => United States by Hans Johanesen MYHRE (#BH30) (1843-1900)
-    Norway => United States by Johanes Gulbrandsen NORDMYREN (#BH60) (1809-1865)
-    Norway => United States by Karen Marie HANSDATTER (#BH61) (1812-1880)
-    Norway => United States by Gunerius INGEBRETSEN BJORNEBY (#BH62) (1833-1920)
-    Norway => United States by Engebret Christiansen BJØRNEBYQVERN (#BH124) (1799-1869)
-    Norway => United States by Ragnhild Guttormsdatter NYGÅRDEN (#BH125) (1802-1888)
-    Norway => United States by Olea Andersdatter JORANBYHUSET (#BH63) (1837-1920)
-    Norway => United States by Anders Pålson JØRANBYHUSET (#BH126) (1798-1861)
-    Norway => United States by Marit Kristoffersdatter RUSTE (#BH127) (1792-1858)
-    United States => Canada by John DEXTER (2) (#BH114) (1773-1815)
-    United States => Canada by Jane NIECE (#BH115) (1772-1839)
+'CAN,QC,Gaspesie-Iles-de-la-Madeleine' Location has 1 Ancestors:
+         1805 g5  MaryDexter1805, Mary DEXTER (#BH57) [b:CAN,QC,Gaspesie-Iles-de-la-Madeleine,La Cote-de-Gaspe, d:CAN,ON,Peterborough,Millbrook]
+
+'DEU,HE' Location has 2 Ancestors:
+         1657 g10  MariaElisabetha1657, Maria Elisabetha [b:DEU,HE,Starkenberg,Darmstadt,Wixhausen, d:DEU,HE,Starkenberg,Darmstadt,Wixhausen]
+         1643 g10  JohannNikolausWentz(VonWintz)1643, Johann Nikolaus WENTZ (VONWINTZ) [b:DEU,HE,Starkenberg,Darmstadt,Wixhausen, d:DEU,HE,Starkenberg,Darmstadt,Wixhausen]
+
+'DEU,RP' Location has 2 Ancestors:
+         1691 g9  AnnaElisabethaLied1691, Anna Elisabetha LIED [b:DEU,RP,Donnersbergkreis,Morsfeld, d:]
+         1687 g9  HenrichWentz1687, Henrich WENTZ [b:DEU,RP,Donnersberg,Kriegsfeld, d:DEU,RP,Donnersberg,Morsfeld]
+
+'DEU' Location has 1 Ancestors:
+     *** 1732 g8  JohannHermanNiece1732, Johann Herman NIECE (#BH460) [b:DEU, d:USA,PA,Lehigh]
+
+'ENG,CAM' Location has 2 Ancestors:
+     *** 1609 g11  AnthonyNewBessey1609, Anthony New BESSEY [b:ENG,CAM,Cambridge, d:USA,MA,Barnstable,Sandwich]
+         1584 g12  Jane(Joane)Skiffe1584, Jane (Joane) SKIFFE (#BH7309) [b:ENG,CAM,Cambridge, d:ENG,CAM,Cambridge]
+
+'ENG,DOR' Location has 3 Ancestors:
+     *** 1620 g11  MaryRawlins1620, Mary RAWLINS (#BH3811) [b:ENG,DOR,Weymouth, d:USA,MA,Plymouth,Scituate]
+     *** 1607 g10  AndrewHallett1607, Andrew HALLETT (2) (#BH1826) [b:ENG,DOR,Symondsbury, d:USA,MA,Barnstable,Yarmouth]
+     *** 1593 g12  ThomasRawlins1593, Thomas RAWLINS (#BH7622) [b:ENG,DOR,Weymouth, d:USA,MA,Suffolk,Boston]
+
+'ENG,DUR' Location has 7 Ancestors:
+     *** 1799 g5  ThomasNattrass1799, Thomas NATTRASS (#BH56) [b:ENG,DUR,Stanhope, d:CAN,ON,Peterborough,Millbrook]
+         1780 g6  ElizabethHedley1780, Elizabeth HEDLEY (#BH113) [b:ENG,DUR,Stanhope, d:ENG,DUR,Frosterley]
+         1771 g6  MatthewNattrass1771, Matthew NATTRASS (#BH112) [b:ENG,DUR, d:ENG,DUR,Stanhope]
+         1755 g7  AnnPhilipson1755, Ann  PHILIPSON (#BH227) [b:ENG,DUR,Stanhope,Broadwood, d:ENG,DUR,Stanhope,Broadwood]
+         1748 g7  MathewNattrass1748, Mathew NATTRASS [b:ENG,DUR,Stanhope,Blackclough, d:ENG,DUR,Stanhope,Wearshead]
+         1748 g7  AnnBlades1748, Ann BLADES (#BH225) [b:ENG,DUR, d:ENG,DUR,Stanhope,St Johns Chapel]
+         1745 g7  ThomasHedley1745, Thomas HEDLEY (#BH226) [b:ENG,DUR, d:ENG,DUR,Stanhope]
+
+'ENG,KEN' Location has 1 Ancestors:
+     *** 1620 g11  WilliamParker1620, William PARKER (#BH3810) [b:ENG,KEN, d:USA,MA,Plymouth,Scituate]
+
+'ENG,MDL' Location has 1 Ancestors:
+         1751 g6  ElizabethBabington1751, Elizabeth BABINGTON (#BH117) [b:ENG,MDL, d:ENG,LND,Westminster]
+
+'ENG,NTT' Location has 2 Ancestors:
+     *** 1620 g11  RichardHandy1620, Richard HANDY (#BH3812) [b:ENG,NTT,Nottingham, d:USA,MA,Barnstable]
+     *** 1620 g11  HellyneThomson1620, Hellyne THOMSON (#BH3813) [b:ENG,NTT,Nottingham, d:USA,MA,Barnstable,Sandwich]
+
+'ENG,SOM' Location has 1 Ancestors:
+     *** 1594 g10  ThomasBarsbieDexter1594, Thomas Barsbie DEXTER (#BH1824) [b:ENG,SOM,Bristol, d:USA,MA,Suffolk,Boston,Kings Chapel]
+
+'ENG,SXE' Location has 1 Ancestors:
+         1587 g12  JohnBesse1587, John BESSE (#BH7308) [b:ENG,SXE,Rye, d:ENG,CAM,Cambridge]
+
+'ENG' Location has 2 Ancestors:
+     *** 1601 g11  JaneStockhouse1601, Jane STOCKHOUSE (#BH3665) [b:ENG, d:USA,MA,Barnstable,Sandwich]
+     *** 1599 g12  MaryRawlins1599, Mary RAWLINS (#BH7623) [b:ENG, d:USA,MA,Suffolk,Boston]
+
+'IRL,DUB' Location has 1 Ancestors:
+     *** 1753 g6  RevEdwardSynge1753, Rev Edward SYNGE DD (#BH116) [b:IRL,DUB,St Ann's, d:ENG,LND,Westminster,St James,buried]
+
+'IRL,MOG' Location has 1 Ancestors:
+     *** 1808 g5  SamuelSing1808, Samuel SING (#BH58) [b:IRL,MOG,Carrickmacross, d:CAN,ON,Peterborough,Cavan]
+
+'NOR,AKR' Location has 3 Ancestors:
+     *** 1843 g4  HansJohanesenMyhre1843, Hans Johanesen MYHRE (#BH30) [b:NOR,AKR,Ullensaker prestegjeld,Hovin sokn,Nordmyren farm, d:USA,WI]
+     *** 1812 g5  KarenMarieHansdatter1812, Karen Marie HANSDATTER (#BH61) [b:NOR,AKR,Ullensaker, d:USA,WI,Adams,Strongs Prairie Township]
+     *** 1809 g5  JohanesGulbrandsenNordmyren1809, Johanes Gulbrandsen NORDMYREN (#BH60) [b:NOR,AKR,Ullensaker, d:USA,WI,Adams,Strongs Prairie Township]
+
+'NOR,HED' Location has 3 Ancestors:
+     *** 1833 g5  GuneriusIngebretsenBjorneby1833, Gunerius INGEBRETSEN BJORNEBY (#BH62) [b:NOR,HED,Åsnes,Bjørnebyqvern, d:USA,ND,Williams,Tioga]
+     *** 1802 g6  RagnhildGuttormsdatterNygården1802, Ragnhild Guttormsdatter NYGÅRDEN (#BH125) [b:NOR,HED,├àsnes,Nyg├Ñrden farm, d:USA,ND,Walsh,Glenwood Township]
+     *** 1799 g6  EngebretChristiansenBjørnebyqvern1799, Engebret Christiansen BJØRNEBYQVERN (#BH124) [b:NOR,HED,Åsnes,Åsnes Østre, d:USA,WI,Adams,Strongs Prairie Township]
+
+'NOR,OPP' Location has 7 Ancestors:
+     *** 1837 g5  OleaAndersdatterJoranbyhuset1837, Olea Andersdatter JORANBYHUSET (#BH63) [b:NOR,OPP,Sør-Aurdal,Hedalen,Joranbyhuset, d:USA,ND,Williams,Tioga]
+     *** 1798 g6  AndersPålsonJøranbyhuset1798, Anders Pålson JØRANBYHUSET (#BH126) [b:NOR,OPP,Sør-Aurdal,Hedalen, d:USA,WI,Dane,Vermont]
+     *** 1792 g6  MaritKristoffersdatterRuste1792, Marit Kristoffersdatter RUSTE (#BH127) [b:NOR,OPP,Hedal,Ruste, d:USA,WI,Dane,Vermont Township]
+         1771 g7  PaulPaulsenBakkomJøranbyhuset1771, Paul Paulsen Bakkom JØRANBYHUSET [b:NOR,OPP,Sør-Aurdal,Bakke farm, d:NOR,OPP,Sør-Aurdal,Hedalen,Joranbyhuset]
+         1767 g7  OlaugAndersdatterÅsli1767, Olaug Andersdatter ÅSLI [b:NOR,OPP,Sør-Aurdal,Åsli farm, d:NOR,OPP,Sør-Aurdal,Hedalen,Joranbyhuset]
+         1766 g7  JohanneToresdatterBraka1766, Johanne Toresdatter BRAKA [b:NOR,OPP,Sør-Aurdal,Hedalen,Ruste 92, d:NOR,OPP,Sør-Aurdal,Hedalen,Ruste 92]
+         1759 g7  KristofferMikjelsenFønhus1759, Kristoffer Mikjelsen FØNHUS [b:NOR,OPP,Sør-Aurdal,Hølera,Nørre Fønhus 56/2, d:NOR,OPP,Sør-Aurdal,Hedalen,Ruste 92]
+
+'NOR' Location has 2 Ancestors:
+         1790 g6  HansLarsen1790, Hans LARSEN (#BH122) [b:NOR, d:NOR]
+         1790 g6  MariaChristensdatter1790, Maria CHRISTENSDATTER (#BH123) [b:NOR, d:NOR]
+
+'USA,CT,New London' Location has 2 Ancestors:
+         1753 g7  HannahHunter1753, Hannah HUNTER (#239) [b:USA,CT,New London,Voluntown, d:USA,VT,Windsor,Sharon]
+         1721 g8  MaryLarkin1721, Mary LARKIN (#BH479) [b:USA,CT,New London,Stonington, d:USA,VT,Windsor,Sharon]
+
+'USA,CT,Windham' Location has 2 Ancestors:
+     *** 1773 g6  JohnDexter(2)1773, John DEXTER (2) (#BH114) [b:USA,CT,Windham,Ashford, d:CAN,ON,York,Vaughan Markham]
+         1728 g7  LydiaSmith1728, Lydia SMITH [b:USA,CT,Windham,Ashford, d:USA,NY,Livingston,Avon]
+
+'USA,CT' Location has 1 Ancestors:
+         1700 g9  ElizabethRoos1700, Elizabeth ROOS (#BH959) [b:USA,CT, d:USA,CT,New London,Stonington]
+
+'USA,MA,Barnstable' Location has 8 Ancestors:
+         1713 g8  RobertHandy1713, Robert HANDY Sr (#BH476) [b:USA,MA,Barnstable,Sandwich, d:USA,MA,Bristol,Swansea]
+         1686 g8  ThomasDexter1686, Thomas DEXTER (#BH456) [b:USA,MA,Barnstable,Sandwich, d:USA,CT,Tolland,North Mansfield]
+         1672 g9  RichardHandy1672, Richard HANDY (#BH952) [b:USA,MA,Barnstable,Sandwich, d:USA,MA,Barnstable,Sandwich]
+         1656 g9  JohnDexter1656, John DEXTER (1) (#BH912) [b:USA,MA,Barnstable,Sandwich, d:USA,RI,Newport,Portsmouth]
+         1652 g9  MehitableHallett1652, Mehitable HALLETT [b:USA,MA,Barnstable,Yarmouth, d:USA,RI,Newport,Portsmouth]
+         1645 g10  RichardHandy1645, Richard HANDY (#BH1904) [b:USA,MA,Barnstable,Sandwich, d:USA,MA,Barnstable,Sandwich]
+         1630 g10  Ann(Anna)Bessey1630, Ann (Anna) BESSEY (#BH1827) [b:USA,MA,Barnstable,Sandwich, d:USA,MA,Barnstable,Yarmouth]
+         1628 g10  ElizabethGrahamVincent1628, Elizabeth Graham VINCENT (#BH1825) [b:USA,MA,Barnstable,Sandwich, d:USA,MA,Barnstable,Sandwich]
+
+'USA,MA,Bristol' Location has 2 Ancestors:
+         1744 g7  RobertFHandy1744, Robert F HANDY Jr (#238) [b:USA,MA,Bristol,Swansea, d:USA,VT,Windsor,Sharon]
+         1716 g8  RachelKelly1716, Rachel KELLY (#BH477) [b:USA,MA,Bristol,Swansea, d:USA,MA,Bristol,Swansea]
+
+'USA,MA,Essex' Location has 1 Ancestors:
+         1718 g8  WilliamCaldwellHunter1718, William Caldwell  HUNTER (#BH478) [b:USA,MA,Essex,Gloucester, d:USA,VT,Windsor,Sharon]
+
+'USA,MA,Plymouth' Location has 3 Ancestors:
+         1679 g9  PatienceRandall1679, Patience RANDALL (#BH953) [b:USA,MA,Plymouth,Scituate, d:USA,MA,Plymouth,Rochester]
+         1650 g10  JohnRandall1650, John RANDALL (#BH1906) [b:USA,MA,Plymouth,Scituate, d:USA,MA,Plymouth,Rochester]
+         1648 g10  PatienceParker1648, Patience PARKER (#BH1905) [b:USA,MA,Plymouth,Scituate, d:USA,MA,Plymouth,Rochester]
+
+'USA,MA' Location has 1 Ancestors:
+         1634 g10  HannahHandy1634, Hannah HANDY (#BH1905) [b:USA,MA, d:USA,CT]
+
+'USA,ND,Rolette' Location has 2 Ancestors:
+         1914 g2  MargaretEvaNattrass1914, Margaret Eva NATTRASS (#BH7) [b:USA,ND,Rolette,Island Lake, d:USA,MN,Itasca,Grand Rapids]
+         1888 g3  HarrySingNattrass1888, Harry Sing NATTRASS (#BH14) [b:USA,ND,Rolette,Scotch Block, d:USA,AZ,Yuma,Yuma]
+
+'USA,NY,Rensselaer' Location has 2 Ancestors:
+         1808 g5  LucretiaBarnhard1808, Lucretia BARNHARD (#BH59) [b:USA,NY,Rensselaer,Hoosick, d:USA,VT,Bennington,Sandgate]
+         1768 g6  DavidBarnhart1768, David BARNHART (#BH118) [b:USA,NY,Rensselaer,Hoosick Falls, d:USA,NY,Rensselaer,Hoosick]
+
+'USA,PA,Pike' Location has 2 Ancestors:
+         1756 g7  JohannHarmonNeice1756, Johann Harmon NEICE Sr. [b:USA,PA,Pike,Milford, d:USA,IA,Jefferson,]
+         1719 g8  AnnaCatherenaWentz1719, Anna Catherena WENTZ (#BH461) [b:USA,PA,Pike,Milford, d:USA,PA,Lehigh]
+
+'USA,PA,Somerset' Location has 1 Ancestors:
+     *** 1772 g6  JaneNiece1772, Jane NIECE (#BH115) [b:USA,PA,Somerset, d:CAN,ON,York]
+
+'USA,RI,Bristol' Location has 1 Ancestors:
+         1731 g7  ElishaDexter1731, Elisha DEXTER [b:USA,RI,Bristol,Barrington, d:USA,NY,Clinton]
+
+'USA,RI,Newport' Location has 1 Ancestors:
+         1693 g8  MaryMercyFish1693, Mary Mercy FISH (#BH457) [b:USA,RI,Newport,Portsmouth, d:USA,CT,Tolland,North Mansfield]
+
+'USA,RI,Washington' Location has 3 Ancestors:
+         1706 g9  JohnLarkin1706, John LARKIN (#BH958) [b:USA,RI,Washington,Westerly, d:]
+         1676 g10  HannahBabcock1676, Hannah BABCOCK [b:USA,RI,Washington,Westerly, d:USA,RI,Washington,Exeter]
+         1671 g10  RogerLarkin1671, Roger LARKIN [b:USA,RI,Washington,Westerly, d:USA,RI,Washington,Westerly]
+
+'USA,VA' Location has 1 Ancestors:
+         1760 g7  LucretiaWertz1760, Lucretia WERTZ [b:USA,VA, d:]
+
+'USA,VT,Windsor' Location has 1 Ancestors:
+         1778 g6  LucretiaHandy1778, Lucretia HANDY (#BH119) [b:USA,VT,Windsor,Royalton, d:USA,VT,Bennington,Sandgate]
+
+'USA,WI,Adams' Location has 2 Ancestors:
+         1890 g3  GinaOliviaMyhre1890, Gina Olivia MYHRE (#BH15) [b:USA,WI,Adams,Strongs Prairie Township, d:USA,ND,Rolette,Island Lake]
+         1858 g4  MatheaGunneriusdatterIngebretsenBjorneby1858, Mathea Gunneriusdatter INGEBRETSEN BJORNEBY (#BH31) [b:USA,WI,Adams,Strongs Prairie Township, d:USA,WI,Wood,Saratoga]
